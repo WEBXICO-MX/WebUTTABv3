@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<capacitaciones>
+    <capacitacion id="22" tipo_capacitacion="3">
+        <nombre>Básico de soldadura</nombre>
+        <descripcion><![CDATA[<p>Dirigido al personal en general; duración de 32 hrs dividio en 4 sesiones de 8 hrs cada una. 8 hrs de teoría y 24 hrs. de prácticas. Se lleva a cabo los sábados.</p><br/><p>Personal Jubilado de Pemex  Exploración y Producción con mas de 25 años;  laborando como instructor o agente capacitador en temas sobre Reparación estructural de los equipos de Pemex perforación y reparación de pozos. Soldador certificado por la Sociedad Americana de Soldadura en el estandar AWS D 1.1; cuenta con amplia experiencia en el reacondicionamiento y rehabilitación de estructuras para Pemex Exploración y Producción. Capacitor Externo con registro de la STPS No. MOAE-640320-CM4-0005; Certificado por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER) en el estándar  EC0217.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <!-- Talleres -->
+    <capacitacion id="21" tipo_capacitacion="1">
+        <nombre>Taller de disciplina operativa</nombre>
+        <descripcion><![CDATA[Taller de disciplina operativa]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="20" tipo_capacitacion="1">
+        <nombre>Taller de auditorias efectivas</nombre>
+        <descripcion><![CDATA[<p>Taller de auditorias efectivas</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="19" tipo_capacitacion="1">
+        <nombre>Taller básico de análisis de causa raiz</nombre>
+        <descripcion><![CDATA[<p>Taller básico de análisis de causa raiz</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="18" tipo_capacitacion="1">
+        <nombre>Taller de análisis de seguridad del trabajo</nombre>
+        <descripcion><![CDATA[<p>Taller de análisis de seguridad del trabajo</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="17" tipo_capacitacion="1">
+        <nombre>Taller de tecnología del proceso-integración del paquete tecnológico</nombre>
+        <descripcion><![CDATA[<p>Taller de tecnología del proceso-integración del paquete tecnológico</p><br>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="16" tipo_capacitacion="1">
+        <nombre>Taller básico de análisis de riesgos del proceso</nombre>
+        <descripcion><![CDATA[<p>Taller básico de análisis de riesgos del proceso</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="15" tipo_capacitacion="1">
+        <nombre>Taller de anexo SSPA</nombre>
+        <descripcion><![CDATA[<p>Taller de anexo SSPA</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <!-- Talleres -->
+    <!-- Diplomado -->
+    <capacitacion id="14" tipo_capacitacion="2">
+        <nombre>Diplomado Sistema PEMEX- SSPA</nombre>
+        <descripcion>
+<![CDATA[            
+<p>Duración 120 hrs </p><br/>
+<ul>
+<li>Módulo 1.- Las 12 mejores prácticas internacionales</li>
+<li>Módulo 2.- Subsistemas de administración de la seguridad de los procesos</li>
+<li>Módulo 3.- Subsistema de administración de la salud en el trabajo y subsistema de administración ambiental</li>
+</ul>
+]]>
+        </descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="13" tipo_capacitacion="2">
+        <nombre>Diplomado en Corrosión</nombre>
+        <descripcion>
+<![CDATA[ 
+<p>Duración 120 hrs</p><br/>
+<ul>
+<li>Módulo 1.- Protección catódica</li>
+<li>Módulo 2.- Recubrimientos anticorrosivos</li>
+<li>Módulo 3.- Corrosión interior </li>
+</ul>
+]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="12" tipo_capacitacion="2">
+        <nombre>Diplomado de Ingeniería Petrolera para no petroleros</nombre>
+        <descripcion>
+<![CDATA[
+<p>Duración 144 hrs</p><br/>
+<ul> 
+<li>Módulo 1.- Introducción. Origen del petróleo</li>
+<li>Módulo 2.- Perforación, equipo, partes y servicios</li>
+<li>Módulo 3.- Terminación e intervención a pozos, producción y yacimientos</li>
+<li>Módulo 4.- Transporte , almacenamiento, refinación y gas natural</li>
+<li>Módulo 5.- Normativa jurídica de PEMEX y el petróleo en el mundo</li>
+</ul>
+]]>
+        </descripcion> 
+        <activo>true</activo>
+    </capacitacion>
+    <!-- Diplomado -->
+    <!-- Cursos -->
+    <capacitacion id="11" tipo_capacitacion="3">
+        <nombre>Seguridad, Salud en el Trabajo y Protección Ambiental</nombre>
+        <descripcion><![CDATA[<p>Dirigido al personal en general con el objetivo de concientizarlo sobre su responsabilidad en la seguridad, la salud en el trabajo y la protección ambiental en el desarrollo de sus actividades.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="10" tipo_capacitacion="3">
+        <nombre>Introducción al Sistema PEMEX-SSPA </nombre>
+        <descripcion><![CDATA[<p>Una inducción al Sistema PEmex-SSPA, explicando las 12 mejores prácticas y los 3 subsistemas (SASP, SAST y SAA) y la importancia de conocer este sistema y participar en su desarrollo. </p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="9" tipo_capacitacion="3">
+        <nombre>Rig Pass</nombre>
+        <descripcion><![CDATA[<p>Curso básico de seguridad que está dirigido a todos los contratistas, instituciones y empresas que presten sus servicios de manera directa o indirecta a la industria petrolera y cuyo personal tenga la necesidad de acceder a las instalaciones a desarrollar algunas actividad incluyendo visitas ocasionales. Duración del curso 24 hrs, 3 sesiones de 8 hrs cada uno, 2 de teoría y una de práctica.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="8" tipo_capacitacion="3">
+        <nombre>Prevención, Protección y Combate de Incendios</nombre>
+        <descripcion><![CDATA[<p>Curso dirigido a personal en general para conocer los principios básicos de la prevención, protección y combate de incendios en caso de que se vean involucrados en una situación de fuego. Incluye práctica con extintores.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="7" tipo_capacitacion="3">
+        <nombre>Formación de Brigadas Contra Incendios</nombre>
+        <descripcion><![CDATA[<p>Curso diseñado para formar las brigadas que habrán de participar en la prevención, mitigación y control del fuego. Dirigido al personal encargado de formar, liderar y capacitar a las brigadas contra incendios. Incluye práctica con extintores y mangueras en simulador de fuego y equipo de bombero.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="6" tipo_capacitacion="3">
+        <nombre>Trabajo en áreas contaminadas con H2s</nombre>
+        <descripcion><![CDATA[<p>Curso diseñado para personas que lleven a cabo trabajos en áreas en donde estén expuestos al sulfuro de hidrógeno o gas sulfuhídrico. Incluye el uso de equipos de respiración autónoma. </p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="5" tipo_capacitacion="3">
+        <nombre>Anexo SSPA</nombre>
+        <descripcion><![CDATA[<p>Curso diseñado para todo el personal de compañias que le trabajan a PEMEX para que conozcan cual debe ser su participación en el cumplimiento de las obligaciones de seguridad, salud en el trabajo y protección ambiental que nos marca este anexo.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="4" tipo_capacitacion="3">
+        <nombre>Estándar de Competencia ECO391 "Verificación de las condiciones de seguridad e higiene en los centros de trabajo"</nombre>
+        <descripcion><![CDATA[<p>Curso basado en la NOM-019-STPS-2011 y la NOM-030-STPS-2009 acerca de la constitución, integración, organización y funcionamiento de las comisiones de seguridad e higiene y los servicios preventivos de seguridad y salud en el trabajo para poder solicitar la certificación en el estándar de competencias ECO391 para sus integrantes de la comisión de seguridad e higiene de su centro de trabajo. </p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="3" tipo_capacitacion="3">
+        <nombre>Procesos y Procedimientos Críticos de PEMEX</nombre>
+        <descripcion><![CDATA[<p>Curso diseñado para conocer los procedimientos críticos de PEMEX PG-SS-TC- 0033, 0034, 0035, 0036, 0037, 0038, 0039 y 0040-2013, mismos que son aplicables a los trabajos con riesgo que se llevan a cabo en las instalaciones de PEMEX.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="2" tipo_capacitacion="3">
+        <nombre>Planes de Respuesta a Emergencias</nombre>
+        <descripcion><![CDATA[<p>Curso para interpretar y participar en los planes de emergencias que toda instalación laboral tiene, saber que es lo que se debe de hacer de acuerdo a nuestra actividad en dicha instalación laboral, así como la formación de las brigadas que han de actuar en la misma. </p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <capacitacion id="1" tipo_capacitacion="3">
+        <nombre>Primeros auxilios y RCP</nombre>
+        <descripcion><![CDATA[<p>Curso básico de primeros auxilios y respiración cardio pulmonar para conocimientos sobre como actuar en caso de encontrarse en la necesidad de asistir a una persona y poder estabilizarla hasta que lleguen los servicios médicos de emergencias.</p><br/>]]></descripcion>
+        <activo>true</activo>
+    </capacitacion>
+    <!-- Cursos -->
+</capacitaciones>

@@ -1,0 +1,145 @@
+@import "normalize.min.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+@import url('includeMenu.min.css');
+@import url('includePie.min.css');
+@import "inclusion.min.css";
+
+* { margin: 0;padding: 0;}
+img { border: 0;}
+.corte {clear: both;}
+.negritas { font-weight: bold;}
+main {width: 1002px; height: auto; margin: 10px auto 0 auto; font-family: 'Open Sans' !important;font-style: normal;font-weight: normal; color: #696666;}
+.texto_resaltado { color: #FE4A3E;}
+.otras_secciones_section{ width: auto; height: auto;}
+.otras_secciones_titulo { width: auto; height: 60px; margin-bottom: 10px; padding: 4px 0 4px 115px; box-sizing:border-box; -moz-box-sizing:border-box; /* Firefox */ -webkit-box-sizing:border-box; /* Safari */background-image: url(../img/divisiones/carreras/titulo.png); background-repeat: no-repeat;}
+.otras_secciones_titulo h1 { font-size: 1.3em; margin:0; color: white; font-weight: normal; }
+.otras_secciones_titulo h2 { font-size: 1em; margin:0; color: white; font-weight: normal;}
+.otras_secciones_contenido { width: auto; height: auto;}
+.otras_secciones_texto { width: 946px; height: auto; margin: 0 auto 15px auto; text-align: justify;}
+.otras_secciones_texto_full { width: 1002px; height: auto; margin: 0 auto 15px auto; text-align: justify;}
+p.primera_linea {
+    text-indent: 40px;
+}
+
+.otras_secciones_texto h3,.otras_secciones_texto2 h3 {display: inline-block; color: #0E547F;}
+.otras_secciones_texto ul li,.otras_secciones_texto2 ul li { list-style-image: url(../img/divisiones/carreras/point.png)}
+.otras_secciones_texto ul li ul li,.otras_secciones_texto2 ul li ul li{ list-style-image: url(../img/servicios/biblioteca/point_orange-min.png)}
+.otras_secciones_texto ul li,.otras_secciones_texto2 ul li {
+    list-style-position: outside;
+    margin-left: 1em;
+}
+
+.otras_secciones_texto_full a:active,.otras_secciones_texto a:active, .otras_secciones_texto2 a:active,
+.otras_secciones_texto_full a:link,.otras_secciones_texto a:link, .otras_secciones_texto2 a:link,
+.otras_secciones_texto_full a:visited,.otras_secciones_texto a:visited,.otras_secciones_texto2 a:visited {
+    color: #5B5C5C;
+    text-decoration:none; 
+}
+
+.otras_secciones_texto_full a:hover,.otras_secciones_texto a:hover,.otras_secciones_texto2 a:hover{
+    font-weight: bold; color:#0e547f;
+
+}
+
+.otras_secciones_texto1,.otras_secciones_texto2 { width: 456px; height: auto; margin-bottom: 25px;}
+.otras_secciones_texto1{ float:left;}
+.otras_secciones_texto2{ float:right;}
+.otras_secciones_texto1 ul { margin-left: 43px;}
+.otras_secciones_texto2 ul { margin-left: 10px;}
+.otras_secciones_texto1 h3,.otras_secciones_texto2 h3 {display: inline-block; color: #0E547F;}
+.otras_secciones_texto1 ul li { list-style-image: url(../img/divisiones/carreras/point.png)}
+.otras_secciones_texto2 ul li { list-style-image: url(../img/divisiones/carreras/ok.png);}
+.otras_secciones_texto1 ul li,.otras_secciones_texto2 ul li {
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+     */
+    list-style-position: outside;
+
+    /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+    margin-left: 1em;
+}
+
+.ficha_contacto {width: 456px; height: auto; box-sizing: border-box; background-color: #F1F2F2; border-left: 27px solid  #2582BB; padding: 5px 0 5px 15px}
+.ficha_contacto p { font-size:  14px;}
+.ficha_contacto h3 { font-size:  14px; font-weight: bold; color: #696666;}
+.otras_secciones_slider { width: auto; height: 410px;}
+.left { float: left;}
+.right { float: right;}
+.center { margin: 0 auto;}
+.text_align_right { text-align: right;}
+.anio_seleccionado { background-color: #FC4741;color:#FFF7F8;}
+.mes_seleccionado { background-color: #FC4741;color:#FFF7F8;}
+
+.mes_seleccionado a {color:#FFFFFF !important; text-decoration: none;}
+.mes_seleccionado a:link {color:#FFFFFF !important; }      /* unvisited link */
+.mes_seleccionado a:visited {color:#FFFFFF !important;font-weight: bold;}  /* visited link */
+.mes_seleccionado a:hover {color:#FFFFFF !important;font-weight: bold;}  /* mouse over link */
+.mes_seleccionado a:active {color:#FFFFFF !important;font-weight: bold;}  /* selected link */
+
+.anio_seleccionado a {color:#FFFFFF !important; text-decoration: none;}
+.anio_seleccionado a:link {color:#FFFFFF !important; }      /* unvisited link */
+.anio_seleccionado a:visited {color:#FFFFFF !important;font-weight: bold;}  /* visited link */
+.anio_seleccionado a:hover {color:#FFFFFF !important;font-weight: bold;}  /* mouse over link */
+.anio_seleccionado a:active {color:#FFFFFF !important;font-weight: bold;}  /* selected link */
+h4 { color: #17577D;}
+table tbody tr td { width: 8.3%; height: 38px;}
+table tbody tr td a {color: #5B5C5C; text-decoration: none;}
+table tbody tr td a:link {color: #5B5C5C; }      /* unvisited link */
+table tbody tr td a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+table tbody tr td a:hover {color: #000000;font-weight: bold;}  /* mouse over link */
+table tbody tr td a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+
+.miTabla {
+    border: 0;
+    margin: 0 auto; 
+    width: 100%; 
+    text-align: center;
+}
+.miTabla {
+    font-size: 1.4em;
+    padding: 0;
+    margin-left: 0;
+    border-spacing: 0 15px;
+}
+figure.mis_avisos img { margin-bottom: 25px;}
+#herramientas_tecnologicas_paginacion { margin-top: 20px; text-align: center;}
+.herramientas_tecnologicas_paginacion_opcion { font-size: 25px; font-weight: bold;}
+/* Calendario de eventos*/
+#contenedor_calendario {float: left; width: 200px; height: auto; }
+#contenedor_eventos {float: right; width:787px; height: auto; margin-left: 15px; }
+#datepicker_calendario_eventos,#datepicker_calendario_eventos2{font-size:10px;}
+#menuFecha { width: auto; height: auto;margin-bottom:10px;color:#5B5C5C;font-family:'Open Sans' !important;font-style:normal;font-weight:700;font-size:1em;}
+#menuFecha table tbody tr td { width: 33%; height: 38px; text-align: center;}
+/*#menuFecha table tbody tr td a { text-decoration: none;cursor: pointer;}
+#menuFecha table tbody tr td a:link {color:#16577C;}
+#menuFecha table tbody tr td a:visited {color: #16577C;}
+#menuFecha table tbody tr td a:hover {color: #16577C;}
+#menuFecha table tbody tr td a:active {color: #16577C;}*/
+.opcion_seleccionada { background-color: #FC4741;}
+.opcion_seleccionada a { color: white;}
+.opcion_seleccionada a:link {color:white;}
+.opcion_seleccionada a:visited {color: white;}
+.opcion_seleccionada a:hover {color: white;}
+.opcion_seleccionada a:active {color: white;}
+
+#tabla_calendario_eventos { width: 797px; border-spacing:0;font-family:'Open Sans' !important;font-style:normal;font-weight:400;font-size:0.9em;}
+#tabla_calendario_eventos thead th { color: white;text-align: left;padding: 15px; background-color: #17577E; }
+#tabla_calendario_eventos thead tr th a { text-decoration: none;cursor: pointer;}
+#tabla_calendario_eventos thead tr th a:link {color:white;}
+#tabla_calendario_eventos thead tr th a:visited {color: #5B5C5C;}
+#tabla_calendario_eventos thead tr th a:hover {color: #5B5C5C;}
+#tabla_calendario_eventos thead tr th a:active {color: #5B5C5C;}
+#tabla_calendario_eventos tr.border_top td {border-top:2px solid #DCDCDC;}
+#tabla_calendario_eventos tr.oculto {display:none;}
+#tabla_calendario_eventos tbody tr td.fecha_actual {text-align: left;padding: 15px;}
+#tabla_calendario_eventos tbody tr td.horario { width: 20%; background-color:#EBEBEB;text-align: center; vertical-align: top; padding: 5px; font-weight: 600; }
+#tabla_calendario_eventos tbody tr td.descripcion { width: 80%;padding: 5px; }
+#tabla_calendario_eventos tbody tr td.descripcion span { margin-bottom: 10px;display:inline-block; }
+#tabla_calendario_eventos tbody tr td.descripcion span.sin_margin_bottom { margin-bottom:0;}
+/* Calendario de eventos*/

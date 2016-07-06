@@ -1,0 +1,45 @@
+encabezado
+
+Inicio (seleccionado) --> tipo de letra HelveticaNeue, Bold, 14.22 pt, color #f0920e
+Conocenos --> tipo de letra HelveticaNeue, Medium, 14 pt, color #5b5c5c
+Oferta Educativa--> tipo de letra HelveticaNeue, Medium, 14 pt, color #5b5c5c
+Servicios --> tipo de letra HelveticaNeue, Medium, 14 pt, color #5b5c5c
+Unidades de Negocio--> tipo de letra HelveticaNeue, Medium, 14 pt, color #5b5c5c
+Vinculacion --> tipo de letra HelveticaNeue, Medium, 14.11 pt, color #5b5c5c
+Otras Secciones --> tipo de letra HelveticaNeue, Medium, 13.92 pt, color #5b5c5c
+Transparencia --> tipo de letra HelveticaNeue, Medium, 13.89 pt, color #5b5c5c
+
+Twitter
+tipo de letra HelveticaNeue, 14.07 pt, color #ffffff
+
+Noticias
+Actividades Universitarias --> tipo de letra Myriad Pro, Semibold, 18 pt, color #5b5c5c
+En las instalaciones... --> tipo de letra HelveticaNeue, Regular, 12.01 pt, color #5b5c5c
+Imparten Capacitacion --> tipo de letra HelveticaNeue, Medium, 14.96 pt, color #373534
+Imparten Capacitacion --> tipo de letra HelveticaNeue, Regular, 11.97 pt, color #696666
+
+Pie de Página
+
+Síguenos en Facebook (encabezados) --> tipo de letra HelveticaNeue, Bold, 14 pt, color #525252
+Carretera Villahermosa... --> tipo de letra HelveticaNeue, Bold, 12 pt, color #525252
+Universidad Tecnológica... --> tipo de letra HelveticaNeue, Bold, 13.99 pt, color #dddada
+Mapa de Sitio --> tipo de letra HelveticaNeue, Bold, 13.97 pt, color #e45016
+Enviar --> tipo de letra HelveticaNeue, Bold, 12 pt, color #ffffff
+Tu Email --> tipo de letra HelveticaNeue, Bold, 12 pt, color #646667
+
+
+HelveticaNeueLT Std
+HelveticaNeueLT Std Blk
+HelveticaNeueLT Std Med Cn
+Myriad Pro
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="sintonia" namespace="/sintonia" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">radio</result>
+        </action>
+        <action name="radio">
+            <result>/WEB-INF/jsp/otras_secciones/radio/inicio2.jsp</result>
+        </action>
+        <action name="radio2">
+            <result>/WEB-INF/jsp/otras_secciones/radio/radio.jsp</result>
+        </action>
+        <!--<action name="listProgramacionRadioAjax" class="mx.edu.uttab.action.ProgramacionRadioAction" method="listAjax">
+            <result name="success">/WEB-INF/jsp/otras_secciones/radio/sintonia_ajax.jsp</result>
+            <result name="error">/WEB-INF/jsp/error.jsp</result>
+        </action>-->
+        <action name="listProgramacionRadioAjax">
+            <result name="success">/WEB-INF/jsp/otras_secciones/radio/sintonia_ajax2.jsp</result>
+        </action>
+        <action name="quienes_somos">
+            <result>/WEB-INF/jsp/otras_secciones/radio/quienes_somos.jsp</result>
+        </action>
+        <!--<action name="programacion" class="mx.edu.uttab.action.ProgramacionRadioAction" method="list">
+            <result name="success">/WEB-INF/jsp/otras_secciones/radio/programacion.jsp</result>
+            <result name="error">/WEB-INF/jsp/error.jsp</result>
+        </action>-->
+        <action name="programacion">
+            <result name="success">/WEB-INF/jsp/otras_secciones/radio/programacion.jsp</result>
+        </action>
+        <action name="podcast">
+            <result>/WEB-INF/jsp/otras_secciones/radio/podcast.jsp</result>
+        </action>
+        <action name="fecha_hora">
+            <result>/WEB-INF/jsp/otras_secciones/radio/fecha_hora.jsp</result>
+        </action>
+        <action name="getProgramacionRadio">
+            <result>/WEB-INF/json/otras_secciones/radio/programacionRadio.min.json</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,218 @@
+@import "normalize.min.css";
+/* 
+    Document   : calendarioEscolar
+    Created on : 21/10/2013, 01:46:35 PM
+    Author     : Weisß
+    Description:
+        CSS del JSP CalendarioEscolar
+*/
+
+            #datepicker { width:62.2%; margin: 0 34px 1px 0; font-size: 11px;float: right; color: #5B5C5C;
+                          font-family: 'Open Sans' !important;
+                          font-style: normal;
+                          font-weight: 400;
+                          text-align: justify;}
+            #datepicker_iconos { width:30%; margin: 300px 0 1px 28px; font-size: 11px;float: left; color: #5B5C5C;
+                                 font-family: 'Open Sans' !important;
+                                 font-style: normal;
+                                 font-weight: 400;
+                                 text-align: justify;}
+            .inicio_curso a{
+                /*background-color : #F7CB0A !important   ;*/
+                background-image : url('../img/servicios/calendarioEscolar/inicio_curso.png') !important;
+                background-size:27px 25px !important;
+                background-repeat:no-repeat !important;
+                color:black !important;
+                font-weight:bold !important;
+            }
+
+            .fin_curso a{
+                /*background-color : #F7CB0A !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/fin_curso.png') !important;
+                background-size:27px 25px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .limite_bajas_temporales a {
+                /*background-color : #549129 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/limite_bajas_temporales.png') !important;
+                background-size:27px 25px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .inscripciones_alumnos_nuevo_ingreso_TSU a {
+                /*background-color : #B2E337 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/inscripciones_alumnos_nuevo_ingreso_TSU.png') !important;
+                background-size:27px 25px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .inscripciones_alumnos_nuevo_ingreso_LIC a {
+                /*background-color : #E2715B !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/inscripciones_alumnos_nuevo_ingreso_LIC.png') !important;
+                background-size:27px 25px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .inicio_clases_nuevo_ingreso_TSU a {
+                /*background-color : #DAE6BC !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/inicio_clases_nuevo_ingreso_TSU.png') !important;
+                background-size:25px 20px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                /*border: 1px solid #203D19 !important;*/
+            }
+
+            .pago_colegiaturas_reinscripciones_en_linea a {
+                /*background-color : #3EB9DE !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/pago_colegiaturas_reinscripciones_en_linea.png') !important;
+                background-size:27px 22px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .dia_del_TSU a {
+                /*background-color : #A33BF4 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/dia_del_TSU.png') !important;
+                background-size:25px 24px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .dia_del_sindicato a {
+                /*background-color : #FE280B !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/dia_del_sindicato.png') !important;
+                background-size:24px 21px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .ceremonia_graduacion a {
+                /*background-color : #4E4D77 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/ceremonia_graduacion.png') !important;
+                background-size:26px 23px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .LimiteCapturaCalificacionesEstadia a{
+                /*background-color : #FAC800 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/LimiteCapturaCalificacionesEstadia.png') !important;
+                background-size:26px 21px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                /*border: 2px solid #3EB9DE!important;*/
+            }
+
+            .LimiteEntregaSolicitudesReingresoDivisionesAcademicas a{
+                /*background-color : #C78E5E !important;*/
+                 background-image : url('../img/servicios/calendarioEscolar/LimiteEntregaSolicitudesReingresoDivisionesAcademicas.png') !important;
+                background-size:25px 21px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                /*border: 1px solid #784423!important;*/
+            }
+
+            .LimiteRecepcionSolicitudesReingresoControlEscolar a {
+                /*background-color : #DCD6D7 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/LimiteRecepcionSolicitudesReingresoControlEscolar.png') !important;
+                background-size:25px 21px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                border: 1px solid #CBA25A!important;    
+            }
+
+            .Vacaciones a {
+                /*background-color : #EA50C5 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/Vacaciones.png') !important;
+                background-size:27px 22px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .DiasNoLaborables a {
+                /*background-color : #F9FEFE !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/DiasNoLaborables.png') !important;
+                background-size:20px 19px !important;
+                background-repeat:no-repeat !important; 
+                color: black !important;
+                font-weight:bold !important;
+                /*border: 1px solid #6A458D!important; */
+            }
+
+            .LimiteTramiteTitulacion a {
+                /*background-color : #34B779 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/LimiteTramiteTitulacion.png') !important;
+                background-size:24px 24px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+            }
+
+            .LimiteCapturaEvaluaciones a{
+                /*background-color : #D4D3D2 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/LimiteCapturaEvaluaciones.png') !important;
+                background-size:25px 25px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                /*border: 1px solid #1F3A9A!important;*/    
+            }
+
+            .ImpresionEntregaActasFinales a{
+                /*background-color : #FDFBF9 !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/ImpresionEntregaActasFinales.png') !important;
+                background-size:25px 25px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                /*border: 1px solid #80BED3!important;*/     
+            }
+
+            .LimiteEntregaHorarios a {
+                /*background-color : #FEFEFE !important;*/
+                background-image : url('../img/servicios/calendarioEscolar/LimiteEntregaHorarios.png') !important;
+                background-size:20px 19px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                /*border: 1px solid #040404!important;*/     
+            }
+            
+            /* Fechas Cruzadas */
+            .PagoColegiaturasReinscripcionesEnLinea_LimiteRecepcionSolicitudesReingresoControlEscolar
+            {   background-color : #3EB9DE !important;
+                background-image : url('../img/servicios/calendarioEscolar/LimiteRecepcionSolicitudesReingresoControlEscolar.png') !important;
+                background-size:27px 22px !important;
+                background-repeat:no-repeat !important;
+                color: black !important;
+                font-weight:bold !important;
+                
+            }
+             /* Fechas Cruzadas */
+
+            #format input {
+                vertical-align: middle;
+            }
+            #format label {
+                display: inline;
+                margin-left: 4px;
+            }
+

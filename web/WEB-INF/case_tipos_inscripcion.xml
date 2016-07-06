@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tipos_inscripcion>
+    <tipo_inscripcion id="3">
+        <nombre>Estudiante</nombre>
+        <activo>true</activo>
+    </tipo_inscripcion>
+    <tipo_inscripcion id="2">
+        <nombre>Egresado</nombre>
+        <activo>true</activo>
+    </tipo_inscripcion>
+    <tipo_inscripcion id="1">
+        <nombre>Público en general</nombre>
+        <activo>true</activo>
+    </tipo_inscripcion>
+</tipos_inscripcion>

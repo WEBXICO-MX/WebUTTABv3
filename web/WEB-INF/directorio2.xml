@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+    <persona id="1" area="1">
+        <nombre>Fernando Calzada Falcón</nombre>
+        <puesto>Rector</puesto>
+        <tel>3582222 Ext. 9002</tel>
+        <email>fcalzadaf@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/01_fernando_calzada_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="2" area="1">
+        <nombre>Ana Luisa Miranda Acopa</nombre>
+        <puesto>Secretaria Técnica</puesto>
+        <tel>3582222 Ext. 9002</tel>
+        <email>secretariatecnica@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/02_ana_luisa_miranda.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="3" area="1">
+        <nombre>María Patricia Alor López</nombre>
+        <puesto>Contralora Interna</puesto>
+        <tel>3582222 Ext. 9010</tel>
+        <email>contraloria@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/04_ma_patricia_02.png</img>
+        <activo>true</activo>
+    </persona>	
+    <persona id="4" area="1">
+        <nombre>Paulino Zapata Arias</nombre>
+        <puesto>Abogado General</puesto>
+        <tel>3582222 Ext. 9007</tel>
+        <email>abogadogral@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/05_paulino_zapata_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="5" area="1">
+        <nombre>Raúl Alejandro Alamilla Reyes</nombre>
+        <puesto>Titular de la Unidad de Acceso a la Información</puesto>
+        <tel>3582222 Ext. 9009</tel>
+        <email>transparencia@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/23_raul_alamilla.jpg</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="6" area="2">
+        <nombre>Sergio Octavio Valle Mijangos</nombre>
+        <puesto>Secretario Académico</puesto>
+        <tel>3582222 Ext. 1002</tel>
+        <email>academica@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/15_sergio_octavio.jpg</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="7" area="2">
+        <nombre>Marcel Ruiz Martínez</nombre>
+        <puesto>Director de la división de Administración y Gestión de Proyectos</puesto>
+        <tel>3582222 Ext. 5008</tel>
+        <email>d.agep@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/19_marcel_ruiz_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="8" area="2">
+        <nombre>José Luis Martínez Rivera</nombre>
+        <puesto>Director de la división de Tecnologías de la Información y Comunicación</puesto>
+        <tel>3582222 Ext. 8000</tel>
+        <email>d.tic@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/16_jose_luis_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="9" area="2">
+        <nombre>Luis Alberto Escobedo Cazan</nombre>
+        <puesto>Director de la división de Procesos Industriales</puesto>
+        <tel>3582222 Ext. 1000</tel>
+        <email>d.ppymi@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/01_escobedo_cazan.jpg</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="10" area="2">
+        <nombre>Ana Edith Palomino Vergara</nombre>
+        <puesto>Directora de la división de Química</puesto>
+        <tel>3582222 Ext. 3003</tel>
+        <email>d.quimica@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/18_ana_edith_palomino_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="11" area="2">
+        <nombre>Sara Trejo González</nombre>
+        <puesto>Directora de la división de Turismo y Gastronomía</puesto>
+        <tel>3582222 Ext. 7000</tel>
+        <email>d.tur_gas@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/01_sara_trejo.jpg</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="12" area="2">
+        <nombre>Laura Beatriz Romero Hernández</nombre>
+        <puesto>Coordinadora de Educación a Distancia</puesto>
+        <tel>3582222 Ext. 1012</tel>
+        <email>c.edistancia@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/21_laura_beatriz_romero_02.jpg</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="13" area="2">
+        <nombre>Emilio Muñoz Vidal</nombre>
+        <puesto>Coordinador de Laboratorios</puesto>
+        <tel>3582222 Ext. 3002</tel>
+        <email>c.laboratorios@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/24_emilio_vidal.jpg</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="14" area="3">
+        <nombre>Ricardo Amado Moheno Barrueta</nombre>
+        <puesto>Secretario de Vinculación</puesto>
+        <tel>3582222 Ext. 2000</tel>
+        <email>vinculacion@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/02_ricardo_moheno_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="15" area="3">
+        <nombre>Australia Vallejo Hidalgo</nombre>
+        <puesto>Directora de Desarrollo Empresarial</puesto>
+        <tel>3582222 Ext. 2011</tel>
+        <email>d.desarrollo@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/11_australia_vallejo_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="16" area="3">
+        <nombre>Laura González Ramón</nombre>
+        <puesto>Coordinadora del Centro de Calibración y Pruebas</puesto>
+        <tel>3582222 Ext. 8200</tel>
+        <email>cecap@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/1.jpg</img>
+        <activo>false</activo>
+    </persona>
+    <persona id="17" area="3">
+        <nombre>Laura Beatriz Guzmán Priego</nombre>
+        <puesto>Directora de Servicios Especializados</puesto>
+        <tel>3582222 Ext. 2005</tel>
+        <email>d.especializados@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/09_laura_beatriz_guzman_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="18" area="3">
+        <nombre>Lenin González Baños</nombre>
+        <puesto>Director de Extensión Universitaria</puesto>
+        <tel>3582222 Ext. 8002</tel>
+        <email>d.euniversitaria@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/10_lenin_gonzalez_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="20" area="4">
+        <nombre>Sergio Hermilo Jiménez Torres</nombre>
+        <puesto>Encargado de la Dirección de Administración y Finanzas</puesto>
+        <tel>3582222 Ext. 9018</tel>
+        <email>administracion@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/06_Sergio_Hermilo_Jimenez_Torres.jpeg</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="21" area="5">
+        <nombre>Piotr Aleksander Dobrusin Ziemba</nombre>
+        <puesto>Director de Planeación y Evaluación</puesto>
+        <tel>3582222 Ext. 9013</tel>
+        <email>d.planeacion@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/13_piotr_aleksander_dobrosin_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="22" area="6">
+        <nombre>Lorena Rodríguez Juárez</nombre>
+        <puesto>Directora de Servicios Escolares</puesto>
+        <tel>3582222 Ext. 9038</tel>
+        <email>d.escolares@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/07_lorena_rodriguez_02.png</img>
+        <activo>true</activo>
+    </persona>
+    <persona id="23" area="7">
+        <nombre>Juan Alberto Camacho Ochoa</nombre>
+        <puesto>Director de Informática</puesto>
+        <tel>3582222 Ext. 9043</tel>
+        <email>d.informatica@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/08_juan_alberto_camacho_02.png</img>
+        <activo>true</activo>
+    </persona>
+        <persona id="24" area="8">
+        <nombre>Guillermo Oliver González Rodríguez</nombre>
+        <puesto>Coordinador del Centro de Atención a PEMEX</puesto>
+        <tel>3582222 Ext. 2017</tel>
+        <email>case@uttab.edu.mx</email>
+        <img>img/conocenos/directorio/14_guillermo oliver_02.jpg</img>
+        <activo>true</activo>
+    </persona>
+</personas>

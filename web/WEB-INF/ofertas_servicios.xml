@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofertas_servicios>
+    <oferta_servicio id="17" tipo="1">
+        <nombre>Programación en Phyton </nombre>
+        <img>img/movil/android/curso_egresados/curso1.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 09:00 p.m. - 13:00p.m.</li>
+<li>Lugar: Edificio 8 Laboratorio de Computo Planta </li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: Gratuito </li>
+<li>Cupo limitado: 25 participantes  </li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Del 25 al 29 de abril de 2016</fecha_realizacion>
+        <fecha_publicacion>16 Marzo 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio>
+    <oferta_servicio id="16" tipo="1">
+        <nombre>Diseño de Páginas WEB</nombre>
+        <img>img/movil/android/curso_egresados/curso4.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 09:00 p.m. - 13:00p.m.</li>
+<li>Lugar: Edificio 8 Laboratorio de Computo Alta</li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: Gratuito </li>
+<li>Cupo limitado: 25 participantes  </li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Del 25 al 29 de abril de 2016</fecha_realizacion>
+        <fecha_publicacion>16 Marzo 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio>
+    <oferta_servicio id="15" tipo="1">
+        <nombre>CISCO CCNA 3 (Actualización)</nombre>
+        <img>img/movil/android/curso_egresados/curso3.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 09:00 p.m. - 13:00p.m.</li>
+<li>Lugar: Edificio 8 Laboratorio de CISCO </li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: Gratuito </li>
+<li>Cupo limitado: 06 participantes </li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>del 16 al 07 de mayo de 2016</fecha_realizacion>
+        <fecha_publicacion>16 Marzo 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio>
+    <oferta_servicio id="14" tipo="1">
+        <nombre>Cementación de Pozos </nombre>
+        <img>img/movil/android/curso_egresados/curso2.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 03:00 p.m - 07:00 p.m</li>
+<li>Lugar: Edificio de Vinculación, Sala de Computo </li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: Gratuito </li>
+<li>Cupo limitado: 25 participantes</li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Del 25 al 29 de abril de 2016</fecha_realizacion>
+        <fecha_publicacion>23 Febrero 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio>
+    <oferta_servicio id="13" tipo="1">
+        <nombre>Seguridad Industrial</nombre>
+        <img>img/movil/android/curso_egresados/curso1.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 04:00 p.m - 08:00 p.m</li>
+<li>Lugar: Edificio de Vinculación, Sala 2</li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: Gratuito </li>
+<li>Cupo limitado: 25 participantes</li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Del 25 al 29 de abril de 2016</fecha_realizacion>
+        <fecha_publicacion>23 Febrero 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio>
+    <oferta_servicio id="12" tipo="1">
+        <nombre>Manejo Integral de Residuos</nombre>
+        <img>img/movil/android/curso_egresados/curso4.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 03:00 p.m - 07:00 p.m</li>
+<li>Lugar: Edificio de Vinculación, Sala Magna</li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: Gratuito </li>
+<li>Cupo limitado: 25 participantes</li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Del 25 al 29 de abril de 2016</fecha_realizacion>
+        <fecha_publicacion>23 Febrero 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio>
+    <oferta_servicio id="11" tipo="1">
+        <nombre>Análisis de Fluidos de Perforación </nombre>
+        <img>img/movil/android/curso_egresados/curso3.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 01:00 p.m - 04:00 p.m</li>
+<li>Lugar: Edificio de Vinculación, Sala 2</li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: Gratuito </li>
+<li>Cupo limitado: 25 participantes</li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Del 25 al 29 de abril de 2016</fecha_realizacion>
+        <fecha_publicacion>23 Febrero 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio>
+    <oferta_servicio id="10" tipo="1">
+        <nombre>Cocina Molecular</nombre>
+        <img>img/movil/android/curso_egresados/curso2.png</img>
+        <descripcion><![CDATA[
+<ul>
+<li>Horario: 09:00-14:00 hrs</li>
+<li>Lugar: Cocina 1, Edificio 6</li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: *Gratuito (Los insumos para las prácticas  los trae cada participante) </li>
+<li>Cupo limitado: 16 participantes</li>
+<li>Se les otorgará constancia con valor curricular  </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>25,26 y 27 abril de 2016</fecha_realizacion>
+        <fecha_publicacion>28 Enero 2016</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_servicio>
+    <oferta_servicio id="9" tipo="1">
+        <nombre>Servicio y atención al cliente</nombre>
+        <img>img/movil/android/curso_egresados/curso1.png</img>
+        <descripcion><![CDATA[
+            <ul>
+            <li>Horario
+               <ul>
+                    <li>15 febrero 08:00-12:00 hrs</li>
+                    <li>16 febrero 08:00-11:00 hrs</li>
+                    <li>17 febrero 09:00-12:00 hrs</li>
+               </ul>
+            </li>
+<li>Lugar: Sala Magna del edifcio de vinculación</li>
+<li>Dirigido a: egresados de la UTTAB</li>
+<li>Costo: sin costo </li>
+<li>Cupo limitado: 20 participantes</li>
+<li>Se les otorgará constancia de participación </li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>15,16 y 17 febrero de 2016</fecha_realizacion>
+        <fecha_publicacion>26 Enero 2016</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_servicio>
+    <oferta_servicio id="8" tipo="1">
+        <nombre>Elementos de perforación</nombre>
+        <img>img/movil/android/curso_egresados/curso4.png</img>
+        <descripcion><![CDATA[
+            <ul>
+<li>Horario: 10:00 - 12:00 hrs</li>
+<li>Lugar: Auditorio 8  edificio 3</li>
+<li>Dirigido a: alumnos y egresados</li>
+<li>Costo: sin costo </li>
+<li>Cupo limitado: 20 participantes</li>
+<li>Se les otorgará constancia de participación</li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Sábado 16 enero al Sábado 16 abril | 2016</fecha_realizacion>
+        <fecha_publicacion>06 Enero 2016</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_servicio>
+    <oferta_servicio id="7" tipo="1">
+        <nombre>Principios Básicos de Matemática y Física Aplicada</nombre>
+        <img>img/movil/android/curso_egresados/curso4.png</img>
+        <descripcion><![CDATA[
+            <ul>
+<li>Horario: 7:00 - 10:00 hrs</li>
+<li>Lugar: Auditorio 8  edificio 3</li>
+<li>Dirigido a: alumnos y egresados</li>
+<li>Costo: sin costo </li>
+<li>Cupo limitado: 20 participantes</li>
+<li>Se les otorgará constancia de participación</li>
+</ul>
+]]></descripcion>
+        <fecha_realizacion>Sábado 16 enero al Sábado 16 abril | 2016</fecha_realizacion>
+        <fecha_publicacion>06 Enero 2016</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_servicio>
+    <oferta_servicio id="6" tipo="2">
+        <nombre>Curso de Preparación TOEFL</nombre>
+        <img>img/movil/android/curso_egresados/CURSO-TOEFL.png</img>
+        <descripcion>
+<![CDATA[
+<p>Dirigido a público en general con nivel mínimo  de inglés intermedio (B1)  </p>
+<p>Tiene una duración de 60 horas</p>
+<p>Horario de atención</p>
+<ul>
+<li>Lunes a viernes de 8 a 7 pm</li>
+<li>Sábados de 8 am - 3 pm</li>
+<li>Domingos de 8 am - 2 pm</li>
+</ul>
+]]>
+        </descripcion>
+        <fecha_realizacion>
+<![CDATA[
+<ul>
+<li>Inicio: domingo 20 de septiembre, 2015</li>
+<li>Fin: domingo 22 de noviembre, 2015</li>
+<li>Horario: domingos de 8 a 2 pm</li>
+<li>Núm. de horas: 60</li>
+<li>Costo: $3,200.00</li>
+<li>Primer pago: $1,000.00</>
+</ul><br/>
+]]>
+        </fecha_realizacion>
+        <fecha_publicacion>18 Agosto 2015</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_servicio>
+    <oferta_servicio id="5" tipo="2">
+        <nombre>Curso de Preparación FCE</nombre>
+        <img>img/movil/android/curso_egresados/CURSO-FCE.png</img>
+        <descripcion>
+<![CDATA[
+<p>Dirigido a público en general con nivel mínimo  de inglés intermedio alto (B2)</p>
+<p>Tiene una duración de 100 horas</p>
+<p>Horario de atención</p>
+<ul>
+<li>Lunes a viernes de 8 a 7 pm</li>
+<li>Sábados de 8 am - 3 pm</li>
+<li>Domingos de 8 am - 2 pm</li>
+</ul>
+]]>
+        </descripcion>
+        <fecha_realizacion>
+<![CDATA[
+<ul>
+<li>Inicio: sábado 08 de agosto, 2015</li>
+<li>Fin: sábado 28 de noviembre, 2015</li>
+<li>Horario: sábados de 8 a 2 pm</li>
+<li>Costo: $6,200.00</li>
+<li>Primer pago: $1, 000.00</li>
+</ul><br/>
+]]>
+        </fecha_realizacion>
+        <fecha_publicacion>23 Abril 2015</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_servicio>
+    <oferta_servicio id="4" tipo="2">
+        <nombre>Curso intensivo de inglés y francés en verano</nombre>
+        <img>img/movil/android/curso_egresados/INTENSIVO-ING-FRA.png</img>
+        <descripcion>
+<![CDATA[
+<p>Dirigido a niños desde 7 a 9 años de edad</p>
+<p>Tiene una duración de 50 horas</p>
+<p>Horario de atención</p>
+<ul>
+<li>Lunes a viernes de 8 a 7 pm</li>
+<li>Sábados de 8 am - 3 pm</li>
+<li>Domingos de 8 am - 2 pm</li>
+</ul>
+]]>
+        </descripcion>
+        <fecha_realizacion>
+<![CDATA[
+<ul>
+<li>Inicio: lunes 03 de agosto, 2015</li>
+<li>Fin: viernes 14 de agosto, 2015</li>
+<li>Horario: lunes a viernes de 9 a 2 pm</li>
+<li>Núm. de horas: 50</li>
+<li>Costo: $1, 500.00</li>
+</ul><br/>
+]]>
+        </fecha_realizacion>
+        <fecha_publicacion>14 Julio 2015</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_servicio> 
+    <oferta_servicio id="3" tipo="2">
+        <nombre>Inglés</nombre>
+        <img>img/movil/android/curso_egresados/ingles.png</img>
+        <descripcion>
+<![CDATA[
+<p>Dirigido a público en general. El curso está dividido en 4 niveles: básico, preintermedio, intermedio y avanzado.</p>
+<p>Tiene una duración de 2 años</p>
+<p>Horario de atención</p>
+<ul>
+<li>Lunes a viernes de 8 am - 5 pm</li>
+<li>Sábados de 8 am - 1 pm</li>
+<li>Domingos de 9 am - 2 pm</li>
+</ul>
+]]>    
+        </descripcion>
+        <fecha_realizacion>
+<![CDATA[
+<ul>
+<li>Miércoles 17 de febrero en horario de lunes, miércoles y viernes de 4 a 6 pm</li>
+<li>Martes 16 de febrero en horario de martes y jueves de 4 a 7 pm</li>
+<li>Sábado 20 de febrero en horario de 8 a 1 pm</li>
+<li>Domingo 21 de febrero en horario de 9 a 2 pm</li>
+</ul><br/>
+]]>
+        </fecha_realizacion>
+        <fecha_publicacion>04 Febrero 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio> 
+    <oferta_servicio id="2" tipo="2">
+        <nombre>Francés</nombre>
+        <img>img/movil/android/curso_egresados/frances.png</img>
+        <descripcion>
+<![CDATA[
+<p>Dirigido a público en general. El curso está dividido en 4 niveles: básico, preintermedio, intermedio y avanzado.</p>
+<p>Tiene una duración de 2 años</p>
+<p>Horario de atención</p>
+<ul>
+<li>Lunes a viernes de 8 am - 5 pm</li>
+<li>Sábados de 8 am - 1 pm</li>
+<li>Domingos de 9 am - 2 pm</li>
+</ul>
+]]>
+        </descripcion>
+        <fecha_realizacion>            
+<![CDATA[
+<ul>
+<li>Sábado 20 de febrero en horario de 8 a 1 pm</li>
+<li>Domingo 21 de febrero en horario de 9 a 2 pm</li>
+</ul><br/>
+]]>
+        </fecha_realizacion>
+        <fecha_publicacion>04 Febrero 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio> 
+    <oferta_servicio id="1" tipo="2">
+        <nombre>Italiano</nombre>
+        <img>img/movil/android/curso_egresados/italiano.png</img>
+        <descripcion>
+<![CDATA[
+<p>Dirigido a público en general. El curso está dividido en 4 niveles: básico, preintermedio, intermedio y avanzado.</p>
+<p>Tiene una duración de 2 años</p>
+<p>Horario de atención</p>
+<ul>
+<li>Lunes a viernes de 8 am - 5 pm</li>
+<li>Sábados de 8 am - 1 pm</li>
+<li>Domingos de 9 am - 2 pm</li>
+</ul>
+]]>
+        </descripcion>
+        <fecha_realizacion>            
+<![CDATA[
+<ul>
+<li>Sábado 20 de febrero en horario de 8 a 1 pm</li>
+</ul><br/>
+]]>
+        </fecha_realizacion>
+        <fecha_publicacion>04 Febrero 2016</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_servicio> 
+</ofertas_servicios>

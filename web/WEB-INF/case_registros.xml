@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registros>
+  <registro id="64" calendario_capacitacion="70" tipo_inscripcion="3" sector_productivo="11" status="1">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Oscar Eduardo</nombre>
+    <apellido_pat>Concepció</apellido_pat>
+    <apellido_mat>Alvarado</apellido_mat>
+    <fecha_nacimiento>28/02/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>3edua12d0@giamil.com</email>
+    <tel />
+    <cel>9931743757</cel>
+    <fecha_registro>01/03/2016 12:43:20</fecha_registro>
+    <fecha_modificacion>NULL</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="63" calendario_capacitacion="70" tipo_inscripcion="3" sector_productivo="11" status="1">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Bartolo</nombre>
+    <apellido_pat>Concepción</apellido_pat>
+    <apellido_mat>Alvarado</apellido_mat>
+    <fecha_nacimiento>16/03/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>touning1@hotmail.com</email>
+    <tel />
+    <cel>9931887345</cel>
+    <fecha_registro>01/03/2016 12:41:48</fecha_registro>
+    <fecha_modificacion>NULL</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="62" calendario_capacitacion="70" tipo_inscripcion="1" sector_productivo="15" status="3">
+    <nombre_empresa>--</nombre_empresa>
+    <nombre>Juan Carlos</nombre>
+    <apellido_pat>Osorio</apellido_pat>
+    <apellido_mat>García</apellido_mat>
+    <fecha_nacimiento>29/03/1979</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>osojuanito23@hotmail.com</email>
+    <tel />
+    <cel>9931783958</cel>
+    <fecha_registro>19/02/2016 09:24:33</fecha_registro>
+    <fecha_modificacion>19/02/2016 09:29:25</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="61" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>José Donaldo</nombre>
+    <apellido_pat>Pérez</apellido_pat>
+    <apellido_mat>Olán</apellido_mat>
+    <fecha_nacimiento>09/06/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>donaldosean619_@hotmail.c</email>
+    <tel />
+    <cel>9932411856</cel>
+    <fecha_registro>18/02/2016 11:53:06</fecha_registro>
+    <fecha_modificacion>24/02/2016 19:18:14</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="60" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Carlos Darwing</nombre>
+    <apellido_pat>Hernández</apellido_pat>
+    <apellido_mat>Gómez</apellido_mat>
+    <fecha_nacimiento>21/04/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>darkkerthan@gmail.com</email>
+    <tel>1408553</tel>
+    <cel>9933732345</cel>
+    <fecha_registro>18/02/2016 11:47:58</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:19</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="59" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>María Guadalupe</nombre>
+    <apellido_pat>Bautista</apellido_pat>
+    <apellido_mat>Jiménez</apellido_mat>
+    <fecha_nacimiento>03/07/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>lupita.bj03@gmail.com</email>
+    <tel>3368166</tel>
+    <cel>9932851953</cel>
+    <fecha_registro>18/02/2016 11:46:24</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:23</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="58" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Luis Enrique</nombre>
+    <apellido_pat>Lino</apellido_pat>
+    <apellido_mat>Álvarez</apellido_mat>
+    <fecha_nacimiento>18/04/1994</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>luis_lino95@outlook.com</email>
+    <tel />
+    <cel>9931708711</cel>
+    <fecha_registro>18/02/2016 11:44:59</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:28</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="57" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Karen Stephanie</nombre>
+    <apellido_pat>Hernández</apellido_pat>
+    <apellido_mat>Alipi</apellido_mat>
+    <fecha_nacimiento>29/03/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>gea_latierra_2@hotmail.co</email>
+    <tel />
+    <cel>9171164176</cel>
+    <fecha_registro>18/02/2016 11:43:39</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:31</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="56" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>María de los Ángeles de Jesús</nombre>
+    <apellido_pat>Méndez</apellido_pat>
+    <apellido_mat>Lázaro</apellido_mat>
+    <fecha_nacimiento>07/05/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>angeles_jonash@hotmail.co</email>
+    <tel />
+    <cel>9931035788</cel>
+    <fecha_registro>18/02/2016 11:41:44</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:34</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="55" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Jorgue Arturo</nombre>
+    <apellido_pat>Castañeda</apellido_pat>
+    <apellido_mat>León</apellido_mat>
+    <fecha_nacimiento>27/07/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>jleon9632@gmail.com</email>
+    <tel />
+    <cel>9932852370</cel>
+    <fecha_registro>18/02/2016 11:39:50</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:38</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="54" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>José Enrique</nombre>
+    <apellido_pat>Izquierdo</apellido_pat>
+    <apellido_mat>Romero</apellido_mat>
+    <fecha_nacimiento>16/02/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>jose_acuario05@live.com.m</email>
+    <tel />
+    <cel>9931969910</cel>
+    <fecha_registro>18/02/2016 11:38:41</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:41</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="53" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Carlos Francisco</nombre>
+    <apellido_pat>Martínez</apellido_pat>
+    <apellido_mat>Gallegos</apellido_mat>
+    <fecha_nacimiento>17/06/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>magafraca11@hotmail.com</email>
+    <tel />
+    <cel>9932290184</cel>
+    <fecha_registro>18/02/2016 11:37:20</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:45</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="52" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Juan</nombre>
+    <apellido_pat>Álvarez</apellido_pat>
+    <apellido_mat>Castañeda</apellido_mat>
+    <fecha_nacimiento>11/10/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>juanito_sexi95@live.com.m</email>
+    <tel />
+    <cel>1610995</cel>
+    <fecha_registro>18/02/2016 11:36:06</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:49</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="51" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Mary Guadalupe</nombre>
+    <apellido_pat>García</apellido_pat>
+    <apellido_mat>Salvador</apellido_mat>
+    <fecha_nacimiento>10/12/1995</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>mary951210@gmail.com</email>
+    <tel />
+    <cel>9933736994</cel>
+    <fecha_registro>18/02/2016 11:33:59</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:53</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="50" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Jesús</nombre>
+    <apellido_pat>Hernández</apellido_pat>
+    <apellido_mat>Hipólito</apellido_mat>
+    <fecha_nacimiento>10/08/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>jhipolito@gmail.com</email>
+    <tel />
+    <cel>9933736994</cel>
+    <fecha_registro>18/02/2016 11:31:42</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:49:57</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="49" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Andrés</nombre>
+    <apellido_pat>López</apellido_pat>
+    <apellido_mat>López</apellido_mat>
+    <fecha_nacimiento>05/08/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>andres_lopos08@hotmail.co</email>
+    <tel />
+    <cel>9931118341</cel>
+    <fecha_registro>18/02/2016 11:30:32</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:01</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="48" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Eduardo David</nombre>
+    <apellido_pat>Villegas</apellido_pat>
+    <apellido_mat>Salvador</apellido_mat>
+    <fecha_nacimiento>02/07/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>villegassalvadoreduardo@h</email>
+    <tel />
+    <cel>9171108371</cel>
+    <fecha_registro>18/02/2016 11:28:38</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:05</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="47" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Alejandro</nombre>
+    <apellido_pat>Cruz</apellido_pat>
+    <apellido_mat>Cabrera</apellido_mat>
+    <fecha_nacimiento>09/11/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>alejandro_2195@hotmail.co</email>
+    <tel>)936)3622664</tel>
+    <cel>9361070594</cel>
+    <fecha_registro>18/02/2016 11:27:04</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:10</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="46" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Ángel Eduardo</nombre>
+    <apellido_pat>Ibarra</apellido_pat>
+    <apellido_mat>Coliaza</apellido_mat>
+    <fecha_nacimiento>22/11/1994</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>angel-eduardo94@hotmail.c</email>
+    <tel />
+    <cel>9931177094</cel>
+    <fecha_registro>18/02/2016 11:25:11</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:14</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="45" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Narciso</nombre>
+    <apellido_pat>de Dios</apellido_pat>
+    <apellido_mat>Bolaina</apellido_mat>
+    <fecha_nacimiento>23/12/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>gabbydediosmayo031@gmail.</email>
+    <tel />
+    <cel>9931046981</cel>
+    <fecha_registro>18/02/2016 11:22:32</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:18</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="44" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Liz Yeniséi</nombre>
+    <apellido_pat>Córdova</apellido_pat>
+    <apellido_mat>Reyes</apellido_mat>
+    <fecha_nacimiento>26/09/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>lizy_wcr@hotmail.com</email>
+    <tel />
+    <cel>9932296752</cel>
+    <fecha_registro>18/02/2016 11:21:05</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:21</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="43" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Teresa de Jesús</nombre>
+    <apellido_pat>Hernández</apellido_pat>
+    <apellido_mat>González</apellido_mat>
+    <fecha_nacimiento>31/08/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>tere_hdez96@hotmail.com</email>
+    <tel />
+    <cel>9931044913</cel>
+    <fecha_registro>18/02/2016 11:19:02</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:24</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="42" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Daniel Alejandro</nombre>
+    <apellido_pat>Torres</apellido_pat>
+    <apellido_mat>Olán</apellido_mat>
+    <fecha_nacimiento>27/11/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>alejandro.hesket@hotmail.</email>
+    <tel>9931345126</tel>
+    <cel>9931345126</cel>
+    <fecha_registro>18/02/2016 11:17:16</fecha_registro>
+    <fecha_modificacion>18/02/2016 11:50:28</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="41" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Jorge</nombre>
+    <apellido_pat>Cruz</apellido_pat>
+    <apellido_mat>Santos</apellido_mat>
+    <fecha_nacimiento>10/01/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>j_cruzsantos@hotmail.com</email>
+    <tel />
+    <cel>9371326815</cel>
+    <fecha_registro>12/02/2016 12:01:42</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:02:57</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="40" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Karla Beatriz</nombre>
+    <apellido_pat>Pérez</apellido_pat>
+    <apellido_mat>Marín</apellido_mat>
+    <fecha_nacimiento>12/04/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>karla04@live.com.mx</email>
+    <tel />
+    <cel>9931903997</cel>
+    <fecha_registro>12/02/2016 12:00:19</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:04</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="39" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Elvis Alberto</nombre>
+    <apellido_pat>Pérez</apellido_pat>
+    <apellido_mat>Díaz</apellido_mat>
+    <fecha_nacimiento>24/07/1993</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>elvis_god@live.com.mx</email>
+    <tel />
+    <cel>9331139327</cel>
+    <fecha_registro>12/02/2016 11:54:36</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:08</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="38" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="28" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Francisco Alejandro</nombre>
+    <apellido_pat>Torres</apellido_pat>
+    <apellido_mat>Jiménez</apellido_mat>
+    <fecha_nacimiento>18/06/1991</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>paco_torres1891@hotmail.c</email>
+    <tel />
+    <cel>9932236237</cel>
+    <fecha_registro>12/02/2016 11:52:06</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:11</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="37" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Gloria Edith</nombre>
+    <apellido_pat>Alcázar</apellido_pat>
+    <apellido_mat>Castillo</apellido_mat>
+    <fecha_nacimiento>28/02/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>edith_alcazarwil@hotmail.</email>
+    <tel />
+    <cel>9932812934</cel>
+    <fecha_registro>12/02/2016 11:48:35</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:16</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="36" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>María Eloisa</nombre>
+    <apellido_pat>Herrera</apellido_pat>
+    <apellido_mat>Hernández</apellido_mat>
+    <fecha_nacimiento>08/05/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>eloisa_herrerahernandez@y</email>
+    <tel />
+    <cel>9932525726</cel>
+    <fecha_registro>12/02/2016 11:46:10</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:25</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="35" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Marisol</nombre>
+    <apellido_pat>Vera</apellido_pat>
+    <apellido_mat>Flores</apellido_mat>
+    <fecha_nacimiento>09/04/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>prinxxaziita_aries@hotmai</email>
+    <tel />
+    <cel>9171176412</cel>
+    <fecha_registro>12/02/2016 11:43:05</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:29</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="34" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Diana Laura</nombre>
+    <apellido_pat>Domínguez</apellido_pat>
+    <apellido_mat>Carrera</apellido_mat>
+    <fecha_nacimiento>10/10/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>dianacarrera96_@hotmail.c</email>
+    <tel />
+    <cel>9932468754</cel>
+    <fecha_registro>12/02/2016 11:41:32</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:34</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="33" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Rene Cristhian</nombre>
+    <apellido_pat>González</apellido_pat>
+    <apellido_mat>Dorantes</apellido_mat>
+    <fecha_nacimiento>26/09/1994</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>rene_chivas03@hotmail.com</email>
+    <tel />
+    <cel>9932099545</cel>
+    <fecha_registro>12/02/2016 11:37:08</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:37</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="32" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Gonzálo</nombre>
+    <apellido_pat>Arenas</apellido_pat>
+    <apellido_mat>Mojarraz</apellido_mat>
+    <fecha_nacimiento>20/04/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>milan_6001@hotmail.com</email>
+    <tel />
+    <cel>9131119445</cel>
+    <fecha_registro>12/02/2016 11:35:23</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:42</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="31" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Luis</nombre>
+    <apellido_pat>Perera</apellido_pat>
+    <apellido_mat>de los Santos</apellido_mat>
+    <fecha_nacimiento>22/11/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>luis_perera95@hotmail.com</email>
+    <tel />
+    <cel>9932617987</cel>
+    <fecha_registro>12/02/2016 11:34:13</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:47</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="30" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>José Luis</nombre>
+    <apellido_pat>Isidro</apellido_pat>
+    <apellido_mat>Sánchez</apellido_mat>
+    <fecha_nacimiento>19/12/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>biotechtabasco@gmail.com</email>
+    <tel />
+    <cel>9931112694</cel>
+    <fecha_registro>12/02/2016 11:32:56</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:51</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="29" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Francisco Ernesto</nombre>
+    <apellido_pat>García</apellido_pat>
+    <apellido_mat>Hernández</apellido_mat>
+    <fecha_nacimiento>09/09/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>francisco_hernandez.99@ou</email>
+    <tel />
+    <cel>9932504014</cel>
+    <fecha_registro>12/02/2016 11:30:46</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:55</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="28" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Roberto Carlos</nombre>
+    <apellido_pat>Flores</apellido_pat>
+    <apellido_mat>López</apellido_mat>
+    <fecha_nacimiento>29/11/1995</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>r1028cachorro@outlook.com</email>
+    <tel />
+    <cel>9361095932</cel>
+    <fecha_registro>12/02/2016 11:29:12</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:03:58</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="27" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Sharon Mariel</nombre>
+    <apellido_pat>Hernández</apellido_pat>
+    <apellido_mat>Ramírez</apellido_mat>
+    <fecha_nacimiento>15/09/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>sharonmariel_96@hotmail.c</email>
+    <tel>3535349</tel>
+    <cel>9931267545</cel>
+    <fecha_registro>12/02/2016 11:27:26</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:04:02</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="26" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Joé Enrique</nombre>
+    <apellido_pat>Hidalgo</apellido_pat>
+    <apellido_mat>López</apellido_mat>
+    <fecha_nacimiento>15/09/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>enrike-96@live.com</email>
+    <tel />
+    <cel>9933766038</cel>
+    <fecha_registro>12/02/2016 11:25:46</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:04:10</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="25" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Jesús Fernando</nombre>
+    <apellido_pat>Payró</apellido_pat>
+    <apellido_mat>Espinosa</apellido_mat>
+    <fecha_nacimiento>10/02/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>chivas_1250@hotmail.com</email>
+    <tel />
+    <cel>9932766948</cel>
+    <fecha_registro>12/02/2016 11:23:45</fecha_registro>
+    <fecha_modificacion>19/02/2016 09:38:39</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="24" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Juan Miguel</nombre>
+    <apellido_pat>García</apellido_pat>
+    <apellido_mat>de la Cruz</apellido_mat>
+    <fecha_nacimiento>22/06/1994</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>garciam:19@outlook.es</email>
+    <tel />
+    <cel>9932243086</cel>
+    <fecha_registro>12/02/2016 11:22:01</fecha_registro>
+    <fecha_modificacion>12/02/2016 12:04:17</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="23" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Diana Guadalupe</nombre>
+    <apellido_pat>Torres</apellido_pat>
+    <apellido_mat>Priego</apellido_mat>
+    <fecha_nacimiento>18/10/1995</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>diana_priego1996@hotmail.</email>
+    <tel />
+    <cel>9931253427</cel>
+    <fecha_registro>11/02/2016 10:45:41</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:50:29</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="22" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Julián</nombre>
+    <apellido_pat>Suárez</apellido_pat>
+    <apellido_mat>Gómez</apellido_mat>
+    <fecha_nacimiento>22/03/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>julian_xq@hotmail.com</email>
+    <tel />
+    <cel>7861056084</cel>
+    <fecha_registro>11/02/2016 10:40:19</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:50:51</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="21" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Sergio Raúl</nombre>
+    <apellido_pat>Brindis</apellido_pat>
+    <apellido_mat>Rodríguez</apellido_mat>
+    <fecha_nacimiento>17/01/1993</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>sr_brindis@hotmail.com</email>
+    <tel />
+    <cel>9171179695</cel>
+    <fecha_registro>11/02/2016 10:38:44</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:50:57</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="20" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Héctor</nombre>
+    <apellido_pat>de la Cruz</apellido_pat>
+    <apellido_mat>Cerino</apellido_mat>
+    <fecha_nacimiento>21/02/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>delacruz_cerino21@outlook</email>
+    <tel />
+    <cel>9931290518</cel>
+    <fecha_registro>11/02/2016 10:36:35</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:07</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="19" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Fabián</nombre>
+    <apellido_pat>Cruz</apellido_pat>
+    <apellido_mat>González</apellido_mat>
+    <fecha_nacimiento>25/05/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>feg_saturnuus@hotmail.com</email>
+    <tel />
+    <cel>9321171976</cel>
+    <fecha_registro>11/02/2016 10:33:58</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:12</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="18" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Fernando</nombre>
+    <apellido_pat>Cambrano</apellido_pat>
+    <apellido_mat>de la Cruz</apellido_mat>
+    <fecha_nacimiento>09/08/2016</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>fernando_2027@outlook.com</email>
+    <tel />
+    <cel>9931546470</cel>
+    <fecha_registro>11/02/2016 10:31:23</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:17</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="17" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Carlos Mario</nombre>
+    <apellido_pat>López</apellido_pat>
+    <apellido_mat>Guzmán</apellido_mat>
+    <fecha_nacimiento>09/02/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>kaly:968@hotmail.com</email>
+    <tel />
+    <cel>9361207867</cel>
+    <fecha_registro>11/02/2016 10:29:57</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:22</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="16" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Carlos Enrique</nombre>
+    <apellido_pat>Osorio</apellido_pat>
+    <apellido_mat>Cerino</apellido_mat>
+    <fecha_nacimiento>06/03/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>carlos_osorio</email>
+    <tel />
+    <cel>9931007292</cel>
+    <fecha_registro>11/02/2016 10:27:16</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:28</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="15" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Yajaira del Carmen</nombre>
+    <apellido_pat>Bernal</apellido_pat>
+    <apellido_mat>Ramírez</apellido_mat>
+    <fecha_nacimiento>10/10/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>yajairabernalramirez@gmai</email>
+    <tel />
+    <cel>9932790784</cel>
+    <fecha_registro>11/02/2016 10:21:19</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:32</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="14" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Esther Angélica</nombre>
+    <apellido_pat>Hernández</apellido_pat>
+    <apellido_mat>López</apellido_mat>
+    <fecha_nacimiento>30/10/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>eahl301096@outlook.com</email>
+    <tel />
+    <cel>9932055543</cel>
+    <fecha_registro>11/02/2016 09:40:29</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:37</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="13" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Omar</nombre>
+    <apellido_pat>Castellanos</apellido_pat>
+    <apellido_mat>Flores</apellido_mat>
+    <fecha_nacimiento>04/03/1996</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>omarcastflores@hotmail.co</email>
+    <tel />
+    <cel>9933228445</cel>
+    <fecha_registro>11/02/2016 09:38:39</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:44</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="12" calendario_capacitacion="52" tipo_inscripcion="1" sector_productivo="15" status="3">
+    <nombre_empresa>--</nombre_empresa>
+    <nombre>Perla Sofía</nombre>
+    <apellido_pat>Ávalos</apellido_pat>
+    <apellido_mat>Arias</apellido_mat>
+    <fecha_nacimiento>13/04/1989</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>no tiene</email>
+    <tel />
+    <cel>9361052083</cel>
+    <fecha_registro>11/02/2016 09:36:45</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:49</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="11" calendario_capacitacion="52" tipo_inscripcion="2" sector_productivo="15" status="3">
+    <nombre_empresa>--</nombre_empresa>
+    <nombre>Jesús Manuel</nombre>
+    <apellido_pat>Hernández</apellido_pat>
+    <apellido_mat>Ávalos</apellido_mat>
+    <fecha_nacimiento>12/02/1981</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>no tiene</email>
+    <tel />
+    <cel>9361052083</cel>
+    <fecha_registro>11/02/2016 09:33:18</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:51:54</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="10" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>Uttab</nombre_empresa>
+    <nombre>Irving Guadalupe</nombre>
+    <apellido_pat>Zapata</apellido_pat>
+    <apellido_mat>Morales</apellido_mat>
+    <fecha_nacimiento>06/11/1992</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>irving_zm_1992@outlook.co</email>
+    <tel />
+    <cel>9931629484</cel>
+    <fecha_registro>08/02/2016 12:31:54</fecha_registro>
+    <fecha_modificacion>08/02/2016 14:03:11</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="9" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>Ana Karen</nombre>
+    <apellido_pat>Cosme</apellido_pat>
+    <apellido_mat>Ramos</apellido_mat>
+    <fecha_nacimiento>02/09/1996</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>karencosmer@hotmail.com</email>
+    <tel />
+    <cel>9171250694</cel>
+    <fecha_registro>08/02/2016 12:26:07</fecha_registro>
+    <fecha_modificacion>11/02/2016 10:50:23</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
+  <registro id="8" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="4">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>María Fernanda|</nombre>
+    <apellido_pat>Rojas</apellido_pat>
+    <apellido_mat>Sosa</apellido_mat>
+    <fecha_nacimiento>13/02/1992</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>fer-art-09@outlook.es</email>
+    <tel />
+    <cel>9932167589</cel>
+    <fecha_registro>08/02/2016 12:10:29</fecha_registro>
+    <fecha_modificacion>08/02/2016 12:12:37</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <registro id="7" calendario_capacitacion="54" tipo_inscripcion="3" sector_productivo="28" status="5">
+    <nombre_empresa>uttab</nombre_empresa>
+    <nombre>Alberto</nombre>
+    <apellido_pat>de la Cruz</apellido_pat>
+    <apellido_mat>cruz</apellido_mat>
+    <fecha_nacimiento>05/01/2016</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>alberto19631206@uttab.edu</email>
+    <tel>9932412468</tel>
+    <cel>9932412468</cel>
+    <fecha_registro>27/01/2016 13:12:28</fecha_registro>
+    <fecha_modificacion>08/02/2016 14:02:50</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <registro id="6" calendario_capacitacion="26" tipo_inscripcion="2" sector_productivo="13" status="5">
+    <nombre_empresa>Uttab</nombre_empresa>
+    <nombre>Ana Laura</nombre>
+    <apellido_pat>Jiménez</apellido_pat>
+    <apellido_mat>Lara</apellido_mat>
+    <fecha_nacimiento>25/06/1979</fecha_nacimiento>
+    <sexo>F</sexo>
+    <email>ana_jimla@live.com.mx</email>
+    <tel />
+    <cel>9931675211</cel>
+    <fecha_registro>18/11/2015 16:36:51</fecha_registro>
+    <fecha_modificacion>19/01/2016 15:29:19</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <registro id="5" calendario_capacitacion="26" tipo_inscripcion="1" sector_productivo="11" status="5">
+    <nombre_empresa>PEP CASTAÑO</nombre_empresa>
+    <nombre>HIGINIO</nombre>
+    <apellido_pat>MARTINEZ</apellido_pat>
+    <apellido_mat>PALACIOS</apellido_mat>
+    <fecha_nacimiento>16/09/1951</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>hmtzpalacios@hotmail.com</email>
+    <tel />
+    <cel>9931896449</cel>
+    <fecha_registro>13/11/2015 12:11:33</fecha_registro>
+    <fecha_modificacion>27/01/2016 11:54:07</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <registro id="4" calendario_capacitacion="29" tipo_inscripcion="1" sector_productivo="11" status="5">
+    <nombre_empresa>petrofac</nombre_empresa>
+    <nombre>Emilio</nombre>
+    <apellido_pat>muñoz</apellido_pat>
+    <apellido_mat>vidal</apellido_mat>
+    <fecha_nacimiento>03/05/1974</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>emilio_mv@hotmail.com</email>
+    <tel />
+    <cel>9932311445</cel>
+    <fecha_registro>09/11/2015 15:52:39</fecha_registro>
+    <fecha_modificacion>08/02/2016 14:02:55</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <registro id="3" calendario_capacitacion="26" tipo_inscripcion="3" sector_productivo="8" status="5">
+    <nombre_empresa>UTTAB</nombre_empresa>
+    <nombre>RUBEN</nombre>
+    <apellido_pat>VERA</apellido_pat>
+    <apellido_mat>LOPEZ</apellido_mat>
+    <fecha_nacimiento>18/04/1990</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>rubend180490@gmail.com</email>
+    <tel>9932636333</tel>
+    <cel>9932636333</cel>
+    <fecha_registro>08/11/2015 13:04:26</fecha_registro>
+    <fecha_modificacion>08/02/2016 14:03:03</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <registro id="2" calendario_capacitacion="24" tipo_inscripcion="1" sector_productivo="27" status="5">
+    <nombre_empresa>Escuela Nacional de Agricultura</nombre_empresa>
+    <nombre>Osmar</nombre>
+    <apellido_pat>Escobar</apellido_pat>
+    <apellido_mat>Burgete</apellido_mat>
+    <fecha_nacimiento>16/10/1939</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>osmar_octavio@hotmail.com</email>
+    <tel />
+    <cel>9321058410</cel>
+    <fecha_registro>12/10/2015 15:14:04</fecha_registro>
+    <fecha_modificacion>08/02/2016 14:03:08</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <registro id="1" calendario_capacitacion="28" tipo_inscripcion="3" sector_productivo="23" status="5">
+    <nombre_empresa>uttab</nombre_empresa>
+    <nombre>gsdgsd</nombre>
+    <apellido_pat>fsdfs</apellido_pat>
+    <apellido_mat>asas</apellido_mat>
+    <fecha_nacimiento>10/10/1991</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>alberto19631206@gmail.com</email>
+    <tel />
+    <cel>9932412468</cel>
+    <fecha_registro>08/10/2015 17:37:15</fecha_registro>
+    <fecha_modificacion>08/02/2016 14:03:48</fecha_modificacion>
+    <activo>false</activo>
+  </registro>
+  <!--<registro id="0" calendario_capacitacion="0" tipo_inscripcion="0" sector_productivo="0" status="0">
+        <nombre_compania></nombre_compania>        
+        <nombre></nombre>
+        <apellido_pat></apellido_pat>
+        <apellido_mat></apellido_mat>
+        <fecha_nacimiento></fecha_nacimiento>
+        <sexo></sexo>
+        <email></email>
+        <tel></tel>
+        <cel></cel>
+        <fecha_registro></fecha_registro>
+        <fecha_modificacion></fecha_modificacion>
+        <activo>true</activo>
+    </registro>-->
+</registros>

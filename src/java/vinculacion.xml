@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="vinculacion" namespace="/vinculacion" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">servicios_especializados</result>
+        </action>
+        <action name="case">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/case</param>
+            </result>
+        </action>
+        <action name="capacitacion_profesional">
+            <result>/WEB-INF/jsp/vinculacion/capacitacion_profesional.jsp</result>
+        </action>
+        <action name="cecap">
+            <result>/WEB-INF/jsp/vinculacion/cecap.jsp</result>
+        </action>
+        <action name="cappi">
+            <result>/WEB-INF/jsp/vinculacion/cappi.jsp</result>
+        </action>
+        <action name="centro_incubacion">
+            <result>/WEB-INF/jsp/vinculacion/centro_incubacion2.jsp</result>
+        </action>
+        <action name="proyectos_incubados">
+            <result>/WEB-INF/jsp/vinculacion/proyectos_incubados2.jsp</result>
+        </action>
+        <action name="diseno_imagen">
+            <result>/WEB-INF/jsp/vinculacion/diseno.jsp</result>
+        </action>
+        <action name="centro_gastronomico">
+            <!--<result>/WEB-INF/jsp/vinculacion/kukuuche.jsp</result>-->
+            <result name="success" type="redirectAction">servicios_especializados</result>
+        </action>
+        <action name="produccion_audiovisual">
+            <result>/WEB-INF/jsp/vinculacion/produccion_audiovisual2.jsp</result>
+        </action>
+        <action name="servicios_tecnologicos">
+            <result>/WEB-INF/jsp/vinculacion/servicios_tecnologicos2.jsp</result>
+        </action>
+        <action name="servicios_especializados">
+            <result>/WEB-INF/jsp/vinculacion/servicios_especializados.jsp</result>
+        </action>
+        <action name="educacion_continua">
+            <result>/WEB-INF/jsp/vinculacion/educacion_continua2.jsp</result>
+        </action>
+    </package>
+</struts>

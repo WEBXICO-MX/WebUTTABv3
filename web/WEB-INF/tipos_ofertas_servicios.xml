@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tipos_ofertas_servicios>
+    <tipo_oferta_servicio id="1">
+        <nombre>Educación continua</nombre>
+        <activo>true</activo>
+    </tipo_oferta_servicio>
+    <tipo_oferta_servicio id="2">
+        <nombre>Centro de idiomas</nombre>
+        <activo>true</activo>
+    </tipo_oferta_servicio>
+</tipos_ofertas_servicios>

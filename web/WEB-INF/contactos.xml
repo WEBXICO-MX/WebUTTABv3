@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contactos>
+    <contacto id="1">
+        <nombre>LLamar</nombre>
+        <contenido><![CDATA[ <div class="col-xs-6 col-sm-4 col-md-3">
+                    <p><a href="javascript:void(0);" onclick="window.open('tel:+52 (993) 3-58-22-22', '_system');"><img src="http://www.uttab.edu.mx/img/movil/android/contacto/Llamar.png" alt="Lllamar a la UTTAB" class="img-responsive"/></a></p>
+                    <p class="visible-xs"><a href="javascript:void(0);" onclick="window.open('tel:+52 (993) 3-58-22-22', '_system');">+52 (993) 3-58-22-22</a></p>
+                    <p class="visible-sm visible-md visible-lg" style="text-align:center;"><a href="javascript:void(0);" onclick="window.open('tel:+52 (993) 3-58-22-22', '_system');">+52 (993) 3-58-22-22</a></p>
+                </div> ]]></contenido>
+        <activo>true</activo>
+    </contacto>
+    <contacto id="2">
+        <nombre>Sitio web</nombre>
+        <contenido><![CDATA[ <div class="col-xs-6 col-sm-4 col-md-3">
+                    <p><a href="javascript:void(0);" onclick="window.open('http://www.uttab.edu.mx', '_system');"><img src="http://www.uttab.edu.mx/img/movil/android/contacto/website.png" alt="Visita web site de la UTTAB" class="img-responsive"/></a></p>
+                    <p class="visible-xs"><a href="javascript:void(0);" onclick="window.open('http://www.uttab.edu.mx', '_system');">www.uttab.edu.mx</a></p>
+                    <p class="visible-sm visible-md visible-lg"  style="text-align:center;"><a href="javascript:void(0);" onclick="window.open('http://www.uttab.edu.mx', '_system');">www.uttab.edu.mx</a></p>
+                </div>
+                <div class="clearfix visible-xs"></div> ]]>
+        </contenido>
+        <activo>true</activo>
+    </contacto>
+    <contacto id="3">
+        <nombre>Email</nombre>
+        <contenido><![CDATA[ 
+            <div class="col-xs-6 col-sm-4 col-md-3">
+                    <p><a href="javascript:void(0);" onclick="window.open('mailto:promocionuniversitaria@uttab.edu.mx', '_system');"><img src="http://www.uttab.edu.mx/img/movil/android/contacto/email.png" alt="Enviar email a la UTTAB" class="img-responsive"/></a></p>
+                    <p class="visible-xs"><a href="javascript:void(0);" onclick="window.open('mailto:promocionuniversitaria@uttab.edu.mx', '_system');">promocionuniversitaria @uttab.edu.mx</a></p>
+                    <p class="visible-sm visible-md visible-lg" style="text-align:center;"><a href="javascript:void(0);" onclick="window.open('mailto:promocionuniversitaria@uttab.edu.mx', '_system');">promocionuniversitaria@uttab.edu.mx</a></p>
+                </div>
+                <div class="clearfix visible-sm"></div> ]]></contenido>
+        <activo>true</activo>
+    </contacto>
+    <contacto id="4">
+        <nombre>Ubicación</nombre>
+        <contenido><![CDATA[ <div class="col-xs-6 col-sm-4 col-md-3">
+                    <p><a href="javascript:void(0);" onclick="window.open('geo:17.88458917080483, -452.92301553902627', '_system');"><img src="http://www.uttab.edu.mx/img/movil/android/contacto/ubicacion.png" alt="Visita web site de la UTTAB" class="img-responsive" style="cursor: pointer;"/></a></p>
+                    <p style="text-align:justify;">Carretera Villahermosa-Teapa km. 14.6 S/N, Centro, Tabasco</p>
+                </div>
+                <div class="clearfix visible-xs"></div>
+                <div class="clearfix visible-md"></div> ]]></contenido>
+        <activo>true</activo>
+    </contacto>
+    <contacto id="5">
+        <nombre>Facebook</nombre>
+        <contenido><![CDATA[                    <div class="col-xs-6 col-sm-4 col-md-3">
+                       <p><a href="javascript:void(0);" onclick="window.open('https://www.facebook.com/UTTAB', '_system');"><img src="http://www.uttab.edu.mx/img/movil/android/contacto/facebook.png" alt="Facebook UTTAB" class="img-responsive"/></a></p>
+                       <p class="visible-xs"><a href="javascript:void(0);" onclick="window.open('https://www.facebook.com/UTTAB', '_system');">/UTTAB</a></p>
+                       <p class="visible-sm visible-md visible-lg"  style="text-align:center;"><a href="javascript:void(0);" onclick="window.open('https://www.facebook.com/UTTAB', '_system');">/UTTAB</a></p>
+                   </div> ]]></contenido>
+        <activo>true</activo>
+    </contacto>
+    <contacto id="6">
+        <nombre>Twitter</nombre>
+        <contenido><![CDATA[                    <div class="col-xs-6 col-sm-4 col-md-3">
+                       <p><a href="javascript:void(0);" onclick="window.open('https://twitter.com/UTTAB', '_system');"><img src="http://www.uttab.edu.mx/img/movil/android/contacto/twitter.png" alt="Twitter UTTAB" class="img-responsive"/></a></p>
+                       <p class="visible-xs"><a href="javascript:void(0);" onclick="window.open('https://twitter.com/UTTAB', '_system');">@UTTAB</a></p>
+                       <p class="visible-sm visible-md visible-lg"  style="text-align:center;"><a href="javascript:void(0);" onclick="window.open('https://twitter.com/UTTAB', '_system');">@UTTAB</a></p>
+                   </div>
+                   <div class="clearfix visible-xs"></div>
+                   <div class="clearfix visible-sm"></div> ]]></contenido>
+        <activo>true</activo>
+    </contacto>
+    <contacto id="7">
+        <nombre>Youtube</nombre>
+        <contenido><![CDATA[                    <div class="col-xs-6 col-sm-4 col-md-3">
+                       <p><a href="javascript:void(0);" onclick="window.open('https://www.youtube.com/user/uttabasco', '_system');"><img src="http://www.uttab.edu.mx/img/movil/android/contacto/youtube.png" alt="Twitter UTTAB" class="img-responsive"/></a></p>
+                       <p class="visible-xs"><a href="javascript:void(0);" onclick="window.open('https://www.youtube.com/user/uttabasco', '_system');">/UTTABASCO</a></p>
+                       <p class="visible-sm visible-md visible-lg"  style="text-align:center;"><a href="javascript:void(0);" onclick="window.open('https://www.youtube.com/user/uttabasco', '_system');">/UTTABASCO</a></p>
+                   </div> ]]></contenido>
+        <activo>true</activo>
+    </contacto>
+</contactos>

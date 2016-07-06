@@ -1,0 +1,28 @@
+@import "normalize.min.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+@import url('includeMenu.min.css');
+@import url('includePie.min.css');
+@import "inclusion.min.css";
+
+* { margin: 0;padding: 0;}
+img { border: 0;}.corte {clear: both;}
+.negritas { font-weight: bold;}
+.negritasContacto { font-weight: bold;color:#F66A46;}
+.contenedor { margin: 44px auto 0 auto; width: 946px; height: auto;}
+#contenedor2 { margin:44px auto 0 auto; width: 1002px; height: auto;}
+
+/*Programa Institucional de Desarrollo*/
+
+.area_titulo_pide{ width:941px; height: 36px; background-image: url(../img/transparencia/pide/area_titulo_pide.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_pide h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_pide {width: 946px; height: auto;color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.875em;text-align: justify;}
+
+.area_info_pide a {color: #5B5C5C; text-decoration: none;}
+.area_info_pide a:link {color: #5B5C5C; }      /* unvisited link */
+.area_info_pide a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_info_pide a:hover {color: #000000;font-weight: bold;}  /* mouse over link */
+.area_info_pide a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+.area_info_pide ul li{ list-style-position: inside;}
+
+/*Programa Institucional de Desarrollo*/

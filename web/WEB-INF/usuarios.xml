@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario id="5">
+        <nombre>Juan Alberto Camacho Ochoa</nombre>
+        <login>jaco</login>
+        <password>cadavale</password>
+        <activo>true</activo>
+    </usuario>
+    <usuario id="4">
+        <nombre>Sheila Guadalupe Domínguez Jiménez</nombre>
+        <login>421110291</login>
+        <password>SHEI3004</password>
+        <activo>false</activo>
+    </usuario>
+    <usuario id="3">
+        <nombre>Alfredo	Ovando	Arévalo</nombre>
+        <login>iscalfredo</login>
+        <password>isc9811977</password>
+        <activo>true</activo>
+    </usuario>
+    <usuario id="2">
+        <nombre>Jorge José Jiménez Del Cueto</nombre>
+        <login>cuetox</login>
+        <password>51689403l.b3114g10</password>
+        <activo>true</activo>
+    </usuario> 
+    <usuario id="1">
+        <nombre>Roberto Eder Weiss Juárez</nombre>
+        <login>eder.weiss87</login>
+        <password>M@rvel87.2016</password>
+        <activo>true</activo>
+    </usuario> 
+</usuarios>

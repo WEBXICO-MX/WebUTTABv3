@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ofertas_empleos>
+    <!-- División de Tecnología de Información y Comunicaciones -->
+    <oferta_empleo id="49">
+        <nombre_empresa>Geoelemento SA de CV</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/tic.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Persona concapacidad para resolver los incidentes que se presenten con el manejo de computadoras.</requisitos>
+        <puesto>Soporte Técnico</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="43">
+        <nombre_empresa>Sytec</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/tic.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Programador analista con experiencia en leguaje de programación, cliente servidor VB.NET y base de datos SQL Server</requisitos>
+        <puesto>Programador</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="42">
+        <nombre_empresa>Telecomm Atlas</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/tic.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Horario de 8:00 a 17:00 horas</requisitos>
+        <puesto>Técnico en Redes y Telecomunicaciones</puesto>
+        <vacantes>30</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="39">
+        <nombre_empresa>Proteak</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/tic.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Preferente que viva en Cárdenas o Huimanguillo, tener concluido su programa de educativo, con trámite en proceso de titulación</requisitos>
+        <puesto>Procesos de Producción</puesto>
+        <vacantes>10</vacantes>
+        <fecha_publicacion>hasta el 07 de noviembre</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="23">
+        <nombre_empresa>Reeduca</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/tic.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario, capacidad de análisis, disponibilidad para viajar nacional e internacional, conocimientos en Lab VIEW, conocimiento en National Instruments Mecanic, idioma inglés-</requisitos>
+        <puesto>Ingeniero Mecatrónico</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="22">
+        <nombre_empresa>Insite</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/tic.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Redes, cableado estructurado</requisitos>
+        <puesto>Técnico de Operaciones</puesto>
+        <vacantes>3</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="21">
+        <nombre_empresa>Itsmosoft Consulting S.A. de C.V.</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/tic.png</img_empresa>
+        <descripcion_oferta>Encargado del desarrollo de aplicaciones en lo que respecta a su análisis y diseño y obtención de requerimientos, así como de analizar las posibles utilidades y modificaciones necesarias de los sistemas informáticos.</descripcion_oferta>
+        <requisitos>Conocimiento de notación UML, Metodología RUP, Capacidad de análisis y diseño de propuestas de desarrollo. Contar con equipo de computo indispensable para la capacitación.</requisitos>
+        <puesto>Analista de sistemas</puesto>
+        <vacantes>10</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <!-- División de Turismo y Gastronomía -->
+    <oferta_empleo id="46">
+        <nombre_empresa>Maiña</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario</requisitos>
+        <puesto>Mesero</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="45">
+        <nombre_empresa>Maiña</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario</requisitos>
+        <puesto>Ayudante de cocina</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="44">
+        <nombre_empresa>Maiña</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario</requisitos>
+        <puesto>Barman</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="41">
+        <nombre_empresa>Ven Ven ven, se come sabroso</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Trabajo en equipo, responsable, proactivo, disponibilidad de horario, actitud de servicio</requisitos>
+        <puesto>Jefe de Piso</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="40">
+        <nombre_empresa>Ven Ven ven, se come sabroso</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Trabajo en equipo, responsable, proactivo, disponibilidad de horario, actitud de servicio, preferente sexo masculino.</requisitos>
+        <puesto>Jefe de Cocina</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="37">
+        <nombre_empresa>Tierra Crilla</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Trabajo en equipo, responsable, proactivo, disponibilidad de horario, actitud de servicio</requisitos>
+        <puesto>Atención al cliente </puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="36">
+        <nombre_empresa>Tierra Crilla</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Trabajo en equipo, responsable, proactivo, disponibilidad de horario, actitud de servicio</requisitos>
+        <puesto>Cocinero</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="27">
+        <nombre_empresa>Hotel Maya</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos></requisitos>
+        <puesto>Cajero de restaurante y bar</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="20">
+        <nombre_empresa>Albaca</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Proactivo, dinámico, facilidad de palabra</requisitos>
+        <puesto>Agentes de Ventas</puesto>
+        <vacantes>3</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="19">
+        <nombre_empresa>Hotel Misión Express</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Trabajo en equipo, atención al cliente</requisitos>
+        <puesto>Recepcionista</puesto>
+        <vacantes>3</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="18">
+        <nombre_empresa>Confexsa</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Conocimiento en operaciones en comedores industriales</requisitos>
+        <puesto>Chef Administrativo</puesto>
+        <vacantes>2</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="17">
+        <nombre_empresa>Confexsa</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Conocimiento en operaciones en comedores industriales</requisitos>
+        <puesto>Cocinero</puesto>
+        <vacantes>4</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="16">
+        <nombre_empresa>Confexsa</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/turismoygas.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Conocimiento en operaciones en comedores industriales</requisitos>
+        <puesto>Auxiliar de Cocina</puesto>
+        <vacantes>2</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <!-- División de Química -->
+    <oferta_empleo id="15">
+        <nombre_empresa>Reeduca</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/quimica.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario, capacidad de análisis, disponibilidad para viajar nacional e internacional, habilidad de diseñar estrategias para el aprovechamiento de energías renovables, diseño de proyectos para las empresas para sustentabilidad.</requisitos>
+        <puesto>Ingeniero en Energías Renovables</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="14">
+        <nombre_empresa>Halliburton</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/quimica.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Ingeniero químico, mécanico, industrial, con experiencia en HSE, 3 años de experiencia en seguridad industrial, experiencia en campo y en inspección de equipos de perforación</requisitos>
+        <puesto>HSE Seguridad Industrial</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="13">
+        <nombre_empresa>Halliburton</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/quimica.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Ingeniero químico, mécanico, industrial, con experiencia en HSE, 3 años de experiencia en seguridad ambiental, experiencia en campo y en inspección de equipos de perforación</requisitos>
+        <puesto>HSE Ambiental</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="12">
+        <nombre_empresa>Mecánica Tek</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/quimica.png</img_empresa>
+        <descripcion_oferta>Ingeniero Ambiental, Sistemas de Gestión Ambiental, certificaciín como Industria Limpia, Norma 14001, haber sido instructor, disponibilidad de horario, disponiblidad para viajar</descripcion_oferta>
+        <requisitos>Generación y aplicación de planes, programas, proyectos ambientales, mantener el cumplimiento ambiental en instalaciones, auditorias de cumplimiento ambiental, reportes semanaes, mensuales y anuales</requisitos>
+        <puesto>Ingeniero Ambiental</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="11">
+        <nombre_empresa>ANAMSUR</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/quimica.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos></requisitos>
+        <puesto>Analista para área físico química y Analista para área microbiología</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <!-- División de Procesos Industriales -->
+    <oferta_empleo id="47">
+        <nombre_empresa>Maiña</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario</requisitos>
+        <puesto>Mantenimiento</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="38">
+        <nombre_empresa>Proteak</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Preferente que viva en Cárdenas o Huimanguillo, tener concluido su programa de educativo, con trámite en proceso de titulación</requisitos>
+        <puesto>Procesos de Producción</puesto>
+        <vacantes>10</vacantes>
+        <fecha_publicacion>hasta el 07 de noviembre</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="10" >
+        <nombre_empresa>Reeduca</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario, capacidad de análisis, disponibilidad para viajar nacional e internacional, conocimientos en Lab VIEW, conocimiento en National Instruments Mecanic, idioma inglés-</requisitos>
+        <puesto>Ingeniero Mecatrónico</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="9" >
+        <nombre_empresa>Reeduca</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario, capacidad de análisis, disponibilidad para viajar nacional e internacional, habilidad de diseñar estrategias para el aprovechamiento de energías renovables, diseño de proyectos para las empresas para sustentabilidad.</requisitos>
+        <puesto>Ingeniero en Energías Renovables</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="8" >
+        <nombre_empresa>Halliburton</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Ingeniero químico, mécanico, industrial, con experiencia en HSE, 3 años de experiencia en seguridad industrial, experiencia en campo y en inspección de equipos de perforación</requisitos>
+        <puesto>HSE Seguridad Industrial</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="7" >
+        <nombre_empresa>Servicios y Proyectos Integrados SELIK</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Responsable, experiencia en proceso de cocción, envasado, diseñar y desarrollar un producto, formular pryecto, planear producción, proyección de ventas, administración de recursos.</requisitos>
+        <puesto>Ingeniero en Alimentos</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="6" >
+        <nombre_empresa>ANAMSUR</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos></requisitos>
+        <puesto>Analista para área físico química y Analista para área microbiología</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="5" >
+        <nombre_empresa>Caffenio</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/procesos.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Licencia para conducir, capacidad para tomar desiciones, cumplir objetivos, administar tiempo</requisitos>
+        <puesto>Asesor de Servicios</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <!-- División de Administración y Gestión de Proyectos -->
+    <oferta_empleo id="48">
+        <nombre_empresa>Maiña</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario</requisitos>
+        <puesto>Administración de marketing</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="35">
+        <nombre_empresa>Tierra Crilla</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Trabajo en equipo, responsable, proactivo, disponibilidad de horario, actitud de servicio</requisitos>
+        <puesto>Auxiliar Administrativo</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="34">
+        <nombre_empresa>Banamex</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Experiencia en ventas, Facilidad de palabra,  dinámico, disponibilidad de horario.</requisitos>
+        <puesto>Ejecutivo de ventas Personal sucursales Cd. Pemex y Macuspana.</puesto>
+        <vacantes>2</vacantes>
+        <fecha_publicacion>hasta el 02 de noviembre</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="33">
+        <nombre_empresa>Banamex</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Experiencia en ventas, Facilidad de palabra,  dinámico</requisitos>
+        <puesto>Ejecutivo de ventas Personal</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>hasta el 30 de octubreo</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="32">
+        <nombre_empresa>Banamex</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Experiencia en ventas, Facilidad de palabra,  dinámico</requisitos>
+        <puesto>Ejecutivo de negocios PyMe</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>hasta el 30 de octubreo</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="31">
+        <nombre_empresa>Logística Integral del Sur</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos></requisitos>
+        <puesto>Auxiliar Administrativo</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="30">
+        <nombre_empresa>Impulsa Asesores</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Experiencia no necesaria, facilidad de palabra, extroversión, gusto por el área de atención a clientes y ventas, preferible cuente con licencia de manejo.</requisitos>
+        <puesto>Ejecutiva Comercial</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>30 días</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="29">
+        <nombre_empresa>Impulsa Asesores</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Experiencia no necesaria, facilidad de palabra, extroversión, gusto por el área de atención a clientes.</requisitos>
+        <puesto>Ejecutiva de Cuenta Fianzas</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>30 días</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="28">
+        <nombre_empresa>Impulsa Asesores</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Estudiantes, con deseos de obtener experiencia profesional en su área.</requisitos>
+        <puesto>Becario Administrativo</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>30 días</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="26">
+        <nombre_empresa>MEMBRANAS ECOLOGICAS DE MEXICO, SA DE CV</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad de horario, manejo de office</requisitos>
+        <puesto>Auxilar Administrativo</puesto>
+        <vacantes></vacantes>
+        <fecha_publicacion>30 días</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="25">
+        <nombre_empresa>FEMSA</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta>Capturar datos; abrir y cerrar ordenes de trabajo; seguimiento de orden de trabajo, status de ordenes; actualización de base de datos y archivo</descripcion_oferta>
+        <requisitos>Carrera técnica, experiencia mínima de 6 meses</requisitos>
+        <puesto>Capturista</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="24">
+        <nombre_empresa>Coppel </nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Disponibilidad para viajar, disponibilidad de horario, manejo de office, mayor de 24 años.</requisitos>
+        <puesto>Auditor</puesto>
+        <vacantes>5</vacantes>
+        <fecha_publicacion>30 de septiembre 2015</fecha_publicacion>
+        <activo>false</activo>
+    </oferta_empleo>
+    <oferta_empleo id="4" >
+        <nombre_empresa>ANAMSUR</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos></requisitos>
+        <puesto>Jefe de ventas compras</puesto>
+        <vacantes>1</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="3" >
+        <nombre_empresa>Albaca</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Proactivo, dinámico, facilidad de palabra</requisitos>
+        <puesto>Agentes de Ventas</puesto>
+        <vacantes>3</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="2" >
+        <nombre_empresa>Albaca</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos>Manejo de paquetería office, redacción y captura</requisitos>
+        <puesto>Auxilar Administrativo</puesto>
+        <vacantes>2</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+    <oferta_empleo id="1" >
+        <nombre_empresa>Insite</nombre_empresa>
+        <img_empresa>img/movil/android/bolsa_trabajo/ayep.png</img_empresa>
+        <descripcion_oferta></descripcion_oferta>
+        <requisitos></requisitos>
+        <puesto>Auxilar Administrativo</puesto>
+        <vacantes>2</vacantes>
+        <fecha_publicacion>No esta delimitado</fecha_publicacion>
+        <activo>true</activo>
+    </oferta_empleo>
+</ofertas_empleos>

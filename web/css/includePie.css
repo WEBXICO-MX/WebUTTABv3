@@ -1,0 +1,50 @@
+#div_switch { width: 500px;}    
+/*Apartado para el diseño de las alertas*/
+.custom
+{
+    padding: 0.5em 0.8em 0.8em 0.5em; 
+}
+.entrar
+{
+    background: #E14C12;
+    color:#FFFFFF; 
+    font-size:10px;
+    font-family: 'Open Sans' !important;
+    font-weight:bolder;
+    border: 2px solid #FFFFFF; 
+} 
+/*Fin alertas*/
+.pie { width: 1002px; height:189px; margin:33px auto 0 auto; background-image: url(../img/cambios/Footer%20Background.png); background-repeat:no-repeat; border:1px solid transparent; padding-top: 6px;}
+
+.pie a{ text-decoration: none;}
+.pie a:link {color: #FFFFFF;}      /* unvisited link */
+.pie a:visited {color: #FFFFFF;}  /* visited link */
+.pie a:hover {color: #FFFFFF;}  /* mouse over link */
+.pie a:active {color: #FFFFFF;}  /* selected link */
+
+#derechos_reservados a{ text-decoration: none;}
+#derechos_reservados a:link {color: #dddada;}      /* unvisited link */
+#derechos_reservados a:visited {color: #dddada;}  /* visited link */
+#derechos_reservados a:hover {color: #dddada;}  /* mouse over link */
+#derechos_reservados a:active {color: #dddada;}  /* selected link */
+
+.logos { width: 1002px; height:auto; margin:0 auto 0 auto; background-color: #EAEAEA; } 
+.columnasPie{ float: left; width: 15.62em;height: auto; position: relative;top:auto; text-align: justify; margin-top:5px;}
+#pie_escudo_logo_gobierno { width: auto; height:auto; float:left; margin: 40px 10px 0 10px;}
+#logoEscudo { width: 35%; height: 99px;padding-top: 55px; float:left; margin-left: 20px; }
+#logoTabasco { width: 45%; height: 79px;padding-top: 75px; float:left; }
+#pie_followme_facebook { width: 254px; height: 152px; float:left;}
+#Facebook_UTTAB { vertical-align: middle;color: #FFFFFF ; font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 0.95em;  margin-bottom:10px;}
+#pie_contacto_uttab {width: 235px; height: 152px; float:left;}
+#p1 {vertical-align: middle;color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 0.95em;  margin-bottom:15px;}
+#p2 {color: #FFFFFF ; font-family: 'Open Sans' !important;font-style: normal;font-weight: 600;font-size: 0.78em; }
+#p3 {color: #FFFFFF ; font-family: 'Open Sans' !important;font-style: normal;font-weight: 600;font-size: 0.78em; }
+#p4 {color: #FFFFFF ; font-family: 'Open Sans' !important;font-style: normal;font-weight: 600;font-size: 0.78em; }
+#pie_envianos_email { width: 240px; height: 152px; float:right;}
+#p5 {color: #FFFFFF ; font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 0.95em; margin-bottom:15px;}
+#p6 {text-align: left;color: #FFFFFF ; font-family: 'Open Sans' !important;font-style: normal;font-weight: 600;font-size: 0.78em; margin-bottom:5px;}
+#div1 {width:200px; height:34px; border:3px solid #E8EBEC; text-align: left; padding: 0; background-color: #e8ebec;}
+#txtEmail { width: 130px;height:25px; margin: 0; font-family: 'Open Sans' !important;font-style: normal;font-weight: 600;font-size: 0.78em; color: #5b5c5c}
+#btnEnviar {width: 47px;height:25px; margin: 0; background-color: #E14C12; color: #FFFFFF; border: 0; font-size: 12px; font-family: 'Open Sans' !important;font-style: normal;font-weight: 600;}
+#pie_derechos_reservados {width:964px; height:29px; float:right;padding-top:10px; padding-left:37px;}
+#derechos_reservados {color: #dddada ; font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 0.95em;}

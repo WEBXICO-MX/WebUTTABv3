@@ -1,0 +1,257 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!-- En el namespace "/SistemasAdmin/gaceta" se declara un interceptor llamado "AutenticacionInterceptor"
+         y un global-results para cuando no haya una sesión iniciada. Los namespaces "/SistemasAdmin/actividades","/SistemasAdmin/eventos",
+         "/SistemasAdmin/avisos" y "/SistemasAdmin/usuarios" usando la propiedad "extends" pueden hacer uso del interceptor y el global-results del
+         namespaces declarados en "/SistemasAdmin/gaceta".
+    -->
+    <package name="adminGacetas" namespace="/SistemasAdmin/gaceta" extends="struts-default">
+        <interceptors>
+            <interceptor class="mx.edu.uttab.interceptor.AutenticacionInterceptor" name="loginInterceptor"></interceptor>
+            <interceptor-stack name="loginStack">
+                <interceptor-ref name="loginInterceptor" />
+                <interceptor-ref name="defaultStack" />
+            </interceptor-stack>
+        </interceptors>
+        <global-results>
+            <result name="login" type="redirectAction">
+                <param name="actionName">frm_login</param>
+                <param name="namespace">/SistemasAdmin/usuarios</param>
+            </result>
+        </global-results>
+        <action name="input" class="mx.edu.uttab.action.GacetaAction" method="input">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+        </action>
+        <action name="save" class="mx.edu.uttab.action.GacetaAction" method="saveOrUpdate">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+            <result name="input">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+        </action>
+        <action name="edit" class="mx.edu.uttab.action.GacetaAction" method="edit">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+        </action>
+        <action name="delete" class="mx.edu.uttab.action.GacetaAction" method="delete">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/gaceta/input.jsp</result>
+        </action>
+        <action name="form_upload_img" class="mx.edu.uttab.action.GacetaAction" method="form_upload_img">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/gaceta/uploadIMG.jsp</result>
+        </action>
+        <action name="upload_img" class="mx.edu.uttab.action.GacetaAction" method="uploadIMG">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">image/png,image/jpeg,image/pjpeg</param>
+                <param name="maximumSize">2097152</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/gaceta/uploadIMG.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/gaceta/uploadIMG.jsp</result>
+        </action>
+        <action name="form_upload_pdf" class="mx.edu.uttab.action.GacetaAction" method="form_upload_pdf">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/gaceta/uploadPDF.jsp</result>
+        </action>
+        <action name="upload_pdf" class="mx.edu.uttab.action.GacetaAction" method="uploadPDF">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">application/pdf</param>
+                <param name="maximumSize">5065346</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/gaceta/uploadPDF.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/gaceta/uploadPDF.jsp</result>
+        </action>
+    </package>
+    <package name="adminActividadesUniversitaria" namespace="/SistemasAdmin/actividades" extends="struts-default,adminGacetas">
+        <action name="input" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="input">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+        </action>
+        <action name="save" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="saveOrUpdate">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+            <result name="input">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+        </action>
+        <action name="edit" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="edit">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+        </action>
+        <action name="delete" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="delete">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/actividad_universitaria/input.jsp</result>
+        </action>
+        <action name="form_upload_img" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="form_upload_img">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/actividad_universitaria/uploadIMG.jsp</result>
+        </action>
+        <action name="upload_img" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="uploadIMG">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">image/png,image/jpeg,image/pjpeg</param>
+                <param name="maximumSize">2097152</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/actividad_universitaria/uploadIMG.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/actividad_universitaria/uploadIMG.jsp</result>
+        </action>
+        <action name="form_upload_pdf" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="form_upload_pdf">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/actividad_universitaria/uploadPDF.jsp</result>
+        </action>
+        <action name="upload_pdf" class="mx.edu.uttab.action.ActividadUniversitariaAction" method="uploadPDF">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">application/pdf</param>
+                <param name="maximumSize">5065346</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/actividad_universitaria/uploadPDF.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/actividad_universitaria/uploadPDF.jsp</result>
+        </action>
+    </package>
+    <package name="adminEventos" namespace="/SistemasAdmin/eventos" extends="struts-default,adminGacetas">
+        <action name="input" class="mx.edu.uttab.action.EventoAction" method="input">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/evento/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/evento/input.jsp</result>
+        </action>
+        <action name="save" class="mx.edu.uttab.action.EventoAction" method="saveOrUpdate">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/evento/input.jsp</result>
+            <result name="input">/WEB-INF/jsp/admin/evento/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/evento/input.jsp</result>
+        </action>
+        <action name="edit" class="mx.edu.uttab.action.EventoAction" method="edit">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/evento/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/evento/input.jsp</result>
+        </action>
+        <action name="delete" class="mx.edu.uttab.action.EventoAction" method="delete">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/evento/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/evento/input.jsp</result>
+        </action>
+        <action name="form_upload_img" class="mx.edu.uttab.action.EventoAction" method="form_upload_img">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/evento/uploadIMG.jsp</result>
+        </action>
+        <action name="upload_img" class="mx.edu.uttab.action.EventoAction" method="uploadIMG">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">image/png,image/jpeg,image/pjpeg</param>
+                <param name="maximumSize">2097152</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/evento/uploadIMG.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/evento/uploadIMG.jsp</result>
+        </action>
+        <action name="form_upload_pdf" class="mx.edu.uttab.action.EventoAction" method="form_upload_pdf">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/evento/uploadPDF.jsp</result>
+        </action>
+        <action name="upload_pdf" class="mx.edu.uttab.action.EventoAction" method="uploadPDF">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">application/pdf</param>
+                <param name="maximumSize">5065346</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/evento/uploadPDF.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/evento/uploadPDF.jsp</result>
+        </action>
+    </package>
+    <package name="adminAvisos" namespace="/SistemasAdmin/avisos" extends="struts-default,adminGacetas">
+        <action name="input" class="mx.edu.uttab.action.AvisoAction" method="input">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+        </action>
+        <action name="save" class="mx.edu.uttab.action.AvisoAction" method="saveOrUpdate">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+            <result name="input">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+        </action>
+        <action name="edit" class="mx.edu.uttab.action.AvisoAction" method="edit">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+        </action>
+        <action name="delete" class="mx.edu.uttab.action.AvisoAction" method="delete">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/aviso/input.jsp</result>
+        </action>
+        <action name="form_upload_img" class="mx.edu.uttab.action.AvisoAction" method="form_upload_img">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/aviso/uploadIMG.jsp</result>
+        </action>
+        <action name="upload_img" class="mx.edu.uttab.action.AvisoAction" method="uploadIMG">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">image/png,image/jpeg,image/pjpeg</param>
+                <param name="maximumSize">2097152</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/aviso/uploadIMG.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/aviso/uploadIMG.jsp</result>
+        </action>
+        <action name="form_upload_pdf" class="mx.edu.uttab.action.AvisoAction" method="form_upload_pdf">
+            <interceptor-ref name="loginStack" />
+            <result name="success">/WEB-INF/jsp/admin/aviso/uploadPDF.jsp</result>
+        </action>
+        <action name="upload_pdf" class="mx.edu.uttab.action.AvisoAction" method="uploadPDF">
+            <interceptor-ref name="loginStack" />
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">application/pdf</param>
+                <param name="maximumSize">5065346</param>
+            </interceptor-ref> 
+            <result name="success" type="chain">save</result>
+            <result name="input">/WEB-INF/jsp/admin/aviso/uploadPDF.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/aviso/uploadPDF.jsp</result>
+        </action>
+    </package>
+    <package name="adminUsuarios" namespace="/SistemasAdmin/usuarios" extends="struts-default">
+        <action name="frm_login" class="mx.edu.uttab.action.UsuarioAction">
+            <result name="success">/WEB-INF/jsp/admin/usuario/login.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/usuario/login.jsp</result>
+            <result name="logeado" type="redirectAction">
+                <param name="actionName">input</param>
+                <param name="namespace">/SistemasAdmin/actividades</param>
+            </result>
+        </action>
+        <action name="login" class="mx.edu.uttab.action.UsuarioAction" method="login">
+            <result name="success" type="redirectAction">
+                <param name="actionName">input</param>
+                <param name="namespace">/SistemasAdmin/actividades</param>
+            </result>
+            <result name="input">/WEB-INF/jsp/admin/usuario/login.jsp</result>
+            <result name="error">/WEB-INF/jsp/admin/usuario/login.jsp</result>
+        </action>
+        <action name="logout" class="mx.edu.uttab.action.UsuarioAction" method="logout">
+            <result name="success" type="redirectAction">frm_login</result>
+        </action>
+    </package>
+</struts>

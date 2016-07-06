@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mis_servicios>
+    <mi_servicio id="1">
+        <nombre>Calendario escolar</nombre>
+        <img>img/movil/android/mis_servicios/calendario_escolar.png</img>
+        <link>calendario_escolar.html</link>
+        <activo>true</activo>
+    </mi_servicio>
+    <mi_servicio id="2">
+        <nombre>Calificaciones</nombre>
+        <img>img/movil/android/mis_servicios/calificaciones.png</img>
+        <link>mis_servicios.html?d=Calificaciones</link>
+        <activo>true</activo>
+    </mi_servicio>
+    <mi_servicio id="3">
+        <nombre>Horarios</nombre>
+        <img>img/movil/android/mis_servicios/horarios.png</img>
+        <link>mis_servicios.html?d=Horario</link>
+        <activo>true</activo>
+    </mi_servicio>
+    <mi_servicio id="4">
+        <nombre>Biblioteca</nombre>
+        <img>img/movil/android/mis_servicios/renovar-libro.png</img>
+        <link>mis_servicios.html?d=Biblioteca</link>
+        <activo>false</activo>
+    </mi_servicio>
+</mis_servicios>

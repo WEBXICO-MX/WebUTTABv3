@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carreras>
+    <carrera cve_carrera="40" cve_division="12" nombre="Ingeniería en Gestión de Proyectos" icono="img/movil/android/oferta_educativa/gestion de proyectos.png" img="img/divisiones/carreras/portada_ing_gestion_proyectos.png" url="http://www.uttab.edu.mx/oferta_educativa/agep/ingenieria_gestion_proyectos.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresados de bachillerato</li>
+                            <li>-Interés por el desarrollo económico de la región</li>
+                            <li>-Agrado por el análisis cualitativo y cuantitativo</li>
+                            <li>-Interés por la investigación</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Planear, dirigir, evaluar y gestionar los procesos de venta de bienes y servicios, así como de compras y suministros</li>
+                            <li>-Realizar investigaciones de mercado</li>
+                            <li>-Desarrollar la mezcla de mercadotecnia y el plan estratégico de mercadotecnia </li>
+                            <li>-Desarrollar proyectos de comercio exterior</li>
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Administrar el proceso de ventas mediante estrategias, técnicas y herramientas adecuadas, para contribuir al desarrollo de la organización</li>
+                            <li>-Administrar el proceso de compras y control de suministros a través de las políticas y procedimientos de la organización y técnicas de control de inventarios y almacenamiento, para asegurar su disponibilidad</li>
+                            <li>-Diseñar estrategias de mercado identificando oportunidades de negocio, para el fortalecimiento nacional e internacional de las organizaciones</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Administrador de negocios (en áreas de ventas, servicios, mercadotecnia, promoción y publicidad, relaciones públicas, administrador, comercio y servicio a clientes)</li>
+                            <li>-Consultor junior</li>
+                            <li>-Promotor y asesor financiero</li>
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                       <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Ingeniero en Gestión de Proyectos?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>En un profesionista capacitado para realizar actividades 
+										propias de la administración, competente en el manejo
+										de proyectos empresariales, especialmente en aquellos 
+									    que involucran la apertura de nuevas empresas.</p>
+                                </li></ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>A identificar oportunidades para la creación de nuevos negocios, 
+									   realizar mejoras en las empresas establecidas, formular planes 
+									   de negocios para empresas nuevas e implementar estrategias que 
+									   le permitan conseguir financiamientos para el desarrollo de nuevos proyectos.</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>En instituciones que otorgan financiamiento a proyectos, 
+									   en la realización de planes de negocios, consultoría de 
+									   empresas establecidas que requieran implementar mejoras
+									   en sus negocios, en áreas de mercadotecnia o como empresario.</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="39" cve_division="12" nombre="TSU en Administración Área Administración y Evaluación de Proyectos" continuidad="40"></carrera>
+
+    <!--<carrera cve_carrera="41" cve_division="13" nombre="Ingeniería en Procesos y Operaciones Industriales" tipo="1" icono="img/movil/android/oferta_educativa/procesos_operaciones_industriales.png" img="img/divisionesUsoComun/procesosIndustriales/carreras/ingProcOpeInd/ing_procOperaciones.png">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresado de TSU en Procesos Industriales área Manufactura</li>
+                            <li>-Conocimientos en cálculo</li>
+                            <li>-Conocimientos de manufactura</li>
+                            <li>-Conocimientos de automatización</li>
+                            <li>-Conocimientos de metrología</li>
+                            <li>-Conocimientos de calidad</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Administrador de los recursos de la organización</li>
+                            <li>-Administrador del sistema de gestión de calidad</li>
+                            <li>-Desarrollar e innovar sistemas de manufactura</li>
+                            <li>-Desarrollar e innovar herramientas y equipos</li>
+                            <li>-Analizar proyectos</li>
+                            <li>-Desarrollador de sistemas de ingeniería de manufactura</li>
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Administrar los recursos necesarios de la organización para asegurar la producción planeada conforme a los requerimientos del cliente</li>
+                            <li>-Desarrollar e innovar sistemas de manufactura a través de la dirección de proyectos considerando los requerimientos del cliente, estándares de calidad, ergonomía, seguridad y ecología para lograr la competitividad y rentabilidad de la organización con enfoque globalizado</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Ingeniero de producción de calidad</li>
+                            <li>-Gerente de producción o de calidad</li>
+                            <li>-Ingeniero de innovación tecnológica o proyectos</li>
+                            <li>-Consultor</li>
+                            <li>-Empresario</li>
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                     <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Ingeniero en Procesos y Operaciones Industriales?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>Información pendiente</p>
+                                </li></ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li>                    <p>Información pendiente.</p></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>Información pendiente.</p></li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>-->
+    <carrera cve_carrera="42" cve_division="13" nombre="Ingeniería en Procesos Bioalimentarios" icono="img/movil/android/oferta_educativa/bioalimentario.png" img="img/divisiones/carreras/portada_ing_procesos_bioalimentarios.png" url="http://www.uttab.edu.mx/oferta_educativa/procesos/ingenieria_procesos_bioalimentarios.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresados de TSU en Procesos Alimentarios</li>
+                            <li>-Conocimientos en matemáticas y física</li>
+                            <li>-Inglés</li>
+                            <li>-Dibujo industrial</li>
+                            <li>-Redacción y ortografía</li>
+                            <li>-Informática</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Planear la producción para cumplir la proyección de ventas mediante la administración de recursos de la industria alimentaria</li>
+                            <li>-Evaluar los procesos de producción para la obtención de productos alimenticios</li>
+                            <li>-Formular proyectos del sector alimentario para el aprovechamiento de los recursos naturales</li>
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Administrar los recursos y procesos alimentarios a través de la planeación, ejecución y evaluación para su optimización</li>
+                            <li>-Diseñar y desarrollar productos y procesos alimentarios a través de metodologías de investigación y técnicas de escalamiento para aprovechar los recursos disponibles impulsando el desarrollo de la región</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Ingeniero de procesos en plantas de alimentos</li>
+                            <li>-Dirección técnica y administrativa de empresas alimentarias</li>
+                            <li>-Jefe de control de calidad</li>
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                         <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Ingeniero en Procesos Bioalimentarios?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p> Es un profesionista con conocimientos científicos y 
+										tecnológicos capacitado para resolver las 
+										problemáticas actuales de la industria alimentaria.
+  									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>	A realizar e interpretar análisis fisicoquímicos, 
+										microbiológicos, sensoriales y nutrimentales, 
+										competente para elaborar nuevos productos 
+										alimentarios aprovechando los recursos de la región y 
+										para operar maquinarias utilizadas en la industria 
+										alimentaria. Así como todo lo relacionado con las 
+										certificaciones en sistemas de calidad alimentaria y 
+										manejo higiénico de los alimentos.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En las diferentes áreas de las empresas públicas o 
+										privadas relacionadas con la industria alimentaria, 
+										tales como: laboratorios de análisis de los alimentos, 
+										líneas de producción de alimentos, consultoría sobre 
+										los sistemas de calidad alimentaria de los productos 
+										agroalimentarios, desarrollo de investigación de 
+										nuevos productos y en la creación de su propia 
+										empresa.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="51" cve_division="13" nombre="Ingeniería en Mantenimiento Industrial" icono="img/movil/android/oferta_educativa/mantenimiento industrial.png" img="img/divisiones/carreras/portada_ing_mantenimiento_Industrial.png" url="http://www.uttab.edu.mx/oferta_educativa/procesos/ingenieria_mantenimiento_industrial.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresados de TSU en Mantenimiento área Industrial o área Petróleo</li>
+                            <li>-Conocimientos en matemáticas y física</li>
+                            <li>-Inglés</li>
+                            <li>-Dibujo industrial</li>
+                            <li>-Redacción y ortografía</li>
+                            <li>-Informática</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Planear, implementar, controlar el mantenimiento mecánico, eléctrico y electrónico, instalaciones y servicios de acuerdo a las políticas de la empresa</li>
+                            <li>-Realizar programas de ahorro de energía</li>
+                            <li>-Aplicar el diseño y la manufactura asistida por computadora</li>
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Diseñar estrategias de mantenimiento mediante el análisis de factores humanos, tecnológicos, económicos y financieros, para la elaboración y administración del plan maestro de mantenimiento que garantice la disponibilidad y confiabilidad de planta</li>
+                            <li>-Optimizar las actividades del mantenimiento y las condiciones de operación de los equipos para incrementar la eficiencia global de los equipos y reducir los costos de mantenimiento como apoyo a la sustentabilidad y la competitividad de la empresa</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Gerente de planta</li>
+                            <li>-Gerencia de mantenimiento</li>
+                            <li>-Ingeniero de mantenimiento</li>
+                            <li>-Jefe de mantenimiento</li>
+                            <li>-Supervisor o encargado de mantenimiento</li>
+                            <li>-Líder de mantenimiento</li>
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                        <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Ingeniero en Mantenimiento Industrial?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>	Es un profesionista que resuelve problemáticas de la 
+										industria en las áreas mecánica, eléctrica, electrónica, 
+										neumática, refrigeración, robótica, con 
+										conocimientos científicos y tecnológicos para 
+										garantizar la confiabilidad de los procesos.
+  									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>	A mantener en operación constante los equipos  
+										aplicando la normatividad en las áreas eléctricas y de
+										seguridad e higiene, así como determinar el tipo de 
+										mantenimiento tanto preventivo y predictivo 
+										aplicable a los equipos, conocimiento en detección 
+										de fallas, pruebas destructivas y no destructivas, 
+										análisis de vibraciones, entre otras para garantizar la 
+										vida útil de los equipos y  optimizar los recursos. 
+										También aprenderá a diseñar y elaborar piezas  en 3D,
+										programación y construcción de sistemas 
+										automatizados y de  robótica. 
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En empresas públicas y privadas relacionadas con la 
+										industria eléctrica, mecánica, petrolera, automotriz, 
+										manufacturera y de servicios.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="47" cve_division="13" nombre="TSU en Procesos Alimentarios" continuidad="42"></carrera>
+    <carrera cve_carrera="55" cve_division="13" nombre="TSU en Mantenimiento Área Petróleo" continuidad="51"></carrera>
+    <carrera cve_carrera="38" cve_division="13" nombre="TSU en Mantenimiento Área Industrial" continuidad="51"></carrera>
+
+    <carrera cve_carrera="44" cve_division="16" nombre="Ingeniería en Tecnología Ambiental" icono="img/movil/android/oferta_educativa/tecnologia ambiental.png" img="img/divisiones/carreras/portada_ing_tecnología_ambiental.png" url="http://www.uttab.edu.mx/oferta_educativa/quimica/ingenieria_tecnologia_ambiental.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresado de TSU en Tecnología Ambiental</li> 
+                            <li>-Conocimientos de química, física, álgebra y cálculo</li> 
+                            <li>-Habilidad de expresión oral y escrita en español</li> 
+                            <li>-Conocimientos básicos del idioma inglés</li> 
+                            <li>-Habilidad de análisis y síntesis de información</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Desarrolla e implanta sistemas de administración ambiental, de seguridad, higiene y control ambiental</li> 
+                            <li>-Identifica los tipos de tratamiento de agua adecuados a las necesidades</li> 
+                            <li>-Optimiza la operación de las plantas de tratamiento de agua</li>
+                            <li>-Colabora en equipos de evaluación de impacto y riesgo ambiental</li> 
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Desarrollar soluciones de prevención, control, mitigación y remediación de
+                                impactos al ambiente empleando herramientas tecnológicas y de gestión
+                                innovadoras que permitan optimizar el uso de los recursos con un enfoque
+                                sustentable para ser aplicado al sector industrial de bienes y servicios, a la
+                                sociedad y a los tres niveles de gobierno</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Ingeniero de calidad y medio ambiente</li> 
+                            <li>-Consultor e inspector ambiental</li> 
+                            <li>-Gerente de seguridad, salud y ambiente</li> 
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                        <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Ingeniero en Tecnología Ambiental?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>	Es un profesionista capacitado con un enfoque 
+										de sustentabilidad para solucionar problemas 
+										ambientales en suelo, agua y aire; aplicando 
+										normas y tecnologías ambientales.</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>
+										A realizar muestreos y análisis de agua, aire y 
+										suelo, para la prevención y control de la 
+										contaminación, utilizando equipos y/o sistemas 
+										de vanguardia, gestionar trámites relacionados
+										con la normatividad ambiental ante instancias 
+										gubernamentales y a desarrollar programas de 
+										seguridad e higiene, así como a operar plantas 
+										de tratamiento de aguas.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En las diferentes áreas de empresas públicas 
+										o privadas relacionadas con la conservación 
+										del ambiente tales como: laboratorios de análisis 
+										ambientales, administración ambiental, gestión 
+										ambiental, calidad, seguridad e higiene.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="45" cve_division="16" nombre="Ingeniería en Química de Procesos Industriales" icono="img/movil/android/oferta_educativa/procesos industriales.png" img="img/divisiones/carreras/portada_ing_quimica_procesos_Industriales.png" url="http://www.uttab.edu.mx/oferta_educativa/quimica/ingenieria_quimica_procesos_industriales.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresado de TSU en Prevención de Corrosión o TSU en Química área Industrial</li> 
+                            <li>-Conocimientos de química, física, álgebra y cálculo</li> 
+                            <li>-Habilidad de expresión oral y escrita en español</li> 
+                            <li>-Conocimientos básicos del idioma inglés</li> 
+                            <li>-Habilidad de análisis y síntesis de información </li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Controlar procesos químicos industriales</li> 
+                            <li>-Supervisar procesos de refinación de hidrocarburos</li> 
+                            <li>-Diseñar y controlar procesos en plantas industriales </li>
+                            <li>-Optimizar procesos industriales</li> 
+                            <li>-Supervisar la seguridad industrial</li> 
+                            <li>-Supervisor de calidad</li> 
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Diseñar y supervisar procesos químicos empleando los principios de las operaciones unitarias y de las reacciones químicas de una manera competitiva y sustentable para obtener productos de calidad </li>
+                            <li>-Administrar los recursos aplicables a los procesos a través de la planeación, organización, ejecución, evaluación y retroalimentación para asegurar la competitividad de la empresa</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Ingeniero de producción en plantas de procesos</li> 
+                            <li>-Ingeniero de control de calidad</li> 
+                            <li>-Ingeniero de seguridad industrial</li> 
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                         <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Ingeniero en Química de Procesos Industriales?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>	Es un profesionista capacitado para controlar procesos 
+										de transformación de la materia prima, utilizando métodos químicos 
+										y normativos en áreas de la industria alimentaria, química y petrolera.
+ 									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>	Área Prevención de Corrosión y área Química Industrial
+										Los principios básicos de química para prevenir la corrosión de 
+										materiales metálicos, aplicables en las diferentes industrias; 
+										además de métodos de transformación de la materia prima, 
+										manejo de equipos para medición y monitoreo de la corrosión 
+										y diseño de equipos para la conversión de la materia prima.
+
+										Área Fluidos de Perforación
+										A preparar fluidos de perforación y determinar sus 
+										propiedades físicas y químicas para optimizar la operación de 
+										perforación, además de identificar equipos y herramientas 
+										que se utilizan en la perforación de pozos petroleros.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	
+									Área Prevención de Corrosión, Área Química Industrial y Área Fluidos de Perforación
+									En empresas públicas y privadas relacionadas con la industria del petróleo, alimentos 
+									y químicos, ya sea en la administración de proyectos, ventas, laboratorios de control 
+									de calidad y operación de equipos de transformación de materia prima.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="48" cve_division="16" nombre="TSU en Química Área Tecnología Ambiental" continuidad="44"></carrera>
+    <carrera cve_carrera="52" cve_division="16" nombre="TSU en Química Área Prevención de Corrosión" continuidad="45"></carrera>
+    <carrera cve_carrera="27" cve_division="16" nombre="TSU en Química Área Industrial" continuidad="45"></carrera>
+    <carrera cve_carrera="53" cve_division="16" nombre="TSU en Química Área Fluidos de Perforación" continuidad="45"></carrera>    
+    <carrera cve_carrera="43" cve_division="15" nombre="Ingeniería en Tecnologías de la Información" icono="img/movil/android/oferta_educativa/tic.png" img="img/divisiones/carreras/portada_ing_tecnologias_informacion.jpg" url="http://www.uttab.edu.mx/oferta_educativa/tic/ingenieria_tecnologias_informacion.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresado de TSU  en TIC área Redes y Telecomunicaciones o Sistemas Informáticos o Telemática</li>
+                            <li>-Conocimientos en matemáticas y lógica</li>
+                            <li>-Capacidad de análisis</li>
+                            <li>-Capacidad en la toma de decisiones</li>
+                            <li>-Capacidad en la resolución de problemas</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-El ingeniero en tecnologías de la información será capaz de dirigir proyectos de tecnologías de información, utilizando las metodologías apropiadas, así como evaluar sistemas de tecnologías de información para establecer acciones de mejora e innovación en las organizaciones</li>
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Formular y planear proyectos de tecnologías de información, mediante procesos estándares y modelos de calidad para contribuir con el logro de los objetivos estratégicos de las organizaciones</li>
+                            <li>-Dirigir el proceso de implementación de proyectos de tecnologías de información mediante su correcta ejecución para alcanzar las metas y objetivos empleando habilidades gerenciales</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Diseñador de sistemas de información</li>
+                            <li>-Administrador de proyectos y servicios de TI</li>
+                            <li>-Consultor de servicios de TI</li>
+                            <li>-Director/gerente de tecnologías de información</li>
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                         <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Ingeniero en Tecnologías de la Información?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>	Es un profesionista capacitado para diseñar, 
+										administrar, dirigir y evaluar sistemas de 
+										tecnologías de la información, que involucre 
+										proyectos de instalación de infraestructura y 
+										desarrollo de sistemas informáticos.
+ 									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>	A instalar y configurar equipos de redes y 
+										telecomunicaciones, desarrollar sistemas de 
+										información, diseño y elaboración de páginas 
+										web, administrar y dar mantenimiento a 
+										infraestructuras de telecomunicaciones.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En empresas públicas o privadas que requieran o 
+										utilicen infraestructura de telecomunicaciones, 
+										en áreas administrativas, mantenimiento y desarrollo 
+										de nuevos sistemas de información o 
+										creando su propia empresa de servicios.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="60" cve_division="15" nombre="TSU en Tecnologías de la Información y Comunicación Área Multimedia y Comercio Electrónico" continuidad="43"></carrera>
+    <carrera cve_carrera="31" cve_division="15" nombre="TSU en Tecnologías de la Información y Comunicación Área Redes y Telecomunicaciones" continuidad="43"></carrera>
+    <carrera cve_carrera="35" cve_division="15" nombre="TSU en Tecnologías de la Información y Comunicación Área Sistemas Informáticos" continuidad="43"></carrera>
+    <carrera cve_carrera="56" cve_division="17" nombre="Licenciatura en Gastronomía" icono="img/movil/android/oferta_educativa/gastronimia.png" img="img/divisiones/carreras/portada_lic_gastronomia.png" url="http://www.uttab.edu.mx/oferta_educativa/turismo/licenciatura_gastronomia.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresado de TSU en Gastronomía</li> 
+                            <li>-Bases culinarias</li> 
+                            <li>-Conocimientos en seguridad e higiene</li> 
+                            <li>-Cultura gastronómica local, nacional e internacional</li> 
+                            <li>-Conocimiento de técnicas y servicio al cliente</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Controlará recursos financieros, materiales y tecnológicos, mejorando la productividad e incrementando el rendimiento de establecimientos de alimentos y bebidas</li> 
+                            <li>-Dirigirá equipos de trabajo dinámicos y gestionará negociaciones estratégicas redituables</li>
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Crear conceptos gastronómicos innovadores, mediante el diseño de productos, servicios y espacios, para satisfacer las necesidades del mercado, contribuir a la rentabilidad de los establecimientos y bebidas y al desarrollo gastronómico de la zona</li> 
+                            <li>-Administrar establecimientos de alimentos y bebidas, a través del control y dirección de sus recursos, para optimizarlos y contribuir a la rentabilidad y productividad de la organización</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Chef ejecutivo</li> 
+                            <li>-Empresario</li> 
+                            <li>-Gerente de alimentos y bebidas</li>
+                            <li>-Gerente general</li> 
+                            <li>-Director de banquetes</li> 
+                            <li>-Consultor de diseño de proyectos gastronómicos sustentables</li> 
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                        <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Licenciado en Gastronomía?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>	Es un profesionista capacitado para administrar 
+										establecimientos de alimentos y bebidas, 
+										empleando las técnicas del arte culinario acordes
+										a las tendencias gastronómicas, así como a la 
+										evolución de la gastronomía.
+									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>	Técnicas de cocción, montajes y estandarización 
+										de platillos, producción de alimentos a gran 
+										escala, logística de eventos gastronómicos, 
+										servicios de alimentos y bebidas, catas de vino, 
+										maridaje, repostería, cocina internacional, diseño
+										de menús, diseño de cocina y manejo higiénico 
+										de los alimentos.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En hospitales, hoteles, restaurantes, cruceros, 
+										comedores industriales, comedores escolares, 
+										supermercados, panaderías, pastelerías, 
+										realizando consultorías, como chef instructor o 
+										creando su propia empresa.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="46" cve_division="17" nombre="Licenciatura en Gestión y Desarrollo Turístico" icono="img/movil/android/oferta_educativa/desarollo turistico.png" img="img/divisiones/carreras/portada_lic_gestion_desarrollo_turistico.png" url="http://www.uttab.edu.mx/oferta_educativa/turismo/licenciatura_gestion_desarrollo_turistico.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Egresado de TSU en Turismo área Hotelería</li> 
+                            <li>-Matemáticas</li> 
+                            <li>-Idiomas</li> 
+                            <li>-Métodos de investigación</li> 
+                            <li>-Geografía e historia</li> 
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Dirigir empresas y organismos turísticos a través del diseño de estrategias, procesos, optimización de recursos y cumplimiento de objetivos</li> 
+                            <li>-Desarrollar proyectos turísticos en el marco de la sustentabilidad, impulsando el trabajo en redes sociales de acuerdo a las necesidades de la región y organizaciones</li> 
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+
+                            <li>-Dirigir empresas y organismos turísticos a través del diseño de estrategias, procesos, optimización de recursos y cumplimiento de objetivos para contribuir al desarrollo y competitividad de la industria turística</li>
+                            <li>-Desarrollar proyectos turísticos dentro del marco de la sustentabilidad, impulsando el trabajo en redes sociales, a partir de las características y necesidades de la región y organizaciones, para contribuir a la calidad de vida de las comunidades, rentabilidad de las empresas y satisfacción de los turistas</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                            <li>-Gerente general</li> 
+                            <li>-Gerente de división cuartos</li> 
+                            <li>-Gerente de alimentos y bebidas</li> 
+                            <li>-Gerente de mercadotecnia</li> 
+                            <li>-Consultor de diseño de proyectos turísticos sustentables</li> 
+                            <li>-Consultor turístico</li>
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                        <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el Licenciado en Gestión y Desarrollo Turístico?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p>	Es un profesionista capacitado con visión competitiva 
+										dentro del mundo globalizado para administrar, 
+										desarrollar, dirigir y ejecutar acciones en empresas 
+										prestadoras de servicios turísticos.
+ 									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>	A desarrollar áreas con potencial turístico, protocolo de 
+										intercambios internacionales, manejo de personal, 
+										itinerarios de viaje, establecer sistemas de calidad, 
+										organización de congresos y convenciones, dominio del 
+										idioma extranjero, patrimonio turístico nacional e 
+										internacional, desarrollar paquetes turísticos nacionales e 
+										internacionales, protocolo de etiqueta y servicios.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En empresas privadas y públicas en el ramo de la 
+										hotelería, aeropuertos, líneas de transportación 
+										terrestres, aéreas, acuáticas, áreas naturales 
+										protegidas, zonas arqueológicas, restaurantes, 
+										agencias de viajes, bares, organización de eventos 
+										sociales, embajadas, consulados, consultoría, 
+										capacitación turística y cruceros.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="49" cve_division="17" nombre="TSU en Gastronomía" continuidad="56"></carrera>
+    <carrera cve_carrera="54" cve_division="17" nombre="TSU en Turismo Área Hotelería" continuidad="46"></carrera>
+    <carrera cve_carrera="58" cve_division="12" nombre="TSU en Desarrollo de Negocios Área Mercadotecnia" tipo="2" icono="img/movil/android/oferta_educativa/tsu dessarollo de negocios.png" img="img/divisiones/carreras/portada_tsu_desarrollo_negocios_area_mercadotecnia.png" url="http://www.uttab.edu.mx/oferta_educativa/agep/tsu_desarrollo_negocios_area_mercadotecnia.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                <li>-Egresado de TSU en AAyEP</li>
+                <li>-Interés por el desarrollo económico de la región</li>
+                <li>-Agrado por el análisis cualitativo y cuantitativo</li>
+                <li>-Interés por la investigación</li> 
+            </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                <li>-Identificar nichos y/a oportunidades de negocios</li>
+                <li>-Diseñar planes de negocios y proyectos de inversión</li>
+                <li>-Realizar estudios y diagnósticos organizacionales, locales y regionales</li>
+                <li>-Gestionar y administrar financiamiento</li>
+                <li>-Innovación de procesos apoyado en modelos de ingeniería y simuladores</li>
+            </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                <li>-Gestionar el financiamiento y la ejecución de proyectos de inversión aplicando la normatividad y reglas de operación de los distintos organismos e instituciones de financiamiento, para la creación o expansión de empresas</li> 
+                <li>-Dirigir los procesos de consultoría financiera, de mercadotecnia y reingeniería, con base en la normatividad aplicable </li>
+                <li>-Dirigir la planeación estratégica para la toma de decisiones que asegure el logro de los objetivos de la organización</li>
+            </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                <li>-Gestionar el financiamiento y la ejecución de proyectos de inversión aplicando la normatividad y reglas de operación de los distintos organismos e instituciones de financiamiento, para la creación o expansión de empresas</li> 
+                <li>-Dirigir los procesos de consultoría financiera, de mercadotecnia y reingeniería, con base en la normatividad aplicable </li>
+                <li>-Dirigir la planeación estratégica para la toma de decisiones que asegure el logro de los objetivos de la organización</li>
+            </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                      <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Quién es el TSU en Desarrollo de Negocios, Área Mercadotecnia?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p> Es un profesionista capacitado para desarrollar e 
+										implementar estrategias de mercadotecnia, 
+										comercialización y ventas mediante técnicas 
+										adecuadas para contribuir al crecimiento de la 
+										organización, aprovecha las oportunidades de 
+										negocio y comercialización nacional e internacional.
+  									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p> A realizar investigaciones de mercado, desarrollar 
+										planes estratégicos de mercadotecnia y ventas, 
+										así como implementar y evaluar el desempeño 
+										de las acciones de la empresa en cuestiones de 
+										ventas, compras, inventarios, proyectos de 
+										comercio, promoción y publicidad.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En áreas de ventas y servicios, mercadotecnia, 
+										promoción y publicidad, relaciones públicas, 
+										administración, comercio, investigación de 
+										mercado y servicio a clientes. Además puede 
+										trabajar como consultor en el desarrollo de 
+										nuevas empresas, elaborando propuestas de 
+										inversión, puede ser empresario o asesor 
+										independiente para PyMES.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+    <carrera cve_carrera="59" cve_division="13" nombre="TSU en Energías Renovables Área Calidad y Ahorro de Energía" tipo="2" icono="img/movil/android/oferta_educativa/tsu en energias renovables.png" img="img/divisiones/carreras/portada_tsu_energias_renovables_area_calidad_ahorro_energia.png" url="http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_energias_renovables_area_calidad_ahorro_energia.action">
+        <perfil_ingreso>
+            <![CDATA[<ul class="text-justify">
+                        <li>-Egresado de bachillerato</li>
+                         <li>-Capacidad de razonamiento matemático</li>
+                         <li>-Habilidad informática</li>
+                         <li>-Interés por las nuevas tecnologías</li>
+                         <li>-Interés por el cuidado del medio ambiente</li>
+                        </ul>]]>
+        </perfil_ingreso>
+        <perfil_egreso>
+            <![CDATA[<ul class="text-justify">
+                          <li>-Diseñar estrategias relacionadas con el uso eficiente de la energía y el<br>
+                          aprovechamiento de energías renovables</li>
+                          <li>-Diseñar proyectos y planes a favor de la economia empresarial con<br>
+                          características sustentables</li>
+                        </ul>]]>
+        </perfil_egreso>
+        <competencias_especificas>
+            <![CDATA[<ul class="text-justify">
+                          <li>-Formular proyectos de energias renovables mediante diagnósticos<br>
+                          energéticos y estudios especializados de los recursos naturales del<br>
+                          entorno, para contribuir al desarrollo sustentable y al uso racional y<br>
+                          eficiente de la energla</li>
+                          <li>-Dirigir proyectos de ahorro y calidad de energia eléctrica, con base en un<br>
+                          diagnóstico energético del sistema, para contribuir al desarrollo sustentable<br>
+                          (medio ambiente, impacto ambiental. cambio climático, contaminación) a<br>
+                          través del uso racional y eficiente de la energía</li>
+                        </ul>]]>
+        </competencias_especificas>
+        <ocupaciones_profesionales>
+            <![CDATA[<ul class="text-justify">
+                          <li>-Supervisor de planta</li>
+                          <li>-Coordinador de proyectos energéticos</li>
+                          <li>-Supervisor de mantenimiento de equipo electromecánico</li>
+                          <li>-Residente de obra eléctrica</li>
+                          <li>-Consultor de diagnóstico energético</li>
+                          <li>-Contratista de obra eléctrica</li>
+                          <li>-Proyectista de obra eléctrica y de energías renovables</li>
+                        </ul>]]>
+        </ocupaciones_profesionales>
+        <informacion_extra><![CDATA[                                         <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué es un TSU en Energías Renovables Área Calidad y Ahorro de Energía?</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p> Es un profesionista capacitado para controlar 
+										procesos de transformación de la materia prima, 
+										utilizando métodos químicos y normativos 
+										en áreas de la industria alimentaria, química y petrolera.
+  									</p>
+                                </li>
+							</ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿Qué aprenderá durante la carrera?</h4>
+                            <ul class="list-unstyled">
+                                <li> 
+									<p>Diseñar proyectos de energías renovables con base 
+									   en un diagnóstico y recursos naturales del entorno 
+									   para contribuir al desarrollo sustentable y eficiente 
+				                       de energía eléctrica.
+
+									   Evaluar el consumo energético, térmico, eléctrico y 
+									   mecánico con base en análisis de información histórica 
+									   para conocer las tendencias de consumo y estimar perdidas de energía.
+
+									   Diagnosticar el sistema energético analizando la 
+									   generación, distribución y consumo para el uso 
+									   racional y eficiente para proponer acciones de eficiencia 
+									   energética considerando los estándares aplicables, para 
+									   cumplir los requerimientos de la empresa y contribuir a un 
+									   desarrollo sustentable.
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul style="list-style-image: url('img/lista.png');">
+                        <li><h4>¿En dónde podrá trabajar?</h4>
+                            <ul  class="list-unstyled">
+                                <li><p>	En empresas públicas y privadas que requieran 
+										asistencia en el desarrollo de estrategias 
+										relacionadas con el uso eficiente de la energía, al 
+										aprovechamiento de energías renovables y proyectos 
+										de características sustentables. En el sector industrial 
+										que requiera proyectos, estrategias y planes a favor 
+										de su economía empresarial. 
+									</p>
+								</li>
+                            </ul>
+                        </li>
+                    </ul> ]]></informacion_extra>
+    </carrera>
+</carreras>

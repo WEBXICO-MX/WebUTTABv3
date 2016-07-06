@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="conocenos" namespace="/conocenos" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">mensaje_rector</result>
+        </action>
+        <action name="mensaje_rector">
+            <result>/WEB-INF/jsp/conocenos/mensaje_del_rector2.jsp</result>
+        </action>
+        <action name="historia">
+            <result>/WEB-INF/jsp/conocenos/historia2.jsp</result>
+        </action>
+        <action name="identidad">
+            <result>/WEB-INF/jsp/conocenos/identidad2.jsp</result>
+        </action>
+        <action name="modelo_educativo">
+            <result>/WEB-INF/jsp/conocenos/modelo_educativo2.jsp</result>
+        </action>
+        <action name="sistemas_institucionales">
+            <result>/WEB-INF/jsp/conocenos/sistemas_gestion3.jsp</result>
+        </action>
+        <action name="directorio">
+            <result>/WEB-INF/jsp/conocenos/directorio2.jsp</result>
+        </action>
+        <action name="campus">
+            <result>/WEB-INF/jsp/conocenos/campus2.jsp</result>
+        </action>
+        <action name="organigrama">
+            <result>/WEB-INF/jsp/conocenos/organigrama2.jsp</result>
+        </action>
+    </package>
+</struts>

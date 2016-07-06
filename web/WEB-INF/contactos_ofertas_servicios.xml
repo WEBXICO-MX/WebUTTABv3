@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contactos>
+    <contacto id="1" tipo="1">
+        <nombre>Ana María Gómez Hernández</nombre>
+        <puesto>Jefa del Departamento de Seguimiento a Egresados y Educación Continua</puesto>
+        <tel>3582222 ext. 2008|2009</tel>
+        <email>egresadoscontinua@uttab.edu.mx</email>
+        <horario></horario>
+        <activo>true</activo>
+    </contacto> 
+    <contacto id="1" tipo="2">
+        <nombre>Carolina Guerrero Díaz</nombre>
+        <puesto>Coordinadora del Centro de Idiomas</puesto>
+        <tel>3582207 ext. 2030</tel>
+        <email>ciut@uttab.edu.mx</email>
+        <horario></horario>
+        <activo>true</activo>
+    </contacto> 
+</contactos>

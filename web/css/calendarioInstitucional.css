@@ -1,0 +1,528 @@
+@import "normalize.min.css";
+/* 
+    Document   : calendarioInstitucional
+    Created on : 25/02/2014, 10:42:35 AM
+    Author     : Weisß
+    Description:
+        CSS del JSP CalendarioInstitucional
+*/
+
+#datepicker { width:62.2%; margin: 0 34px 1px 0; font-size: 11px;float: right; color: #5B5C5C;
+              font-family: 'Open Sans' !important;
+              font-style: normal;
+              font-weight: 400;
+              text-align: justify;}
+#datepicker_iconos,#datepicker_iconos2,#datepicker_iconos3 { width:30%; height:auto;font-size: 11px;float: left; color: #5B5C5C;
+                                                             font-family: 'Open Sans' !important;
+                                                             font-style: normal;
+                                                             font-weight: 400;
+                                                             text-align: justify;}
+#datepicker_iconos { margin: 280px 0 1px 28px; }
+#datepicker_iconos2,#datepicker_iconos3 { margin: 15px 0 1px 18px;}
+
+#datepicker_iconos input {
+    vertical-align: middle;
+}
+#datepicker_iconos label {
+    display: inline;
+    margin-left: 4px;
+}
+.CeremoniaGraduacion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/CeremoniaGraduacion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: white !important;
+    font-weight:bold !important;
+}
+
+.EventoBienvenidaTSU a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/EventoBienvenidaTSU.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+
+.EventoBienvenidaLIC a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/EventoBienvenidaLIC.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaDelTSU a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaDelTSU.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.SesionConsejoDirectivo a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/SesionConsejoDirectivo.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.SemanaDeLaSalud a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/SemanaDeLaSalud.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+
+.CelebracionDiaDeLasMadres a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/CelebracionDiaDeLasMadres.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.CelebracionDiaDelMaestro a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/CelebracionDiaDelMaestro.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.CelebracionDiaDelTrabajadorAdministrativo a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/CelebracionDiaDelTrabajadorAdministrativo.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaDeLaSecretaria a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaDeLaSecretaria.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.SemanaDeProteccionCivil a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/SemanaDeProteccionCivil.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.BrindisNavidenio a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/BrindisNavidenio.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FestivalDelTamal a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FestivalDelTamal.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.ConsejoVinculacionPertinencia a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/ConsejoVinculacionPertinencia.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaDelSindicato a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaDelSindicato.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.InicioDeCuatrimestre a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/InicioDeCuatrimestre.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FinDeCuatrimestre a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FinDeCuatrimestre.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.Inscripciones a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/Inscripciones.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.Reinscripciones a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/Reinscripciones.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.Reciclaton a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/Reciclaton.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.EntregaRecepcion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/EntregaRecepcion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.ExpoUTTAB2014 a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/ExpoUTTAB2014.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.TorneoRelampagoDeFutbol a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/TorneoRelampagoDeFutbol.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.AuditoriaExterna2014 a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/AuditoriaExterna2014.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.AuditoriaInterna2014 a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/AuditoriaInterna2014.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.SemanaDeLaCalidad a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/SemanaDeLaCalidad.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiasNoLaborables a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiasNoLaborables.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.Vacaciones a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/Vacaciones.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.MuestraTalleresCulturales a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/MuestraTalleresCulturales.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.TallerEducacionAmbiental a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/TallerEducacionAmbiental.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.ActoCivico a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/ActoCivico.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.ConcursoEscoltas a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/ConcursoEscoltas.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.ExposicionPictorica a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/ExposicionPictorica.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.InformeDelRector a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/InformeDelRector.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.InformeDelGobiernadorDelEstado a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/InformeDelGobiernadorDelEstado.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.EntregaDeReportesUnidadAccesoInformacion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/EntregaDeReportesUnidadAccesoInformacion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaMundialDeLaTierra a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaMundialDeLaTierra.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaInternacionalDelLibro a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaInternacionalDelLibro.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.CursoDeInduccion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/CursoDeInduccion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.ExpoProyectosDivisionales a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/ExpoProyectosDivisionales.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FeriaTabasco2014 a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FeriaTabasco2014.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.InicioTorneosMultideportivos a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/InicioTorneosMultideportivos.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FinTorneosMultideportivos a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FinTorneosMultideportivos.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.TallerParaPadres a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/TallerParaPadres.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.SpellingBee a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/SpellingBee.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DesfileCivicoMilitar a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DesfileCivicoMilitar.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.TorneoDeRobotica a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/TorneoDeRobotica.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.SegundoMaratonDeLectura2014 a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/SegundoMaratonDeLectura2014.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.CuartoForoRegionalDeCuerposAcademicos a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/CuartoForoRegionalDeCuerposAcademicos.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FestivalDeChocolate a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FestivalDeChocolate.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.NacionalDeportivosUT a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/NacionalDeportivosUT.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaMundialDelTurismo a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaMundialDelTurismo.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaInternacionalDelMedioAmbiente a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaInternacionalDelMedioAmbiente.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.DiaInternacionalDeLaMujer a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/DiaInternacionalDeLaMujer.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.CineDebateEnIngles a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/CineDebateEnIngles.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FestivalDeVerano a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FestivalDeVerano.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.TraditionsAndCelebrations a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/TraditionsAndCelebrations.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.toFestivalNavideno a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/5toFestivalNavideno.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.InicioTallerDeEducacion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/InicioTallerDeEducacion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FinTallerDeEducacion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FinTallerDeEducacion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.IniciaCursoDeInduccion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/IniciaCursoDeInduccion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}
+.FinalizaCursoDeInduccion a {
+
+    background-image : url('../img/otras_secciones/calendario_institucional/FinalizaCursoDeInduccion.png') !important;
+    background-size:26px 23px !important;
+    background-repeat:no-repeat !important;
+    color: black !important;
+    font-weight:bold !important;
+}

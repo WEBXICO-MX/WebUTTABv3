@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programas_radio>
+    <programa_radio id="33" fondo="#ECEDED" color="#000000">
+        <nombre>DE ANTRO: DANCE, ELECTRÓNICO Y MÁS ...</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="32" fondo="#000000" color="#FFFFFF">
+        <nombre>HORA NACIONAL</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="31" fondo="#E3E4E4" color="#000000">
+        <nombre>NEW AGE CHILD OUT</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="30" fondo="#ECEDED" color="#000000">
+        <nombre>JAZZ</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="29" fondo="#FFB700" color="#000000">
+        <nombre>ANTAÑO (TRIOS)</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="28" fondo="#FFB700" color="#000000">
+        <nombre>ANTAÑO</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="27" fondo="#ECEDED" color="#000000">
+        <nombre>GRANDES BANDAS</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="26" fondo="#FFB700" color="#000000">
+        <nombre>ANTAÑO (DANZON)</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="25" fondo="#E3E4E4" color="#000000">
+        <nombre>MÉXICO</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="24" fondo="#E3E4E4" color="#000000">
+        <nombre>NEW AGE</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="23" fondo="#ECEDED" color="#000000">
+        <nombre>MÚSICA DEL MUNDO</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="22" fondo="#F2F2F2" color="#000000">
+        <nombre>MÚSICA POP EN ESPAÑOL E INGLÉS</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="21" fondo="#C85714" color="#FFFFFF">
+        <nombre>CON-TACTO INFORMATIVO (EN VIVO)</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="20" fondo="#00953B" color="#FFFFFF">
+        <nombre>TABASCO  Y SUS RAICES</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="19" fondo="#E3E4E4" color="#000000">
+        <nombre>MÚSICA CLÁSICA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="18" fondo="#E3E4E4" color="#000000">
+        <nombre>SALSA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="17" fondo="#AC3C73" color="#FFFFFF">
+        <nombre>LA ENTREVISTA DE LA SEMANA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="16" fondo="#ECEDED" color="#000000">
+        <nombre>BELL CANTO</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="15" fondo="#E3E4E4" color="#000000">
+        <nombre>INTÉRPRETES</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="14" fondo="#ECEDED" color="#000000">
+        <nombre>TROVA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="13" fondo="#FF7376" color="#FFFFFF">
+        <nombre>FLORILEGIO</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="12" fondo="#C85714" color="#FFFFFF">
+        <nombre>RESUMEN CON-TACTO INFORMATIVO</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="11" fondo="#C85714" color="#FFFFFF">
+        <nombre>CON-TACTO INFORMATIVO (REPETICIÓN)</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="10" fondo="#1C355E" color="#FFFFFF">
+        <nombre>DESCARGA UNAM</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="9" fondo="#E3E4E4" color="#000000">
+        <nombre>ROCK AND ROLL</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="8" fondo="#ECEDED" color="#000000">
+        <nombre>ORQUESTAS</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="7" fondo="#E3E4E4" color="#000000">
+        <nombre>MÚSICA INSTRUMENTAL</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="6" fondo="#ECEDED" color="#000000">
+        <nombre>SOUNDTRACKS</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="5" fondo="#E3E4E4" color="#000000">
+        <nombre>BOSSA NOVA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="4" fondo="#ECEDED" color="#000000">
+        <nombre>MÚSICA MEXICANA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="3" fondo="#ECEDED" color="#000000">
+        <nombre>MÚSICA MEXICANA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="2" fondo="#ECEDED" color="#000000">
+        <nombre>MÚSICA MEXICANA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+    <programa_radio id="1" fondo="#ECEDED" color="#000000">
+        <nombre>MÚSICA MEXICANA</nombre>
+        <activo>true</activo>
+    </programa_radio>
+</programas_radio>

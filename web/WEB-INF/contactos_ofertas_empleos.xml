@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contactos>
+    <contacto id="2">
+        <nombre>Gabriela Castillo Falcón</nombre>
+        <puesto>Encargada de la Coordinación de Bolsa de Trabajo</puesto>
+        <tel>3582222 ext. 2010</tel>
+        <email>btrabajo@uttab.edu.mx</email>
+        <horario>08:30-16:30 horas</horario>
+        <activo>true</activo>
+    </contacto> 
+    <contacto id="1">
+        <nombre>Lariza Gómez Villegas</nombre>
+        <puesto>Coordinadora de Bolsa de Trabajo</puesto>
+        <tel>3582207 ext. 2010</tel>
+        <email>btrabajo@uttab.edu.mx</email>
+        <horario>08:00-16:00 horas</horario>
+        <activo>false</activo>
+    </contacto>
+</contactos>

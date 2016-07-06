@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tipos_capacitacion>
+    <tipo_capacitacion id="3">
+        <nombre>Cursos</nombre>
+        <activo>true</activo>
+    </tipo_capacitacion>
+    <tipo_capacitacion id="2">
+        <nombre>Diplomados</nombre>
+        <activo>true</activo>
+    </tipo_capacitacion>
+    <tipo_capacitacion id="1">
+        <nombre>Talleres</nombre>
+        <activo>true</activo>
+    </tipo_capacitacion>
+</tipos_capacitacion>

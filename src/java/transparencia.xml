@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="transparencia" namespace="/transparencia" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">programa_institucional_desarrollo</result>
+        </action>
+        <action name="normatividad">
+            <result>/WEB-INF/jsp/transparencia/normatividad.jsp</result>
+        </action>
+        <action name="programa_institucional_desarrollo">
+            <result>/WEB-INF/jsp/transparencia/programa_institucional_desarrollo2.jsp</result>
+        </action>
+        <action name="contraloria_social">
+            <result>/WEB-INF/jsp/transparencia/contraloria_social.jsp</result>
+        </action>
+        <action name="bienes">
+            <result>/WEB-INF/jsp/transparencia/bienes.jsp</result>
+        </action>
+    </package>
+</struts>

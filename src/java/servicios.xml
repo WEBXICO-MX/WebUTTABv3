@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="servicios" namespace="/servicios" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">calendario_escolar</result>
+        </action>
+        <action name="calendario_escolar">
+            <result>/WEB-INF/jsp/servicios/calendario_escolar_2015_2016.jsp</result>
+        </action>
+        <action name="actividades_culturales_deportivas">
+            <result>/WEB-INF/jsp/servicios/actividades_culturales_deportivas.jsp</result>
+        </action>
+        <action name="atencion_psicopedagogica">
+            <result>/WEB-INF/jsp/servicios/atencion_psicopedagogica.jsp</result>
+        </action>
+        <action name="becas">
+            <result>/WEB-INF/jsp/servicios/becas.jsp</result>
+        </action>
+        <action name="biblioteca">
+            <result>/WEB-INF/jsp/servicios/biblioteca.jsp</result>
+        </action>
+        <action name="centro_idiomas">
+            <result>/WEB-INF/jsp/servicios/centro_idiomas.jsp</result>
+        </action>
+        <action name="control_escolar">
+            <result>/WEB-INF/jsp/servicios/control_escolar3.jsp</result>
+        </action>
+        <action name="servicios_ventanilla">
+            <result>/WEB-INF/jsp/servicios/servicios_ventanilla2.jsp</result>
+        </action>
+        <action name="tutorias">
+            <result>/WEB-INF/jsp/servicios/padres2.jsp</result>
+        </action>
+        <action name="practicas_empresariales">
+            <result>/WEB-INF/jsp/servicios/practicas_empresariales.jsp</result>
+        </action>
+        <action name="servicios_medicos">
+            <result>/WEB-INF/jsp/servicios/servicios_medicos2.jsp</result>
+        </action>
+        <action name="tramites_titulacion">
+            <result>/WEB-INF/jsp/servicios/tramites_titulacion.jsp</result>
+        </action>
+        <action name="transporte">
+            <result>/WEB-INF/jsp/servicios/transporte.jsp</result>
+        </action>
+        <action name="bolsa_trabajo">
+            <result>/WEB-INF/jsp/servicios/bolsa_trabajo.jsp</result>
+        </action>
+        <action name="delf_dalf">
+            <result>/WEB-INF/jsp/servicios/centro_certificador_delf_dalf.jsp</result>
+        </action>
+        <action name="admision">
+            <result>/WEB-INF/jsp/servicios/admision3.jsp</result>
+        </action>
+        <action name="egresados">
+            <result>/WEB-INF/jsp/servicios/egresados2.jsp</result>
+        </action>
+    </package>
+</struts>

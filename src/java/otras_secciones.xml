@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="otras_secciones" namespace="/otras_secciones" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">actividades_universitarias</result>
+        </action>
+        <action name="actividades_universitarias">
+            <result>/WEB-INF/jsp/otras_secciones/actividades_universitarias_anteriores2.jsp</result>
+        </action>
+        <action name="avisos" class="mx.edu.uttab.action.AvisoAction" method="listAvisosActivos">
+            <result>/WEB-INF/jsp/otras_secciones/avisos2.jsp</result>
+        </action>
+        <action name="gacetas">
+            <result>/WEB-INF/jsp/otras_secciones/gaceta2.jsp</result>
+        </action>
+        <action name="herramientas_tecnologicas">
+            <result>/WEB-INF/jsp/otras_secciones/herramientas_tecnologicas2.jsp</result>
+        </action>
+        <action name="calendario_eventos">
+            <result>/WEB-INF/jsp/otras_secciones/calendario_eventos2.jsp</result>
+        </action>
+        <action name="proteccion_civil">
+            <result>/WEB-INF/jsp/otras_secciones/proteccion_civil2.jsp</result>
+        </action>
+    </package>
+</struts>

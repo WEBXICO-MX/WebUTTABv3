@@ -1,0 +1,396 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:,400,700);
+@import url('includeMenu.min.css');
+@import url('includePie.min.css');
+@import "inclusion.min.css";
+* { margin: 0;padding: 0;}
+img { border: 0;}
+
+.corte {clear: both;}
+.negritas { font-weight: bold;}
+.negritasContacto { font-weight: bold;color:#F66A46;}
+.contenedor { margin: 44px auto 0 auto; width: 946px; height: auto;}
+#contenedor2 { margin:0 auto 0 auto; width: 1002px; height: auto; text-align: justify;
+               color: #5b5c5c;
+               font-family: 'Open Sans' !important;
+               font-style: normal;
+               font-weight: 400;
+               font-size: .875em;}
+#contenedorCaleEscInte { margin:44px auto 0 auto; width: 1002px; min-height:1600px; height: auto; background-image:url('../img/otras_secciones/calendario_institucional/calendarioInstitucional.png');background-size:1000px 1600px;background-repeat:no-repeat;}
+/*Sitios de Interés*/
+
+.area_titulo_sitios_interes{ width:941px; height: 36px; background-image: url(../img/otras_secciones/sitios_interes/area_titulo_sitios_interes.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_sitios_interes h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_sitios_interes {width: 946px; height: auto;}
+
+.area_info_sitios_interes a {color: #5B5C5C; text-decoration: none;}
+.area_info_sitios_interes a:link {color: #5B5C5C; }      /* unvisited link */
+.area_info_sitios_interes a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_info_sitios_interes a:hover {color: #000000;font-weight: bold;}  /* mouse over link */
+.area_info_sitios_interes a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+.area_info_sitios_interes_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_sitios_interes_2 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_sitios_interes_3 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_sitios_interes_4 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_sitios_interes_5 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_sitios_interes_6 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_sitios_interes_7 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_sitios_interes_8 { width: 927px; height: auto; margin-left: 19px;}
+
+.area_info_sitios_interes_1_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes_2_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes_3_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_3_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes_4_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_4_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_4_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes_5_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_5_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_5_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes_6_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_6_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_6_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes_7_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_7_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_7_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes_8_titulo { width: 863px; height: 38px; background-image: url(../img/otras_secciones/sitios_interes/area_info_sitios_interes_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_sitios_interes_8_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_sitios_interes_8_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_sitios_interes ul li{ list-style-position: inside; list-style: none;}
+
+
+/*Sitios de Interés*/
+
+/* Unidad Interna de Protección Civil de la UTTAB */
+
+.area_titulo_proteccion_civil{ width:941px; height: 36px; background-image: url(../img/otras_secciones/proteccion_civil/area_titulo_proteccion_civil.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_proteccion_civil h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_proteccion_civil {width: 946px; height: auto;}
+.area_info_proteccion_civil ul { list-style-position: inside; margin-left: 10px;}
+
+.area_info_proteccion_civil_1 { height: auto;width: 100%;margin-bottom: 20px;}
+.area_info_proteccion_civil_2 { height: auto;width: 100%;margin-bottom: 20px;}
+.area_info_proteccion_civil_3 { height: auto;width: 100%;margin-bottom: 20px;}
+
+.area_info_proteccion_civil_1_titulo { background-image: url("../img/otras_secciones/proteccion_civil/area_info_proteccion_civil_1_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_proteccion_civil_1_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_proteccion_civil_1_info {width: 945px; float:right;color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_proteccion_civil_2_titulo { background-image: url("../img/otras_secciones/proteccion_civil/area_info_proteccion_civil_2_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_proteccion_civil_2_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_proteccion_civil_2_info {width: 945px; float:right;color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_proteccion_civil_3_titulo { background-image: url("../img/otras_secciones/proteccion_civil/area_info_proteccion_civil_3_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_proteccion_civil_3_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_proteccion_civil_3_info {width: 945px; float:right; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+
+/* Unidad Interna de Protección Civil de la UTTAB */
+
+/* Gaceta */
+
+.area_titulo_gaceta{ width:941px; height: 36px; background-image: url(../img/otras_secciones/gaceta/area_titulo_gaceta.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_gaceta h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_gaceta {width: 946px; height: auto;}
+.area_info_gaceta ul { list-style-position: inside; margin-left: 10px;}
+
+.area_info_gaceta_1 { height: auto;width: 100%;margin-bottom: 20px;}
+
+.area_info_gaceta_1_titulo { background-image: url("../img/otras_secciones/proteccion_civil/area_info_proteccion_civil_1_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_gaceta_1_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_gaceta_1_info {width: 945px; float:right;color: #5B5C5C;font-family: 'PT Sans' !important;font-style: normal;font-weight: 700;font-size: 0.8em; text-align: justify;}
+
+.area_info_gaceta_1_info table tbody tr td a {color: #5B5C5C; text-decoration: none;}
+.area_info_gaceta_1_info table tbody tr td a:link {color: #5B5C5C; }      /* unvisited link */
+.area_info_gaceta_1_info table tbody tr td a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_info_gaceta_1_info table tbody tr td a:hover {color: #000000;font-weight: bold;}  /* mouse over link */
+.area_info_gaceta_1_info table tbody tr td a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+#contenedor3 {
+    margin: 44px auto 0 auto; width: 946px; height: auto;
+    color: #5B5C5C;
+    font-family: 'PT Sans' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-align: justify;
+}
+.miTabla { border:0; margin-left: 33px;}
+.miCelda { padding-right: 15px; vertical-align: middle;}
+/* Gaceta */
+
+/* Boletines Anteriores */
+
+.area_titulo_boletines_anteriores{ width:941px; height: 36px; background-image: url(../img/otras_secciones/boletines_anteriores/area_titulo_boletines_anteriores.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_boletines_anteriores h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_boletines_anteriores {width: 946px; height: auto;}
+.area_info_boletines_anteriores ul { list-style-position: inside; margin-left: 10px;}
+
+.area_info_boletines_anteriores_1 { height: auto;width: 100%;margin-bottom: 20px;}
+
+.area_info_boletines_anteriores_1_titulo { background-image: url("../img/otras_secciones/boletines_anteriores/area_info_boletines_anteriores_1_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_boletines_anteriores_1_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_boletines_anteriores_1_info {width: 945px; float:right;color: #5B5C5C;font-family: 'PT Sans' !important;font-style: normal;font-weight: 700;font-size: 0.8em; text-align: justify;}
+
+.area_info_boletines_anteriores_1_info table tbody tr td a {color: #5B5C5C; text-decoration: none;}
+.area_info_boletines_anteriores_1_info table tbody tr td a:link {color: #5B5C5C; }      /* unvisited link */
+.area_info_boletines_anteriores_1_info table tbody tr td a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_info_boletines_anteriores_1_info table tbody tr td a:hover {color: #000000;font-weight: bold;}  /* mouse over link */
+.area_info_boletines_anteriores_1_info table tbody tr td a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+.miTabla { font-size: 1.4em;padding:0;margin-left:0;border-spacing:0 15px; }
+.miTabla2 { padding:0;margin-left:0;border-spacing:0 15px; }
+.miTabla tr td { padding:8px 22px;}
+
+.titulo{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 600; font-size: 1.3em; margin-bottom: 6px;}
+.contenido{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em;margin-bottom: 6px;}
+.img{ margin-right: 30px;}
+
+.anio_seleccionado { background-color: #F28B00;color:#FFFFFF;}
+.mes_seleccionado { background-color: #FF6D10;color:#FFFFFF;}
+
+.mes_seleccionado a {color:#FFFFFF !important; text-decoration: none;}
+.mes_seleccionado a:link {color:#FFFFFF !important; }      /* unvisited link */
+.mes_seleccionado a:visited {color:#FFFFFF !important;font-weight: bold;}  /* visited link */
+.mes_seleccionado a:hover {color:#FFFFFF !important;font-weight: bold;}  /* mouse over link */
+.mes_seleccionado a:active {color:#FFFFFF !important;font-weight: bold;}  /* selected link */
+
+.anio_seleccionado a {color:#FFFFFF !important; text-decoration: none;}
+.anio_seleccionado a:link {color:#FFFFFF !important; }      /* unvisited link */
+.anio_seleccionado a:visited {color:#FFFFFF !important;font-weight: bold;}  /* visited link */
+.anio_seleccionado a:hover {color:#FFFFFF !important;font-weight: bold;}  /* mouse over link */
+.anio_seleccionado a:active {color:#FFFFFF !important;font-weight: bold;}  /* selected link */
+
+/* Boletines Anteriores */
+
+/* Avisos */
+
+.area_titulo_avisos{ width:941px; height: 36px; background-image: url(../img/otras_secciones/avisos/area_titulo_avisos.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_avisos h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_avisos {width: 946px; height: auto;}
+.area_info_avisos ul { list-style-position: inside; margin-left: 10px;}
+
+.area_info_avisos_1 { height: auto;width: 100%;margin-bottom: 20px;}
+
+.area_info_avisos_1_titulo { background-image: url("../img/otras_secciones/proteccion_civil/area_info_proteccion_civil_1_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_avisos_1_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_avisos_1_info {width: 945px; float:right;color: #5B5C5C;font-family: 'PT Sans' !important;font-style: normal;font-weight: 700;font-size: 0.8em; text-align: justify;}
+
+
+/* Avisos */
+
+/* Contraloría Social PROMEP*/
+
+
+
+
+/* Contraloría Social PROMEP*/
+
+.area_titulo_contraloria_social{ width:941px; height: 36px; background-image: url(../img/otras_secciones/contraloria_social/area_titulo_contraloria_social.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_contraloria_social h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_btn_contraloria_social {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_contraloria_social a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_contraloria_social {width: 946px; height: auto;}
+.area_info_contraloria_social ul { list-style-position: inside; margin-left: 10px;}
+
+.area_info_contraloria_social_titulo {
+    background-image: url("../img/otras_secciones/contraloria_social/area_info_contraloria_social_titulo.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-bottom: 16px; 
+    margin-left: 19px;
+    height: 39px; /* 54px - 15px = 39px*/
+    width: 867px; /* 927px - 60px = 867px*/
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.area_info_contraloria_social_titulo h3 {
+    color: #FFFFFF;
+    font-family: 'Open Sans' !important;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.area_info_contraloria_social_info_1,
+.area_info_contraloria_social_info_2,
+.area_info_contraloria_social_info_3,
+.area_info_contraloria_social_info_4,
+.area_info_contraloria_social_info_5 
+{ width: 878px;margin-left: 68px;}
+
+.area_info_contraloria_social_info_1_titulo { width: 833px;height: 29px;background-image: url(../img/otras_secciones/contraloria_social/area_info_contraloria_social_info_1_titulo.png); background-repeat: no-repeat;background-position: right;margin-bottom: 16px; padding-left: 45px; padding-top: 8px;}
+.area_info_contraloria_social_info_2_titulo { width: 833px;height: 29px;background-image: url(../img/otras_secciones/contraloria_social/area_info_contraloria_social_info_2_titulo.png); background-repeat: no-repeat;background-position: right;margin-bottom: 16px; padding-left: 45px; padding-top: 8px;}
+.area_info_contraloria_social_info_3_titulo { width: 833px;height: 29px;background-image: url(../img/otras_secciones/contraloria_social/area_info_contraloria_social_info_3_titulo.png); background-repeat: no-repeat;background-position: right;margin-bottom: 16px; padding-left: 45px; padding-top: 8px;}
+.area_info_contraloria_social_info_4_titulo { width: 833px;height: 29px;background-image: url(../img/otras_secciones/contraloria_social/area_info_contraloria_social_info_4_titulo.png); background-repeat: no-repeat;background-position: right;margin-bottom: 16px; padding-left: 45px; padding-top: 8px;}
+.area_info_contraloria_social_info_5_titulo { width: 833px;height: 29px;background-image: url(../img/otras_secciones/contraloria_social/area_info_contraloria_social_info_5_titulo.png); background-repeat: no-repeat;background-position: right;margin-bottom: 16px; padding-left: 45px; padding-top: 8px;}
+
+.area_info_contraloria_social_info_1_titulo h3,
+.area_info_contraloria_social_info_2_titulo h3,
+.area_info_contraloria_social_info_3_titulo h3,
+.area_info_contraloria_social_info_4_titulo h3,
+.area_info_contraloria_social_info_5_titulo h3 {color: #FFFFFF;font-family: 'Open Sans' !important;font-size: 1em;font-style: normal;font-weight: 700;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+
+.area_info_contraloria_social_info_1_info,
+.area_info_contraloria_social_info_2_info,
+.area_info_contraloria_social_info_3_info,
+.area_info_contraloria_social_info_4_info,
+.area_info_contraloria_social_info_5_info { font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; font-size: 13px;}
+
+
+
+.area_info_contraloria_social_info_1_info ul,
+.area_info_contraloria_social_info_2_info ul,
+.area_info_contraloria_social_info_3_info ul,
+.area_info_contraloria_social_info_4_info ul,
+.area_info_contraloria_social_info_5_info ul { list-style-position: inside; list-style: none; margin-left: 20px;}
+
+.area_info_contraloria_social_info_1_info ul a,
+.area_info_contraloria_social_info_2_info ul a,
+.area_info_contraloria_social_info_3_info ul a,
+.area_info_contraloria_social_info_4_info ul a,
+.area_info_contraloria_social_info_5_info ul a {color:#5B5C5C !important; text-decoration: none;}
+
+.area_info_contraloria_social_info_1_info ul a:link,
+.area_info_contraloria_social_info_2_info ul a:link,
+.area_info_contraloria_social_info_3_info ul a:link,
+.area_info_contraloria_social_info_4_info ul a:link,
+.area_info_contraloria_social_info_5_info ul a:link {color:#5B5C5C !important; }      /* unvisited link */
+
+.area_info_contraloria_social_info_1_info ul a:visited,
+.area_info_contraloria_social_info_2_info ul a:visited,
+.area_info_contraloria_social_info_3_info ul a:visited,
+.area_info_contraloria_social_info_4_info ul a:visited,
+.area_info_contraloria_social_info_5_info ul a:visited {color:#5B5C5C !important;font-weight: bold;}  /* visited link */
+
+.area_info_contraloria_social_info_1_info ul a:hover,
+.area_info_contraloria_social_info_2_info ul a:hover,
+.area_info_contraloria_social_info_3_info ul a:hover,
+.area_info_contraloria_social_info_4_info ul a:hover,
+.area_info_contraloria_social_info_5_info ul a:hover {color:#5B5C5C !important;font-weight: bold;}  /* mouse over link */
+
+.area_info_contraloria_social_info_1_info ul a:active,
+.area_info_contraloria_social_info_2_info ul a:active,
+.area_info_contraloria_social_info_3_info ul a:active,
+.area_info_contraloria_social_info_4_info ul a:active,
+.area_info_contraloria_social_info_5_info ul a:active {color:#5B5C5C !important;font-weight: bold;}  /* selected link */
+
+/* Contraloría Social FOMES y FIUPEA*/
+
+.area_titulo_contraloria_social_fomes{ width:941px; height: 36px; background-image: url(../img/otras_secciones/contraloria_social/area_titulo_contraloria_social.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_contraloria_social_fomes h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_btn_contraloria_social_fomes {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_contraloria_social_fomes a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_contraloria_social_fomes {width: 946px; height: auto;}
+.area_info_contraloria_social_fomes ul { list-style-position: inside; margin-left: 10px;}
+
+.area_info_contraloria_social_fomes_1 { height: auto;width: 100%;margin-bottom: 20px;}
+
+.area_info_contraloria_social_fomes_1_titulo { background-image: url("../img/otras_secciones/contraloria_social/area_info_contraloria_social_fomes_1_titulo.png");background-position:right;background-repeat: no-repeat;height: 46px;width: 866px;margin-bottom: 25px;padding-left: 80px; padding-top:8px;}
+.area_info_contraloria_social_fomes_1_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_contraloria_social_fomes_1_info {width: 945px; float:right;color: #5B5C5C;font-family: 'PT Sans' !important;font-style: normal;font-size: 0.8em; text-align: justify;}
+.area_info_contraloria_social_fomes_1_info ul { list-style-position: inside; margin-left: 100px; list-style: none;}
+
+.area_info_contraloria_social_fomes_1_info ul a {color:#5B5C5C !important; text-decoration: none;}
+.area_info_contraloria_social_fomes_1_info ul a:link {color:#5B5C5C !important; }      /* unvisited link */
+.area_info_contraloria_social_fomes_1_info ul a:visited {color:#5B5C5C !important;font-weight: bold;}  /* visited link */
+.area_info_contraloria_social_fomes_1_info ul a:hover {color:#5B5C5C !important;font-weight: bold;}  /* mouse over link */
+.area_info_contraloria_social_fomes_1_info ul a:active {color:#5B5C5C !important;font-weight: bold;}  /* selected link */
+/* Contraloría Social FOMES y FIUPEA*/
+
+
+/* Radio - Programas grabados */
+
+.area_titulo_radio_programas_grab{ width:941px; height: 36px; background-image: url(../img/otras_secciones/radio/area_titulo_radio_programas_grab.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_radio_programas_grab h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_radio_programas_grab {width: 946px; height: auto;}
+.area_info_radio_programas_grab ul { list-style-position: inside; margin-left: 10px;}
+
+.area_info_radio_programas_grab_1 { height: auto;width: 100%;margin-bottom: 20px;}
+
+.area_info_radio_programas_grab_1_titulo { background-image: url("../img/otras_secciones/proteccion_civil/area_info_proteccion_civil_1_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_radio_programas_grab_1_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_radio_programas_grab_1_info {width: 945px; float:right;color: #5B5C5C;font-family: 'PT Sans' !important;font-style: normal;font-weight: 700;font-size: 0.8em; text-align: justify;}
+
+.miTabla { border:0; margin: 0 auto;}
+.miCelda { padding-right: 15px; vertical-align: middle;}
+/* Radio - Programas grabados*/
+
+/* Calendario eventos */
+#contenedor_calendario_eventos { margin:44px auto 0 auto; width: 1002px; height: auto;}
+#contenedor_calendario {float: left; width: 200px; height: auto; }
+#contenedor_eventos {float: right; width: 802px; height: auto; }
+
+.area_titulo_calendario_eventos{ width:100%; height: 36px; background-image: url(../img/otras_secciones/calendario_eventos/area_titulo_calendario_eventos.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:5px;}
+.area_titulo_calendario_eventos h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_calendario_eventos {width: 100%; height: auto;}
+
+.area_info_calendario_eventos_1 { width:100%;height: auto;margin-bottom: 20px;}
+.area_info_calendario_eventos_1_titulo { background-image: url("../img/otras_secciones/calendario_eventos/area_info_calendario_eventos_1_titulo.png");background-position: left center;background-repeat: no-repeat;width: 742px; height: 39px;margin-bottom: 13px;padding-top: 15px; padding-left:60px;}
+.area_info_calendario_eventos_1_titulo h4{ color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_calendario_eventos_1_info {width: 742px;float:right;color: #5B5C5C;font-family: 'PT Sans' !important;font-style: normal;font-weight: normal;font-size: 1em; text-align: justify;padding-left:60px;}
+.area_info_calendario_eventos_1_info ul { list-style-position:  inside;}
+
+#datepicker_calendario_eventos,#datepicker_calendario_eventos2{font-size:10px;}
+#menuFecha { width: auto; height: 36px; padding-top: 10px; padding-left: 5px;margin-bottom:0;color:#5B5C5C;font-family:'Open Sans' !important;font-style:normal;font-weight:700;font-size:1em;line-height:20px; text-align:justify;}
+#menuFecha ul li { display:  inline;}
+#menuFecha ul li a{ text-decoration: none;cursor: pointer;}
+#menuFecha ul li a:link {color: #5B5C5C;}      /* unvisited link */
+#menuFecha ul li a:visited {color: #5B5C5C;}  /* visited link */
+#menuFecha ul li a:hover {color: #5B5C5C;}  /* mouse over link */
+#menuFecha ul li a:active {color: #5B5C5C;}  /* selected link */
+#tabla_calendario_eventos { width: 797px; border-spacing:0;font-family:'Open Sans' !important;font-style:normal;font-weight:400;font-size:0.9em;}
+#tabla_calendario_eventos thead th { color: white;text-align: left;padding: 15px; background-color: #C8392D; }
+#tabla_calendario_eventos thead tr th a { text-decoration: none;cursor: pointer;}
+#tabla_calendario_eventos thead tr th a:link {color:white;}
+#tabla_calendario_eventos thead tr th a:visited {color: #5B5C5C;}
+#tabla_calendario_eventos thead tr th a:hover {color: #5B5C5C;}
+#tabla_calendario_eventos thead tr th a:active {color: #5B5C5C;}
+#tabla_calendario_eventos tr.border_top td {border-top:2px solid #DCDCDC;}
+#tabla_calendario_eventos tr.oculto {display:none;}
+#tabla_calendario_eventos tbody tr td.fecha_actual {text-align: left;padding: 15px;}
+#tabla_calendario_eventos tbody tr td.horario { width: 20%; background-color:#EBEBEB;text-align: center; vertical-align: top; padding: 5px; font-weight: 600; }
+#tabla_calendario_eventos tbody tr td.descripcion { width: 80%;padding: 5px; }
+#tabla_calendario_eventos tbody tr td.descripcion span { margin-bottom: 10px;display:inline-block; }
+#tabla_calendario_eventos tbody tr td.descripcion span.sin_margin_bottom { margin-bottom:0;}
+
+/* Calendario eventos */
+
+/* Herramientas Tecnologicas*/
+#contenedor2 a{ text-decoration: none;}
+#contenedor2 a:link {color: #5B5C5C;}      /* unvisited link */
+#contenedor2 a:visited {color: #5B5C5C;}  /* visited link */
+#contenedor2 a:hover {color: #5B5C5C;}  /* mouse over link */
+#contenedor2 a:active {color: #5B5C5C;}  /* selected link */
+.btn:hover { opacity:0.8;filter:alpha(opacity=80);}
+.area_titulo{ width:1002px; height: 46px; background-image: url(../img/otras_secciones/herramientas_tecnologicas/banner1.png); background-repeat: no-repeat;margin-bottom:15px; }
+.area_titulo h3{ color: #F8F6F7;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info {width: 946px; height: auto; margin:0 auto;}
+.area_info_1,.area_info_2 { width: 927px; height: auto;margin-bottom:15px;}
+.area_info_2 { display: none;}
+.area_info_1 ul,.area_info_2 ul { list-style-position: inside;}
+.area_info_1 > img,.area_info_2 > img{ float: right; margin-left: 15px;}
+.area_info_texto {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.875em; text-align: justify;}
+/* Herramientas Tecnologicas*/

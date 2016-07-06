@@ -1,0 +1,839 @@
+<krpano version="1.16" title="Virtual Tour" onstart="loadscene(scene_08, null, MERGE);">
+<autorotate enabled="true" 
+            waittime="5.0" 
+            accel="1.2" 
+            speed="2.5" 
+            horizon="off"
+            />
+
+	<!-- disable the default progress bar -->
+	<progress showload="none" showwait="none" />
+	
+	<plugin name="gyro" devices="ios"
+        url="plugins/gyro.js" 
+        keep="true"
+        enabled="true"
+        camroll="false"
+        friction="0.5"
+        velastic="0"
+        vrelative="true"
+        onavailable=""
+        />
+
+<!-- botones (zoom, direction) para html5  -->
+<plugin name="in"     
+url="skin/btn_plus.png"  
+devices="html5" 
+keep="true"
+align="bottom" x="-125" y="30"  
+ondown="set(fov_moveforce,-1);"  
+onup="set(fov_moveforce,0);" />
+
+<plugin name="out"      
+url="skin/btn_minus.png"
+devices="html5" 
+keep="true"
+align="bottom" x="-75" y="30"  
+ondown="set(fov_moveforce,+1);"  
+onup="set(fov_moveforce,0);" />
+
+<plugin name="left"   
+url="skin/btn_left.png"  
+devices="html5" 
+keep="true"
+align="bottom" x="-25"  y="30"  
+ondown="set(hlookat_moveforce,-1);"  
+onup="set(hlookat_moveforce,0);" />
+
+<plugin name="right"  
+url="skin/btn_right.png" 
+devices="html5" 
+keep="true"
+align="bottom" x="25"  y="30" 
+ondown="set(hlookat_moveforce,+1);"  
+onup="set(hlookat_moveforce,0);" />
+
+<plugin name="up"   
+url="skin/btn_up.png"    
+devices="html5" 
+keep="true"
+align="bottom" x="75"   y="30" 
+ondown="set(vlookat_moveforce,-1);"  
+onup="set(vlookat_moveforce,0);" />
+
+<plugin name="down"   
+url="skin/btn_down.png"  
+devices="html5" 
+keep="true"
+align="bottom" x="125"  y="30" ondown="set(vlookat_moveforce,+1);"  onup="set(vlookat_moveforce,0);" />
+
+<!-- botones (zoom, direction) para flash   -->
+
+<plugin name="in2"    url="skin/btn_plus.png"  
+devices="flash" 
+keep="true"
+align="bottom" y="30" x="-120" blendmode="normal" 
+ondown="set(movevectorz,-1);"  onup="set(movevectorz,0);" onover="set(blendmode,add);" onout="set(blendmode,normal);" />
+
+<plugin name="out2"     
+url="skin/btn_minus.png"  
+devices="flash" 
+keep="true"
+align="bottom" x="-80" y="30"  
+ondown="set(movevectorz,+1);"  onup="set(movevectorz,0);" onover="set(blendmode,add);" onout="set(blendmode,normal);" />
+
+<plugin name="left2"     
+url="skin/btn_left.png"  
+devices="flash" 
+keep="true"
+align="bottom" x="-40" y="30"  
+ondown="set(movevectorx,-1);"  onup="set(movevectorx,0);" onover="set(blendmode,add);" onout="set(blendmode,normal);" />
+
+<plugin name="right2"     
+url="skin/btn_right.png"  
+devices="flash" 
+keep="true"
+align="bottom" x="0" y="30"  
+ondown="set(movevectorx,+1);"  onup="set(movevectorx,0);" onover="set(blendmode,add);" onout="set(blendmode,normal);" />
+
+<plugin name="up2"    url="skin/btn_up.png"    
+devices="flash"
+keep="true" 
+align="bottom"  y="30" x="+40"   blendmode="normal" ondown="set(movevectory,-1);"  onup="set(movevectory,0);" onover="set(blendmode,add);" onout="set(blendmode,normal);" />
+
+<plugin name="down2"  url="skin/btn_down.png"  
+devices="flash" 
+keep="true"
+align="bottom"  y="30" x="+80"  blendmode="normal" ondown="set(movevectory,+1);"  onup="set(movevectory,0);" onover="set(blendmode,add);" onout="set(blendmode,normal);" /> 
+
+<plugin name="openfs"  url="skin/btn_openfs.png"  
+devices="flash"
+keep="true" 
+visible="true"  align="bottom"  y="30" x="+120"  blendmode="normal" 
+onover="set(blendmode,add);"  onout="set(blendmode,normal);" onclick="set(fullscreen,true);"   />
+
+<plugin name="closefs" url="skin/btn_closefs.png" 
+devices="flash"
+keep="true" 
+visible="false" align="bottom"  y="30" x="+120"  blendmode="normal" 
+onover="set(blendmode,add);"  onout="set(blendmode,normal);" onclick="set(fullscreen,false);"  />
+
+<events 
+onenterfullscreen="set(plugin[openfs].visible,false); 
+set(plugin[closefs].visible,true);"
+onexitfullscreen="set(plugin[openfs].visible,true); 
+set(plugin[closefs].visible,false);"
+/>
+
+<plugin name="logo" 
+url="skin/logo.png" 
+keep="true"
+blendmode="normal" 
+align="rightbottom"
+x="5" y="5"
+enabled="false"
+onclick="openurl(http://www.recorridosvirtuales.com,blank);" />
+
+<!-- gyro -->
+<plugin name="gyro"
+	devices="plugins/ios"
+	url="gyro.js"
+	keep="true"
+	enabled="true"
+	camroll="false"
+	friction="0.5"
+	velastic="0"
+/>
+
+<!-- Mapa y puntitos-->
+<plugin name="mapa"  
+	url="skin/uttab.jpg"  
+	keep="true"
+	align="righttop"  
+	y="0" x="0"  
+	blendmode="normal" 
+	enabled="false" 
+	visible="true"/>
+<plugin name="cerrarmapa"  
+	url="cerrar_mapa.png"  
+	zorder="3" 
+	visible="true" 
+	keep="true" 
+	align="righttop" 
+	edge="lefttop" 
+	y="266" x="600"  
+	onhover="showtext(cerrar mapa);" onclick="set(plugin[cerrarmapa].visible,false);
+	set(plugin[abrirmapa].visible,true);set(plugin[mapa].visible,false);
+	set(plugin[p_01].visible,false);
+	set(plugin[p_02].visible,false);
+	set(plugin[p_03].visible,false);
+	set(plugin[p_04].visible,fale);
+	set(plugin[p_05].visible,false);
+	set(plugin[p_06].visible,false);
+	set(plugin[p_07].visible,false);
+	set(plugin[p_08].visible,false);
+	set(plugin[p_09].visible,false);
+	set(plugin[p_10].visible,false);
+	set(plugin[p_11].visible,fale);
+	set(plugin[p_12].visible,false);
+	set(plugin[p_13].visible,false);
+	set(plugin[p_01a].visible,false);
+	set(plugin[p_02a].visible,false);"  />
+<plugin name="abrirmapa"  
+	url="abrir_mapa.png"  
+	zorder="3" 
+	visible="false" 
+	keep="true"  
+	align="righttop" 
+	edge="lefttop" 
+	y="0" x="600"  
+	onhover="showtext(abrir mapa);"  onclick="set(plugin[cerrarmapa].visible,true);
+	set(plugin[abrirmapa].visible,false);set(plugin[mapa].visible,true);
+	set(plugin[p_01].visible,true);
+	set(plugin[p_02].visible,true);
+	set(plugin[p_03].visible,true);
+	set(plugin[p_04].visible,true);
+	set(plugin[p_05].visible,true);
+	set(plugin[p_06].visible,true);
+	set(plugin[p_07].visible,true);
+	set(plugin[p_08].visible,true);
+	set(plugin[p_09].visible,true);
+	set(plugin[p_10].visible,true);
+	set(plugin[p_11].visible,true);
+	set(plugin[p_12].visible,true);
+	set(plugin[p_13].visible,true);
+	set(plugin[p_01a].visible,true);
+	set(plugin[p_02a].visible,true);"  />
+<plugin name="p_01" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="260" y="144" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Taller de Máquinas y Herramientas);"
+	onclick="loadscene(scene_01, null, MERGE);"
+/>
+<plugin name="p_02" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="330" y="160" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Secretaría de Vinculación);"
+	onclick="loadscene(scene_02, null, MERGE);"
+/>
+<plugin name="p_03" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="500" y="210" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Planta Piloto 3);"
+	onclick="loadscene(scene_03, null, MERGE);"
+/>
+<plugin name="p_04" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="304" y="95" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Cocina 1);"
+	onclick="loadscene(scene_04, null, MERGE);"
+/>
+<plugin name="p_05" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="320" y="92" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Planta Piloto 2);"
+	onclick="loadscene(scene_05, null, MERGE);"
+/>
+<plugin name="p_06" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="265" y="67" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Laboratorio de Informática);"
+	onclick="loadscene(scene_06, null, MERGE);"
+/>
+<plugin name="p_07" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="407" y="52" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Sala de Video Conferencias);"
+	onclick="loadscene(scene_07, null, MERGE);"
+/>
+<plugin name="p_08" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="37" y="135" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Rectoría);"
+	onclick="loadscene(scene_08, null, MERGE);"
+/>
+<plugin name="p_09" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="420" y="27" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Naves de Usos Multiples);"
+	onclick="loadscene(scene_09, null, MERGE);"
+/>
+<plugin name="p_10" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="457" y="100" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Biblioteca);"
+	onclick="loadscene(scene_10, null, MERGE);"
+/>
+<plugin name="p_11" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="381" y="25" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Centro de Calibración y Pruebas);"
+	onclick="loadscene(scene_11, null, MERGE);"
+/>
+<plugin name="p_12" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="485" y="85" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Cafetería Kuku-uche);"
+	onclick="loadscene(scene_12, null, MERGE);"
+/>
+<plugin name="p_13" 
+	url="skin/mini.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="bottom"   
+	x="428" y="48" 
+	visible="true"
+	keep="true" 
+	onhover="showtext(Departamento de Producción Audiovisual);"
+	onclick="loadscene(scene_13, null, MERGE);"
+/>
+<plugin name="p_02a" 
+	url="skin/btn_hexa.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="center"   
+	x="265" y="105" 
+	visible="true"
+	keep="true" 
+	onclick="loadscene(scene_02a, null, MERGE);"
+/>
+<plugin name="p_01a" 
+	url="skin/btn_hexa.png" 
+	zorder="5" 
+	align="righttop" 
+	edge="center"   
+	x="510" y="154" 
+	visible="true"
+	keep="true" 
+	onclick="loadscene(scene_01a, null, MERGE);"
+/>	
+
+<!-- Escenas -->
+<scene name="scene_01" title="Taller de Máquinas y Herramientas" onstart="" thumburl="panos/01.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="130" vlookat="5" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/01.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/01.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/01.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/01.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/01.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_01.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_02" title="Secretaría de Vinculación" onstart="" thumburl="panos/02.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-135" vlookat="5" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/02.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/02.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/02.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/02.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/02.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_02.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_03" title="Planta Piloto 3" onstart="" thumburl="panos/03.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="45" vlookat="5" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/03.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/03.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/03.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/03.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/03.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_03.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_04" title="Cocina 1" onstart="" thumburl="panos/04.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-135" vlookat="5" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/04.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/04.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/04.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/04.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/04.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_04.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_05" title="Planta Piloto 2" onstart="" thumburl="panos/05.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="20" vlookat="8" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/05.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/05.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/05.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/05.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/05.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_05.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_06" title="Laboratorio de Informática" onstart="" thumburl="panos/06.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="75" vlookat="10" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/06.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/06.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/06.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/06.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/06.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_06.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_07" title="Sala de Videoconferencia" onstart="" thumburl="panos/07.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-30" vlookat="10" fovtype="MFOV" fov="100" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/07.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/07.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/07.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/07.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/07.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_07.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_08" title="Rectoría" onstart="" thumburl="panos/08.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="117" vlookat="0" fovtype="MFOV" fov="100" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/08.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/08.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/08.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/08.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/08.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_08.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_09" title="Naves de Usos Multiples" onstart="" thumburl="panos/09.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-80" vlookat="15" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/09.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/09.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/09.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/09.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/09.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_09.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_10" title="Biblioteca" onstart="" thumburl="panos/10.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="15" vlookat="0" fovtype="MFOV" fov="100" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/10.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/10.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/10.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/10.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/10.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_10.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_11" title="Centro de Calibración y Pruebas" onstart="" thumburl="panos/11.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-160" vlookat="0" fovtype="MFOV" fov="125" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/11.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/11.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/11.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/11.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/11.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_11.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_12" title="Cafetería KUKU-UCHE" onstart="" thumburl="panos/12.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="150" vlookat="20" fovtype="MFOV" fov="120" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/12.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/12.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/12.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/12.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/12.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_12.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_13" title="Departamento de Producción Audiovisual" onstart="" thumburl="panos/13.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="120" vlookat="0" fovtype="MFOV" fov="125" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/13.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="1910" tiledimageheight="1910">
+				<cube url="panos/13.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="955" tiledimageheight="955">
+				<cube url="panos/13.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/13.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/13.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<plugin name="letrero" 
+url="skin/let_13.png" 
+keep="false"
+blendmode="normal" 
+align="centerbottom"
+x="0" y="80"
+enabled="false"
+/>
+
+	</scene>
+
+	<scene name="scene_01a" title="aerea1" onstart="" thumburl="panos/aerea1.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="125" vlookat="35" fovtype="MFOV" fov="110" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/aerea1.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2275" tiledimageheight="2275">
+				<cube url="panos/aerea1.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1138" tiledimageheight="1138">
+				<cube url="panos/aerea1.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/aerea1.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/aerea1.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+	<scene name="scene_02a" title="aerea2" onstart="" thumburl="panos/aerea2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-110" vlookat="35" fovtype="MFOV" fov="120" maxpixelzoom="1.1" fovmin="45" fovmax="140" limitview="auto" />
+
+		<preview url="panos/aerea2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2275" tiledimageheight="2275">
+				<cube url="panos/aerea2.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1138" tiledimageheight="1138">
+				<cube url="panos/aerea2.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/aerea2.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/aerea2.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+
+	</scene>
+
+
+</krpano>

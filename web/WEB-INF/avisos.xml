@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<avisos>
+  <aviso id="68">
+    <nombre>Asesorías Académicas enero-abril 2016</nombre>
+    <fecha_realizacion>22 enero 2016</fecha_realizacion>
+    <fecha_publicacion>22 January 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_68.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_68.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="67">
+    <nombre>Resultados de los alumnos beneficiados con la beca Apoya Tu Transporte 2015-2016</nombre>
+    <fecha_realizacion>13 enero 2016</fecha_realizacion>
+    <fecha_publicacion>13 January 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_67.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_67.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="66">
+    <nombre>Resultados de los alumnos beneficiados con la beca de manutención 2015-2016</nombre>
+    <fecha_realizacion>13 enero 2016</fecha_realizacion>
+    <fecha_publicacion>13 January 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_66.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_66.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="65">
+    <nombre>Proceso de trámite de titulación de los egresados de la generación IX de Licencuaturas</nombre>
+    <fecha_realizacion>16 diciembre 2015</fecha_realizacion>
+    <fecha_publicacion>16 December 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_65.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_65.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="64">
+    <nombre>Asesorías académicas septiembre-diciembre 2015</nombre>
+    <fecha_realizacion>20 noviembre 2015</fecha_realizacion>
+    <fecha_publicacion>20 November 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_64.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_64.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="63">
+    <nombre>Lineamiento de toma de fotografía Generación XXXV de TSU</nombre>
+    <fecha_realizacion>12 octubre 2015</fecha_realizacion>
+    <fecha_publicacion>12 October 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_63.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_63.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="62">
+    <nombre>Convocatoria 2015-1 Registro de proyectos internos de investigación</nombre>
+    <fecha_realizacion>8 septiembre 2015</fecha_realizacion>
+    <fecha_publicacion>8 September 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_62.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_62.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="61">
+    <nombre>HORARIO DE LOS TALLERES DE ACTIVIDADES CULTURALES Y DEPORTIVAS</nombre>
+    <fecha_realizacion>25 agosto 2015</fecha_realizacion>
+    <fecha_publicacion>25 August 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_61.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_61.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="60">
+    <nombre>Cursos gratuitos MéxicoX Plataforma Educativa</nombre>
+    <fecha_realizacion>24 agosto 2015</fecha_realizacion>
+    <fecha_publicacion>24 August 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_60.jpg</img>
+    <pdf>NULL</pdf>
+    <link>http://mx.televisioneducativa.gob.mx/</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="59">
+    <nombre>Curso de inducción SEPTIEMBRE-DICIEMBRE 2015</nombre>
+    <fecha_realizacion>19 agosto 2015</fecha_realizacion>
+    <fecha_publicacion>10 August 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_59.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_59.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="58">
+    <nombre>Calendario de recepción de documentos para trámite de titulación Generación XXXV de TSU</nombre>
+    <fecha_realizacion>5 octubre 2015</fecha_realizacion>
+    <fecha_publicacion>17 July 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_58.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_58.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="57">
+    <nombre>Programa de aplicación del examen psicométrico Septiembre - Diciembre 2015</nombre>
+    <fecha_realizacion>4 agosto 2015</fecha_realizacion>
+    <fecha_publicacion>15 July 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_57.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_57.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="56">
+    <nombre>Convocatorias Universia México</nombre>
+    <fecha_realizacion>24 junio 2015</fecha_realizacion>
+    <fecha_publicacion>24 June 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_56.jpg</img>
+    <pdf>NULL</pdf>
+    <link>http://boletines.universia.net.mx/boletines/boletin_20150623/index.html</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="55">
+    <nombre>Medalla al Mérito por la Defensa del Medio Ambiente 2015</nombre>
+    <fecha_realizacion>12 mayo 2015</fecha_realizacion>
+    <fecha_publicacion>19 June 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_55.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_55.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="54">
+    <nombre>Lineamiento de toma de fotografía VIII Generación de Licenciaturas y XXXIV TSU</nombre>
+    <fecha_realizacion>12 Junio 2015</fecha_realizacion>
+    <fecha_publicacion>12 Junio 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_54.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_54.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="53">
+    <nombre>Asesorias de las Divisiones Académicas Mayo - Agosto 2015</nombre>
+    <fecha_realizacion>11 Junio 2015</fecha_realizacion>
+    <fecha_publicacion>11 Junio 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_53.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_53.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="52">
+    <nombre>Horario de talleres Culturales y Deportivos</nombre>
+    <fecha_realizacion>05 Mayo 2015</fecha_realizacion>
+    <fecha_publicacion>05 Mayo 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_52.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_52.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="51">
+    <nombre>Curso “Jornadas Técnicas en construcción y workover de pozos de gas y petróleo”</nombre>
+    <fecha_realizacion>12 Junio 2015</fecha_realizacion>
+    <fecha_publicacion>05 Mayo 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_51.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_51.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="50">
+    <nombre>Calendario de entrega de documentos oficiales generación XXXII de TSU y VI de Licenciaturas (egreso abril 2014) y otras  generaciones</nombre>
+    <fecha_realizacion>30 Enero 2015</fecha_realizacion>
+    <fecha_publicacion>04 Febrero 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_50.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_50.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="49">
+    <nombre>Asesorías de las Divisiones Académicas ene-abr 2015</nombre>
+    <fecha_realizacion>03 Febrero 2015</fecha_realizacion>
+    <fecha_publicacion>03 Febrero 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_49.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_49.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="48">
+    <nombre>Proceso de admision para Licenciatura</nombre>
+    <fecha_realizacion>02 Marzo 2015</fecha_realizacion>
+    <fecha_publicacion>30 Enero 2015</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_48.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_48.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="47">
+    <nombre>Proceso de trámite de titulación de los egresados de la generación VII de Licenciaturas Fecha de egreso: 12 de diciembre de 2014</nombre>
+    <fecha_realizacion>12 Diciembre 2014</fecha_realizacion>
+    <fecha_publicacion>05 Diciembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_47.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_47.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="46">
+    <nombre>AVISO URGENTE Alumnos que realizarón su registro para la beca de manutención</nombre>
+    <fecha_realizacion>18 Noviembre 2014</fecha_realizacion>
+    <fecha_publicacion>14 Noviembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_46.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_46.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="45">
+    <nombre>Asesorías para alumnos por división septiembre - diciembre 2014</nombre>
+    <fecha_realizacion>05 Noviembre 2014</fecha_realizacion>
+    <fecha_publicacion>05 Noviembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_45.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_45.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="44">
+    <nombre>CONVOCATORIA DE LA MANUTENCIÓN 2014-2015 (ANTES PRONABES)</nombre>
+    <fecha_realizacion>22 Octubre 2014</fecha_realizacion>
+    <fecha_publicacion>22 Octubre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_44.jpg</img>
+    <pdf>NULL</pdf>
+    <link>http://www.setab.gob.mx/</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="43">
+    <nombre>Alumnos beneficiados con Beca de Excelencia Consulten los resultados aquì</nombre>
+    <fecha_realizacion>20 Septiembre 2014</fecha_realizacion>
+    <fecha_publicacion>20 Octubre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_43.png</img>
+    <pdf>NULL</pdf>
+    <link>http://www.cnbes.sep.gob.mx/</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="42">
+    <nombre>Calendario de entrega de documentos oficiales XXXI de TSU y otras generaciones (egreso agosto 2013)</nombre>
+    <fecha_realizacion>30 Septiembre 2014</fecha_realizacion>
+    <fecha_publicacion>02 Octubre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_42.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_42.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="41">
+    <nombre>La Camara Nacional de la Industria de Transformación Delegacion Tabasco invita al TALLER DE SOLDADURA "PROCESO GMAW-GTAW"</nombre>
+    <fecha_realizacion>17 Octubre 2014</fecha_realizacion>
+    <fecha_publicacion>01 Octubre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_41.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_41.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="40">
+    <nombre>SAT Servicio de Administración Tributaria CONVOCA</nombre>
+    <fecha_realizacion>24 Septiembre 2014</fecha_realizacion>
+    <fecha_publicacion>24 Septiembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_40.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_40.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="39">
+    <nombre>XXVI REUNIÓN CIENTÍFICA TENOLÓGICA, FORESTAL Y AGROPECUARIA TABASCO 2014</nombre>
+    <fecha_realizacion>06 Noviembre 2014</fecha_realizacion>
+    <fecha_publicacion>18 Septiembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_39.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_39.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="38">
+    <nombre>EMPRENDEDORES JUVENILES 2014</nombre>
+    <fecha_realizacion>18 Septiembre 2014</fecha_realizacion>
+    <fecha_publicacion>18 Septiembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_38.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_38.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="37">
+    <nombre>Proceso de trámite de titulación de la generación XXXII de TSU</nombre>
+    <fecha_realizacion>13 Octubre 2014</fecha_realizacion>
+    <fecha_publicacion>12 Septiembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_37.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_37.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="36">
+    <nombre>Proceso de trámite de titulación de los egresados de TSU generación XXXII que egresarón en agosto 2014 y continuarán la licenciatura en septiembre-diciembre 2014</nombre>
+    <fecha_realizacion>17 Noviembre 2014</fecha_realizacion>
+    <fecha_publicacion>12 Septiembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_36.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_36.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="35">
+    <nombre>Convocatoria abierta de becas de educación superior</nombre>
+    <fecha_realizacion>02 Septiembre 2014</fecha_realizacion>
+    <fecha_publicacion>02 Septiembre 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_35.png</img>
+    <pdf>NULL</pdf>
+    <link>http://www.cnbes.sep.gob.mx/?q=node/196</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="34">
+    <nombre>Programa nacional de becas 2014, becas de movilidad internacional de Licenciatura y TSU</nombre>
+    <fecha_realizacion>21 Agosto 2014</fecha_realizacion>
+    <fecha_publicacion>21 Agosto 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_34.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_34.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="33">
+    <nombre>Becas de movilidad internacional de posgrado</nombre>
+    <fecha_realizacion>21 Agosto 2014</fecha_realizacion>
+    <fecha_publicacion>21 Agosto 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_33.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_33.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="32">
+    <nombre>Becas de vinculación para la educación superior</nombre>
+    <fecha_realizacion>21 Agosto 2014</fecha_realizacion>
+    <fecha_publicacion>21 Agosto 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_32.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_32.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="31">
+    <nombre>Calendario de reinscripciones septiembre-diciembre 2014</nombre>
+    <fecha_realizacion>25 Agosto 2014</fecha_realizacion>
+    <fecha_publicacion>06 Agosto 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_31.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_31.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="30">
+    <nombre>#JuventudActúaMX influyendo en políticas públicas</nombre>
+    <fecha_realizacion>03 Julio 2014</fecha_realizacion>
+    <fecha_publicacion>03 Julio 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_30.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_30.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="29">
+    <nombre>CONVOCATORIA 2014 VERANO INTERNACIONAL PARA JÓVENES EMPRENDEDORES EN SILICON VALLEY</nombre>
+    <fecha_realizacion>24 Junio 2014</fecha_realizacion>
+    <fecha_publicacion>26 Junio 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_29.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_29.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="28">
+    <nombre>PREMIO NACIONAL DE LA JUVENTUD 2014</nombre>
+    <fecha_realizacion>24 Junio 2014</fecha_realizacion>
+    <fecha_publicacion>24 Junio 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_28.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_28.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="27">
+    <nombre>CALENDARIO DE ENTREGA DE TÍTULO Y CÉDULA PROFESIONAL GENERACIÓN XXX DE TSU Y IV DE LICENCIATURAS/ INGENIERÍAS</nombre>
+    <fecha_realizacion>12 Junio 2014</fecha_realizacion>
+    <fecha_publicacion>12 Junio 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_27.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_27.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="26">
+    <nombre>LINEAMIENTO DE XXXII CEREMONIA DE GRADUACIÓN Y VI DE LICENCIATURA</nombre>
+    <fecha_realizacion>11 Junio 2014</fecha_realizacion>
+    <fecha_publicacion>11 Junio 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_26.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_26.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="25">
+    <nombre>CALENDARIO DE RECEPCIÓN DE DOCUMENTOS PARA TRÁMITES DE TITULACIÓN GENERACIÓN XXXII DE TSU Y VI DE LICENCIATURAS</nombre>
+    <fecha_realizacion>07 Mayo 2014</fecha_realizacion>
+    <fecha_publicacion>07 Mayo 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_25.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_25.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="24">
+    <nombre>BECAS CONACYT AL EXTRANJERO 2014</nombre>
+    <fecha_realizacion>10 Marzo 2014</fecha_realizacion>
+    <fecha_publicacion>10 Marzo 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_24.jpg</img>
+    <pdf>NULL</pdf>
+    <link>http://www.conacyt.gob.mx/FormacionCapitalHumano/Becas/Extranjero/Convocatorias_2014/Convocatoria_Becas_CONACYT_Extranjero-2014.pdf</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="23">
+    <nombre>APOYO A MADRES MEXICANAS JEFAS DE FAMILIA PARA FORTALECER SU DESARROLLO PROFESIONAL</nombre>
+    <fecha_realizacion>26 Febrero 2014</fecha_realizacion>
+    <fecha_publicacion>26 Febrero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_23.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_23.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="22">
+    <nombre>2da Feria Nacional de Empleo</nombre>
+    <fecha_realizacion>03 Marzo 2014</fecha_realizacion>
+    <fecha_publicacion>21 Febrero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_22.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_22.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="21">
+    <nombre>LINEAMIENTO DE V CEREMONIA DE GRADUACIÓN DE LICENCIATURA</nombre>
+    <fecha_realizacion>18 Febrero 2014</fecha_realizacion>
+    <fecha_publicacion>25 Febrero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_21.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_21.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="20">
+    <nombre>Cursos Eduación Continua 2014</nombre>
+    <fecha_realizacion>20 Enero 2014</fecha_realizacion>
+    <fecha_publicacion>20 Enero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_20.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_20.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="19">
+    <nombre>Calendario de recepción de documentos para trámites de titulación, 5ta. generación de licenciatura</nombre>
+    <fecha_realizacion>16 Enero 2014</fecha_realizacion>
+    <fecha_publicacion>16 Enero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_19.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_19.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="18">
+    <nombre>CINCO PASOS PARA UNA EVALUACIÓN EXITOSA</nombre>
+    <fecha_realizacion>16 Enero 2014</fecha_realizacion>
+    <fecha_publicacion>16 Enero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_18.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_18.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="17">
+    <nombre>CATÁLOGO DE ASESORÍAS CUATRIMESTRE ENERO-ABRIL 2014</nombre>
+    <fecha_realizacion>16 Enero 2014</fecha_realizacion>
+    <fecha_publicacion>16 Enero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_17.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_17.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="16">
+    <nombre>CAMPAÑA RECICLA TU PINO 2014</nombre>
+    <fecha_realizacion>14 Enero 2014</fecha_realizacion>
+    <fecha_publicacion>14 Enero 2014</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_16.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_16.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="15">
+    <nombre>Becas en Corresponsabilidad para Nivel Medio Superior y Superior</nombre>
+    <fecha_realizacion>05 Diciembre 2013</fecha_realizacion>
+    <fecha_publicacion>05 Diciembre 2013</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_15.jpg</img>
+    <pdf>NULL</pdf>
+    <link>http://villahermosa.gob.mx/becas/</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="14">
+    <nombre>SEMANA DE LA INNOVACIÓN Y DEL EMPRENDEDOR</nombre>
+    <fecha_realizacion>25-29 Noviembre 2013</fecha_realizacion>
+    <fecha_publicacion>28 Noviembre 2013</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_14.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_14.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="13">
+    <nombre>Convocatoria de becas en corresponsabilidad para nivel medio superior y superior Ciclo escolar 2013-2014</nombre>
+    <fecha_realizacion>31 Octubre 2013</fecha_realizacion>
+    <fecha_publicacion>31 Octubre 2013</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_13.jpg</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_13.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="10">
+    <nombre>Empleos Petroleros</nombre>
+    <fecha_realizacion>17 Octubre 2013</fecha_realizacion>
+    <fecha_publicacion>17 Octubre 2013</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_10.jpg</img>
+    <pdf>NULL</pdf>
+    <link>http://www.empleospetroleros.com/</link>
+    <activo>false</activo>
+  </aviso>
+</avisos>

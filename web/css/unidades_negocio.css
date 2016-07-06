@@ -1,0 +1,167 @@
+@import "normalize.min.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+@import url('includeMenu.min.css');
+@import url('includePie.min.css');
+@import "inclusion.min.css";
+
+* { margin: 0;padding: 0;}
+img { border: 0;}.corte {clear: both;}
+.negritas { font-weight: bold;}
+.negritasContacto { font-weight: bold;color:#F66A46;}
+.contenedor { margin: 44px auto 0 auto; width: 946px; height: auto;}
+#contenedor2 { margin:44px auto 0 auto; width: 1002px; height: auto;}
+
+.contenedor a{ color: #5B5C5C;text-decoration: none;font-weight: bold;}
+.contenedor a:link {color: #5B5C5C;}
+.contenedor a:visited {color: #5B5C5C;}
+.contenedor a:hover {color: #5B5C5C; }
+.contenedor a:active {color: #5B5C5C;}
+
+/* CECAP */
+
+.area_titulo_cecap{ width:941px; height: 36px; background-image: url(../img/unidades_negocio/cecap/area_titulo_cecap.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_cecap h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_titulo_cecap h3 a{ text-decoration: none;}
+.area_titulo_cecap h3 a:link {color: #5B5C5C; font-weight: bold;}      /* unvisited link */
+.area_titulo_cecap h3 a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_titulo_cecap h3 a:hover {color: #5B5C5C;font-weight: bold;}  /* mouse over link */
+.area_titulo_cecap h3 a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+.area_info_cecap {width: 946px; height: auto;}
+.area_info_cecap ul li{ list-style-position: inside;}
+.area_btn_cecap {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_paginacion {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+
+.area_btn_cecap a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_cecap_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_cecap_2 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_cecap_1_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/cecap/area_info_cecap_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_cecap_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_cecap_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_cecap_2_contacto { width:540px;height:auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;padding: 20px 0 20px 47px;}
+
+/* CECAP */
+
+/* Centro de Atención a PEMEX */
+
+.area_titulo_centro_atencion_pemex{ width:941px; height: 36px; background-image: url(../img/unidades_negocio/centro_atencion_pemex/area_titulo_centro_atencion_pemex.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_centro_atencion_pemex h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_centro_atencion_pemex {width: 946px; height: auto;}
+.area_info_centro_atencion_pemex ul li{ list-style-position: inside;}
+
+.area_btn_centro_atencion_pemex {width: 100%; height: 55px; margin-bottom: 15px; text-align: left;}
+.area_btn_centro_atencion_pemex a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_centro_atencion_pemex_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_centro_atencion_pemex_2 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_centro_atencion_pemex_1_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/centro_atencion_pemex/area_info_centro_atencion_pemex_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_atencion_pemex_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_atencion_pemex_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_atencion_pemex_2_contacto { width:358px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding: 20px 0 20px 47px;}
+/* Centro de Atención a PEMEX */
+
+/* Centro Gastronómico Kuku-Uche */
+
+.area_titulo_centro_gastronomico{ width:941px; height: 36px; background-image: url(../img/unidades_negocio/centro_gastronomico/area_titulo_centro_gastronomico.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_centro_gastronomico h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_centro_gastronomico {width: 946px; height: auto;}
+.area_info_centro_gastronomico ul li{ list-style-position: inside;}
+.area_btn_centro_gastronomico {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_centro_gastronomico a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_centro_gastronomico_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_centro_gastronomico_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_centro_gastronomico_3 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_centro_gastronomico_4 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_centro_gastronomico_1_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/centro_gastronomico/area_info_centro_gastronomico_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_gastronomico_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_gastronomico_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_gastronomico_2_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/centro_gastronomico/area_info_centro_gastronomico_2_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_gastronomico_2_titulo h4{ color: white;font-family: HelveticaNeueBold, Arial, Helvetica, sans-serif;font-weight: bold; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_gastronomico_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_gastronomico_3_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/centro_gastronomico/area_info_centro_gastronomico_3_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_gastronomico_3_titulo h4{ color: white;font-family: HelveticaNeueBold, Arial, Helvetica, sans-serif;font-weight: bold; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_gastronomico_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_gastronomico_4_contacto { width:400px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Centro Gastronómico Kuku-Uche */
+
+/* Centro de Idiomas de la Universidad Tecnológica de Tabasco */
+
+.area_titulo_ciut{ width:941px; height: 36px; background-image: url(../img/unidades_negocio/ciut/area_titulo_ciut.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_ciut h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_ciut {width: 946px; height: auto;}
+.area_info_ciut ul li{ list-style-position: inside;}
+.area_btn_ciut {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+
+.area_info_ciut_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_ciut_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_ciut_3 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_ciut_4 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_ciut_1_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/ciut/area_info_ciut_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_ciut_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_ciut_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_ciut_2_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/ciut/area_info_ciut_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_ciut_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 0.875em; line-height: 20px;}
+.area_info_ciut_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_ciut_3_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/ciut/area_info_ciut_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_ciut_3_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 0.875em; line-height: 20px;}
+.area_info_ciut_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_ciut_4_contacto { width: 348px;height: 135px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_ciut_4_contacto { width:358px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Centro de Idiomas de la Universidad Tecnológica de Tabasco */
+
+/* Centro Certificador de Exámenes de Francés DELF-DALF */
+
+.area_titulo_centro_certificador_delf_dalf{ width:941px; height: 36px; background-image: url(../img/unidades_negocio/centro_certificador_delf_dalf/area_titulo_centro_certificador_delf_dalf.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_centro_certificador_delf_dalf h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_titulo_centro_certificador_delf_dalf h3 a{ text-decoration: none;}
+.area_titulo_centro_certificador_delf_dalf h3 a:link {color: #5B5C5C; font-weight: bold;}      /* unvisited link */
+.area_titulo_centro_certificador_delf_dalf h3 a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_titulo_centro_certificador_delf_dalf h3 a:hover {color: #5B5C5C;font-weight: bold;}  /* mouse over link */
+.area_titulo_centro_certificador_delf_dalf h3 a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+.area_info_centro_certificador_delf_dalf {width: 946px; height: auto;}
+.area_info_centro_certificador_delf_dalf ul li{ list-style-position: inside;}
+.area_info_centro_certificador_delf_dalf ol li{ list-style-position: inside;}
+.area_info_centro_certificador_delf_dalf table { border-collapse: collapse;}
+.area_btn_centro_certificador_delf_dalf {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_centro_certificador_delf_dalf a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+.area_info_centro_certificador_delf_dalf_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_centro_certificador_delf_dalf_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_centro_certificador_delf_dalf_3 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_centro_certificador_delf_dalf_4 {height: auto;margin-bottom: 20px;width: 100%;}
+
+.area_info_centro_certificador_delf_dalf_1_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/centro_certificador_delf_dalf/area_info_centro_certificador_delf_dalf_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_certificador_delf_dalf_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_certificador_delf_dalf_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_certificador_delf_dalf_2_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/centro_certificador_delf_dalf/area_info_centro_certificador_delf_dalf_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_certificador_delf_dalf_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_certificador_delf_dalf_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_certificador_delf_dalf_3_titulo { width: 863px; height: 38px; background-image: url(../img/unidades_negocio/centro_certificador_delf_dalf/area_info_centro_certificador_delf_dalf_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_certificador_delf_dalf_3_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_certificador_delf_dalf_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_certificador_delf_dalf_4_titulo {background-image: url("../img/unidades_negocio/centro_certificador_delf_dalf/area_info_centro_certificador_delf_dalf_4_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;margin-bottom: 13px;padding-left: 50px;padding-top: 9px;width: 896px;}
+.area_info_centro_certificador_delf_dalf_4_titulo h4 {color: #FFFFFF;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_centro_certificador_delf_dalf_4_info { color: #5B5C5C;float: right;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em;text-align: justify;width: 876px;}
+
+/*.area_info_centro_certificador_delf_dalf_5_contacto { width: 348px;height: 155px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_centro_certificador_delf_dalf_5_contacto { width:358px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Centro Certificador de Exámenes de Francés DELF-DALF */

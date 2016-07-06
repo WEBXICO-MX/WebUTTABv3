@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="case" namespace="/case" extends="struts-default">
+        <interceptors>
+            <interceptor class="mx.edu.uttab.interceptor.AutenticacionInterceptor" name="loginInterceptor"></interceptor>
+            <interceptor-stack name="loginStack">
+                <interceptor-ref name="loginInterceptor" />
+                <interceptor-ref name="defaultStack" />
+            </interceptor-stack>
+        </interceptors>
+        <global-results>
+            <result name="login" type="redirectAction">frm_login</result>
+        </global-results>
+        <action name="">
+            <result name="success" type="redirectAction">inicio</result>
+        </action>
+        <action name="inicio">
+            <result>/WEB-INF/jsp/unidades_negocio/case/case2.jsp</result>
+        </action>
+        <action name="calendario">
+            <result name="success" type="dispatcher">/WEB-INF/jsp/unidades_negocio/case/calendario2.jsp</result>
+        </action>
+        <action name="registro">
+            <result>/WEB-INF/jsp/unidades_negocio/case/registro2.jsp</result>
+        </action>
+        <action name="guardarRegistro" class="mx.edu.uttab.action.CaseAction" method="guardarRegistro">
+            <result name="success" type="dispatcher">/WEB-INF/jsp/unidades_negocio/case/registro.jsp</result>
+            <result name="input" type="chain">registro</result>
+        </action>
+        <action name="buzon" class="mx.edu.uttab.action.CaseRegistroAction">
+            <interceptor-ref name="loginStack" />
+            <result>/WEB-INF/jsp/unidades_negocio/case/buzon.jsp</result>
+        </action>
+        <action name="buzon_ajax" class="mx.edu.uttab.action.CaseRegistroAction" method="getBuzon">
+            <interceptor-ref name="loginStack" />
+            <result>/WEB-INF/jsp/unidades_negocio/case/buzon_ajax.jsp</result>
+        </action>
+        <action name="registro_id" class="mx.edu.uttab.action.CaseRegistroAction" method="getRegistroId">
+            <interceptor-ref name="loginStack" />
+            <result>/WEB-INF/jsp/unidades_negocio/case/buzon_id.jsp</result>
+        </action>
+        <action name="cambiar_status" class="mx.edu.uttab.action.CaseRegistroAction" method="cambiarStatus">
+            <interceptor-ref name="loginStack" />
+            <result name="success" type="redirectAction">buzon</result>
+        </action>
+        <action name="excel" class="mx.edu.uttab.action.CaseRegistroAction" method="excel">
+            <result name="success" type="stream">
+                <param name="contentType">application/vnd.ms-excel</param>
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="${fileName}"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="txt" class="mx.edu.uttab.action.CaseRegistroAction" method="txt">
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="registros.txt"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="frm_login" class="mx.edu.uttab.action.CaseUsuarioAction">
+            <result name="success">/WEB-INF/jsp/unidades_negocio/case/login.jsp</result>
+            <result name="error">/WEB-INF/jsp/unidades_negocio/case/login.jsp</result>
+            <result name="logeado" type="redirectAction">buzon</result>
+        </action>
+        <action name="login" class="mx.edu.uttab.action.CaseUsuarioAction" method="login">
+            <result name="success" type="redirectAction">buzon</result>
+            <result name="input">/WEB-INF/jsp/unidades_negocio/case/login.jsp</result>
+            <result name="error">/WEB-INF/jsp/unidades_negocio/case/login.jsp</result>
+        </action>
+        <action name="logout" class="mx.edu.uttab.action.CaseUsuarioAction" method="logout">
+            <result name="success" type="redirectAction">frm_login</result>
+        </action>
+    </package>
+</struts>

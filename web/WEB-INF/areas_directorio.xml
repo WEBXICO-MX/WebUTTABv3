@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<areas_directorio>
+    <area id="1" nombre="Rectoría" activo="true"></area>
+    <area id="2" nombre="Secretaría académica" activo="true"></area>
+    <area id="3" nombre="Secretaría de vinculación" activo="true"></area>
+    <area id="4" nombre="Dirección de administración y finanzas" activo="true"></area>
+    <area id="5" nombre="Dirección de planeación y evaluación" activo="true"></area>
+    <area id="6" nombre="Dirección de servicios escolares" activo="true"></area>
+    <area id="7" nombre="Dirección de informática" activo="true"></area>
+    <area id="8" nombre="Coordinación del Centro de Atención a PEMEX" activo="true"></area>
+</areas_directorio>

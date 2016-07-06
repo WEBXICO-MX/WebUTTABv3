@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sectores_productivos>
+    <sector_productivo id="28">
+        <nombre>Administración Pública</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="27">
+        <nombre>Agrícola y Pecuario</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="26">
+        <nombre>Agua</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="25">
+        <nombre>Automotriz</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="24">
+        <nombre>Comercio</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="23">
+        <nombre>Comercio Exterior</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="22">
+        <nombre>Construcción</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="21">
+        <nombre>Cultural</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="20">
+        <nombre>Deportivo</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="19">
+        <nombre>Educación y Formación de Personas</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="18">
+        <nombre>Energía eléctrica</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="17">
+        <nombre>Financiero</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="16">
+        <nombre>Funciones del Sistema Nacional de Competencias</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="15">
+        <nombre>Laboral</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="14">
+        <nombre>Logística</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="13">
+        <nombre>Maquilas y Manufactura</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="12">
+        <nombre>Minería</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="11">
+        <nombre>Petróleo y Gas</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="10">
+        <nombre>Prendas de Vestir, Textil, Cuero y Calzado</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="9">
+        <nombre>Procesamiento de alimentos</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="8">
+        <nombre>Químico</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="7">
+        <nombre>Seguridad Pública</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="6">
+        <nombre>Servicios Profesionales y Técnicos</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="5">
+        <nombre>Social</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="4">
+        <nombre>Sociedades Cooperativas</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="3">
+        <nombre>Tecnologías de la Información</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="2">
+        <nombre>Transporte</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+    <sector_productivo id="1">
+        <nombre>Turismo</nombre>
+        <activo>true</activo>
+    </sector_productivo>
+</sectores_productivos>

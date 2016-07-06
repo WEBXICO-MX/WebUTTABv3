@@ -1,0 +1,28 @@
+@import "../js/JQuery/plugins/colorpicker/css/colorpicker.css";
+ 
+#inclusion-main{
+    position: fixed;
+    top: 350px;
+    right: -180px;
+    width: 150px;
+    height: 180px;
+    background: #D8E0E2;
+    z-index: 100;
+    padding: 15px;
+    color:white;
+    font-family: 'Open Sans' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .875em;
+    border-radius: 1em;
+} 
+#inclusion-hover{
+    position: fixed;
+    top: 350px;
+    right: 0px;
+    width: 65px;
+    height: 65px;
+    background: transparent;
+    z-index: 100; 
+    cursor:pointer;
+}

@@ -1,0 +1,76 @@
+/*nav .menu li.current-menu-item{border-bottom:5px solid #FF9F19;}*/
+nav .menu li.current-menu-item a {color:#FF9F19;}
+nav .menu li ul li:hover {background:#FF9F19;}
+
+nav .menu li a{color:#999999;}
+nav .menu li:hover ul{border-top:3px solid #FF9F19}
+/*.headborder{background:url('../../menu01/menu01/headborder.png') no-repeat; }
+.header_content .headborder{background: url('../../menu01/menu01/headborder.png') repeat-y;}*/
+	
+nav .menu li a{line-height: normal;}
+.nav_top{/*margin-top:23px;*/}
+.nav_center{/*margin-left:50px;*/}
+nav{width:100%}
+nav .menu{float:left; padding:0; margin:0; list-style:none; text-align:center;position:relative; height:31px; margin-top:-4px}
+nav .menu li{float:left;  padding-top:2px; padding-bottom:29px; padding-left:13px;position:relative; padding-right:13px;}
+nav .menu li:last-child{padding-right:0}
+.nav_center li:last-child{padding-right:15px !important;}
+nav .menu li a:hover{text-decoration: none}
+
+nav .menu li.current-menu-item li a{font-weight:400 !important}
+nav .menu li ul{
+  display: none;
+  position: absolute;
+  top: 51px;
+  left: 0;
+  margin:0 !important;
+  padding:0;
+  list-style:none;
+  z-index: 500000;
+  width:208px; 
+  background:#676767;
+}
+/*CAMBIAR AQUI EL COLOR DE LA BARRITA NARANJA DEL ITEM "Inicio" del Menu Principal*/
+nav .menu li:hover{border-bottom:5px solid #f0f0f0}
+/*CAMBIAR AQUI EL COLOR DE LA BARRITA NARANJA DEL ITEM "Inicio" del Menu Principal*/
+nav .menu ul li.current-menu-item{border-bottom:1px solid #555 !important}
+nav .menu li ul li.current-menu-item a{color:#fff !important}
+nav .menu li ul li:hover{border-bottom:1px solid #555;}
+nav .menu li ul li{float:none; background:#676767; border-bottom:1px solid #555; border-top:1px solid #777; padding-top:2px; padding-bottom:2px; text-align:left; position:relative; height:auto !important; }
+nav .menu li ul li a{color:#dedede !important; font-size:12px !important; font-weight:normal; border:none !important; -webkit-transition-duration: 0.4s;
+-moz-transition-duration: 0.4s;
+-o-transition-duration: 0.4s;
+-ms-transition-duration: 0.4s;
+transition-duration: 0.4s;}
+nav .menu li ul li:first-child{border-top:none}
+nav .menu li ul li:last-child{border-bottom:none}
+nav .menu li ul li a:hover{border:none !important;}
+
+/*AQUI SE MODIFICO PARA EL ANCHO DEL LINK DE LAS DIVISIONES Y LAS CARRERAS*/
+nav .menu li ul li:hover a{ color:white !important;width: auto !important;display:block !important;}
+/*AQUI SE MODIFICO PARA EL ANCHO DEL LINK DE LAS DIVISIONES Y LAS CARRERAS*/
+
+nav .menu li ul li:hover li a{color:#dedede  !important}
+nav .menu li ul li li:hover a{color:#fff !important}
+nav .menu li ul li:last-child{border-bottom:none}
+nav .menu li ul li:hover:last-child{border-bottom:none}
+
+nav .menu li ul li ul{display:none;}
+nav .menu li:hover ul li ul{display:none;}
+nav .menu li ul li:hover ul.tercer_nivel{display:block; left:200px; top:0;}
+nav .menu li ul li ul.tercer_nivel li:hover ul.cuarto_nivel{display:block; left:200px; top:0;}
+nav .menu li ul li:hover ul a{color:#888}
+nav .menu li ul li:hover ul li:hover a{color:#fff}
+nav .menu li:hover ul{display:block}
+.customSelect{display:none !important}
+/*
+nav .menu li ul li ul{display:none;}
+nav .menu li:hover ul li ul{display:none;}
+nav .menu li ul li:hover ul{display:block; left:200px; top:0;}
+nav .menu li ul li:hover ul a{color:#888}
+nav .menu li ul li:hover ul li:hover a{color:#fff}
+nav .menu li:hover ul{display:block}
+.customSelect{display:none !important}
+*/
+
+

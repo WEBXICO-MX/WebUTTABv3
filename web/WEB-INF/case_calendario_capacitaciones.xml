@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendarios_capacitaciones>
+    <calendario_capacitacion id="73" capacitacion="22">
+        <fechas><![CDATA[ ['10/29/2016','10/29/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="72" capacitacion="22">
+        <fechas><![CDATA[ ['09/24/2016','09/24/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="71" capacitacion="22">
+        <fechas><![CDATA[ ['05/28/2016','05/28/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="70" capacitacion="22">
+        <fechas><![CDATA[ ['02/27/2016','02/27/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="69" capacitacion="9">
+        <fechas><![CDATA[ ['11/23/2016','11/24/2016','11/25/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="68" capacitacion="9">
+        <fechas><![CDATA[ ['11/09/2016','11/10/2016','11/11/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="67" capacitacion="9">
+        <fechas><![CDATA[ ['10/19/2016','10/20/2016','10/21/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="66" capacitacion="9">
+        <fechas><![CDATA[ ['10/05/2016','10/06/2016','10/07/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="65" capacitacion="9">
+        <fechas><![CDATA[ ['09/21/2016','09/22/2016','09/23/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="64" capacitacion="9">
+        <fechas><![CDATA[ ['09/07/2016','09/08/2016','09/09/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="63" capacitacion="9">
+        <fechas><![CDATA[ ['08/24/2016','08/25/2016','08/26/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="62" capacitacion="9">
+        <fechas><![CDATA[ ['08/10/2016','08/11/2016','08/12/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="61" capacitacion="9">
+        <fechas><![CDATA[ ['07/06/2016','07/07/2016','07/08/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="60" capacitacion="9">
+        <fechas><![CDATA[ ['06/22/2016','06/23/2016','06/24/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="59" capacitacion="9">
+        <fechas><![CDATA[ ['06/08/2016','06/09/2016','06/10/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="58" capacitacion="9">
+        <fechas><![CDATA[ ['05/25/2016','05/26/2016','05/27/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="57" capacitacion="9">
+        <fechas><![CDATA[ ['05/11/2016','05/12/2016','05/13/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="56" capacitacion="9">
+        <fechas><![CDATA[ ['04/27/2016','04/28/2016','04/29/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="55" capacitacion="9">
+        <fechas><![CDATA[ ['04/13/2016','04/14/2016','04/15/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="54" capacitacion="9">
+        <fechas><![CDATA[ ['03/09/2016','03/10/2016','03/11/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="53" capacitacion="9">
+        <fechas><![CDATA[ ['02/24/2016','02/25/2016','02/26/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="52" capacitacion="9">
+        <fechas><![CDATA[ ['02/10/2016','02/11/2016','02/12/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="51" capacitacion="9">
+        <fechas><![CDATA[ ['01/27/2016','01/28/2016','01/29/2016'] ]]></fechas>
+        <activo>true</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="50" capacitacion="21">
+        <fechas><![CDATA[ ['08/26/2015','08/27/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="49" capacitacion="21">
+        <fechas><![CDATA[ ['06/24/2015','06/25/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="48" capacitacion="20">
+        <fechas><![CDATA[ ['07/03/2015','07/04/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="47" capacitacion="20">
+        <fechas><![CDATA[ ['05/29/2015','05/29/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="46" capacitacion="19">
+        <fechas><![CDATA[ ['11/05/2015','11/06/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="45" capacitacion="19">
+        <fechas><![CDATA[ ['06/25/2015','06/25/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="44" capacitacion="18">
+        <fechas><![CDATA[ ['11/18/2015','11/19/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="43" capacitacion="18">
+        <fechas><![CDATA[ ['09/23/2015','09/24/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="42" capacitacion="17">
+        <fechas><![CDATA[ ['11/24/2015','11/25/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="41" capacitacion="17">
+        <fechas><![CDATA[ ['07/28/2015','07/29/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="40" capacitacion="16">
+        <fechas><![CDATA[ ['10/20/2015','10/21/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="39" capacitacion="16">
+        <fechas><![CDATA[ ['06/10/2015','06/11/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="38" capacitacion="15">
+        <fechas><![CDATA[ ['12/07/2015','12/08/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="37" capacitacion="15">
+        <fechas><![CDATA[ ['09/28/2015','09/29/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="36" capacitacion="14">
+        <fechas><![CDATA[ ['12/03/2015','12/04/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="35" capacitacion="14">
+        <fechas><![CDATA[ ['11/11/2015','11/12/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="34" capacitacion="13">
+        <fechas><![CDATA[ ['11/24/2015','11/25/2015','11/26/2015','11/27/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="33" capacitacion="13">
+        <fechas><![CDATA[ ['06/23/2015','06/24/2015','06/25/2015','06/26/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="32" capacitacion="12">
+        <fechas><![CDATA[ ['11/09/2015','11/10/2015','11/11/2015','11/12/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="31" capacitacion="12">
+        <fechas><![CDATA[ ['08/17/2015','08/18/2015','08/19/2015','08/20/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="30" capacitacion="11">
+        <fechas><![CDATA[ ['08/04/2015','08/05/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="29" capacitacion="11">
+        <fechas><![CDATA[ ['06/29/2015','06/30/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="28" capacitacion="10">
+        <fechas><![CDATA[ ['11/04/2015','11/05/2015','11/06/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="27" capacitacion="10">
+        <fechas><![CDATA[ ['08/19/2015','08/20/2015','08/21/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="26" capacitacion="9">
+        <fechas><![CDATA[ ['11/25/2015','11/26/2015','11/27/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="25" capacitacion="9">
+        <fechas><![CDATA[ ['11/11/2015','11/12/2015','11/13/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="24" capacitacion="9">
+        <fechas><![CDATA[ ['10/28/2015','10/29/2015','10/30/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="23" capacitacion="9">
+        <fechas><![CDATA[ ['10/07/2015','10/08/2015','10/09/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="22" capacitacion="9">
+        <fechas><![CDATA[ ['09/23/2015','09/24/2015','09/25/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="21" capacitacion="9">
+        <fechas><![CDATA[ ['08/12/2015','08/13/2015','08/14/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="20" capacitacion="9">
+        <fechas><![CDATA[ ['07/15/2015','07/16/2015','07/17/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="19" capacitacion="9">
+        <fechas><![CDATA[ ['06/24/2015','06/25/2015','06/26/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="18" capacitacion="9">
+        <fechas><![CDATA[ ['06/10/2015','06/11/2015','06/12/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="17" capacitacion="9">
+        <fechas><![CDATA[ ['05/27/2015','05/28/2015','05/29/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="16" capacitacion="8">
+        <fechas><![CDATA[ ['09/02/2015','09/03/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="15" capacitacion="8">
+        <fechas><![CDATA[ ['08/20/2015','08/21/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="14" capacitacion="7">
+        <fechas><![CDATA[ ['09/01/2015','09/02/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="13" capacitacion="7">
+        <fechas><![CDATA[ ['06/18/2015','06/19/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="12" capacitacion="6">
+        <fechas><![CDATA[ ['12/03/2015','12/04/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="11" capacitacion="6">
+        <fechas><![CDATA[ ['09/09/2015','09/10/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="10" capacitacion="5">
+        <fechas><![CDATA[ ['08/17/2015','08/18/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="9" capacitacion="5">
+        <fechas><![CDATA[ ['07/06/2015','07/07/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="8" capacitacion="4">
+        <fechas><![CDATA[ ['11/16/2015','11/17/2015','11/18/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="7" capacitacion="4">
+        <fechas><![CDATA[ ['10/12/2015','10/13/2015','10/14/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="6" capacitacion="3">
+        <fechas><![CDATA[ ['12/09/2015','12/10/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="5" capacitacion="3">
+        <fechas><![CDATA[ ['10/22/2015','10/23/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="4" capacitacion="2">
+        <fechas><![CDATA[ ['10/15/2015','10/16/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="3" capacitacion="2">
+        <fechas><![CDATA[ ['07/09/2015','07/10/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="2" capacitacion="1">
+        <fechas><![CDATA[ ['12/01/2015','12/02/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+    <calendario_capacitacion id="1" capacitacion="1">
+        <fechas><![CDATA[ ['06/22/2015','06/23/2015'] ]]></fechas>
+        <activo>false</activo>
+    </calendario_capacitacion>
+</calendarios_capacitaciones>

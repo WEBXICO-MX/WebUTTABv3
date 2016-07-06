@@ -1,0 +1,297 @@
+@import "normalize.min.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+@import url('includeMenu.min.css');
+@import url('includePie.min.css');
+@import "inclusion.min.css";
+
+* { margin: 0;padding: 0;}
+img { border: 0;}
+.corte {clear: both;}
+.negritas { font-weight: bold;}
+.negritasContacto { font-weight: bold;color:#F66A46;}
+.contenedor { margin: 44px auto 0 auto; width: 946px; height: auto;}
+#contenedor2 { margin:44px auto 0 auto; width: 1002px; height: auto;}
+
+.contenedor a {color: #5B5C5C; text-decoration: none;font-weight: bold;}
+.contenedor a:link {color: #5B5C5C; }
+.contenedor a:visited {color: #5B5C5C;}
+.contenedor a:hover {color: #000000;}
+.contenedor a:active {color: #5B5C5C;}
+
+/* Bolsa de trabajo */
+
+.area_titulo_bolsa_trabajo{ width:941px; height: 36px; background-image: url(../img/vinculacion/bolsa_trabajo/area_titulo_bolsa_trabajo.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_bolsa_trabajo h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_bolsa_trabajo {width: 946px; height: auto;}
+
+.area_info_bolsa_trabajo ul li{ list-style-position: inside;}
+
+.area_info_bolsa_trabajo_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_bolsa_trabajo_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_bolsa_trabajo_3 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_bolsa_trabajo_4 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_bolsa_trabajo_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/bolsa_trabajo/area_info_bolsa_trabajo_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_bolsa_trabajo_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_bolsa_trabajo_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_bolsa_trabajo_2_titulo { width: 863px; height: 38px;  background-image: url(../img/vinculacion/bolsa_trabajo/area_info_bolsa_trabajo_2_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px;margin-bottom: 13px; }
+.area_info_bolsa_trabajo_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_bolsa_trabajo_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em;margin-bottom: 33px;}
+
+.area_info_bolsa_trabajo_3_titulo {  width: 863px; height: 38px;  background-image: url(../img/vinculacion/bolsa_trabajo/area_info_bolsa_trabajo_3_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px;margin-bottom: 13px; }
+.area_info_bolsa_trabajo_3_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_bolsa_trabajo_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em;margin-bottom: 33px;}
+
+/*.area_info_bolsa_trabajo_4_contacto { width: 303px;height: 169px;background-color: #EFF0F4;font-size: 0.95em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_bolsa_trabajo_4_contacto { width: 30%;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding: 20px 17px 20px 47px;}
+/* Bolsa de trabajo */
+
+/* Centro de incubación */
+
+.area_titulo_centro_incubacion{ width:941px; height: 36px; background-image: url(../img/vinculacion/centro_incubacion/area_titulo_centro_incubacion.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_centro_incubacion h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_info_centro_incubacion {width: 946px; height: auto;}
+.area_info_centro_incubacion ul li{ list-style-position: inside;}
+.area_btn_centro_incubacion {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_centro_incubacion a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_centro_incubacion_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_centro_incubacion_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_centro_incubacion_3 { width: 927px; height: auto;margin-left: 19px;}
+
+
+.area_info_centro_incubacion_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/centro_incubacion/area_info_centro_incubacion_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_incubacion_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_incubacion_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_incubacion_2_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/centro_incubacion/area_info_centro_incubacion_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_incubacion_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_incubacion_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_centro_incubacion_3_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/centro_incubacion/area_info_centro_incubacion_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_centro_incubacion_3_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_centro_incubacion_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_centro_incubacion_4_contacto { width: 378px;height: 155px;background-color: #EFF0F4;font-size: 0.95em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_centro_incubacion_4_contacto { width: 40%;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding: 20px 17px 20px 47px;}
+/* Centro de incubación */
+
+/* Proyectos incubados */
+
+.area_titulo_proyectos_incubados{ width:941px; height: 36px; background-image: url(../img/vinculacion/centro_incubacion/area_titulo_centro_incubacion.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_proyectos_incubados h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_info_proyectos_incubados {width: 946px; height: auto;}
+.area_info_proyectos_incubados ul li{ list-style-position: inside;}
+.area_btn_proyectos_incubados {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_proyectos_incubados a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_proyectos_incubados_1 { width: 927px; height: auto; margin-left: 19px;}
+
+.area_info_proyectos_incubados_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/centro_incubacion/area_info_centro_incubacion_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_proyectos_incubados_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_proyectos_incubados_1_info {width: 876px;color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/* Proyectos incubados */
+
+/* Servicios Tecnológicos */
+
+.area_titulo_servicios_tecnologicos{ width:941px; height: 36px; background-image: url(../img/vinculacion/servicios_tecnologicos/area_titulo_servicios_tecnologicos.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_servicios_tecnologicos h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_info_servicios_tecnologicos {width: 946px; height: auto;}
+.area_info_servicios_tecnologicos ul li{ list-style-position: inside; list-style: none;}
+.area_btn_servicios_tecnologicos {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_servicios_tecnologicos a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_servicios_tecnologicos_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_servicios_tecnologicos_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_servicios_tecnologicos_3 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_servicios_tecnologicos_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/servicios_tecnologicos/area_info_servicios_tecnologicos_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_servicios_tecnologicos_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_servicios_tecnologicos_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_servicios_tecnologicos_2_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/servicios_tecnologicos/area_info_servicios_tecnologicos_2_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_servicios_tecnologicos_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_servicios_tecnologicos_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_servicios_tecnologicos_3_contacto { width: 358px;height: 165px;background-color: #EFF0F4;font-size: 0.95em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_servicios_tecnologicos_3_contacto { width:358px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Servicios Tecnológicos */
+
+/* Educación Continua */
+
+.area_titulo_educacion_continua{ width:941px; height: 36px; background-image: url(../img/vinculacion/educacion_continua/area_titulo_educacion_continua.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_educacion_continua h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+
+.area_titulo_educacion_continua h3 a{ text-decoration: none;}
+.area_titulo_educacion_continua h3 a:link {color: #5B5C5C; font-weight: bold;}      /* unvisited link */
+.area_titulo_educacion_continua h3 a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_titulo_educacion_continua h3 a:hover {color: #5B5C5C;font-weight: bold;}  /* mouse over link */
+.area_titulo_educacion_continua h3 a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+.area_info_educacion_continua {width: 946px; height: auto;}
+.area_info_educacion_continua ul li{ list-style-position: inside; list-style: none;}
+.area_btn_educacion_continua {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_educacion_continua a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_educacion_continua_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_educacion_continua_2 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_educacion_continua_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/educacion_continua/area_info_educacion_continua_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_educacion_continua_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_educacion_continua_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_educacion_continua_2_contacto { width: 348px;height: 165px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;padding-left: 47px; padding-top:24px;}*/
+.area_info_educacion_continua_2_contacto { width:448px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Educación Continua */
+
+/* Departamento de Prácticas Empresariales y Estadías */
+
+.area_titulo_practicas_empresariales{ width:941px; height: 36px; background-image: url(../img/vinculacion/practicas_empresariales/area_titulo_practicas_empresariales.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_practicas_empresariales h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_practicas_empresariales {width: 946px; height: auto;}
+.area_info_practicas_empresariales ul li{ list-style-position: inside;}
+
+.area_titulo_practicas_empresariales h3 a{ text-decoration: none;}
+.area_titulo_practicas_empresariales h3 a:link {color: #5B5C5C; font-weight: bold;}      /* unvisited link */
+.area_titulo_practicas_empresariales h3 a:visited {color: #5B5C5C;font-weight: bold;}  /* visited link */
+.area_titulo_practicas_empresariales h3 a:hover {color: #5B5C5C;font-weight: bold;}  /* mouse over link */
+.area_titulo_practicas_empresariales h3 a:active {color: #5B5C5C;font-weight: bold;}  /* selected link */
+
+.area_btn_practicas_empresariales {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_practicas_empresariales a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_practicas_empresariales_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_practicas_empresariales_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_practicas_empresariales_3 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_practicas_empresariales_4 { height: auto;width: 100%;margin-bottom: 20px;}
+.area_info_practicas_empresariales_5 { height: auto;width: 100%;margin-bottom: 20px;}
+
+
+.area_info_practicas_empresariales_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/practicas_empresariales/area_info_practicas_empresariales_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_practicas_empresariales_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_practicas_empresariales_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_practicas_empresariales_2_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/practicas_empresariales/area_info_practicas_empresariales_2_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_practicas_empresariales_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_practicas_empresariales_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_practicas_empresariales_3_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/practicas_empresariales/area_info_practicas_empresariales_3_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_practicas_empresariales_3_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_practicas_empresariales_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_practicas_empresariales_4_titulo { background-image: url("../img/vinculacion/practicas_empresariales/area_info_practicas_empresariales_4_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_practicas_empresariales_4_titulo h4{ color: #FFFFFF;font-family: HelveticaNeueBold,Arial,Helvetica,sans-serif;font-weight: bold;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_practicas_empresariales_4_info {width: 876px; float:right;color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_practicas_empresariales_5_titulo { background-image: url("../img/vinculacion/practicas_empresariales/area_info_practicas_empresariales_5_titulo.png");background-position: right center;background-repeat: no-repeat;height: 28px;padding-left: 50px;padding-top: 9px;width: 896px;margin-bottom: 13px;}
+.area_info_practicas_empresariales_5_titulo h4{ color: #FFFFFF;font-family: HelveticaNeueBold,Arial,Helvetica,sans-serif;font-weight: bold;font-size: 1em;line-height: 20px;margin-bottom: 0;margin-top: 0;}
+.area_info_practicas_empresariales_5_info {width: 876px; float:right; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_practicas_empresariales_6_contacto { width: 388px;height: 165px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_practicas_empresariales_6_contacto { width:358px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+
+/* Departamento de Prácticas Empresariales y Estadías */
+
+/* Extensión Universitaria */
+
+.area_titulo_extension_universitaria{ width:941px; height: 36px; background-image: url(../img/vinculacion/extension_universitaria/area_titulo_extension_universitaria.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_extension_universitaria h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_extension_universitaria {width: 946px; height: auto;}
+.area_info_extension_universitaria ul li{ list-style-position: inside; list-style: none;}
+.area_btn_extension_universitaria {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_extension_universitaria a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_extension_universitaria_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_extension_universitaria_2 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_extension_universitaria_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/extension_universitaria/area_info_extension_universitaria_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_extension_universitaria_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_extension_universitaria_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_extension_universitaria_2_contacto { width: 348px;height: 145px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;padding-left: 47px; padding-top:24px;}*/
+.area_info_extension_universitaria_2_contacto { width:438px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Extensión Universitaria */
+
+/* Producción Audio Visual */
+
+.area_titulo_produccion_audiovisual{ width:941px; height: 36px; background-image: url(../img/vinculacion/produccion_audiovisual/area_titulo_produccion_audiovisual.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_produccion_audiovisual h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_produccion_audiovisual {width: 946px; height: auto;}
+.area_info_produccion_audiovisual ul li{ list-style-position: inside;}
+.area_btn_produccion_audiovisual {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_produccion_audiovisual a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_produccion_audiovisual_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_produccion_audiovisual_2 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_produccion_audiovisual_3 { width: 927px; height: auto;margin-left: 19px;}
+.area_info_produccion_audiovisual_4 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_produccion_audiovisual_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/produccion_audiovisual/area_info_produccion_audiovisual_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_produccion_audiovisual_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_produccion_audiovisual_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_produccion_audiovisual_2_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/produccion_audiovisual/area_info_produccion_audiovisual_2_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_produccion_audiovisual_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_produccion_audiovisual_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_produccion_audiovisual_3_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/produccion_audiovisual/area_info_produccion_audiovisual_3_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_produccion_audiovisual_3_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_produccion_audiovisual_3_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_produccion_audiovisual_4_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/produccion_audiovisual/area_info_produccion_audiovisual_4_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_produccion_audiovisual_4_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_produccion_audiovisual_4_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_produccion_audiovisual_5_contacto { width: 348px;height: 115px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_produccion_audiovisual_5_contacto { width:358px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Producción Audio Visual */
+
+/* Promoción Universitaria */
+
+.area_titulo_promocion_universitaria{ width:941px; height: 36px; background-image: url(../img/vinculacion/promocion_universitaria/area_titulo_promocion_universitaria.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_promocion_universitaria h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_promocion_universitaria {width: 946px; height: auto;}
+.area_info_promocion_universitaria ul li{ list-style-position: inside;}
+.area_btn_promocion_universitaria {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_promocion_universitaria a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_promocion_universitaria_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_promocion_universitaria_2 { width: 927px; height: auto;margin-left: 19px;}
+
+
+.area_info_promocion_universitaria_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/promocion_universitaria/area_info_promocion_universitaria_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_promocion_universitaria_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_promocion_universitaria_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_promocion_universitaria_2_contacto { width: 348px;height: 155px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_promocion_universitaria_2_contacto { width:378px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Promoción Universitaria */
+
+/* Editorial */
+
+.area_titulo_editorial{ width:941px; height: 36px; background-image: url(../img/vinculacion/editorial/area_titulo_editorial.png); background-repeat: no-repeat; padding-top: 10px; padding-left: 5px;margin-bottom:15px; }
+.area_titulo_editorial h3{ color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 1.125em;line-height: 20px; margin-bottom: 0;margin-top: 0;}
+.area_info_editorial {width: 946px; height: auto;}
+.area_info_editorial ul li{ list-style-position: inside;}
+.area_btn_editorial {width: 100%; height: 30px; margin-bottom: 15px; text-align: right ;}
+.area_btn_editorial a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
+
+.area_info_editorial_1 { width: 927px; height: auto; margin-left: 19px;}
+.area_info_editorial_2 { width: 927px; height: auto;margin-left: 19px;}
+
+.area_info_editorial_1_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/editorial/area_info_editorial_1_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_editorial_1_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_editorial_1_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+.area_info_editorial_2_titulo { width: 863px; height: 38px; background-image: url(../img/vinculacion/editorial/area_info_editorial_2_titulo.png); background-repeat: no-repeat; padding-left: 60px; padding-top: 17px; margin-bottom: 13px;background-position: right; }
+.area_info_editorial_2_titulo h4{ color: white;font-family: 'Open Sans' !important;font-style: normal;font-weight: 700; font-size: 0.875em;line-height: 20px;}
+.area_info_editorial_2_info {width: 876px; margin-left: 46px; color: #5B5C5C;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;font-size: 0.8em; text-align: justify;}
+
+/*.area_info_editorial_3_contacto { width: 348px;height: 155px;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400; padding-left: 47px; padding-top:24px;}*/
+.area_info_editorial_3_contacto { width:358px;height: auto;background-color: #EFF0F4;font-size: 0.875em;font-family: 'Open Sans' !important;font-style: normal;font-weight: 400;  padding: 20px 0 20px 47px;}
+/* Editorial */

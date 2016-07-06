@@ -1,0 +1,342 @@
+[{
+        "nombre": "El Lagarto Culto",
+        "horarios": [{
+                "horario": "20:00-21:00",
+                "dias": ["L"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }, {
+        "nombre": "Debate de 4",
+        "horarios": [{
+                "horario": "12:30-13:00",
+                "dias": ["Mi"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }, {
+        "nombre": "La otra Revolución",
+        "horarios": [{
+                "horario": "09:30-10:00",
+                "dias": ["L"]
+            }, {
+                "horario": "22:00-22:30",
+                "dias": ["M", "J"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Música mexicana",
+        "horarios": [{
+                "horario": "00:00-02:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }, {
+                "horario": "07:30-09:30",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Bossa nova",
+        "horarios": [{
+                "horario": "02:00-03:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            },
+            {
+                "horario": "12:00-13:00",
+                "dias": ["L"]
+            }, {
+                "horario": "14:00-14:30",
+                "dias": ["L", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Sountrack",
+        "horarios": [{
+                "horario": "03:00-04:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }, {
+                "horario": "12:00-13:00",
+                "dias": ["M"]
+            }, {
+                "horario": "14:00-14:30",
+                "dias": ["M"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Música instrumental",
+        "horarios": [{
+                "horario": "04:00-05:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }, {
+                "horario": "12:00-12:30",
+                "dias": ["Mi"]
+            }, {
+                "horario": "14:00-14:30",
+                "dias": ["Mi"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Orquestas",
+        "horarios": [{
+                "horario": "05:00-06:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }, {
+                "horario": "14:00-14:30",
+                "dias": ["S"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Rock and Roll",
+        "horarios": [{
+                "horario": "06:00-07:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }, {
+                "horario": "11:00-12:00",
+                "dias": ["L", "M", "Mi", "J", "V"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Descarga UNAM",
+        "horarios": [{
+                "horario": "07:00-07:30",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }, {
+                "horario": "17:30-18:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+    ,
+    {
+        "nombre": "Con-tacto informativo (repetición)",
+        "horarios": [{
+                "horario": "09:30-10:00",
+                "dias": ["M", "Mi", "J", "V"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+    ,
+    {
+        "nombre": "Resumen con-tacto informativo",
+        "horarios": [{
+                "horario": "09:30-10:00",
+                "dias": ["S", "D"]
+            }, {
+                "horario": "14:30-15:00",
+                "dias": ["S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+    ,
+    {
+        "nombre": "Con-tacto informativo (en vivo)",
+        "horarios": [{
+                "horario": "14:30-15:00",
+                "dias": ["L", "M", "Mi", "J", "V"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+    ,
+    {
+        "nombre": "Florilegio",
+        "horarios": [{
+                "horario": "10:00-11:00",
+                "dias": ["L", "M", "Mi", "J", "V"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+    ,
+    {
+        "nombre": "Trova",
+        "horarios": [{
+                "horario": "10:00-11:00",
+                "dias": ["S", "D"]
+            }, {
+                "horario": "16:30-17:30",
+                "dias": ["S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+    ,
+    {
+        "nombre": "Entrevista de la semana",
+        "horarios": [{
+                "horario": "11:00-11:30",
+                "dias": ["S", "D"]
+            }, {
+                "horario": "16:00-16:30",
+                "dias": ["S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Salsa",
+        "horarios": [{
+                "horario": "11:30-13:00",
+                "dias": ["S", "D"]
+            }, {
+                "horario": "20:00-21:00",
+                "dias": ["M", "J", "S"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Intérpretes",
+        "horarios": [{
+                "horario": "12:00-13:00",
+                "dias": ["J"]
+            }, {
+                "horario": "14:00-14:30",
+                "dias": ["J"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Bell canto",
+        "horarios": [{
+                "horario": "12:00-13:00",
+                "dias": ["V"]
+            }, {
+                "horario": "14:00-14:30",
+                "dias": ["V"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Música clásicos",
+        "horarios": [{
+                "horario": "13:00-14:00",
+                "dias": ["L", "Mi", "V", "S", "D"]
+            }, {
+                "horario": "21:00-22:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Tabasco y sus raices",
+        "horarios": [{
+                "horario": "13:00-14:00",
+                "dias": ["M", "J"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Música pop en español e inglés",
+        "horarios": [{
+                "horario": "15:00-17:30",
+                "dias": ["L", "M", "Mi", "J", "V"]
+            }, {
+                "horario": "15:00-16:00",
+                "dias": ["S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Música del mundo",
+        "horarios": [{
+                "horario": "18:00-19:00",
+                "dias": ["L", "Mi", "V", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "New age chill out",
+        "horarios": [{
+                "horario": "18:00-19:00",
+                "dias": ["M", "J"]
+            }, {
+                "horario": "22:00-23:00",
+                "dias": ["L", "Mi", "V", "S"]
+            },
+            {
+                "horario": "22:30-23:00",
+                "dias": ["M", "J"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+    ,
+    {
+        "nombre": "México",
+        "horarios": [{
+                "horario": "18:00-19:00",
+                "dias": ["S"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Antaño",
+        "horarios": [{
+                "horario": "19:00-20:00",
+                "dias": ["L", "Mi", "V", "S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Grandes bandas",
+        "horarios": [{
+                "horario": "19:00-20:00",
+                "dias": ["M", "J"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Jazz",
+        "horarios": [{
+                "horario": "20:00-21:00",
+                "dias": ["Mi", "V", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "Hora nacional",
+        "horarios": [{
+                "horario": "22:00-23:00",
+                "dias": ["D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    },
+    {
+        "nombre": "De antro: dance, electrónico y más ...",
+        "horarios": [{
+                "horario": "23:00-00:00",
+                "dias": ["L", "M", "Mi", "J", "V", "S", "D"]
+            }],
+        "color_fondo": "#ECEDED",
+        "color": "#000000"
+    }
+
+]

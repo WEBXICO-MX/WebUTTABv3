@@ -1,0 +1,9 @@
+/* 
+    Document   : ie
+    Created on : 6/06/2013, 08:34:03 AM
+    Author     : Weisß
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.menuPrincipal #navigation nav ul li  a { text-decoration: none; color: #5b5c5c ;font-family: 'Open Sans' !important;font-style: normal;font-weight: 600; font-size: 11px;}

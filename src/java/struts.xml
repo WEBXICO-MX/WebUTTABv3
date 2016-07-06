@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!--<constant name="struts.rest.defaultExtension" value="json"/>
+    <constant name="struts.rest.namespace" value="/rest"></constant>
+    <constant name="struts.action.extension" value="xhtml,,json,action"/>
+    <constant name="struts.mapper.class" value="org.apache.struts2.dispatcher.mapper.PrefixBasedActionMapper" />
+    <constant name="struts.mapper.prefixMapping" value="/rest:rest,:struts"/>
+    <constant name="struts.convention.action.suffix" value="Action"/>
+    <constant name="struts.convention.action.mapAllMatches" value="true"/>
+    <constant name="struts.convention.default.parent.package" value="rest-default"/>
+    <constant name="struts.convention.package.locators" value="action"/>-->
+    <constant name="struts.action.excludePattern" value="/rest/.*" />
+    <constant name="struts.multipart.maxSize" value="30000000" />
+    <package name="default" namespace="" extends="struts-default">
+        <action name="getCalendarioEscolarIconografia">
+            <result>/WEB-INF/json/servicios/calendario_escolar_iconografia.min.json</result>
+        </action>
+        <!--<action name="Home2">
+            <result>/index2.jsp</result>
+        </action>-->
+        <action name="">
+            <result name="success" type="redirectAction">Home</result>
+        </action>
+        <action name="Home" class="mx.edu.uttab.action.HomeAction">
+            <result>/index.jsp</result>
+        </action>
+        <action name="Webxico">
+            <result>/WEB-INF/jsp/ajaxGuardarIPMACaddress.jsp</result>
+        </action>
+        <action name="getJsonTwitter">
+            <result>/WEB-INF/jsp/getJsonTwitter.jsp</result> 
+        </action>
+        <action name="Search">
+            <result>/WEB-INF/jsp/search2.jsp</result>
+        </action>
+        <action name="SintoniaUTTAB">
+            <result name="success" type="redirectAction">
+                <param name="actionName">radio</param>
+                <param name="namespace">/sintonia</param>
+            </result>
+        </action>
+        <action name="Radio">
+            <result name="success" type="redirectAction">
+                <param name="actionName">radio</param>
+                <param name="namespace">/sintonia</param>
+            </result>
+        </action>
+        <action name="SaveEmail">
+            <result>/WEB-INF/jsp/ajaxGuardarEmail.jsp</result>
+        </action>
+        <action name="ExportListEmail">
+            <result>/WEB-INF/jsp/exportar_correos.jsp</result>
+        </action>
+        <action name="ExportListEmailEXCEL">
+            <result>/WEB-INF/jsp/imprimir_correos.jsp</result>
+        </action>
+        <action name="Mensaje">
+            <result name="success" type="redirectAction">
+                <param name="actionName">mensaje_rector</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="Historia">
+            <result name="success" type="redirectAction">
+                <param name="actionName">historia</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="Mision">
+            <result name="success" type="redirectAction">
+                <param name="actionName">identidad</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="Identidad">
+            <result name="success" type="redirectAction">
+                <param name="actionName">identidad</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="ModeloEducativo">
+            <result name="success" type="redirectAction">
+                <param name="actionName">modelo_educativo</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="SistemasInstitucionales">
+            <result name="success" type="redirectAction">
+                <param name="actionName">sistemas_institucionales</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="Directorio">
+            <result name="success" type="redirectAction">
+                <param name="actionName">directorio</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="Organigrama">
+            <result name="success" type="redirectAction">
+                <param name="actionName">organigrama</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="Normatividad">
+            <result name="success" type="redirectAction">
+                <param name="actionName">normatividad</param>
+                <param name="namespace">/transparencia</param>
+            </result>
+        </action>
+        <action name="PIDE">
+            <result name="success" type="redirectAction">
+                <param name="actionName">programa_institucional_desarrollo</param>
+                <param name="namespace">/transparencia</param>
+            </result>
+        </action>
+        <!--<action name="Logros">
+            <result>/WEB-INF/jsp/conocenos/logros_obtenidos.jsp</result>
+        </action>-->
+        <!--<action name="Certificaciones">
+            <result>/WEB-INF/jsp/conocenos/certificaciones.jsp</result>
+        </action>-->
+        <action name="Campus">
+            <result name="success" type="redirectAction">
+                <param name="actionName">campus</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="RecorridoVirtual">
+            <result>/rv_uttab/uttab.html</result>
+        </action>
+        <action name="Glosarios">
+            <result name="success" type="redirectAction">
+                <param name="actionName">identidad</param>
+                <param name="namespace">/conocenos</param>
+            </result>
+        </action>
+        <action name="AGEP">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/agep</param>
+            </result>
+        </action>
+        <action name="CuerposAcademicosAGEP">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/agep</param>
+            </result>
+        </action>
+        <action name="LogrosAGEP">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/agep</param>
+            </result>
+        </action>
+        <action name="DirectorioAGEP">
+            <result name="success" type="redirectAction">
+                <param name="actionName">directorio</param>
+                <param name="namespace">/oferta_educativa/agep</param>
+            </result>
+        </action>
+        <action name="TSUDesarrolloNegociosAreaMercadotecnia">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_desarrollo_negocios_area_mercadotecnia</param>
+                <param name="namespace">/oferta_educativa/agep</param>
+            </result>
+        </action>
+        <action name="TSUAdministracionAreaAdministracionEvaluacionProyectos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_administracion_area_administracion_evaluacion_proyectos</param>
+                <param name="namespace">/oferta_educativa/agep</param>
+            </result>
+        </action>
+        <action name="IngenieriaGestionProyectos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">ingenieria_gestion_proyectos</param>
+                <param name="namespace">/oferta_educativa/agep</param>
+            </result>
+        </action>
+        <action name="ProcesosIndustriales">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="CuerposAcademicosPI">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="LogrosPI">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="DirectorioPI">
+            <result name="success" type="redirectAction">
+                <param name="actionName">directorio</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="TSUEnergiasRenovablesAreaCalidadAhorroEnergia">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_energias_renovables_area_calidad_ahorro_energia</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="TSUMantenimientoAreaIndustrial">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_mantenimiento_area_industrial</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="TSUMantenimientoAreaPetroleo">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_mantenimiento_area_petroleo</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="TSUProcesosAlimentarios">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_procesos_alimentarios</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <!--<action name="TSUProcesosIndustrialesAreaManufactura">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/tsuProcIndusManu/index.jsp</result>
+        </action>-->
+        <action name="IngenieriaMantenimientoIndustrial">
+            <result name="success" type="redirectAction">
+                <param name="actionName">ingenieria_mantenimiento_industrial</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <action name="IngenieriaProcesosBioalimentarios">
+            <result name="success" type="redirectAction">
+                <param name="actionName">ingenieria_procesos_bioalimentarios</param>
+                <param name="namespace">/oferta_educativa/procesos</param>
+            </result>
+        </action>
+        <!--<action name="IngenieriaProcesosOperacionesIndustriales">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/ingProcOpeInd/index.jsp</result>
+        </action>-->
+        <action name="Quimica">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="CuerposAcademicosQuimica">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="LogrosQuimica">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="DirectorioQuimica">
+            <result name="success" type="redirectAction">
+                <param name="actionName">directorio</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="TSUQuimicaAreaFluidosPerforacion">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_quimica_area_fluidos_perforacion</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="TSUQuimicaAreaIndustrial">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_quimica_area_industrial</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="TSUQuimicaAreaPrevencionCorrosion">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_quimica_area_prevencion_corrosion</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="TSUQuimicaAreaTecnologiaAmbiental">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_quimica_area_tecnologia_ambiental</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="IngenieriaQuimicaProcesosIndustriales">
+            <result name="success" type="redirectAction">
+                <param name="actionName">ingenieria_quimica_procesos_industriales</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="IngenieriaTecnologiaAmbiental">
+            <result name="success" type="redirectAction">
+                <param name="actionName">ingenieria_tecnologia_ambiental</param>
+                <param name="namespace">/oferta_educativa/quimica</param>
+            </result>
+        </action>
+        <action name="TIC">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="CuerposAcademicosTIC">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="LogrosTIC">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="DirectorioTIC">
+            <result name="success" type="redirectAction">
+                <param name="actionName">directorio</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="TSUTICAreaMultimediaComercioElectronico">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_tic_area_multimedia_comercio_electronico</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="TSUTICAreaRedesTelecomunicaciones">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_tic_area_redes_telecomunicaciones</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="TSUTICAreaSistemasInformaticos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_tic_area_sistemas_informaticos</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="IngenieriaTecnologiasInformacion">
+            <result name="success" type="redirectAction">
+                <param name="actionName">ingenieria_tecnologias_informacion</param>
+                <param name="namespace">/oferta_educativa/tic</param>
+            </result>
+        </action>
+        <action name="TurismoGastronomia">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="CuerposAcademicosTG">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="LogrosTG">
+            <result name="success" type="redirectAction">
+                <param name="actionName">inicio</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="DirectorioTG">
+            <result name="success" type="redirectAction">
+                <param name="actionName">directorio</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="TSUGastronomia">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_gastronomia</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="TSUTurismoAreaHoteleria">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tsu_turismo_area_hoteleria</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="LicenciaturaGastronomia">
+            <result name="success" type="redirectAction">
+                <param name="actionName">licenciatura_gastronomia</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="LicenciaturaGestionDesarrolloTuristico">
+            <result name="success" type="redirectAction">
+                <param name="actionName">licenciatura_gestion_desarrollo_turistico</param>
+                <param name="namespace">/oferta_educativa/turismo</param>
+            </result>
+        </action>
+        <action name="Alumnos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">admision</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="Egresados">
+            <result name="success" type="redirectAction">
+                <param name="actionName">egresados</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="AjaxEgresados">
+            <result>/WEB-INF/jsp/servicios/ajax_egresados_testimonio.jsp</result>
+        </action>
+        <!--<action name="Profesores">
+            <result>/WEB-INF/jsp/servicios/profesores.jsp</result>
+        </action>-->
+        <action name="Padres">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tutorias</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="Admision">
+            <result name="success" type="redirectAction">
+                <param name="actionName">admision</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="ControlEscolar">
+            <result name="success" type="redirectAction">
+                <param name="actionName">control_escolar</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="ServiciosVentanilla">
+            <result name="success" type="redirectAction">
+                <param name="actionName">servicios_ventanilla</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="Titulacion">
+            <result name="success" type="redirectAction">
+                <param name="actionName">tramites_titulacion</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="CalendarioEscolar">
+            <result name="success" type="redirectAction">
+                <param name="actionName">calendario_escolar</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="Biblioteca">
+            <result name="success" type="redirectAction">
+                <param name="actionName">biblioteca</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="BibliotecaAntecedentes">
+            <result name="success" type="redirectAction">
+                <param name="actionName">biblioteca</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="BibliotecaQuienesSomos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">biblioteca</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="BibliotecaRecursosServ">
+            <result name="success" type="redirectAction">
+                <param name="actionName">biblioteca</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="BibliotecaPagoServ">
+            <result name="success" type="redirectAction">
+                <param name="actionName">biblioteca</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <!--<action name="ReglamentoEscolar">
+            <result>/WEB-INF/jsp/servicios/reglamento_escolar.jsp</result>
+        </action>-->
+        <action name="ServiciosMedicos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">servicios_medicos</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="CECAP">
+            <result name="success" type="redirectAction">
+                <param name="actionName">cecap</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="CentroAtencionSectorEnergetico">
+            <result name="success" type="redirectAction">
+                <param name="actionName">case</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="CentroGastronomico">
+            <result name="success" type="redirectAction">
+                <param name="actionName">centro_gastronomico</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="CentroCertificadorDELF-DALF">
+            <result name="success" type="redirectAction">
+                <param name="actionName">delf_dalf</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="CentroIdiomas">
+            <result name="success" type="redirectAction">
+                <param name="actionName">centro_idiomas</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="ServiciosTecnologicos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">servicios_tecnologicos</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="EducacionContinua">
+            <result name="success" type="redirectAction">
+                <param name="actionName">educacion_continua</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="PracticasEmpresariales">
+            <result name="success" type="redirectAction">
+                <param name="actionName">practicas_empresariales</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="CentroIncubacion">
+            <result name="success" type="redirectAction">
+                <param name="actionName">centro_incubacion</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="ProyectosIncubados">
+            <result name="success" type="redirectAction">
+                <param name="actionName">proyectos_incubados</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="BolsaTrabajo">
+            <result name="success" type="redirectAction">
+                <param name="actionName">bolsa_trabajo</param>
+                <param name="namespace">/servicios</param>
+            </result>
+        </action>
+        <action name="ExtensionUniversitaria">
+            <result name="success" type="redirectAction">Home</result>
+        </action>
+        <action name="ProduccionAudiovisual">
+            <result name="success" type="redirectAction">
+                <param name="actionName">produccion_audiovisual</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="PromocionUniversitaria">
+            <result name="success" type="redirectAction">Home</result>
+        </action>
+        <action name="Editorial">
+            <result name="success" type="redirectAction">
+                <param name="actionName">diseno_imagen</param>
+                <param name="namespace">/vinculacion</param>
+            </result>
+        </action>
+        <action name="ProteccionCivil">
+            <result name="success" type="redirectAction">
+                <param name="actionName">proteccion_civil</param>
+                <param name="namespace">/otras_secciones</param>
+            </result>
+        </action>
+        <!--<action name="SitiosDeInteres">
+            <result>/WEB-INF/jsp/otras_secciones/sitios_interes.jsp</result>
+        </action>-->
+        <action name="Gacetas">
+            <result name="success" type="redirectAction">
+                <param name="actionName">gacetas</param>
+                <param name="namespace">/otras_secciones</param>
+            </result>
+        </action>
+        <action name="ActividadesUniversitarias">
+            <result name="success" type="redirectAction">
+                <param name="actionName">actividades_universitarias</param>
+                <param name="namespace">/otras_secciones</param>
+            </result>
+        </action>
+        <action name="ContraloriaSocialPROMEP">
+           <result name="success" type="redirectAction">
+                <param name="actionName">contraloria_social</param>
+                <param name="namespace">/transparencia</param>
+            </result>
+        </action>
+        <action name="ContraloriaSocialFOMES_FIUPEA">
+            <result name="success" type="redirectAction">
+                <param name="actionName">contraloria_social</param>
+                <param name="namespace">/transparencia</param>
+            </result>
+        </action>
+        <!--<action name="CalendarioInstitucional">
+            <result>/WEB-INF/jsp/otras_secciones/calendario_institucional.jsp</result>
+        </action>-->
+        <action name="CalendarioEventos">
+            <result name="success" type="redirectAction">
+                <param name="actionName">calendario_eventos</param>
+                <param name="namespace">/otras_secciones</param>
+            </result>
+        </action>
+        <action name="HerramientasTecnologicas">
+            <result name="success" type="redirectAction">
+                <param name="actionName">herramientas_tecnologicas</param>
+                <param name="namespace">/otras_secciones</param>
+            </result>
+        </action>
+        <action name="Transparencia">
+            <result type="redirect">http://transparencia.tabasco.gob.mx/Portal/WFrmPresentarPortal.aspx?dp=FI</result>
+        </action>
+        <action name="AvisoPrivacidad">
+            <result type="redirect">http://transparencia.tabasco.gob.mx/TransArchivos/FI/53/159548.pdf</result>
+        </action>
+    </package>
+    <include file="admin.xml"/>
+    <include file="cotendcut.xml"/>
+    <include file="sintonia.xml"/>
+    <include file="case.xml"/>
+    <include file="conocenos.xml"/>
+    <include file="oferta_educativa.xml"/>
+    <include file="servicios.xml"/>
+    <include file="vinculacion.xml"/>
+    <include file="otras_secciones.xml"/>
+    <include file="transparencia.xml"/>      
+</struts>

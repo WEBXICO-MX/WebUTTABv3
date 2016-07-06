@@ -1,0 +1,13 @@
+#contenido-main{ 
+    margin: 0 auto; 
+    width:1002px;
+}
+#slider-contenido {
+    float: left;
+    height: 401px;
+    position: relative;
+    width: 1002px; 
+    height: auto; 
+}
+
+

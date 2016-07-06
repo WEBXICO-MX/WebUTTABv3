@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<divisiones>
+    <division cve_division="12">
+        <nombre>División de Administración y Gestión de Proyectos</nombre>
+        <img>img/movil/android/bolsa_trabajo/ayep.png</img>
+        <activo>true</activo>
+    </division>  
+    <division cve_division="13">
+        <nombre>División de Procesos Industriales</nombre>
+        <img>img/movil/android/bolsa_trabajo/procesos.png</img>
+        <activo>true</activo>
+    </division>
+    <division cve_division="16">
+        <nombre>División de Química</nombre>
+        <img>img/movil/android/bolsa_trabajo/quimica.png</img>
+        <activo>true</activo>
+    </division>
+    <division cve_division="15">
+        <nombre>División de Tecnologías de la Información y Comunicación</nombre>
+        <img>img/movil/android/bolsa_trabajo/tic.png</img>
+        <activo>true</activo>
+    </division>
+    <division cve_division="17">
+        <nombre>División de Turismo y Gastronomía</nombre>
+        <img>img/movil/android/bolsa_trabajo/turismoygas.png</img>
+        <activo>true</activo>
+    </division>
+    <division cve_division="0">
+        <nombre>Varias áreas</nombre>
+        <img>img/movil/android/bolsa_trabajo/todas_las_areas.png</img>
+        <activo>false</activo>
+    </division>
+</divisiones>

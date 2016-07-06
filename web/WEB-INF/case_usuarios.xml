@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario id="7">
+        <nombre>Raúl Salinas</nombre>
+        <login>raul</login>
+        <password>case.raul.2016</password>
+        <activo>true</activo>
+    </usuario>
+    <usuario id="6">
+        <nombre>Luis Manuel Hernández Aguilar</nombre>
+        <login>lmha</login>
+        <password>case.lmha.2016</password>
+        <activo>true</activo>
+    </usuario>
+    <usuario id="5">
+        <nombre>Karla Galán Crespo</nombre>
+        <login>kgc</login>
+        <password>case.kgc.2016</password>
+        <activo>false</activo>
+    </usuario>
+     <usuario id="4">
+        <nombre>Daniel Alejandro Cortéz Niño</nombre>
+        <login>dacn</login>
+        <password>case.dacn.2016</password>
+        <activo>true</activo>
+    </usuario>
+    <usuario id="3">
+        <nombre>Alberto De la Cruz Cruz</nombre>
+        <login>adlacru3</login>
+        <password>Nuncam25</password>
+        <activo>true</activo>
+    </usuario>
+    <usuario id="2">
+        <nombre>Jorge José Jiménez Del Cueto</nombre>
+        <login>cuetox</login>
+        <password>51683l.b</password>
+        <activo>true</activo>
+    </usuario> 
+    <usuario id="1">
+        <nombre>Roberto Eder Weiss Juárez</nombre>
+        <login>eder.weiss87</login>
+        <password>M@rvel87.2016</password>
+        <activo>true</activo>
+    </usuario>
+</usuarios>

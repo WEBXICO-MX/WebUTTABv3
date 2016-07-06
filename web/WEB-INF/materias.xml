@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materias>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Matemáticas"></materia>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Entorno de la empresa"></materia>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Administración"></materia>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Informática para negocios I"></materia>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Fundamentos de mercadotecnia"></materia>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Calidad"></materia>  
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="58" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Estadística para negocios"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Informática para negocios II"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Estudio del consumidor"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Compras"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Presupuestos"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Gestión de ventas"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="58" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Finanzas"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Estrategias de venta"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Administración de almacén"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Investigación de mercados I"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Mercadotecnia estratégica"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Comunicación integral de mercadotecnia"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="58" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="58" cuatrimestre="4" nombre="Plan de negocios"></materia>
+    <materia cve_carrera="58" cuatrimestre="4" nombre="Investigación de mercados II"></materia>
+    <materia cve_carrera="58" cuatrimestre="4" nombre="Mezcla de mercadotecnia"></materia>
+    <materia cve_carrera="58" cuatrimestre="4" nombre="Producción publicitaria I"></materia>
+    <materia cve_carrera="58" cuatrimestre="4" nombre="Comercio internacional"></materia>
+    <materia cve_carrera="58" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="58" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Planeación estratégica de mercadotecnia"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Plan de exportación"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Comercio electrónico"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Producción publicitaria II"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Relaciones humanas"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="58" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="58" cuatrimestre="6" nombre="Estadías en el sector productivo"></materia>
+    <materia cve_carrera="39" cuatrimestre="1" nombre="Fundamentos de administración"></materia>
+    <materia cve_carrera="39" cuatrimestre="1" nombre="Contabilidad I"></materia>
+    <materia cve_carrera="39" cuatrimestre="1" nombre="Estadística"></materia>
+    <materia cve_carrera="39" cuatrimestre="1" nombre="Informática"></materia>
+    <materia cve_carrera="39" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="39" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>  
+    <materia cve_carrera="39" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="39" cuatrimestre="2" nombre="Planeación estratégica"></materia>
+    <materia cve_carrera="39" cuatrimestre="2" nombre="Procedimientos administrativos"></materia>
+    <materia cve_carrera="39" cuatrimestre="2" nombre="Contabilidad II"></materia>
+    <materia cve_carrera="39" cuatrimestre="2" nombre="Análisis e interpretación de estados financieros"></materia>
+    <materia cve_carrera="39" cuatrimestre="2" nombre="Fundamentos de mercadotecnia"></materia>
+    <materia cve_carrera="39" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="39" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Desarrollo local y regional I"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Teoría y desarrollo organizacional"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Administración del capital de trabajo"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Planeación financiera"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Estudio de mercado"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Economía aplicada a los negocios"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="39" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Desarrollo local y regional II"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Administración de proyectos I"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Estudio técnico"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Estudio financiero"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Informática aplicada a los negocios"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Sistemas de producción"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="39" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Administración de proyectos II"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Comercialización"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Evaluación económica financiera"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Consultoría empresarial"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Calidad"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="39" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="39" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="40" cuatrimestre="7" nombre="Seminario de investigación"></materia>
+    <materia cve_carrera="40" cuatrimestre="7" nombre="Matemáticas aplicadas"></materia>
+    <materia cve_carrera="40" cuatrimestre="7" nombre="Diagnóstico empresarial"></materia>
+    <materia cve_carrera="40" cuatrimestre="7" nombre="Inglés VI"></materia>
+    <materia cve_carrera="40" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="40" cuatrimestre="7" nombre="Optativa I (informática gerencial)"></materia>
+    <materia cve_carrera="40" cuatrimestre="8" nombre="Marco legal de las organizaciones"></materia>
+    <materia cve_carrera="40" cuatrimestre="8" nombre="Diseño y aplicación de la consultoría"></materia>
+    <materia cve_carrera="40" cuatrimestre="8" nombre="Sistema financiero nacional"></materia>
+    <materia cve_carrera="40" cuatrimestre="8" nombre="Inglés VII"></materia>
+    <materia cve_carrera="40" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="40" cuatrimestre="9" nombre="Administración de organizaciones"></materia>
+    <materia cve_carrera="40" cuatrimestre="9" nombre="Dirección de mercadotecnia"></materia>
+    <materia cve_carrera="40" cuatrimestre="9" nombre="Gestión del financiamiento"></materia>
+    <materia cve_carrera="40" cuatrimestre="9" nombre="Integradora I"></materia>
+    <materia cve_carrera="40" cuatrimestre="9" nombre="Inglés VIII"></materia>
+    <materia cve_carrera="40" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="40" cuatrimestre="10" nombre="Dirección estratégica"></materia>
+    <materia cve_carrera="40" cuatrimestre="10" nombre="Aplicación del financiamiento"></materia>
+    <materia cve_carrera="40" cuatrimestre="10" nombre="Integradora II"></materia>
+    <materia cve_carrera="40" cuatrimestre="10" nombre="Optativa II (auditoria administrativa)"></materia>
+    <materia cve_carrera="40" cuatrimestre="10" nombre="Inglés IX"></materia>
+    <materia cve_carrera="40" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="40" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Razonamiento matemático"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Física"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Desarrollo sustentable"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Informática"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Electricidad y magnetismo"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="59" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="59" cuatrimestre="2" nombre="Térmica"></materia>
+    <materia cve_carrera="59" cuatrimestre="2" nombre="Química"></materia>
+    <materia cve_carrera="59" cuatrimestre="2" nombre="Instalaciones eléctricas"></materia>
+    <materia cve_carrera="59" cuatrimestre="2" nombre="Electrónica industrial"></materia>
+    <materia cve_carrera="59" cuatrimestre="2" nombre="Mecánica industrial"></materia>
+    <materia cve_carrera="59" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="59" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Instrumentación industrial"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Mantenimiento electromecánico"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Energías renovables"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Formulación de proyectos"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Calidad y estadística"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="59" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Sistemas eléctricos"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Máquinas eléctricas"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Electrónica de potencia"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Planos eléctricos"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Ingeniería económica"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Seguridad industrial"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="59" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="59" cuatrimestre="5" nombre="Calidad de la energía"></materia>
+    <materia cve_carrera="59" cuatrimestre="5" nombre="Instalaciones y alumbrado"></materia>
+    <materia cve_carrera="59" cuatrimestre="5" nombre="Administración de proyectos"></materia>
+    <materia cve_carrera="59" cuatrimestre="5" nombre="Automatización y control de la demanda"></materia>
+    <materia cve_carrera="59" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="59" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="59" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="59" cuatrimestre="6" nombre="Estadías en el sector productivo"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Álgebra"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Estática y dinámica"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Informática"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Introducción al mantenimiento"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Calidad en el mantenimiento"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="38" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Cálculo"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Administración del personal"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Dibujo industrial"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Sistemas eléctricos"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Métodos y sistemas de trabajo"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Costos y presupuestos"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="38" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Seguridad y medio ambiente"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Máquinas y mecanismos"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Electrónica analógica"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Sistemas neumáticos"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Gestión del mantenimiento"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="38" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Ingeniería de materiales"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Máquinas eléctricas"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Electrónica digital"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Principios de programación"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Sistemas hidráulicos"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Redes de servicios industriales"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="38" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="38" cuatrimestre="5" nombre="Mantenimiento a procesos de manufactura"></materia>
+    <materia cve_carrera="38" cuatrimestre="5" nombre="Instalaciones eléctricas"></materia>
+    <materia cve_carrera="38" cuatrimestre="5" nombre="Automatización y robótica"></materia>
+    <materia cve_carrera="38" cuatrimestre="5" nombre="Máquinas térmicas"></materia>
+    <materia cve_carrera="38" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="38" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="38" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="38" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Álgebra"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Estática y dinámica"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Informática"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Introducción al mantenimiento"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Calidad en el mantenimiento"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="55" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Cálculo"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Administración del personal"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Dibujo industrial"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Sistemas eléctricos"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Métodos y sistemas de trabajo"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Costos y presupuestos"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="55" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Seguridad y medio ambiente"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Máquinas y mecanismos"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Electrónica analógica"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Sistemas neumáticos"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Gestión del mantenimiento"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="55" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="55" cuatrimestre="4" nombre="Geología del petróleo"></materia>
+    <materia cve_carrera="55" cuatrimestre="4" nombre="Perforación de pozos"></materia>
+    <materia cve_carrera="55" cuatrimestre="4" nombre="Electrónica digital"></materia>
+    <materia cve_carrera="55" cuatrimestre="4" nombre="Sistemas hidráulicos"></materia>
+    <materia cve_carrera="55" cuatrimestre="4" nombre="Maquinas térmicas"></materia>
+    <materia cve_carrera="55" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="55" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Ingeniería de pozos"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Reparación, terminación y estimulación de pozos"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Automatización y robótica"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Principio de programación"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Principios de yacimientos y producción"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="55" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="55" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="51" cuatrimestre="7" nombre="Estadística industrial"></materia>
+    <materia cve_carrera="51" cuatrimestre="7" nombre="Protocolos de operación y mantenimiento"></materia>
+    <materia cve_carrera="51" cuatrimestre="7" nombre="Tribología"></materia>
+    <materia cve_carrera="51" cuatrimestre="7" nombre="Optativa I"></materia>
+    <materia cve_carrera="51" cuatrimestre="7" nombre="Ingles VI"></materia>
+    <materia cve_carrera="51" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="51" cuatrimestre="8" nombre="Ecuaciones diferenciales aplicadas"></materia>
+    <materia cve_carrera="51" cuatrimestre="8" nombre="Ensayos destructivos"></materia>
+    <materia cve_carrera="51" cuatrimestre="8" nombre="Técnicas TPM y CRM"></materia>
+    <materia cve_carrera="51" cuatrimestre="8" nombre="Integradora I"></materia>
+    <materia cve_carrera="51" cuatrimestre="8" nombre="Ingles VII"></materia>
+    <materia cve_carrera="51" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="51" cuatrimestre="9" nombre="Administración estratégica para mantenimiento"></materia>
+    <materia cve_carrera="51" cuatrimestre="9" nombre="Mantenimiento predictivo mecánico"></materia>
+    <materia cve_carrera="51" cuatrimestre="9" nombre="Sistemas automatizados y redes industriales"></materia>
+    <materia cve_carrera="51" cuatrimestre="9" nombre="Ingles VIII"></materia>
+    <materia cve_carrera="51" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="51" cuatrimestre="10" nombre="Ensayos no destructivos"></materia>
+    <materia cve_carrera="51" cuatrimestre="10" nombre="Visualización y control de procesos"></materia>
+    <materia cve_carrera="51" cuatrimestre="10" nombre="Integradora II"></materia>
+    <materia cve_carrera="51" cuatrimestre="10" nombre="Optativa II"></materia>
+    <materia cve_carrera="51" cuatrimestre="10" nombre="Ingles IX"></materia>
+    <materia cve_carrera="51" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="51" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Matemáticas I"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Informática básica"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Química I"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Microbiología"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Análisis de alimentos I"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="47" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="47" cuatrimestre="2" nombre="Matemáticas II"></materia>
+    <materia cve_carrera="47" cuatrimestre="2" nombre="Calidad"></materia>
+    <materia cve_carrera="47" cuatrimestre="2" nombre="Física"></materia>
+    <materia cve_carrera="47" cuatrimestre="2" nombre="Química de alimentos"></materia>
+    <materia cve_carrera="47" cuatrimestre="2" nombre="Tecnología de alimentos I"></materia>
+    <materia cve_carrera="47" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="47" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Termodinámica"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Conservación de alimentos"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Administración de la producción"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Tecnología de alimentos II"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Estadística para el control de procesos"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="47" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="47" cuatrimestre="4" nombre="Informática aplicada para procesos"></materia>
+    <materia cve_carrera="47" cuatrimestre="4" nombre="Fundamentos de operaciones unitarias"></materia>
+    <materia cve_carrera="47" cuatrimestre="4" nombre="Microbiología de alimentos"></materia>
+    <materia cve_carrera="47" cuatrimestre="4" nombre="Análisis de alimentos II"></materia>
+    <materia cve_carrera="47" cuatrimestre="4" nombre="Tecnología de alimentos III"></materia>
+    <materia cve_carrera="47" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="47" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="47" cuatrimestre="5" nombre="Principio de costos de producción"></materia>
+    <materia cve_carrera="47" cuatrimestre="5" nombre="Inocuidad alimentaria"></materia>
+    <materia cve_carrera="47" cuatrimestre="5" nombre="Tecnología de alimentos IV"></materia>
+    <materia cve_carrera="47" cuatrimestre="5" nombre="Formulación y evaluación de proyectos"></materia>
+    <materia cve_carrera="47" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="47" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="47" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="47" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="42" cuatrimestre="7" nombre="Matemáticas avanzadas"></materia>
+    <materia cve_carrera="42" cuatrimestre="7" nombre="Metodología de la investigación"></materia>
+    <materia cve_carrera="42" cuatrimestre="7" nombre="Balance de materia y energía"></materia>
+    <materia cve_carrera="42" cuatrimestre="7" nombre="Gestión de la producción"></materia>
+    <materia cve_carrera="42" cuatrimestre="7" nombre="Inglés VI"></materia>
+    <materia cve_carrera="42" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="42" cuatrimestre="8" nombre="Diseño de experimentos"></materia>
+    <materia cve_carrera="42" cuatrimestre="8" nombre="Fenómenos de transporte"></materia>
+    <materia cve_carrera="42" cuatrimestre="8" nombre="Bioquímica avanzada"></materia>
+    <materia cve_carrera="42" cuatrimestre="8" nombre="Integradora I"></materia>
+    <materia cve_carrera="42" cuatrimestre="8" nombre="Optativa I (diseño por computadora)"></materia>
+    <materia cve_carrera="42" cuatrimestre="8" nombre="Inglés VII"></materia>
+    <materia cve_carrera="42" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="42" cuatrimestre="9" nombre="Operaciones unitarias I"></materia>
+    <materia cve_carrera="42" cuatrimestre="9" nombre="Control microbiológico de procesos alimentarios"></materia>
+    <materia cve_carrera="42" cuatrimestre="9" nombre="Estandarización de procesos alimentarios"></materia>
+    <materia cve_carrera="42" cuatrimestre="9" nombre="Optativa II (sistemas de calidad)"></materia>
+    <materia cve_carrera="42" cuatrimestre="9" nombre="Inglés VIII"></materia>
+    <materia cve_carrera="42" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="42" cuatrimestre="10" nombre="Operaciones unitarias II"></materia>
+    <materia cve_carrera="42" cuatrimestre="10" nombre="Ingeniería económica de la industria de alimentos"></materia>
+    <materia cve_carrera="42" cuatrimestre="10" nombre="Diseño de plantas de alimentos"></materia>
+    <materia cve_carrera="42" cuatrimestre="10" nombre="Integradora II"></materia>
+    <materia cve_carrera="42" cuatrimestre="10" nombre="Inglés IX"></materia>
+    <materia cve_carrera="42" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="42" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="41" cuatrimestre="7" nombre="Estadística aplicada a la ingeniería"></materia>
+    <materia cve_carrera="41" cuatrimestre="7" nombre="Matemáticas avanzadas I"></materia>
+    <materia cve_carrera="41" cuatrimestre="7" nombre="Manufactura esbelta"></materia>
+    <materia cve_carrera="41" cuatrimestre="7" nombre="Estudio de mercado"></materia>
+    <materia cve_carrera="41" cuatrimestre="7" nombre="Inglés VI"></materia>
+    <materia cve_carrera="41" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="41" cuatrimestre="8" nombre="Matemáticas avanzadas II"></materia>
+    <materia cve_carrera="41" cuatrimestre="8" nombre="Metrología industrial"></materia>
+    <materia cve_carrera="41" cuatrimestre="8" nombre="Desarrollo y seguimiento de proyectos"></materia>
+    <materia cve_carrera="41" cuatrimestre="8" nombre="Ingeniería de materiales"></materia>
+    <materia cve_carrera="41" cuatrimestre="8" nombre="Inglés VII"></materia>
+    <materia cve_carrera="41" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Investigación de operaciones"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Tópicos avanzados de calidad"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Logística de materiales"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Integradora I"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Optativa I (producción agroindustrial)"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Optativa II (producción limpia)"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Inglés VIII"></materia>
+    <materia cve_carrera="41" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="41" cuatrimestre="10" nombre="Automatización de procesos"></materia>
+    <materia cve_carrera="41" cuatrimestre="10" nombre="Análisis de proyectos de inversión"></materia>
+    <materia cve_carrera="41" cuatrimestre="10" nombre="Integradora II"></materia>
+    <materia cve_carrera="41" cuatrimestre="10" nombre="Ingeniería de procesos"></materia>
+    <materia cve_carrera="41" cuatrimestre="10" nombre="Inglés IX"></materia>
+    <materia cve_carrera="41" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="41" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="53" cuatrimestre="1" nombre="Álgebra"></materia>
+    <materia cve_carrera="53" cuatrimestre="1" nombre="Métodos estadísticos"></materia>
+    <materia cve_carrera="53" cuatrimestre="1" nombre="Principios básicos de química"></materia>
+    <materia cve_carrera="53" cuatrimestre="1" nombre="Introducción a la fisicoquímica"></materia>
+    <materia cve_carrera="53" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="53" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="53" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Informática"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Metodología de la investigación"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Química analítica"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Administración de laboratorios"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Química orgánica"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Integradora I"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="53" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Cálculo diferencial"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Ciencia de los materiales"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Mecánica de fluidos"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Geología"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Costos y presupuestos"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Física"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="53" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Hidráulica de fluidos de perforación"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Fluidos de control I"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Tecnologías de perforación"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Física ondulatoria"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Seguridad industrial y protección ambiental"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Calidad"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="53" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Tecnologías de terminación y mantenimiento"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Fluidos de terminación y mantenimiento de pozos"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Cementación de pozos"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Fluidos de control II"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Control de pozo"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="53" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="53" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="27" cuatrimestre="1" nombre="Álgebra"></materia>
+    <materia cve_carrera="27" cuatrimestre="1" nombre="Métodos estadísticos"></materia>
+    <materia cve_carrera="27" cuatrimestre="1" nombre="Principios básicos de química"></materia>
+    <materia cve_carrera="27" cuatrimestre="1" nombre="Introducción a la fisicoquímica"></materia>
+    <materia cve_carrera="27" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="27" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="27" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Informática"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Metodología de la investigación"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Química analítica"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Administración de laboratorios"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Química orgánica"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Integradora I"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="27" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Cálculo diferencial e integral"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Química inorgánica"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Balance de materia y energía"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Análisis industriales"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Operaciones unitarias I"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Transporte de fluidos"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="27" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Fundamentos de electricidad"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Química orgánica aplicada"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Seguridad industrial"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Procesos industriales"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Operaciones unitarias II"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Resistencia de materiales"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Principios de instrumentación y control"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="27" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Informática II"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Servicios auxiliares"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Cinética y reactores químicos"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Operaciones unitarias III"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Control estadístico de procesos"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="27" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="27" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="52" cuatrimestre="1" nombre="Álgebra"></materia>
+    <materia cve_carrera="52" cuatrimestre="1" nombre="Métodos estadísticos"></materia>
+    <materia cve_carrera="52" cuatrimestre="1" nombre="Principios básicos de química"></materia>
+    <materia cve_carrera="52" cuatrimestre="1" nombre="Introducción a la fisicoquímica"></materia>
+    <materia cve_carrera="52" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="52" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="52" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Informática"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Metodología de la investigación"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Química analítica"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Administración de laboratorios"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Química orgánica"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Integradora I"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="52" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Matemáticas aplicadas"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Diagnóstico y mantenimiento"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Electroquímica"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Sistemas de tuberías"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Ciencia de los materiales"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Electricidad"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="52" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="52" cuatrimestre="4" nombre="Diseño asistido por computadora"></materia>
+    <materia cve_carrera="52" cuatrimestre="4" nombre="Corrosión interior I"></materia>
+    <materia cve_carrera="52" cuatrimestre="4" nombre="Protección catódica I"></materia>
+    <materia cve_carrera="52" cuatrimestre="4" nombre="Recubrimientos anticorrosivos I"></materia>
+    <materia cve_carrera="52" cuatrimestre="4" nombre="Costos y presupuestos"></materia>
+    <materia cve_carrera="52" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="52" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="52" cuatrimestre="5" nombre="Corrosión interior II"></materia>
+    <materia cve_carrera="52" cuatrimestre="5" nombre="Protección catódica II"></materia>
+    <materia cve_carrera="52" cuatrimestre="5" nombre="Recubrimientos anticorrosivos II"></materia>
+    <materia cve_carrera="52" cuatrimestre="5" nombre="Herramientas de administración y calidad"></materia>
+    <materia cve_carrera="52" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="52" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="52" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="52" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="45" cuatrimestre="7" nombre="Matemáticas avanzada I"></materia>
+    <materia cve_carrera="45" cuatrimestre="7" nombre="Química aplicada"></materia>
+    <materia cve_carrera="45" cuatrimestre="7" nombre="Física aplicada"></materia>
+    <materia cve_carrera="45" cuatrimestre="7" nombre="Termodinámica química avanzada"></materia>
+    <materia cve_carrera="45" cuatrimestre="7" nombre="Administración para ingenieros"></materia>
+    <materia cve_carrera="45" cuatrimestre="7" nombre="Inglés VI"></materia>
+    <materia cve_carrera="45" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="45" cuatrimestre="8" nombre="Matemáticas avanzada II"></materia>
+    <materia cve_carrera="45" cuatrimestre="8" nombre="Metodología de la investigación"></materia>
+    <materia cve_carrera="45" cuatrimestre="8" nombre="Balances de materia y energía avanzada"></materia>
+    <materia cve_carrera="45" cuatrimestre="8" nombre="Análisis instrumental I"></materia>
+    <materia cve_carrera="45" cuatrimestre="8" nombre="Gestión y control de la calidad"></materia>
+    <materia cve_carrera="45" cuatrimestre="8" nombre="Inglés VII"></materia>
+    <materia cve_carrera="45" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Metrología de los procesos"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Análisis instrumental II"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Instrumentación y control"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Diseño de reactores"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Integradora I"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Optativa I"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Inglés VIII"></materia>
+    <materia cve_carrera="45" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="45" cuatrimestre="10" nombre="Optimización y simulación de procesos"></materia>
+    <materia cve_carrera="45" cuatrimestre="10" nombre="Operaciones unitarias avanzadas"></materia>
+    <materia cve_carrera="45" cuatrimestre="10" nombre="Seguridad, higiene y protección ambiental"></materia>
+    <materia cve_carrera="45" cuatrimestre="10" nombre="Integradora II"></materia>
+    <materia cve_carrera="45" cuatrimestre="10" nombre="Optativas II"></materia>
+    <materia cve_carrera="45" cuatrimestre="10" nombre="Inglés IX"></materia>
+    <materia cve_carrera="45" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="45" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="48" cuatrimestre="1" nombre="Álgebra"></materia>
+    <materia cve_carrera="48" cuatrimestre="1" nombre="Métodos estadísticos"></materia>
+    <materia cve_carrera="48" cuatrimestre="1" nombre="Principios básicos de química"></materia>
+    <materia cve_carrera="48" cuatrimestre="1" nombre="Introducción a la fisicoquímica"></materia>
+    <materia cve_carrera="48" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="48" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="48" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Informática"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Metodología de la investigación"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Química analítica"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Administración de laboratorios"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Química orgánica"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Integradora I"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="48" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="48" cuatrimestre="3" nombre="Cálculo diferencial e integral"></materia>
+    <materia cve_carrera="48" cuatrimestre="3" nombre="Administración de proyectos"></materia>
+    <materia cve_carrera="48" cuatrimestre="3" nombre="Química ambiental"></materia>
+    <materia cve_carrera="48" cuatrimestre="3" nombre="Contaminación de suelos"></materia>
+    <materia cve_carrera="48" cuatrimestre="3" nombre="Tratamiento de aguas I"></materia>
+    <materia cve_carrera="48" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="48" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Termodinámica"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Operaciones unitarias I"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Análisis de sistemas ambientales"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Tratamiento de aguas II"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Seguridad laboral I"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Manejo integral de residuos I"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="48" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Sistemas de gestión ambiental y de calidad"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Operaciones unitarias II"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Contaminación del aire por fuentes fijas"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Seguridad laboral II"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Manejo integral de residuos II"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="48" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="48" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="44" cuatrimestre="7" nombre="Matemáticas"></materia>
+    <materia cve_carrera="44" cuatrimestre="7" nombre="Química"></materia>
+    <materia cve_carrera="44" cuatrimestre="7" nombre="Análisis de sistemas"></materia>
+    <materia cve_carrera="44" cuatrimestre="7" nombre="Evaluación de riesgo"></materia>
+    <materia cve_carrera="44" cuatrimestre="7" nombre="Inglés VI"></materia>
+    <materia cve_carrera="44" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="44" cuatrimestre="8" nombre="Diseño de experimentos"></materia>
+    <materia cve_carrera="44" cuatrimestre="8" nombre="Química ambiental"></materia>
+    <materia cve_carrera="44" cuatrimestre="8" nombre="Producción sustentable"></materia>
+    <materia cve_carrera="44" cuatrimestre="8" nombre="Evaluación de impacto ambiental"></materia>
+    <materia cve_carrera="44" cuatrimestre="8" nombre="Inglés II"></materia>
+    <materia cve_carrera="44" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="44" cuatrimestre="9" nombre="Operaciones unitarias I"></materia>
+    <materia cve_carrera="44" cuatrimestre="9" nombre="Biotecnología"></materia>
+    <materia cve_carrera="44" cuatrimestre="9" nombre="Ingeniería económica"></materia>
+    <materia cve_carrera="44" cuatrimestre="9" nombre="Optativa I"></materia>
+    <materia cve_carrera="44" cuatrimestre="9" nombre="Inglés III"></materia>
+    <materia cve_carrera="44" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="44" cuatrimestre="10" nombre="Operaciones unitarias II"></materia>
+    <materia cve_carrera="44" cuatrimestre="10" nombre="Optativas II"></materia>
+    <materia cve_carrera="44" cuatrimestre="10" nombre="Tecnologías ambientales"></materia>
+    <materia cve_carrera="44" cuatrimestre="10" nombre="Integradora I"></materia>
+    <materia cve_carrera="44" cuatrimestre="10" nombre="Inglés IV"></materia>
+    <materia cve_carrera="44" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="44" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Desarrollo de habilidades de pensamiento lógico"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Ofimática"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Soporte técnico"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Metodología de la programación"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Fundamentos de redes"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="35" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="35" cuatrimestre="2" nombre="Desarrollo de habilidades de pensamiento matemático"></materia>
+    <materia cve_carrera="35" cuatrimestre="2" nombre="Programación"></materia>
+    <materia cve_carrera="35" cuatrimestre="2" nombre="Base de datos"></materia>
+    <materia cve_carrera="35" cuatrimestre="2" nombre="Introducción al análisis y diseño de sistemas"></materia>
+    <materia cve_carrera="35" cuatrimestre="2" nombre="Redes de área local"></materia>
+    <materia cve_carrera="35" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="35" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Administración de la función informática"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Desarrollo de aplicaciones I"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Sistemas operativos"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Desarrollo de aplicaciones web"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Base de datos II"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="35" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="35" cuatrimestre="4" nombre="Desarrollo de aplicaciones II"></materia>
+    <materia cve_carrera="35" cuatrimestre="4" nombre="Administración de base de datos"></materia>
+    <materia cve_carrera="35" cuatrimestre="4" nombre="Ingeniería de software I"></materia>
+    <materia cve_carrera="35" cuatrimestre="4" nombre="Estructura de datos"></materia>
+    <materia cve_carrera="35" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="35" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="35" cuatrimestre="5" nombre="Administración de proyectos"></materia>
+    <materia cve_carrera="35" cuatrimestre="5" nombre="Desarrollo de aplicaciones III"></materia>
+    <materia cve_carrera="35" cuatrimestre="5" nombre="Ingeniería de software II"></materia>
+    <materia cve_carrera="35" cuatrimestre="5" nombre="Calidad en el desarrollo de software"></materia>
+    <materia cve_carrera="35" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="35" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="35" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="35" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Desarrollo de habilidades de pensamiento lógico"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Ofimática"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Soporte técnico"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Metodología de la programación"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Fundamentos de redes"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="31" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="31" cuatrimestre="2" nombre="Desarrollo de habilidades de pensamiento matemático"></materia>
+    <materia cve_carrera="31" cuatrimestre="2" nombre="Programación"></materia>
+    <materia cve_carrera="31" cuatrimestre="2" nombre="Base de datos"></materia>
+    <materia cve_carrera="31" cuatrimestre="2" nombre="Introducción al análisis y diseño de sistemas"></materia>
+    <materia cve_carrera="31" cuatrimestre="2" nombre="Redes de área local"></materia>
+    <materia cve_carrera="31" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="31" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Administración de la función Informática"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Desarrollo de aplicaciones web"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Sistemas operativos"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Conmutación en redes de datos"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Matemáticas aplicadas a las telecomunicaciones"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="31" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="31" cuatrimestre="4" nombre="Sistemas de telecomunicaciones I"></materia>
+    <materia cve_carrera="31" cuatrimestre="4" nombre="Redes wan"></materia>
+    <materia cve_carrera="31" cuatrimestre="4" nombre="Sistemas analógicos"></materia>
+    <materia cve_carrera="31" cuatrimestre="4" nombre="Administración de servidores I"></materia>
+    <materia cve_carrera="31" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="31" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="31" cuatrimestre="5" nombre="Administración de proyectos"></materia>
+    <materia cve_carrera="31" cuatrimestre="5" nombre="Sistemas de telecomunicaciones II"></materia>
+    <materia cve_carrera="31" cuatrimestre="5" nombre="Sistemas digitales"></materia>
+    <materia cve_carrera="31" cuatrimestre="5" nombre="Administración de servidores II"></materia>
+    <materia cve_carrera="31" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="31" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="31" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="31" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Desarrollo de habilidades de pensamiento lógico"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Ofimática"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Soporte técnico"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Metodología de la programación"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Fundamentos de redes"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="60" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="60" cuatrimestre="2" nombre="Desarrollo de habilidades de pensamiento matemático"></materia>
+    <materia cve_carrera="60" cuatrimestre="2" nombre="Programación"></materia>
+    <materia cve_carrera="60" cuatrimestre="2" nombre="Base de datos"></materia>
+    <materia cve_carrera="60" cuatrimestre="2" nombre="Introducción al análisis y diseño de sistemas"></materia>
+    <materia cve_carrera="60" cuatrimestre="2" nombre="Redes de área local"></materia>
+    <materia cve_carrera="60" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="60" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Administración de la función informática"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Desarrollo de aplicaciones web"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Sistemas operativos"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Diseño gráfico"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Mercadotecnia"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Modelado de procesos"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="60" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="60" cuatrimestre="4" nombre="Administración"></materia>
+    <materia cve_carrera="60" cuatrimestre="4" nombre="Comercio electrónico"></materia>
+    <materia cve_carrera="60" cuatrimestre="4" nombre="Multimedia I"></materia>
+    <materia cve_carrera="60" cuatrimestre="4" nombre="Animación en 3D"></materia>
+    <materia cve_carrera="60" cuatrimestre="4" nombre="Tópicos matemáticos"></materia>
+    <materia cve_carrera="60" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="60" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="60" cuatrimestre="5" nombre="Administración de proyectos"></materia>
+    <materia cve_carrera="60" cuatrimestre="5" nombre="Desarrollo de sitios web para comercio electrónico"></materia>
+    <materia cve_carrera="60" cuatrimestre="5" nombre="Multimedia II"></materia>
+    <materia cve_carrera="60" cuatrimestre="5" nombre="Contabilidad"></materia>
+    <materia cve_carrera="60" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="60" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="60" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="60" cuatrimestre="6" nombre="Estadías en el sector productivo"></materia>
+    <materia cve_carrera="43" cuatrimestre="7" nombre="Matemáticas para TI"></materia>
+    <materia cve_carrera="43" cuatrimestre="7" nombre="Ingeniería económica"></materia>
+    <materia cve_carrera="43" cuatrimestre="7" nombre="Programación de aplicaciones"></materia>
+    <materia cve_carrera="43" cuatrimestre="7" nombre="Modelado de procesos de negocios"></materia>
+    <materia cve_carrera="43" cuatrimestre="7" nombre="Optativa I (redes empresariales)"></materia>
+    <materia cve_carrera="43" cuatrimestre="7" nombre="Inglés VI"></materia>
+    <materia cve_carrera="43" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="43" cuatrimestre="8" nombre="Administración de proyectos de TI I"></materia>
+    <materia cve_carrera="43" cuatrimestre="8" nombre="Base de datos para aplicaciones"></materia>
+    <materia cve_carrera="43" cuatrimestre="8" nombre="Redes convergentes"></materia>
+    <materia cve_carrera="43" cuatrimestre="8" nombre="Sistemas de calidad en TI"></materia>
+    <materia cve_carrera="43" cuatrimestre="8" nombre="Inglés VII"></materia>
+    <materia cve_carrera="43" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="43" cuatrimestre="9" nombre="Administración de proyectos de TI II"></materia>
+    <materia cve_carrera="43" cuatrimestre="9" nombre="Desarrollo de aplicaciones web"></materia>
+    <materia cve_carrera="43" cuatrimestre="9" nombre="Aplicación de las telecomunicaciones"></materia>
+    <materia cve_carrera="43" cuatrimestre="9" nombre="Integradora I"></materia>
+    <materia cve_carrera="43" cuatrimestre="9" nombre="Optativa II (introducción al modelado de procesos)"></materia>
+    <materia cve_carrera="43" cuatrimestre="9" nombre="Inglés VIII"></materia>
+    <materia cve_carrera="43" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="43" cuatrimestre="10" nombre="Estadística aplicada"></materia>
+    <materia cve_carrera="43" cuatrimestre="10" nombre="Auditoría de sistemas de TI"></materia>
+    <materia cve_carrera="43" cuatrimestre="10" nombre="Seguridad de la información"></materia>
+    <materia cve_carrera="43" cuatrimestre="10" nombre="Tópicos selectos de TI"></materia>
+    <materia cve_carrera="43" cuatrimestre="10" nombre="Integradora II"></materia>
+    <materia cve_carrera="43" cuatrimestre="10" nombre="Inglés IX"></materia>
+    <materia cve_carrera="43" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="43" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Introducción al turismo"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Matemáticas I"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Informática I"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Patrimonio universal"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Metodología de la investigación"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="54" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="54" cuatrimestre="2" nombre="Calidad en el turismo"></materia>
+    <materia cve_carrera="54" cuatrimestre="2" nombre="Mercadotecnia"></materia>
+    <materia cve_carrera="54" cuatrimestre="2" nombre="Establecimientos de hospedaje"></materia>
+    <materia cve_carrera="54" cuatrimestre="2" nombre="Estadística aplicada al turismo"></materia>
+    <materia cve_carrera="54" cuatrimestre="2" nombre="Proceso administrativo"></materia>
+    <materia cve_carrera="54" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="54" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Establecimientos de alimentos y bebidas"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Agencias de viajes y servicios complementarios"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Operaciones contables"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Comercialización del turismo"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Administración de capital humano"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="54" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Control de calidad hotelera"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Reservaciones"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Recepción en hotelería"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Servicios complementarios"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Animación y recreación"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Administración de habitaciones"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Francés I"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="54" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Grupos y convenciones"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Alimentos y bebidas"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Capacitación"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Ventas"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Auditoría nocturna"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Francés II"></materia>
+    <materia cve_carrera="54" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="54" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="46" cuatrimestre="7" nombre="Gestión de calidad"></materia>
+    <materia cve_carrera="46" cuatrimestre="7" nombre="Investigación y estadística"></materia>
+    <materia cve_carrera="46" cuatrimestre="7" nombre="Planeación estratégica de organizaciones turísticas"></materia>
+    <materia cve_carrera="46" cuatrimestre="7" nombre="Estructura y operación de empresas turísticas"></materia>
+    <materia cve_carrera="46" cuatrimestre="7" nombre="Ingles VI"></materia>
+    <materia cve_carrera="46" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="46" cuatrimestre="8" nombre="Administración de operaciones"></materia>
+    <materia cve_carrera="46" cuatrimestre="8" nombre="Finanzas aplicadas al turismo"></materia>
+    <materia cve_carrera="46" cuatrimestre="8" nombre="Desarrollo organizacional"></materia>
+    <materia cve_carrera="46" cuatrimestre="8" nombre="Integradora I"></materia>
+    <materia cve_carrera="46" cuatrimestre="8" nombre="Ingles VII"></materia>
+    <materia cve_carrera="46" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="46" cuatrimestre="9" nombre="Mercadotecnia para organizaciones turísticas"></materia>
+    <materia cve_carrera="46" cuatrimestre="9" nombre="Desarrollo turísticos sustentable"></materia>
+    <materia cve_carrera="46" cuatrimestre="9" nombre="Turismo alternativo"></materia>
+    <materia cve_carrera="46" cuatrimestre="9" nombre="Optativa I (formación empresarial)"></materia>
+    <materia cve_carrera="46" cuatrimestre="9" nombre="Ingles VIII"></materia>
+    <materia cve_carrera="46" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="46" cuatrimestre="10" nombre="Mercadotecnia de relaciones y ventas"></materia>
+    <materia cve_carrera="46" cuatrimestre="10" nombre="Instrumentos de política ambiental"></materia>
+    <materia cve_carrera="46" cuatrimestre="10" nombre="Diseño de productos turísticos"></materia>
+    <materia cve_carrera="46" cuatrimestre="10" nombre="Integradora II"></materia>
+    <materia cve_carrera="46" cuatrimestre="10" nombre="Optativa II (investigación turística)"></materia>
+    <materia cve_carrera="46" cuatrimestre="10" nombre="Ingles IX"></materia>
+    <materia cve_carrera="46" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="46" cuatrimestre="11" nombre="Estadía ING"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Matemáticas aplicadas a la gastronomía"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Seguridad e higiene en alimentos"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Introducción a la gastronomía"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Bases culinarias"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Informática"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="49" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Estadística"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Fundamentos de nutrición"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Operación de bar"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Métodos y técnicas culinarias"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Manejo de almacén"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Panadería"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="49" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Costos y presupuestos"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Fundamentos de vitivinicultura"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Estandarización de platillos"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Administración de alimentos y bebidas I"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Pastelería"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Inglés III"></materia>
+    <materia cve_carrera="49" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="49" cuatrimestre="4" nombre="Servicios de alimentos y bebidas"></materia>
+    <materia cve_carrera="49" cuatrimestre="4" nombre="Mercadotecnia de servicios gastronómicos"></materia>
+    <materia cve_carrera="49" cuatrimestre="4" nombre="Administración de alimentos y bebidas II"></materia>
+    <materia cve_carrera="49" cuatrimestre="4" nombre="Repostería"></materia>
+    <materia cve_carrera="49" cuatrimestre="4" nombre="Francés I"></materia>
+    <materia cve_carrera="49" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="49" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="49" cuatrimestre="5" nombre="Evaluación de servicios gastronómicos"></materia>
+    <materia cve_carrera="49" cuatrimestre="5" nombre="Conformación de menús"></materia>
+    <materia cve_carrera="49" cuatrimestre="5" nombre="Logística de eventos"></materia>
+    <materia cve_carrera="49" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="49" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="49" cuatrimestre="5" nombre="Francés II"></materia>
+    <materia cve_carrera="49" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="49" cuatrimestre="6" nombre="Estadía TSU"></materia>
+    <materia cve_carrera="56" cuatrimestre="7" nombre="Patrimonio culinario de México"></materia>
+    <materia cve_carrera="56" cuatrimestre="7" nombre="Cocina oriental"></materia>
+    <materia cve_carrera="56" cuatrimestre="7" nombre="Ingeniería de procesos gastronómicos"></materia>
+    <materia cve_carrera="56" cuatrimestre="7" nombre="Inglés VI"></materia>
+    <materia cve_carrera="56" cuatrimestre="7" nombre="Administración del tiempo"></materia>
+    <materia cve_carrera="56" cuatrimestre="8" nombre="Mixología"></materia>
+    <materia cve_carrera="56" cuatrimestre="8" nombre="Cocina europea"></materia>
+    <materia cve_carrera="56" cuatrimestre="8" nombre="Contabilidad administrativa"></materia>
+    <materia cve_carrera="56" cuatrimestre="8" nombre="Gestión de compras"></materia>
+    <materia cve_carrera="56" cuatrimestre="8" nombre="Inglés VII"></materia>
+    <materia cve_carrera="56" cuatrimestre="8" nombre="Planeación y organización del trabajo"></materia>
+    <materia cve_carrera="56" cuatrimestre="9" nombre="Ingeniería de menú"></materia>
+    <materia cve_carrera="56" cuatrimestre="9" nombre="Cocina mexicana"></materia>
+    <materia cve_carrera="56" cuatrimestre="9" nombre="Análisis e interpretación financiera"></materia>
+    <materia cve_carrera="56" cuatrimestre="9" nombre="Gestión de la calidad en establecimientos de alimentos y bebidas"></materia>
+    <materia cve_carrera="56" cuatrimestre="9" nombre="Inglés VIII"></materia>
+    <materia cve_carrera="56" cuatrimestre="9" nombre="Dirección de equipos de alto rendimiento"></materia>
+    <materia cve_carrera="56" cuatrimestre="10" nombre="Desarrollo de conceptos gastronómicos"></materia>
+    <materia cve_carrera="56" cuatrimestre="10" nombre="Alta cocina mexicana"></materia>
+    <materia cve_carrera="56" cuatrimestre="10" nombre="Gestión empresarial"></materia>
+    <materia cve_carrera="56" cuatrimestre="10" nombre="Integradora"></materia>
+    <materia cve_carrera="56" cuatrimestre="10" nombre="Inglés IX"></materia>
+    <materia cve_carrera="56" cuatrimestre="10" nombre="Negociación empresarial"></materia>
+    <materia cve_carrera="56" cuatrimestre="11" nombre="Estadía ING"></materia>
+</materias>
