@@ -69,7 +69,7 @@
         </div>
         <!-- Cuerpo -->
         <%if (!(request.getParameter("d") != null)) {%>
-        <jsp:include page="../includePie.jsp?origen=servicios" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
         <%} else {%>
         <script src="js/JQuery/jquery-1.11.3.min.js"></script>
         <%}%>

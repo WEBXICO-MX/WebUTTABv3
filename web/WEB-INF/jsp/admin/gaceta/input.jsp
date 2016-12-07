@@ -83,15 +83,15 @@
                         <s:form action="save" namespace="/SistemasAdmin/gaceta" id="frmGaceta" method="post" role="form">
                             <div class="form-group">
                                 <label for="txtIDGaceta">* ID Gaceta:</label>
-                                <s:textfield name="id" value="%{gaceta.id != 0 ? gaceta.id:''}" id="txtIDGaceta" size="3" maxLength="3" readonly="true"  tabindex="1" />
+                                <s:textfield name="id" value="%{gaceta.id != 0 ? gaceta.id:''}" id="txtIDGaceta" size="3" maxlength="3" readonly="true"  tabindex="1" />
                             </div>
                             <!--<div class="form-group">
                                 <label for="txtTitulo">Título del ejemplar:</label>
-                            <s:textfield name="titulo_ejemplar" value="%{gaceta.id != 0 ? gaceta.titulo_ejemplar:'Ejemplar No. 00' }" id="txtTitulo" size="18" maxLength="15" cssClass="captura" tabindex="2"/>
+                            <s:textfield name="titulo_ejemplar" value="%{gaceta.id != 0 ? gaceta.titulo_ejemplar:'Ejemplar No. 00' }" id="txtTitulo" size="18" maxlength="15" cssClass="captura" tabindex="2"/>
                         </div>-->
                             <!--<div class="form-group">
                                 <label for="txtSubtitulo">Subtítulo del ejemplar:</label>
-                            <s:textfield name="subtitulo_ejemplar" value="%{gaceta.id != 0 ? gaceta.subtitulo_ejemplar:'Órgano informativo de la Universidad Tecnológica de Tabasco' }" id="txtSubtitulo" size="60" maxLength="60" cssClass="captura" tabindex="3"/>
+                            <s:textfield name="subtitulo_ejemplar" value="%{gaceta.id != 0 ? gaceta.subtitulo_ejemplar:'Órgano informativo de la Universidad Tecnológica de Tabasco' }" id="txtSubtitulo" size="60" maxlength="60" cssClass="captura" tabindex="3"/>
                         </div>-->
                             <div class="form-group">
                                 <label for="txtFecha">Fecha del ejemplar:</label>
@@ -99,11 +99,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaIMG">Ruta imagen:</label>
-                                <s:textfield name="img" value="%{gaceta.id != 0 ? gaceta.img:'NULL'}" id="txtRutaIMG" size="42" maxLength="45" readonly="true" cssClass="captura" tabindex="5"/>
+                                <s:textfield name="img" value="%{gaceta.id != 0 ? gaceta.img:'NULL'}" id="txtRutaIMG" size="42" maxlength="45" readonly="true" cssClass="captura" tabindex="5"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaPDF">Ruta pdf:</label>
-                                <s:textfield name="pdf" value="%{gaceta.id != 0 ? gaceta.pdf:'NULL'}" id="txtRutaPDF" size="56" maxLength="56" readonly="true" cssClass="captura" tabindex="6"/>
+                                <s:textfield name="pdf" value="%{gaceta.id != 0 ? gaceta.pdf:'NULL'}" id="txtRutaPDF" size="56" maxlength="56" readonly="true" cssClass="captura" tabindex="6"/>
                             </div>
                             <div class="checkbox">
                                 <label>
@@ -152,48 +152,48 @@
                                             <s:iterator value="gacetaList" status="gacetaStatus">
                                                 <tr>
                                                     <td> 
-                                                        <s:url id="editURL" action="edit" namespace="/SistemasAdmin/gaceta"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                        <s:url var="editURL" action="edit" namespace="/SistemasAdmin/gaceta"><s:param name="id" value="%{id}"></s:param></s:url>
                                                         <s:a href="%{editURL}"> <s:property value="id" /></s:a>
                                                     </td>
                                                         <!--<td><s:property value="titulo_ejemplar" /></td>-->
                                                     <td><s:property value="fecha_ejemplar" /></td>
                                                     <td>
                                                         <s:if test="img.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadIMGURL" action="form_upload_img" namespace="/SistemasAdmin/gaceta" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/gaceta" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMGURL"/>" data-target="#mUploadFile">Subir imagen</a>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="imgURL" namespace="" action="viewGacetaIMG" var="imgURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url namespace="" action="viewGacetaIMG" var="imgURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <!--<img src="${pageContext.request.contextPath}/img/File-JPG-icon.png" alt="<s:property value="titulo_ejemplar"/>" title="<s:property value="titulo_ejemplar"/>" data-toggle="popover" data-content="<img src='<s:property value="#imgURL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="titulo_ejemplar"/>' class='img-responsive'/>" class="img-responsive" style="cursor:pointer;"/>-->
                                                             <span class="fa fa-file-image-o" data-toggle="popover" data-title="<s:property value="titulo_ejemplar"/>" data-content="<img src='<s:property value="#imgURL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="nombre"/>' class='img-responsive'/>"></span>
                                                             <br/>
                                                             <br/>
-                                                            <s:url id="uploadIMGURL" action="form_upload_img" namespace="/SistemasAdmin/gaceta" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/gaceta" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMGURL"/>" data-target="#mUploadFile">Cambiar imagen</a>
                                                         </s:else>
                                                     </td>
                                                     <td>
                                                         <s:if test="pdf.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadPDFURL" action="form_upload_pdf" namespace="/SistemasAdmin/gaceta" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_pdf" namespace="/SistemasAdmin/gaceta" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadPDFURL"/>" data-target="#mUploadFile">Subir PDF</a>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="pdfURL" namespace="" action="viewGacetaPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url namespace="" action="viewGacetaPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <!--<a href="<s:property value="#pdfURL"/>" target="_blank"><img src="${pageContext.request.contextPath}/img/Files-Pdf-icon.png" alt="<s:property value="titulo_ejemplar"/>" title="<s:property value="titulo_ejemplar"/>"  class="img-responsive"/></a>-->
                                                             <a href="<s:property value="#pdfURL"/>" target="_blank"><span class="fa fa-file-pdf-o"></span></a>
                                                             <br/>
                                                             <br/>
-                                                            <s:url id="uploadPDFURL" action="form_upload_pdf" namespace="/SistemasAdmin/gaceta" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_pdf" namespace="/SistemasAdmin/gaceta" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadPDFURL"/>" data-target="#mUploadFile">Cambiar PDF</a>
                                                         </s:else>
                                                     </td>
                                                     <td><s:if test="activo"><span class="fa fa-check"></span></s:if><s:else><span class="fa fa-times"></span></s:else></td>
                                                         <!--<td align="center">
-                                                    <s:url id="editURL" action="edit" namespace="/SistemasAdmin/gaceta" var="editURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                    <s:url action="edit" namespace="/SistemasAdmin/gaceta" var="editURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                     <a href="<s:property value="#editURL"/>"><img src="${pageContext.request.contextPath}/img/icon_pencil-edit.png"/></a>
                                                 </td>-->
                                                     <!--<td align="center">
-                                                    <s:url id="deleteURL" action="delete" namespace="/SistemasAdmin/gaceta" var="deleteURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                    <s:url action="delete" namespace="/SistemasAdmin/gaceta" var="deleteURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                     <a href="javascript:void(0);" onclick="if (confirm('¿Esta seguro de eliminar <s:property value="titulo_ejemplar" /> (<s:property value="fecha_ejemplar" />)?')) {
                                                                 location.href = '<s:property value="#deleteURL"/>'
                                                             } else {

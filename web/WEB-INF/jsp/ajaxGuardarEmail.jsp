@@ -4,6 +4,7 @@
     if (request.getParameter("xAccion") != null) {
         if (request.getParameter("xAccion").equals("GrabarTxt")) {
             new Archivo().concatenar(getServletContext().getRealPath("WEB-INF/lista_correos.txt"), request.getParameter("txtEmail") + "," + Utilerias.getCadenaFecha(Calendar.getInstance()));
+            out.println("Email guardado con éxito");
         }
     }
 %>

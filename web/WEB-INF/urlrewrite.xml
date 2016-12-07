@@ -6,4 +6,9 @@
         <from>^/(.*)</from>
         <to type="permanent-redirect" last="true">http://www.uttab.edu.mx/</to>
     </rule>
+    <!-- 60 * 60 * 24 * 7 (60 segundos x 60 minutos x 24 horas x 7 días)-->
+    <rule>
+        <from>^.*\.(js|css|gif|jpg|jpeg|png|pdf)$</from>
+        <set type="response-header" name="Cache-Control">max-age=604800, must-revalidate</set>
+    </rule>
 </urlrewrite>

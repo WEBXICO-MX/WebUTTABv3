@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="otras_secciones_section">
@@ -37,7 +37,7 @@
                 <article class="otras_secciones_contenido">
                     <section class="otras_secciones_texto_full">
                         <figure style="float:right">
-                         <s:url id="url_manual_anuies" action="viewFile" namespace="">
+                         <s:url var="url_manual_anuies" action="viewFile" namespace="">
                            <s:param name="i" value="%{1}"></s:param>
                            <s:param name="d" value="%{'manualSeguridadANUIES'}"></s:param>
                          </s:url>
@@ -74,6 +74,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=boletines_anteriores" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=boletines_anteriores" flush="true" />
     </body>
 </html>

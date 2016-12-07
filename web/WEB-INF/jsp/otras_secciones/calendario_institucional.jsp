@@ -115,7 +115,7 @@
         </div>
         <!-- Cuerpo -->
         <%if (!(request.getParameter("d") != null)) {%>
-        <jsp:include page="../includePie.jsp?origen=otras_secciones" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=otras_secciones" flush="true" />
         <%} else {%>
         <script src="js/JQuery/jquery-1.11.3.min.js"></script>
         <%}%>

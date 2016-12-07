@@ -37,7 +37,7 @@
         </style>
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.jsp?origen=unidades_negocio" flush="true"  />
+        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -78,7 +78,7 @@
                 </section>
             </main>
             <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.jsp?origen=unidades_negocio" flush="true" />
+        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script>
             var availableDates = [];
@@ -90,7 +90,7 @@
             <s:if test="calendarioList.size() > 0">
                 <s:iterator value="calendarioList" status="incr">
                     <s:if test="#incr.index == calendarioList.size - 1">
-            jsonText += "{\"id\":<s:property value="id"/>,\"fechas\":<s:property value="fechas" escape="false"/>}";
+            jsonText += "{\"id\":<s:property value="id"/>,\"fechas\":<s:property value="fechas" escape="false" />}";
                     </s:if>
                     <s:else>
             jsonText += "{\"id\":<s:property value="id"/>,\"fechas\":<s:property value="fechas" escape="false"/>},";

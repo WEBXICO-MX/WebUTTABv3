@@ -36,7 +36,7 @@
         </style>
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.jsp?origen=unidades_negocio" flush="true"  />
+        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -77,11 +77,11 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.jsp?origen=unidades_negocio" flush="true" />
+        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script>
             var capacitacion_id = <%= request.getParameter("c") != null ? Integer.parseInt(request.getParameter("c")) : 0%>;
-            var rest1 = "http://localhost:8080/WebCASE/rest/capacitaciones/" + capacitacion_id;
+            var rest1 = "http://www.uttab.edu.mx/WebCASE/rest/capacitaciones/" + capacitacion_id;
             var availableDates = [];
             var json = null;
 

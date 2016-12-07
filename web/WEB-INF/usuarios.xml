@@ -10,7 +10,7 @@
         <nombre>Sheila Guadalupe Domínguez Jiménez</nombre>
         <login>421110291</login>
         <password>SHEI3004</password>
-        <activo>false</activo>
+        <activo>true</activo>
     </usuario>
     <usuario id="3">
         <nombre>Alfredo	Ovando	Arévalo</nombre>

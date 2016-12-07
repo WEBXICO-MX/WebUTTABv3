@@ -27,7 +27,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.jsp?origen=unidades_negocio" flush="true"  />
+        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -39,7 +39,7 @@
                 <article class="vinculacion_contenido">
                     <section class="vinculacion_texto">
                             <figure style="text-align: right;">
-                                <s:url id="backCalendario" action="calendario">
+                                <s:url var="backCalendario" action="calendario">
                                 <s:param name="id" value="%{c_capacitacion.capacitacion.id}"></s:param>
                                 </s:url>
                                 <s:a href="%{backCalendario}"><img src="${pageContext.request.contextPath}/img/unidades_negocio/case/btn_regresar.png" alt="Regresar"/></s:a>
@@ -99,25 +99,25 @@
                                         <div class="control-group">
                                             <label class="control-label" for="txEmpresa">Institución/empresa:</label>
                                             <div class="controls">
-                                                <s:textfield name="registro.nombre_empresa" id="txEmpresa" size="35" maxLength="50" tabindex="3" cssClass="input-xlarge"/>
+                                                <s:textfield name="registro.nombre_empresa" id="txEmpresa" size="35" maxlength="50" tabindex="3" cssClass="input-xlarge"/>
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="txtNombre">Nombre(s):</label>
                                             <div class="controls">
-                                              <s:textfield name="registro.nombre" id="txtNombre" size="25" maxLength="50" tabindex="4" cssClass="input-xlarge"/>
+                                              <s:textfield name="registro.nombre" id="txtNombre" size="25" maxlength="50" tabindex="4" cssClass="input-xlarge"/>
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="txtApellidoPat">Apellido paterno:</label>
                                             <div class="controls">
-                                              <s:textfield name="registro.apellido_pat" id="txtApellidoPat" size="25" maxLength="50" tabindex="5"  cssClass="input-xlarge"/>
+                                              <s:textfield name="registro.apellido_pat" id="txtApellidoPat" size="25" maxlength="50" tabindex="5"  cssClass="input-xlarge"/>
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="txtApellidoMat">Apellido materno:</label>
                                             <div class="controls">
-                                              <s:textfield name="registro.apellido_mat" id="txtApellidoMat" size="25" maxLength="50" tabindex="6" cssClass="input-xlarge"/>
+                                              <s:textfield name="registro.apellido_mat" id="txtApellidoMat" size="25" maxlength="50" tabindex="6" cssClass="input-xlarge"/>
                                             </div>
                                         </div>
                                         <div class="control-group">
@@ -128,25 +128,25 @@
                                         </div>   
                                         <div class="control-group">
                                             <div class="controls">
-                                               <s:radio label="Sexo" name="registro.sexo" list="#{'M':'Hombre','F':'Mujer'}" tabindex="8"/>
+                                               <s:radio label="Sexo" name="registro.sexo" list="#{'M':'Hombre','F':'Mujer'}" tabindex="8" />
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="txtEmail22">Email:</label>
                                             <div class="controls">
-                                                <s:textfield name="registro.email" id="txtEmail22" size="25" maxLength="25" tabindex="10" />
+                                                <s:textfield name="registro.email" id="txtEmail22" size="25" maxlength="25" tabindex="10" />
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="txtTel">Tel:</label>
                                             <div class="controls">
-                                                <s:textfield name="registro.tel" id="txtTel" size="25" maxLength="25" tabindex="10" />
+                                                <s:textfield name="registro.tel" id="txtTel" size="25" maxlength="25" tabindex="10" />
                                             </div>
                                         </div>
                                             <div class="control-group">
                                             <label class="control-label" for="txtCel">Cel:</label>
                                             <div class="controls">
-                                                <s:textfield name="registro.cel" id="txtCel" size="25" maxLength="25" tabindex="11" />
+                                                <s:textfield name="registro.cel" id="txtCel" size="25" maxlength="25" tabindex="11" />
                                             </div>
                                         </div>
                                         <s:submit id="btnReset" value="Limpiar" cssClass="btn btn-block btn-large btn-primary" tabindex="12"/>
@@ -173,7 +173,7 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.jsp?origen=unidades_negocio&Correo=1" flush="true" />
+        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio&Correo=1" flush="true" />
         <script>
             var month = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
             var mtz = <s:if test="! c_capacitacion.fechas.equalsIgnoreCase('')"><s:property value="c_capacitacion.fechas"></s:property></s:if><s:else>null</s:else>;

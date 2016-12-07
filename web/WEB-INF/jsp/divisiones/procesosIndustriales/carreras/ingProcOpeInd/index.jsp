@@ -106,6 +106,6 @@
             <div style="text-align:center;font-size:14px;font-family: 'Open Sans' !important;font-style: normal;font-weight:bold;">* Esta carrera está disponible solo para alumnos egresados de TSU en Procesos Industriales Área Manufactura</div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../../../../includePie.jsp?origen=carrera" flush="true" />
+        <jsp:include page="../../../../includePie.min.jsp?origen=carrera" flush="true" />
     </body>
 </html>

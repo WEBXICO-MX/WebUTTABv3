@@ -66,7 +66,7 @@
             </div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=conocenos" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
         <script src='js/JQuery/plugins/jQuery Zoom/jquery.zoom.min.js'></script>
         <script>
             $(document).ready(function() {

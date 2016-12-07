@@ -31,7 +31,7 @@
         </style>
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.jsp?origen=unidades_negocio" flush="true"  />
+        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -96,12 +96,12 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.jsp?origen=unidades_negocio" flush="true" />
+        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/unidades_negocio/case/case.min.js"></script>
         <script>
-            var rest1 = "http://localhost:8080/WebCASE/rest/tiposcapacitaciones";
+            var rest1 = "http://www.uttab.edu.mx/WebCASE/rest/tiposcapacitaciones";
             var html = "";
 
 

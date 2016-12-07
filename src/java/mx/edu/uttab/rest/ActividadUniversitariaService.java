@@ -6,6 +6,7 @@
 package mx.edu.uttab.rest;
 
 import com.sun.jersey.api.json.JSONWithPadding;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.ServletContext;
@@ -27,6 +28,7 @@ public class ActividadUniversitariaService {
     List<ActividadUniversitaria> actividadList = new ArrayList<>();
     ActividadUniversitaria actividad = new ActividadUniversitaria();
     ActividadUniversitariaDAO actividadDAO = DAOFactory.getDAOFactory(DAOFactory.XML).getActividadUniversitariaDAO();
+    String separator = File.separator;
 
     @Context
     ServletContext context;
@@ -37,7 +39,7 @@ public class ActividadUniversitariaService {
     public JSONWithPadding getActividadesUniversitariasInJSON(@QueryParam("callback") @DefaultValue("CBParamIsMissing") String jsoncallback) {
         String appRealPath = context.getRealPath("/");
         if (actividadDAO instanceof XMLActividadUniversitariaDAO) {
-            ((XMLActividadUniversitariaDAO) actividadDAO).setXMLpath(appRealPath + "WEB-INF\\actividades_universitarias.xml");
+            ((XMLActividadUniversitariaDAO) actividadDAO).setXMLpath(appRealPath + "WEB-INF"+separator+"actividades_universitarias.xml");
         }
 
         actividadList = actividadDAO.findAllActivos(true);
@@ -50,7 +52,7 @@ public class ActividadUniversitariaService {
     public JSONWithPadding getActividadUniversitariaInJSON(@QueryParam("callback") @DefaultValue("CBParamIsMissing") String jsoncallback, @PathParam("id") int actividadId) {
         String appRealPath = context.getRealPath("/");
         if (actividadDAO instanceof XMLActividadUniversitariaDAO) {
-            ((XMLActividadUniversitariaDAO) actividadDAO).setXMLpath(appRealPath + "WEB-INF\\actividades_universitarias.xml");
+            ((XMLActividadUniversitariaDAO) actividadDAO).setXMLpath(appRealPath + "WEB-INF"+separator+"actividades_universitarias.xml");
         }
 
         actividad = actividadDAO.findById(actividadId);

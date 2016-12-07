@@ -26,7 +26,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="otras_secciones_section">
@@ -68,7 +68,7 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=boletines_anteriores" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=boletines_anteriores" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/otras_secciones/calendario_eventos.min.js"></script>
         <script>

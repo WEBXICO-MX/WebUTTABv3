@@ -23,9 +23,13 @@
         <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <style>
+            .calendario_actividades
+            { color:#0D74B4; font-weight: bold;}
+        </style>
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="servicios_section">
@@ -67,9 +71,10 @@
                         <h3>Solicitud para alumnos</h3>
                         <ul>
                             <li>Asistir a la reunión informativa agendada en el calendario de actividades de estadía</li>
-                            <li><a href="viewFile.action?i=10&d=practicas" target="_blank">Calendario de actividades de estadías Enero – Abril 2016</a></li>
-                            <li><a href="viewFile.action?i=11&d=practicas" target="_blank">Calendario de actividades de estadías Mayo – Agosto 2016</a></li>
-                            <li><a href="javascript:void(0);">Calendario de actividades de estadías Septiembre – Diciembre 2016</a></li>
+                            <li><a href="viewFile.action?i=13&d=practicas" target="_blank" class="calendario_actividades">Calendario de actividades de estadías Enero – Abril 2017</a> <img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="PDF"/></li>
+                            <!--<li><a href="viewFile.action?i=10&d=practicas" target="_blank" class="calendario_actividades">Calendario de actividades de estadías Enero – Abril 2016</a> <img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="PDF"/></li>-->
+                            <li><a href="viewFile.action?i=11&d=practicas" target="_blank" class="calendario_actividades">Calendario de actividades de estadías Mayo – Agosto 2016</a> <img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="PDF"/></li>
+                            <li><a href="viewFile.action?i=12&d=practicas" target="_blank" class="calendario_actividades">Calendario de actividades de estadías Septiembre – Diciembre 2016</a> <img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="PDF"/></li>
                         </ul><br/>
                     </section>
                     <section class="servicios_texto">
@@ -78,7 +83,7 @@
                             <article>
                                 <p>Ana María Gómez Hernández</p>
                                 <p>Jefa del departamento de Seguimiento a Egresados y Educación Contínua</p>
-                                <p>Conmutador: +52 (993) 3.58.22.22 Ext. 2008 y 2009</p>
+                                <p>Conmutador: +52 (993) 3.58.22.22 Ext. 2008|2009</p>
                                 <p>Correo institucional: <a href="mailto:egresadoscontinua@uttab.edu.mx">egresadoscontinua@uttab.edu.mx</a></p>
                                 <div class="corte"></div>
                             </article>
@@ -89,6 +94,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=servicios" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

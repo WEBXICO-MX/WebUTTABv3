@@ -51,11 +51,11 @@
                                 <fieldset>
                                     <div class="form-group">
                                         <label for="txtLogin">Login:</label>
-                                        <s:textfield name="login" value="%{usuario.login}" id="txtLogin" size="20" maxLength="20" tabindex="1" />
+                                        <s:textfield name="login" value="%{usuario.login}" id="txtLogin" size="20" maxlength="20" tabindex="1" />
                                     </div>
                                     <div class="form-group">
                                         <label for="txtPassword">Password:</label>
-                                        <s:password name="password" value="%{usuario.password}" id="txtPassword" size="20" maxLength="20" tabindex="2" />
+                                        <s:password name="password" value="%{usuario.password}" id="txtPassword" size="20" maxlength="20" tabindex="2" />
                                     </div>
                                     <s:submit id="btnGrabar" value="Acceder" cssClass="btn btn-lg btn-success btn-block" tabindex="4"/>
                                     <br/>

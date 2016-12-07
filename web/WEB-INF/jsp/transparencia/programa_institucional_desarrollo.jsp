@@ -42,6 +42,6 @@
             </div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=transparencia" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=transparencia" flush="true" />
     </body>
 </html>

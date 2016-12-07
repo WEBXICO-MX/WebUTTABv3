@@ -216,7 +216,7 @@ public class EventoAction extends ActionSupport implements ModelDriven<Evento>, 
 
     @Override
     public String input() {
-        eventoList = eventoDAO.findTop(1, 21);
+        eventoList = eventoDAO.findTop(1, 31);
         return SUCCESS;
     }
 

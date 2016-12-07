@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=conocenos" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=conocenos" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="conocenos_section">
@@ -39,13 +39,13 @@
                         <figure style="position: relative">
                             <img src="${pageContext.request.contextPath}/img/conocenos/identidad/identidad1-min.png" alt="Identidad"/>
                             <!-- Glosario de términos -->
-                            <s:url id="url_glosario_terminos" action="viewFile" namespace="">
+                            <s:url var="url_glosario_terminos" action="viewFile" namespace="">
                               <s:param name="i" value="1"></s:param>
                               <s:param name="d" value="%{'glosario'}"></s:param>
                             </s:url>
                             <s:a href="%{url_glosario_terminos}" target="_blank"><img src="${pageContext.request.contextPath}/img/conocenos/identidad/icono_glosario_terminos-min.png" alt="Glosario de términos" class="icono_terminos"/></s:a>
                             <!-- Glosario de términos -->
-                            <s:url id="url_glosario_siglas" action="viewFile" namespace="">
+                            <s:url var="url_glosario_siglas" action="viewFile" namespace="">
                               <s:param name="i" value="2"></s:param>
                               <s:param name="d" value="%{'glosario'}"></s:param>
                             </s:url>
@@ -72,6 +72,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=conocenos" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
     </body>
 </html>

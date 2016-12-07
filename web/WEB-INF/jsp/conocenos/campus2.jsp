@@ -26,7 +26,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=conocenos" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=conocenos" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="conocenos_section">
@@ -60,7 +60,7 @@
                     </section>
                     <section class="conocenos_texto">
                         <!-- Croquis -->
-                        <s:url id="url_croquis" action="viewFile" namespace="">
+                        <s:url var="url_croquis" action="viewFile" namespace="">
                             <s:param name="i" value="2"></s:param>
                             <s:param name="d" value="%{'campus'}"></s:param>
                         </s:url>
@@ -71,7 +71,7 @@
                 </section>
             </main>
             <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=conocenos" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
         <script>
 
             var map;

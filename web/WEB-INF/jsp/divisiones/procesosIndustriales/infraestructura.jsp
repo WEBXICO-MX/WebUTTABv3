@@ -140,7 +140,7 @@
             <div style=" clear: both;"></div>
         </article>
         <!-- PhotoStackGallery-->
-        <jsp:include page="../../includePie.jsp?origen=division" flush="true" />
+        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
     </body>
 </html>
 

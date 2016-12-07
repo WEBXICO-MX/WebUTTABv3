@@ -29,7 +29,7 @@
                             <p><a href="<s:property value="link"/>" target="_blank"><img src="${pageContext.request.contextPath}/img/otras_secciones/actividades_universitarias/btn_pdf-min.png" alt="PDF"/></a></p>
                         </s:elseif>
                         <s:else>
-                            <s:url id="pdfURL" namespace="" action="viewActividadUniversitariaPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                            <s:url namespace="" action="viewActividadUniversitariaPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
                             <p><a href="<s:property value="#pdfURL"/>" target="_blank"><img src="${pageContext.request.contextPath}/img/otras_secciones/actividades_universitarias/btn_pdf-min.png" alt="PDF"/></a></p>  
                         </s:else>    
                     </td>

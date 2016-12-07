@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="transparencia_section">
@@ -37,7 +37,7 @@
                 <article class="transparencia_contenido">
                     <section class="transparencia_texto_full">
                         <figure style="float:right">
-                         <s:url id="url_PIDE_digital" action="viewFile" namespace="">
+                         <s:url var="url_PIDE_digital" action="viewFile" namespace="">
                            <s:param name="i" value="%{1}"></s:param>
                            <s:param name="d" value="%{'PIDE'}"></s:param>
                          </s:url>
@@ -62,6 +62,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=transparencia" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=transparencia" flush="true" />
     </body>
 </html>

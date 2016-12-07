@@ -1,7 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ficheros>
+    <fichero id="13" destino="profocie2015">
+        <nombre>profocie2015_manual_de_usuario_del_SICS.pdf</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/manuales/Manual de Usuario_ SICS_ Ejecutoras Versión  2.1.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="12" destino="profocie2015">
+        <nombre>profocie2015_cedula_quejas_denuncias.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/9 Quejas y Denuncias.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="11" destino="profocie2015">
+        <nombre>profocie2015_informe_anual.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/8 Inf Anual.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="10" destino="profocie2015">
+        <nombre>profocie2015_cedula_de_vigilancia.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/7 Ced Vig.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="9" destino="profocie2015">
+         <nombre>profocie2015_solicitud_de_informacion.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/6 Solic de Inf.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="8" destino="profocie2015">
+        <nombre>profocie2015_acta_de_sustitucion.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/5 Acta Sust de Integr.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="7" destino="profocie2015">
+        <nombre>profocie2015_acta_de_registro.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/4 Acta Reg Comite.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="6" destino="profocie2015">
+        <nombre>profocie2015_minuta_reunion.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/3 Min Reun.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="5" destino="profocie2015">
+        <nombre>profocie2015_PATCS.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/documentos/PATCS.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="4" destino="profocie2015">
+        <nombre>profocie2015_PETCS.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/documentos/PETCS.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="3" destino="profocie2015">
+        <nombre>profocie2015_guia_operativa.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/documentos/GUIA_OPERATIVA.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="2" destino="profocie2015">
+        <nombre>profocie2015_plan_de_difusion.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/documentos/PLAN_DIFUSION.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="1" destino="profocie2015">
+        <nombre>profocie2015_esquema.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/documentos/ESQUEMA.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="4" destino="dia_de_muertos">
+        <nombre>concurso_panteones_calaveras_2016</nombre>
+        <ruta>WEB-INF/doctos/otras_secciones/dia_de_muertos/Concurso Panteones y calaveras2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="3" destino="dia_de_muertos">
+        <nombre>concurso_catrina_2016</nombre>
+        <ruta>WEB-INF/doctos/otras_secciones/dia_de_muertos/Concurso Catrina2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="2" destino="dia_de_muertos">
+        <nombre>convocatoria_de_altares_de_ofrenda_2016</nombre>
+        <ruta>WEB-INF/doctos/otras_secciones/dia_de_muertos/Convocatoria de Altares de Ofrenda2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="1" destino="dia_de_muertos">
+        <nombre>convocatoria_festival_del_tamal_2016</nombre>
+        <ruta>WEB-INF/doctos/otras_secciones/dia_de_muertos/Convocatoria Festival del Tamal3.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="1" destino="servicios_especializados">
+        <ruta>WEB-INF/doctos/vinculacion/servicios_especializados/catalogo.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
     <fichero id="1" destino="egresados">
         <ruta>WEB-INF/doctos/servicios/egresados/cursos.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="4" destino="bienes">
+        <ruta>WEB-INF/doctos/transparencia/bienes/BIENES MUEBLES JUNIO 2016.pdf</ruta>
         <mime>application/pdf</mime>
         <activo>true</activo>
     </fichero>
@@ -464,6 +576,18 @@
         <mime>application/pdf</mime>
         <activo>true</activo>
     </fichero>
+    <fichero id="13" destino="practicas">
+        <nombre>Calendario_de_actividades_de_estadías_enero_abril_2017</nombre>
+        <ruta>WEB-INF/doctos/vinculacion/practicas_empresariales/F-E-A-54 R14 CALENDARIO DE ACTIVIDADES DE ESTADÍA ENERO ABRIL 2017.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="12" destino="practicas">
+        <nombre>Calendario_de_actividades_de_estadías_Septiembre_Diciembre_2016</nombre>
+        <ruta>WEB-INF/doctos/vinculacion/practicas_empresariales/CALENDARIO DE ACTIVIDADES DE ESTADÍA SEPTIEMBRE - DICIEMBRE  2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
     <fichero id="11" destino="practicas">
         <nombre>Calendario_de_actividades_de_estadías_Mayo_Agosto_2016</nombre>
         <ruta>WEB-INF/doctos/vinculacion/practicas_empresariales/CALENDARIO DE ACTIVIDADES DE ESTADÍA MAYO-AGOSTO 2016.pdf</ruta>
@@ -585,6 +709,26 @@
     </fichero>
     <fichero id="1" destino="cecap">
         <ruta>WEB-INF/doctos/unidades_negocio/cecap/Servicios.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="18" destino="biblioteca">
+        <ruta>WEB-INF/doctos/servicios/biblioteca/LibroDelMesOctubre2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="17" destino="biblioteca">
+        <ruta>WEB-INF/doctos/servicios/biblioteca/LibroDelMesSeptiembre2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="16" destino="biblioteca">
+        <ruta>WEB-INF/doctos/servicios/biblioteca/LibroDelMesAgosto2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="15" destino="biblioteca">
+        <ruta>WEB-INF/doctos/servicios/biblioteca/Nuevas_adquisiciones_mayo_junio_2016.pdf</ruta>
         <mime>application/pdf</mime>
         <activo>true</activo>
     </fichero>
@@ -789,6 +933,12 @@
         <ruta>WEB-INF/jsp/divisiones/procesosIndustriales/carreras/tsuMantoAreaIndustrial/plan_estudios.pdf</ruta>
         <mime>application/pdf</mime>
         <activo>true</activo>
+    </fichero>
+    <fichero id="4" destino="agep">
+        <nombre>Plan_de_estudios</nombre>
+        <ruta>WEB-INF/jsp/divisiones/agep/carreras/tsuContaduria/plan_estudios.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
     </fichero> 
     <fichero id="3" destino="agep">
         <nombre>Plan_de_estudios</nombre>
@@ -937,6 +1087,12 @@
     <fichero id="10" destino="procesosIndustriales">
         <nombre>Perfil_ejecutivo</nombre>
         <ruta>WEB-INF/jsp/divisiones/procesosIndustriales/carreras/tsuMantoAreaIndustrial/perfil_ejecutivo.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="40" destino="agep">
+        <nombre>Perfil_ejecutivo</nombre>
+        <ruta>WEB-INF/jsp/divisiones/agep/carreras/tsuContaduria/perfil_ejecutivo.pdf</ruta>
         <mime>application/pdf</mime>
         <activo>true</activo>
     </fichero> 

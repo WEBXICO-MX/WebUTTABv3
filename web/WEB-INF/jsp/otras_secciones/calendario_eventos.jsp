@@ -49,7 +49,7 @@
             <div class="corte"></div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=otras_secciones" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=otras_secciones" flush="true" />
         <script src="js/JQuery/plugins/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script src="js/otras_secciones/calendario_eventos.min.js"></script>
         <script>

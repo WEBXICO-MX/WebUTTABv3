@@ -79,7 +79,7 @@
 
             <div id="contenedor2">&nbsp;</div>
             <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=boletines_anteriores" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=boletines_anteriores" flush="true" />
         <script src="js/otras_secciones/actividades_universitarias_anteriores.min.js"></script>
         <script>
             $(document).ready(function() {

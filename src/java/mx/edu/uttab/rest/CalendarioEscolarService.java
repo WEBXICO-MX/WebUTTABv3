@@ -6,6 +6,7 @@
 package mx.edu.uttab.rest;
 
 import com.sun.jersey.api.json.JSONWithPadding;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.ServletContext;
@@ -26,6 +27,7 @@ public class CalendarioEscolarService {
     List<CalendarioEscolar> calendarioList = new ArrayList<>();
     CalendarioEscolar calendario = new CalendarioEscolar();
     CalendarioEscolarDAO calendarioDAO = DAOFactory.getDAOFactory(DAOFactory.XML).getCalendarioEscolarDAO();
+    String separator = File.separator;
 
     @Context
     ServletContext context;
@@ -36,9 +38,10 @@ public class CalendarioEscolarService {
     public JSONWithPadding getCalendarioEscolarInJSON(@QueryParam("callback") @DefaultValue("CBParamIsMissing") String jsoncallback) {
         String appRealPath = context.getRealPath("/");
         if (calendarioDAO instanceof XMLCalendarioEscolarDAO) {
-            ((XMLCalendarioEscolarDAO) calendarioDAO).setXMLpath(appRealPath + "WEB-INF\\calendario_escolar.xml");
+            ((XMLCalendarioEscolarDAO) calendarioDAO).setXMLpath(appRealPath + "WEB-INF"+separator+"calendario_escolar.xml");
         }
         calendarioList = calendarioDAO.findAll();
+        System.out.println("calendarioList.size() = " + calendarioList.size());
         return new JSONWithPadding(calendarioList, jsoncallback);
     }
 

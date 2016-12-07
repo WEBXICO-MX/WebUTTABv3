@@ -51,7 +51,7 @@
         </style>
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=conocenos" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=conocenos" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="conocenos_section">
@@ -62,14 +62,14 @@
                 </header>
                 <article class="conocenos_contenido">
                     <section class="conocenos_texto_full">
-                        <figure class='zoom' id='ex1'><img src="${pageContext.request.contextPath}/img/conocenos/organigrama/estructura_organica_2015-min.png" alt="Organigrama" style="width:1002px; height: 776px;"/></figure>
+                        <figure class='zoom' id='ex1'><img src="${pageContext.request.contextPath}/img/conocenos/organigrama/estructura_organica_2016.png" alt="Organigrama" style="width:1002px; height: 776px;"/></figure>
                     </section>
                 </article>
                 <div class="corte"></div>
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=conocenos" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
         <script src='${pageContext.request.contextPath}/js/JQuery/plugins/jQuery Zoom/jquery.zoom.min.js'></script>
         <script>
             $(document).ready(function () {

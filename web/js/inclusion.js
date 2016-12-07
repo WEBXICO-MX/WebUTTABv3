@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $('#decrease').click(function () {
-        $('.contenedor *,#contenedor2,#contenedor3,#contenedor_eventos').css('font-size', function (i, v) {
+        $('.actividadesUniv,.pie,.conocenos_section,.divisiones_section,.carrera_section,.servicios_section,.vinculacion_section,.otras_secciones_section,.transparencia_section').css('font-size', function (i, v) {
             return (+v.match(/\d+/).join() - 2) + 'px';
         });
     });
@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
 
     $('#increase').click(function () {
-        $('.contenedor *,#contenedor2,#contenedor3,#contenedor_eventos').css('font-size', function (i, v) {
+        $('.actividadesUniv,.pie,.conocenos_section,.divisiones_section,.carrera_section,.servicios_section,.vinculacion_section,.otras_secciones_section,.transparencia_section').css('font-size', function (i, v) {
             return (+v.match(/\d+/).join() + 2) + 'px';
         });
     });
@@ -27,7 +27,7 @@ $(document).ready(function () {
             return false;
         },
         onChange: function (hsb, hex, rgb) {
-            $('.contenedor *,#contenedor2 *,#contenedor3,#contenedor_eventos').css('color', '#' + hex);
+            $('.actividadesUniv,.pie,.conocenos_section,.divisiones_section,.carrera_section,.servicios_section,.vinculacion_section,.otras_secciones_section,.transparencia_section').css('color', '#' + hex);
         }
     });
 
@@ -42,7 +42,7 @@ $(document).ready(function () {
             return false;
         },
         onChange: function (hsb, hex, rgb) {
-            $('.contenedor,#contenedor2,#contenedor3,#contenedor_eventos').css('background-color', '#' + hex);
+            $('.actividadesUniv,.pie,.conocenos_section,.divisiones_section,.carrera_section,.servicios_section,.vinculacion_section,.otras_secciones_section,.transparencia_section').css('background-color', '#' + hex);
         }
     });
 
@@ -57,8 +57,7 @@ $(document).ready(function () {
                 right: '-180px'
             }, 250);
             inclusion = false;
-        }
-        else
+        } else
         {
             $('#inclusion-hover').animate({
                 right: '180px'

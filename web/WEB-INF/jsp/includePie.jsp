@@ -52,22 +52,25 @@
     <!-- Fin Derechos Reservados -->
     <div class="corte"></div>
 </footer>
-<aside class="logos"><img src="${pageContext.request.contextPath}/img/logos6.jpg" alt="Logos Oficiales" width="1007" height="174" border="0" usemap="#Map">
+<aside class="logos">
+    <img src="${pageContext.request.contextPath}/img/logos7.jpeg" alt="Logos Oficiales" width="1007" height="174" border="0" usemap="#Map">
     <map name="Map" id="Map">
-        <area shape="rect" coords="328,97,494,172" href="http://omersu.org/" target="_blank"  alt="Observatorio Mexicano de Responsabilidad Social Universitaria"/>
-        <area shape="rect" coords="191,10,313,85" href="http://cgut.sep.gob.mx/" target="_blank" alt="Coordinación General de Universidades Tecnológicas y Politécnicas"/>
-        <area shape="rect" coords="10,8,181,87" href="http://www.sep.gob.mx/" target="_blank" alt="Secretaría de Educación Pública"/>
-        <area shape="rect" coords="318,12,494,88" href="http://www.presidencia.gob.mx/" target="_blank" alt="Presidencia de la República"/>
-        <area shape="rect" coords="499,13,572,87" href="ContraloriaSocialPROMEP.action" target="_self" alt="Contraloria Social"/>
-        <area shape="rect" coords="577,14,664,90" href="http://www.tabasco.gob.mx/" target="_blank" alt="Gobierno del Estado de Tabasco"/>
-        <area shape="rect" coords="670,14,780,94" href="http://www.itaip.org.mx/" target="_blank" alt="Instituto Tabasqueño de Transparencia y Acceso a la Información Pública"/>
-        <area shape="rect" coords="785,13,916,93" href="http://www.secotab.gob.mx/" target="_blank" alt="Secretaría de Contraloría de Tabasco"/>
-        <area shape="rect" coords="922,14,1003,93" href="http://www.setab.gob.mx/" target="_blank" alt="Secretaría de Educación del Estado de Tabasco"/>
-        <area shape="rect" coords="9,93,179,159" href="http://www.universia.net.mx/" target="_blank" alt="Universia"/>
-        <area shape="rect" coords="186,94,319,160" href="http://www.ecest.gob.mx/" target="_blank" alt="Espacio Común de Educación Superior y Tecnológica"/>
-        <area shape="rect" coords="499,91,573,172" href="http://www.editorialox.com/" target="_blank" alt="Premio Internacional OX"/>
-        <area shape="rect" coords="578,97,781,170" href="http://www.cnbes.sep.gob.mx/" target="_blank" alt="pronabes"/>
-        <area shape="rect" coords="789,96,1002,169" href="http://www.cnbes.sep.gob.mx/2013/" target="_blank" alt="Coordinación Nacional de Becas de Educación Superior"/>
+        <area shape="rect" coords="2,6,170,91" href="http://www.sep.gob.mx/" target="_blank" alt="Secretaría de Educación Pública" />
+        <area shape="rect" coords="171,7,267,91" href="http://cgut.sep.gob.mx/" target="_blank" alt="Coordinación General de Universidades Tecnológicas y Politécnicas" />
+        <area shape="rect" coords="267,8,426,91" href="http://www.presidencia.gob.mx/" target="_blank" alt="Presidencia de la República" />
+        <area shape="rect" coords="426,11,597,91" href="http://www.gob.mx/se/" target="_blank" alt="Secretaría de Economía Federal" />
+        <area shape="rect" coords="596,13,666,92" href="ContraloriaSocialPROMEP.action" target="_blank" alt="Contraloria Social" />
+        <area shape="rect" coords="669,13,732,91" href="http://www.tabasco.gob.mx/" target="_blank" alt="Gobierno del Estado de Tabasco" />
+        <area shape="rect" coords="734,8,827,93" href="http://www.itaip.org.mx/" target="_blank" alt="Instituto Tabasqueño de Transparencia y Acceso a la Información Pública" />
+        <area shape="rect" coords="831,9,923,95" href="http://www.secotab.gob.mx/" target="_blank" alt="Secretaría de Contraloría de Tabasco" />
+        <area shape="rect" coords="925,9,1005,96" href="http://www.setab.gob.mx/" target="_blank" alt="Secretaría de Educación del Estado de Tabasco" />
+        <area shape="rect" coords="3,95,163,171" href="http://www.universia.net.mx/" target="_blank" alt="Universia" />
+        <area shape="rect" coords="163,96,301,170" href="http://www.ecest.gob.mx/" target="_blank" alt="Espacio Común de Educación Superior y Tecnológica" />
+        <area shape="rect" coords="305,97,471,169" href="http://omersu.org/" target="_blank" alt="Observatorio Mexicano de Responsabilidad Social Universitaria" />
+        <area shape="rect" coords="474,95,550,172" href="https://www.inadem.gob.mx/" target="_blank" alt="Instituto Nacional del Emprendedor" />
+        <area shape="rect" coords="553,96,616,171" href="http://www.editorialox.com/" target="_blank" alt="Premio Internacional OX" />
+        <area shape="rect" coords="619,95,800,172" href="http://www.cnbes.sep.gob.mx/" target="_blank" alt="pronabes" />
+        <area shape="rect" coords="803,97,1003,171" href="http://www.cnbes.sep.gob.mx/2013/" target="_blank" alt="Coordinación Nacional de Becas de Educación Superior" />
     </map>
     <div class="corte"></div>
 </aside>
@@ -93,6 +96,7 @@
 <script src="${pageContext.request.contextPath}/js/JQuery/plugins/colorpicker/js/colorpicker.js"></script>
 <script src="${pageContext.request.contextPath}/js/inclusion.min.js"></script>
 <%}%>
+<script src="${pageContext.request.contextPath}/js/funciones.min.js"></script>
 <script>
                     (function (i, s, o, g, r, a, m) {
                         i['GoogleAnalyticsObject'] = r;
@@ -108,43 +112,19 @@
 
                     ga('create', 'UA-46053347-1', 'uttab.edu.mx');
                     ga('send', 'pageview');
-    <%if (!(request.getParameter("Correo") != null)) {%>
-                    function ValidaMail() {
-                        var mail = document.formC.txtEmail.value;
-                        var exr = /^[0-9a-z_\-\.]+(@hotmail\.com$)|(@hotmail\.es$)|(@gmail\.com$)|(@live\.com$)|(@live\.com\.mx$)|(@yahoo\.com$)|(@uttab\.edu\.mx$)/i;
-                        if (!exr.test(mail))
-                        {
-                            $("#div_switch").html("<span class='custom entrar'>La dirección de E-Mail es incorrecta !!</span>");
-                            document.formC.txtEmail.focus();
-                            return false;
-                        }
-                        else {
-                            return true;
-                        }
-                    }
 
-                    function Grabar()
-                    {
-                        if ($("#txtEmail").val() === "")
-                        {
-                            $("#div_switch").html("<span class='custom entrar'>Debe proporcionar un correo valido!</span>");
-                            $("#txtEmail").focus();
-                            return;
-                        }
-                        if (ValidaMail()) {
-                            var datos = $("#formC").serialize();
-                            $.ajax({url: "${pageContext.request.contextPath}/SaveEmail?xAccion=GrabarTxt", type: "post", data: datos, success: function (result) {
-                                    var n = result.trim();
-                                    $("#div_switch").html("<span class='custom entrar'>" + n + "</span>");
-                                    $('#div_switch').fadeOut(4000);
-                                    $("#txtEmail").val("");
-                                    $("#txtEmail").focus();
-                                }
-                            });
-                        } else {
-                            return;
-                        }
-                        $('#div_switch').show();
-                    }
-    <%}%>
+
+                    var WebFontConfig = {
+                        google: {
+                            families: ['Open Sans:600,400,700', 'PT Sans:400,700']
+                        },
+                        timeout: 2000
+                    };
+
+                    (function () {
+                        var wf = document.createElement("script");
+                        wf.src = '${pageContext.request.contextPath}/js/WebFontLoader/webfont-1.6.26.js';
+                        wf.async = 'true';
+                        document.head.appendChild(wf);
+                    })();
 </script>

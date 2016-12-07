@@ -59,7 +59,7 @@
 
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=vinculacion" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
         <script>
             $(function () {
                 $('#emailLink').on('click', function (event) {

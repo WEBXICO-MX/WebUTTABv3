@@ -91,11 +91,11 @@
                         <s:form action="save" namespace="/SistemasAdmin/avisos" id="frmAviso" method="post" role="form">
                             <div class="form-group">
                                 <label for="txtIDAviso">* ID Aviso:</label>
-                                <s:textfield name="id" value="%{aviso.id != 0 ? aviso.id:''}" id="txtIDAviso" size="3" maxLength="3" readonly="true"  tabindex="1" />
+                                <s:textfield name="id" value="%{aviso.id != 0 ? aviso.id:''}" id="txtIDAviso" size="3" maxlength="3" readonly="true"  tabindex="1" />
                             </div>
                             <div class="form-group">
                                 <label for="txtNombre">Nombre:</label>
-                                <s:textfield name="nombre" value="%{aviso.nombre}" id="txtNombre" size="80" maxLength="200" cssClass="captura" tabindex="2"/>
+                                <s:textfield name="nombre" value="%{aviso.nombre}" id="txtNombre" size="80" maxlength="200" cssClass="captura" tabindex="2"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtFechaRealizacion">Fecha realización:</label>
@@ -107,15 +107,15 @@
                             </div>
                             <div class="form-group">
                                 <label for="txtLink">Link:</label>
-                                <s:textfield name="link" value="%{aviso.id != 0 ? aviso.link:'NULL'}" id="txtLink" size="80" maxLength="150" cssClass="captura" tabindex="5"/>
+                                <s:textfield name="link" value="%{aviso.id != 0 ? aviso.link:'NULL'}" id="txtLink" size="80" maxlength="150" cssClass="captura" tabindex="5"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaIMG">Ruta imagen:</label>
-                                <s:textfield name="img" value="%{aviso.id != 0 ? aviso.img:'NULL'}" id="txtRutaIMG" size="42" maxLength="41" readonly="true" cssClass="captura" tabindex="6"/>
+                                <s:textfield name="img" value="%{aviso.id != 0 ? aviso.img:'NULL'}" id="txtRutaIMG" size="42" maxlength="41" readonly="true" cssClass="captura" tabindex="6"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaPDF">Ruta pdf:</label>
-                                <s:textfield name="pdf" value="%{aviso.id != 0 ? aviso.pdf:'NULL'}" id="txtRutaPDF" size="55" maxLength="51" readonly="true" cssClass="captura" tabindex="7"/>
+                                <s:textfield name="pdf" value="%{aviso.id != 0 ? aviso.pdf:'NULL'}" id="txtRutaPDF" size="55" maxlength="51" readonly="true" cssClass="captura" tabindex="7"/>
                             </div>
                             <div class="checkbox">
                                 <label>
@@ -166,7 +166,7 @@
                                             <s:iterator value="avisoList" status="avisoStatus">
                                                 <tr>
                                                     <td> 
-                                                        <s:url id="editURL" action="edit" namespace="/SistemasAdmin/avisos"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                        <s:url var="editURL" action="edit" namespace="/SistemasAdmin/avisos"><s:param name="id" value="%{id}"></s:param></s:url>
                                                         <s:a href="%{editURL}"> <s:property value="id" /></s:a>
                                                     </td>
                                                     <td><s:property value="nombre" /></td>
@@ -175,40 +175,40 @@
                                                     <td><s:property value="link" /></td>
                                                     <td>
                                                         <s:if test="img.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadIMGURL" action="form_upload_img" namespace="/SistemasAdmin/avisos" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/avisos" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMGURL"/>" data-target="#mUploadFile">Subir imagen</a>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="imgURL" namespace="" action="viewAvisoIMG" var="imgURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url namespace="" action="viewAvisoIMG" var="imgURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <!--<img src="${pageContext.request.contextPath}/img/File-JPG-icon.png" alt="<s:property value="nombre"/>" title="<s:property value="nombre"/>" data-toggle="popover" data-content="<img src='<s:property value="#imgURL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="nombre"/>' class='img-responsive'/>" class="img-responsive" style="cursor:pointer;"/>-->
                                                             <span class="fa fa-file-image-o" data-toggle="popover" data-title="<s:property value="nombre"/>" data-content="<img src='<s:property value="#imgURL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="nombre"/>' class='img-responsive'/>"></span>
                                                             <br/>
                                                             <br/>
-                                                            <s:url id="uploadIMGURL" action="form_upload_img" namespace="/SistemasAdmin/avisos" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/avisos" var="uploadIMGURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMGURL"/>" data-target="#mUploadFile">Cambiar imagen</a>
                                                         </s:else>
                                                     </td>
                                                     <td>
                                                         <s:if test="pdf.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadPDFURL" action="form_upload_pdf" namespace="/SistemasAdmin/avisos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_pdf" namespace="/SistemasAdmin/avisos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadPDFURL"/>" data-target="#mUploadFile">Subir PDF</a>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="pdfURL" namespace="" action="viewAvisoPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url namespace="" action="viewAvisoPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="<s:property value="#pdfURL"/>" target="_blank"><span class="fa fa-file-pdf-o"></span></a>
                                                             <br/>
                                                             <br/>
-                                                            <s:url id="uploadPDFURL" action="form_upload_pdf" namespace="/SistemasAdmin/avisos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_pdf" namespace="/SistemasAdmin/avisos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadPDFURL"/>" data-target="#mUploadFile">Cambiar PDF</a>
                                                         </s:else>
                                                     </td>
                                                     <td><s:if test="activo"><span class="fa fa-check"></span></s:if><s:else><span class="fa fa-times"></span></s:else></td>
                                                     <!--<td align="center">
-                                                        <s:url id="editURL" action="edit" namespace="/SistemasAdmin/avisos" var="editURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                        <s:url action="edit" namespace="/SistemasAdmin/avisos" var="editURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                         <a href="<s:property value="#editURL"/>"><img src="${pageContext.request.contextPath}/img/icon_pencil-edit.png"/></a>
                                                     </td>-->
                                                     <!--<td align="center">
-                                                    <s:url id="deleteURL" action="delete" namespace="/SistemasAdmin/avisos" var="deleteURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                    <s:url action="delete" namespace="/SistemasAdmin/avisos" var="deleteURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                     <a href="javascript:void(0);" onclick="if (confirm('¿Esta seguro de eliminar <s:property value="nombre" />')) {
                                                                 location.href = '<s:property value="#deleteURL"/>'
                                                             } else {

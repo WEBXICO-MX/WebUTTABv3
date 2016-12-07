@@ -106,7 +106,7 @@
             <div class="corte"></div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../../includePie.jsp?origen=division" flush="true" />
+        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
     </body>
 </html>
 

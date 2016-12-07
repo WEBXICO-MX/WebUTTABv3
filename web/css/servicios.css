@@ -11,7 +11,10 @@ img { border: 0;}
 .negritasContacto { font-weight: bold;color:#F66A46;}
 .contenedor { margin: 44px auto 0 auto; width: 946px; height: auto;}
 #contenedor2 { margin:44px auto 0 auto; width: 1002px; height: auto;}
-#contenedorCaleEscInte { margin:44px auto 0 auto; width: 1002px;height: 1600px; background-image:url('../img/servicios/calendarioEscolar/calendario_escolar_2015_2016/calendario_escolar_2015_2016_fondo.jpg');background-size:1000px 1600px;background-repeat:no-repeat;border:1px solid transparent;position: relative;}
+#contenedorCaleEscInte { margin:44px auto 0 auto; width: 1002px;height: 1650px; background-image:url('../img/servicios/calendarioEscolar/calendario_escolar_2016_2017/calendario_escolar_2016_2017_fondo.jpeg');background-size:1000px 1620px;background-repeat:no-repeat;border:1px solid transparent;position: relative;}
+@-moz-document url-prefix() {
+    #contenedorCaleEscInte { margin:44px auto 0 auto; width: 1002px;height: 1680px; background-image:url('../img/servicios/calendarioEscolar/calendario_escolar_2016_2017/calendario_escolar_2016_2017_fondo.jpeg');background-size:1000px 1660px;background-repeat:no-repeat;border:1px solid transparent;position: relative;}
+}
 
 .contenedor a{ color: #5B5C5C;text-decoration: none; font-weight: bold;}
 .contenedors a:link {color: #5B5C5C; }

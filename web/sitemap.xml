@@ -1,1989 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<!-- sitemap-generator-url="http://www.auditmypc.com/free-sitemap-generator.asp" -->
-<!-- This sitemap was created using the free tool found here: http://www.auditmypc.com/free-sitemap-generator.asp -->
-<!-- Audit My PC also offers free security tools to help keep you safe during internet travels -->
-<urlset 
-		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
-		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
 <url>
-    <loc>http://www.uttab.edu.mx/</loc>
+  <loc>http://www.uttab.edu.mx/Home.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/favicon.ico</loc>
-    <lastmod>2014-08-12T11:08:20-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/conocenos/mensaje_rector.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/css/principal2.min.css</loc>
-    <lastmod>2014-08-12T11:08:04-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/conocenos/historia.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/buzon.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/conocenos/identidad.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/twitter.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/conocenos/modelo_educativo.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/facebook.png</loc>
-    <lastmod>2014-08-12T11:08:20-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/conocenos/sistemas_institucionales.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/youtube.png</loc>
-    <lastmod>2014-08-12T11:08:40-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/conocenos/directorio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/instagram.png</loc>
-    <lastmod>2015-01-01T11:08:40-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/conocenos/campus.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Home</loc>
+  <loc>http://www.uttab.edu.mx/conocenos/organigrama.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Mensaje</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/inicio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Historia</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/ingenieria_gestion_proyectos.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Mision</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/tsu_administracion_area_administracion_evaluacion_proyectos.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Identidad</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/tsu_desarrollo_negocios_area_mercadotecnia.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ModeloEducativo</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/tsu_contaduria.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/SistemasInstitucionales</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/inicio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Directorio</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/ingenieria_procesos_bioalimentarios.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Organigrama</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_procesos_alimentarios.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Normatividad</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/ingenieria_mantenimiento_industrial.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/PIDE</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_mantenimiento_area_petroleo.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Campus</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_mantenimiento_area_industrial.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Glosarios</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_energias_renovables_area_calidad_ahorro_energia.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/AGEP</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/inicio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/IngenieriaGestionProyectos</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/ingenieria_tecnologia_ambiental.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUAdministracionAreaAdministracionEvaluacionProyectos</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_tecnologia_ambiental.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUDesarrolloNegociosAreaMercadotecnia</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/ingenieria_quimica_procesos_industriales.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ProcesosIndustriales</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_prevencion_corrosion.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/IngenieriaProcesosOperacionesIndustriales</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_industrial.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/IngenieriaProcesosBioalimentarios</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_fluidos_perforacion.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUProcesosAlimentarios</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/inicio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/IngenieriaMantenimientoIndustrial</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/ingenieria_tecnologias_informacion.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUMantenimientoAreaPetroleo</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/tsu_tic_area_multimedia_comercio_electronico.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUMantenimientoAreaIndustrial</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/tsu_tic_area_redes_telecomunicaciones.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUEnergiasRenovablesAreaCalidadAhorroEnergia</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/tsu_tic_area_sistemas_informaticos.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Quimica</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/inicio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/IngenieriaTecnologiaAmbiental</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/licenciatura_gastronomia.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUQuimicaAreaTecnologiaAmbiental</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/tsu_gastronomia.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/IngenieriaQuimicaProcesosIndustriales</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/licenciatura_gestion_desarrollo_turistico.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUQuimicaAreaPrevencionCorrosion</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/tsu_turismo_area_hoteleria.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUQuimicaAreaIndustrial</loc>
+  <loc>http://www.uttab.edu.mx/servicios/admision.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUQuimicaAreaFluidosPerforacion</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/educacion_continua.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TIC</loc>
+  <loc>http://www.uttab.edu.mx/servicios/control_escolar.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/IngenieriaTecnologiasInformacion</loc>
+  <loc>http://www.uttab.edu.mx/servicios/tramites_titulacion.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUTICAreaMultimediaComercioElectronico</loc>
+  <loc>http://www.uttab.edu.mx/servicios/practicas_empresariales.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUTICAreaRedesTelecomunicaciones</loc>
+  <loc>http://www.uttab.edu.mx/servicios/becas.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUTICAreaSistemasInformaticos</loc>
+  <loc>http://www.uttab.edu.mx/servicios/actividades_culturales_deportivas.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TurismoGastronomia</loc>
+  <loc>http://www.uttab.edu.mx/servicios/centro_idiomas.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/LicenciaturaGastronomia</loc>
+  <loc>http://www.uttab.edu.mx/servicios/servicios_medicos.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUGastronomia</loc>
+  <loc>http://www.uttab.edu.mx/servicios/tutorias.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/LicenciaturaGestionDesarrolloTuristico</loc>
+  <loc>http://www.uttab.edu.mx/servicios/atencion_psicopedagogica.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/TSUTurismoAreaHoteleria</loc>
+  <loc>http://www.uttab.edu.mx/servicios/biblioteca.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Alumnos</loc>
+  <loc>http://www.uttab.edu.mx/servicios/transporte.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Egresados</loc>
+  <loc>http://www.uttab.edu.mx/servicios/egresados.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Profesores</loc>
+  <loc>http://www.uttab.edu.mx/servicios/bolsa_trabajo.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Padres</loc>
+  <loc>http://www.uttab.edu.mx/servicios/calendario_escolar.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Admision</loc>
+  <loc>http://www.uttab.edu.mx/servicios/delf_dalf.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ControlEscolar</loc>
+  <loc>http://www.uttab.edu.mx/case/inicio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Titulacion</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/cecap.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CalendarioEscolar</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/servicios_especializados.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ServiciosMedicos</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/capacitacion_profesional.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Biblioteca</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/servicios_tecnologicos.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CECAP</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/produccion_audiovisual.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CentroAtencionSectorEnergetico</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/diseno_imagen.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CentroIncubacion</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/centro_incubacion.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CentroGastronomico</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/cappi.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CentroCertificadorDELF-DALF</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/proyectos_incubados.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CentroIdiomas</loc>
+  <loc>http://www.uttab.edu.mx/otras_secciones/actividades_universitarias.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ServiciosTecnologicos</loc>
+  <loc>http://www.uttab.edu.mx/otras_secciones/avisos.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/EducacionContinua</loc>
+  <loc>http://www.uttab.edu.mx/otras_secciones/calendario_eventos.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/PracticasEmpresariales</loc>
+  <loc>http://www.uttab.edu.mx/otras_secciones/gacetas.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/BolsaTrabajo</loc>
+  <loc>http://www.uttab.edu.mx/transparencia/contraloria_social.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ExtensionUniversitaria</loc>
+  <loc>http://www.uttab.edu.mx/transparencia/normatividad.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ProteccionCivil</loc>
+  <loc>http://www.uttab.edu.mx/transparencia/programa_institucional_desarrollo.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/SitiosDeInteres</loc>
+  <loc>http://www.uttab.edu.mx/transparencia/bienes.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/Gacetas</loc>
+  <loc>http://www.uttab.edu.mx/otras_secciones/proteccion_civil.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ActividadesUniversitariasAnteriores</loc>
+  <loc>http://www.uttab.edu.mx/otras_secciones/herramientas_tecnologicas.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/listAvisos</loc>
+  <loc>http://www.uttab.edu.mx/sintonia/radio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/ContraloriaSocialPROMEP</loc>
+  <loc>http://www.uttab.edu.mx/RecorridoVirtual.action</loc>
+  <lastmod>2014-08-12T16:09:36+00:00</lastmod>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/CalendarioInstitucional</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/directorio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=manualSeguridadANUIES</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/directorio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=1erInformeActividades</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/directorio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=avisoPrivacidad</loc>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/directorio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/eventos/45/1.png</loc>
-    <lastmod>2014-09-12T16:53:44-05:00</lastmod>
+  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/directorio.action</loc>
 </url>
 <url>
-    <loc>http://www.uttab.edu.mx/img/eventos/45/3.png</loc>
-    <lastmod>2014-09-12T16:53:52-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/45/2.png</loc>
-    <lastmod>2014-09-12T16:53:49-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/44/1.png</loc>
-    <lastmod>2014-09-12T14:32:55-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/44/3.png</loc>
-    <lastmod>2014-09-12T14:33:05-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/44/2.png</loc>
-    <lastmod>2014-09-12T14:33:02-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/43/1.png</loc>
-    <lastmod>2014-09-11T13:27:59-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/43/3.png</loc>
-    <lastmod>2014-09-11T13:28:07-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/43/2.png</loc>
-    <lastmod>2014-09-11T13:28:03-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/42/1.png</loc>
-    <lastmod>2014-09-10T14:05:00-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/42/3.png</loc>
-    <lastmod>2014-09-10T14:04:00-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/42/2.png</loc>
-    <lastmod>2014-09-10T14:04:00-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/41/1.png</loc>
-    <lastmod>2014-09-10T11:39:04-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/41/2.png</loc>
-    <lastmod>2014-09-10T11:39:04-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/40/1.png</loc>
-    <lastmod>2014-09-09T09:36:27-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/40/2.png</loc>
-    <lastmod>2014-09-09T09:36:31-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/39/1.png</loc>
-    <lastmod>2014-09-10T12:08:02-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/39/2.png</loc>
-    <lastmod>2014-09-10T12:08:06-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/19/1.png</loc>
-    <lastmod>2014-08-12T11:08:20-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/06/fondo2.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/06/text2.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/06/imagen2.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/02/fondo.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/02/text.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/04/fondo.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/04/imagen.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/eventos/04/text.png</loc>
-    <lastmod>2014-08-12T11:08:18-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewActividadUniversitariaIMG.action?id=130</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewActividadUniversitariaIMG.action?id=132</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewActividadUniversitariaIMG.action?id=128</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewActividadUniversitariaIMG.action?id=129</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Reconociemintos%20otorgados.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Agente%20capacitador.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Calidad.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/CISCO.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Dalf%20delf.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Excelencia%20educativa.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Icarnegie.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Incubadora%20Basica.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Red%20conocer.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Rigpass.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/TOEFEL.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Fuentes%20fijas.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Ambiente%20laboral.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Dimensional.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/Labprueba.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/COPAES.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/btn_convocatoria_proceso_admision_ene_abr_2015.jpg</loc>
-    <lastmod>2014-09-15T14:24:23-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/boton%20sintonia.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/boton%20emprendedores.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/UT%20VIRTUAL2.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/banners/boton%20saiiut.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/logoEscudo.png</loc>
-    <lastmod>2014-08-12T11:08:20-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/logoTabasco.png</loc>
-    <lastmod>2014-08-12T11:08:20-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/facebookFooter.png</loc>
-    <lastmod>2014-08-12T11:08:20-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/ubicacion.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/telefono.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/email.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/logos4.png</loc>
-    <lastmod>2014-08-12T11:08:20-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/ContraloriaSocialPROMEP.action</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/conocenos.min.css</loc>
-    <lastmod>2014-08-12T11:08:02-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/mensaje_del_rector/rector.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/historia/sep.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/historia/uttab.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/identidad/identidad_01.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/identidad/identidad_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/identidad/identidad_03.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/modelo_educativo/modelo_educativo_01.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/sistemas_gestion/sistemas_gestrion_05.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/sistemas_gestion/sistemas_gestrion_04.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/sistemas_gestion/sistemas_gestrion_06.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/01_fernando_calzada_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/05_paulino_zapata_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/02_ana_luisa_miranda.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/23_raul_alamilla.jpg</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/04_ma_patricia_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/15_sergio_octavio.jpg</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/18_ana_edith_palomino_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/19_marcel_ruiz_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/01_sara_trejo.jpg</loc>
-    <lastmod>2014-09-05T15:08:00-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/16_jose_luis_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/21_laura_beatriz_romero_02.jpg</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/01_escobedo_cazan.jpg</loc>
-    <lastmod>2014-09-05T15:14:22-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/24_emilio_vidal.jpg</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/02_ricardo_moheno_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/09_laura_beatriz_guzman_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/11_australia_vallejo_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/10_lenin_gonzalez_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/1.jpg</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/14_guillermo%20oliver_02.jpg</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/06_jesus_tabzcoob_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/13_piotr_aleksander_dobrosin_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/07_lorena_rodriguez_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/directorio/08_juan_alberto_camacho_02.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/organigrama/ESTRUCTURA_agosto_2014.jpg</loc>
-    <lastmod>2014-08-25T15:10:27-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/doc_acrobat.gif</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=normatividad</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=normatividad</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=normatividad</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/transparencia.min.css</loc>
-    <lastmod>2014-08-12T11:08:04-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/RecorridoVirtual</loc>
-    <lastmod>2014-08-12T11:09:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/campus/btn_campus_recorrido_virtual2.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=campus</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/campus/campus_croquis.jpg</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/glosario/btn_glosario_terminos.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/conocenos/glosario/btn_glosario_siglas.png</loc>
-    <lastmod>2014-08-12T11:08:12-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/divisiones.min.css</loc>
-    <lastmod>2014-08-12T11:08:02-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/Otros/PhotoStackGallery/style.css</loc>
-    <lastmod>2014-08-12T11:06:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/Otros/PhotoStackGallery/plugins.css</loc>
-    <lastmod>2014-08-12T11:06:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/infraestructura.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/CuerposAcademicosAGEP</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/btn_cuerpos_academicos.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/LogrosAGEP</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/logros.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/DirectorioAGEP</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/directorio.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/galeria/01.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/galeria/02.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/galeria/03.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/galeria/04.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/galeria/05.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/carreras.min.css</loc>
-    <lastmod>2014-08-12T11:08:02-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/carreras/ingGestProy/Ing1.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=agep</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/carrerasUsoComun/btn_plan_estudio.png</loc>
-    <lastmod>2014-08-12T11:08:10-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/carreras/tsuAdmEvaProy/TSU1.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=agep</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/carreras/tsuDesNeg/TSU2.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=agep</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/CuerposAcademicosPI</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/LogrosPI</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/DirectorioPI</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/01.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/02.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/03.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/04.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/05.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/06.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/07.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/08.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/galeria/09.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/carreras/ingProcOpeInd/ing_procOperaciones.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=7&#x26;d=procesosIndustriales</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/carreras/ingProcBioalimentario/img_ingBioAliment.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=6&#x26;d=procesosIndustriales</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/carreras/tsuProcAlimentarios/img_tsuProsAlimentarios.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=procesosIndustriales</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/carreras/ingMantoIndustrial/img_ingManttoInsutrial.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=procesosIndustriales</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/carreras/tsuMantoAreaPetroleo/img_tsuManttoPetroleo.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=procesosIndustriales</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/carreras/tsuMantoAreaIndustrial/img_tsuManttoInd.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=procesosIndustriales</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/carreras/tsuEneRenAreaCalAhoEne/img_tsuEneRenAreaCalAhoEne.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=8&#x26;d=procesosIndustriales</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/CuerposAcademicosQuimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/LogrosQuimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/DirectorioQuimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/galeria/01.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/galeria/02.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/galeria/03.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/galeria/04.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/galeria/05.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/galeria/06.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Carreras/ingTecAmb/ingTecAmb.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=6&#x26;d=quimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Carreras/tsuQuimAreaTecAmb/QuimTecAmb.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=quimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Carreras/ingQuimProcInd/QuimProcInd.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=quimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Carreras/tsuQuimAreaPrevCorr/QuimPrevCorr.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=quimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Carreras/tsuQuimAreaInd/QuimInd.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=quimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Carreras/tsuQuimFluPerf/QuimFluPerf.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=quimica</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/CuerposAcademicosTIC</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/LogrosTIC</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/DirectorioTIC</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/01.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/02.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/03.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/04.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/05.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/06.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/07.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/08.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/galeria/09.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/Carreras/ingTic/ingTic.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=tics</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/Carreras/tsuTicMultimedia/TicMultimedia.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=tics</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/Carreras/tsuTicRedes/TicRedes.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=tics</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/Carreras/tsuTicSistemas/TicSistemas.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=tics</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/CuerposAcademicosTG</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/LogrosTG</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/DirectorioTG</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/galeria/01.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/galeria/02.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/galeria/03.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/galeria/04.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/galeria/05.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/galeria/06.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/galeria/07.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Carreras/licGastr/licGastr.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=turismoGastronomia</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Carreras/tsuGastr/tsuGastr.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=turismoGastronomia</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Carreras/licGestDesTur/licGestDesTur.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=turismoGastronomia</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Carreras/tsuTurHot/tsuTurHot.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=turismoGastronomia</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/servicios.min.css</loc>
-    <lastmod>2014-08-25T11:52:49-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/alumnos/btn_consulta_calif2.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/ServiciosVentanilla</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/alumnos/btn_tramites2.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/alumnos/Alumnos_24.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/alumnos/Alumnos_31.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/alumnos/Alumnos_39.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/alumnos/Alumnos_42.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/egresados/btn_cursos.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/egresados/btn_bolsa_trabajo2.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/egresados/btn_contactanos.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/profesores/btn_prodep.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/profesores/btn_saiiut.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/escolares/banner_admision_ut_02.jpg</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/escolares/banner_control_escolar_01.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/escolares/banner_titulacion_01.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/calendarioEscolar.min.css</loc>
-    <lastmod>2014-08-12T11:08:02-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/js/JQuery/plugins/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.min.css</loc>
-    <lastmod>2014-08-12T11:08:40-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/servicios_medicos/Servicios-Medicos_11.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/btn_biblioteca.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/BibliotecaAntecedentes</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/btn_antecedentes.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/BibliotecaQuienesSomos</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/btn_qsomos.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/BibliotecaRecursosServ</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/bt_recursos_serv.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/BibliotecaPagoServ</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/bt_pago_serv.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/biblioteca01.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=biblioteca</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/banner%20libro%20del%20mes.jpg</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=biblioteca</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/banner%20adquissiciones.jpg</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/baner01.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/baner02.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/baner03.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/baner04.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/banner%20el%20financiero.jpg</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/baner06.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/unidades_negocio.min.css</loc>
-    <lastmod>2014-09-17T13:04:51-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/cecap/btn_catalogo_servicios2.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/cecap/btn_catalogo_capacitacion2.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/cecap/CECAP_18.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/cecap/CECAP_26.png</loc>
-    <lastmod>2014-08-12T11:08:36-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/centro_atencion_pemex/Centro-de-atencion-a-PEMEX_13.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/vinculacion.min.css</loc>
-    <lastmod>2014-09-17T12:58:09-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/centro_incubacion/btn_cie_ut.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/ProyectosIncubados</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/centro_incubacion/btn_proyectos_incubados2.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/centro_incubacion/Incubadoras_20.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/centro_gastronomico/btn_menu.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/centro_gastronomico/Kuku-Uche_15.jpg</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/centro_gastronomico/Kuku-Uche_31.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/centro_certificador_delf_dalf/btn_calendario_examenes2.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/centro_certificador_delf_dalf/Logo%20CCC-IFAL.jpg</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/centro_certificador_delf_dalf/LogoRondDELFDALF_hi.jpg</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/ciut/CIUT_13.jpg</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/unidades_negocio/ciut/CIUT_31.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/servicios_tecnologicos/btn_catalogo_servicios2.png</loc>
-    <lastmod>2014-08-12T11:08:40-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/servicios_tecnologicos/Servicios-Tecnologicos_15.png</loc>
-    <lastmod>2014-08-12T11:08:40-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/educacion_continua/btn_catalogo_servicios2.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/educacion_continua/btnCalendarioCursos.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/educacion_continua/Eduacion-Continua_16.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/practicas_empresariales/btn_calendario_practicas2.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=practicas</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=6&#x26;d=practicas</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=practicas</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=7&#x26;d=practicas</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=8&#x26;d=practicas</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=9&#x26;d=practicas</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=bolsa_trabajo</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/extension_universitaria/btn_extension_universitaria2.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/ProduccionAudiovisual</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/extension_universitaria/btn_produccion_audiovisual2.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/PromocionUniversitaria</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/extension_universitaria/btn_promocion_universitaria2.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/DisenoImagen</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/extension_universitaria/btn_editorial.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/otras_secciones.min.css</loc>
-    <lastmod>2014-08-12T11:08:04-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/proteccion_civil/Proteccion-Civil_10.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoPDF.action?i=37</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=37</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoPDF.action?i=36</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=36</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=35</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoPDF.action?i=34</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=34</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoPDF.action?i=33</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=33</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoPDF.action?i=32</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=32</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoPDF.action?i=31</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=31</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoPDF.action?i=28</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewAvisoIMG.action?i=28</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/contraloria_social/btn_prodep.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/ContraloriaSocialFOMES_FIUPEA</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/contraloria_social/btn_FOMES_FIUPEA.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/contraloria_social/btn_PROMEP.png</loc>
-    <lastmod>2014-08-12T11:08:32-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=promep2009</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=promep2009</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=promep2009</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=promep2009</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=promep2009</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=6&#x26;d=promep2009</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=promep2010</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=promep2010</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=promep2010</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=promep2010</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=promep2010</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=promep2011</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=promep2011</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=promep2011</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=promep2011</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=promep2011</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=6&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=7&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=8&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=9&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=10&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=11&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=12&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=13&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=14&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=15&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=16&#x26;d=promep2012</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=6&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=7&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=8&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=9&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=11&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=12&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=13&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=14&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=15&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=16&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=17&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=18&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=19&#x26;d=promep2013</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/css/calendarioInstitucional.min.css</loc>
-    <lastmod>2014-08-12T11:08:02-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/CeremoniaGraduacion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/EventoBienvenidaTSU.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/EventoBienvenidaLIC.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaDelTSU.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/SesionConsejoDirectivo.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/SemanaDeLaSalud.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/CelebracionDiaDeLasMadres.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/CelebracionDiaDelMaestro.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/CelebracionDiaDelTrabajadorAdministrativo.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaDeLaSecretaria.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/SemanaDeProteccionCivil.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/BrindisNavidenio.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FestivalDelTamal.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/ConsejoVinculacionPertinencia.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaDelSindicato.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/InicioDeCuatrimestre.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FinDeCuatrimestre.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/Inscripciones.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/Reinscripciones.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/Reciclaton.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/EntregaRecepcion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/ExpoUTTAB2014.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/TorneoRelampagoDeFutbol.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/AuditoriaExterna2014.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/AuditoriaInterna2014.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/SemanaDeLaCalidad.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiasNoLaborables.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/Vacaciones.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/MuestraTalleresCulturales.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/InicioTallerDeEducacion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FinTallerDeEducacion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/ActoCivico.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/ConcursoEscoltas.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/ExposicionPictorica.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/InformeDelRector.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/InformeDelGobiernadorDelEstado.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/EntregaDeReportesUnidadAccesoInformacion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaMundialDeLaTierra.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaInternacionalDelLibro.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/IniciaCursoDeInduccion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FinalizaCursoDeInduccion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/CursoDeInduccion.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/ExpoProyectosDivisionales.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FeriaTabasco2014.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/InicioTorneosMultideportivos.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FinTorneosMultideportivos.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/TallerParaPadres.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/SpellingBee.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DesfileCivicoMilitar.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/TorneoDeRobotica.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/SegundoMaratonDeLectura2014.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/CuartoForoRegionalDeCuerposAcademicos.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FestivalDeChocolate.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/NacionalDeportivosUT.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaMundialDelTurismo.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaInternacionalDelMedioAmbiente.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/DiaInternacionalDeLaMujer.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/CineDebateEnIngles.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/FestivalDeVerano.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/TraditionsAndCelebrations.png</loc>
-    <lastmod>2014-08-12T11:08:30-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/otras_secciones/calendario_institucional/5toFestivalNavideno.png</loc>
-    <lastmod>2014-08-12T11:08:28-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/Cuerpo_Academico1.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/Cuerpo_Academico2.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/Cuerpo_Academico3.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/Logros1%20(1).jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/agep/Logros2.png</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/img_cuerposAcadPI_1.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/img_cuerposAcadPI_2.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/img_cuerposAcadPI_3.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/img_logros1.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/procesosIndustriales/cacei.jpg</loc>
-    <lastmod>2014-08-12T11:08:14-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Cuerpo_Academico1.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Cuerpo_Academico2.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Logro1.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/cacei.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Logro3.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Logro4.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/quimica/Logro6.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/Cuerpo_Academico2.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/tics/Logros.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Cuerpo_Academico1.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Cuerpo_Academico2.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Cuerpo_Academico3.png</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/divisionesUsoComun/turismoGastronomia/Logros.jpg</loc>
-    <lastmod>2014-08-12T11:08:16-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/biblioteca02.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/biblioteca03.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/biblioteca04.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/servicios/biblioteca/biblioteca05.png</loc>
-    <lastmod>2014-08-12T11:08:34-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/centro_incubacion/logos%20web.jpg</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/produccion_audiovisual/Produccion-Audio-Visual_26.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/produccion_audiovisual/Produccion-Audio-Visual_37.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/produccion_audiovisual/Produccion-Audio-Visual_42.jpg</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/promocion_universitaria/Promocion-Universitaria_25.png</loc>
-    <lastmod>2014-08-12T11:08:40-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/img/vinculacion/editorial/Editorial_24.png</loc>
-    <lastmod>2014-08-12T11:08:38-05:00</lastmod>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=1&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=2&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=3&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=4&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=5&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=6&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=7&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=8&#x26;d=fomes_fiupea</loc>
-</url>
-<url>
-    <loc>http://www.uttab.edu.mx/viewFile.action?i=9&#x26;d=fomes_fiupea</loc>
+  <loc>http://www.uttab.edu.mx/servicios/servicios_ventanilla.action</loc>
 </url>
 </urlset>

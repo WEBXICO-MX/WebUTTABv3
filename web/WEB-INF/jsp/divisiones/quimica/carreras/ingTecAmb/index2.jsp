@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../../../../includeHeader.jsp?origen=carrera" flush="true"  />
+        <jsp:include page="../../../../includeHeader.min.jsp?origen=carrera" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="carrera_section">
@@ -41,13 +41,13 @@
                             <img src="${pageContext.request.contextPath}/img/divisiones/carreras/btn_certificado_CIIES.png" alt="Certificado CIIES" class="icono_ciies"/>
                             <a href="https://youtu.be/Oh72XolATgc" target="_blank"><img src="${pageContext.request.contextPath}/img/divisiones/carreras/btn_video.png" alt="Video" class="icono_video"/></a>
                             <!-- Plan de estudio -->
-                            <s:url id="url_plan_estudio" action="viewFile" namespace="">
+                            <s:url var="url_plan_estudio" action="viewFile" namespace="">
                               <s:param name="i" value="6"></s:param>
                               <s:param name="d" value="%{'quimica'}"></s:param>
                             </s:url>
                             <s:a href="%{url_plan_estudio}" target="_blank"><img src="${pageContext.request.contextPath}/img/divisiones/carreras/btn_plan_estudios.png" alt="Plan de estudios" class="icono_plan_estudio"/></s:a>
                             <!-- Perfil ejecutivo -->
-                            <s:url id="url_perfil_ejecutivo" action="viewFile" namespace="">
+                            <s:url var="url_perfil_ejecutivo" action="viewFile" namespace="">
                               <s:param name="i" value="60"></s:param>
                               <s:param name="d" value="%{'quimica'}"></s:param>
                             </s:url>
@@ -99,7 +99,7 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../../../../includePie.jsp?origen=carrera" flush="true" />
+        <jsp:include page="../../../../includePie.min.jsp?origen=carrera" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/Morphext-2.4.4/morphext.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/carreras.min.js"></script>
     </body>

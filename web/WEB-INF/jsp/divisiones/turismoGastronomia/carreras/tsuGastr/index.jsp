@@ -105,6 +105,6 @@
             <div class="corte"></div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../../../../includePie.jsp?origen=carrera" flush="true" />
+        <jsp:include page="../../../../includePie.min.jsp?origen=carrera" flush="true" />
     </body>
 </html>

@@ -23,9 +23,18 @@
         <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="servicios_section">
@@ -56,15 +65,16 @@
                     <section class="servicios_texto">
                         <h3>Servicios que ofrecemos</h3>
                         <p>El centro DELF-DALF ofrece al público interno y externo la posibilidad de acreditar una certificación a nivel internacional en lengua francesa, es decir, certifica que el alumno o la persona (empleado, profesor) sea capaz de hablar, escribir, comprender y escuchar el idioma.</p><br/>
-                        <p>Además de la aplicación y organización de los exámenes:</p><br/>
+                        <p>Además de la aplicación y organización de los exámenes, nuestro centro ofrece:</p><br/>
                         <ul>
-                            <li>Gestiona la habilitación de examinadores</li>
-                            <li>Ofrece asesorías y consultorías sobre las certificaciones DELF-DALF, TCF, etc</li>
-                            <li>Ofrece conferencias en eventos lingüísticos y culturales</li>
-                            <li>Talleres DELF a alumnos</li>
-                            <li>Curso DALF a profesores</li>
-                            <li>Firma de convenios para certificaciones DELF-DALF con otras instituciones</li>
-                            <li>Asesoría y apoyo técnico a los estudiantes de francés del programa de movilidad Licencia Profesional a Francia, Programa MEXPROTEC</li>
+                            <li>Asesorías y consultorías sobre las certificaciones DELF-DALF, TCF, etc</li>
+                            <li>Evaluación de diagnóstico en el idioma francés</li>
+                            <li>Talleres de preparación a la certificación DELF para estudiantes</li>
+                            <li>Cursos de preparación para las certificaciones de francés DELF y DALF</li>
+                            <li>Asesoría y apoyo técnico a los estudiantes de francés del programa de movilidad Licencia Profesional a Francia, intercambio a países francófonos</li>
+                            <li>Cursos de francés del servicio y de los negocios</li>
+                            <li>Traducción de documentos científicos y documentos jurídicos</li>
+                            <li>Apoyo en firma de convenios DELF-DALF entre instituciones México-Francia</li>
                         </ul><br/>
                         <p>Los diplomas DELF y DALF son entregados por el Ministerio de Educación Francés para certificar las competencias en lengua francesa. El DELF y DALF están compuestos por seis diplomas independientes que corresponden a los seis niveles del marco común europeo de referencia para las lenguas.</p><br/>
                         <table style="width: 50%">
@@ -141,7 +151,7 @@
                             </tbody>
                         </table><br/>
                         <p>¿A cuántas horas de aprendizaje equivale cada nivel y cuál es el costo?</p><br/>
-                        <table style="width: 40%">
+                        <table style="width: 40%;">
                             <thead>
                                 <tr>
                                     <th>Nivel</th>
@@ -153,32 +163,32 @@
                                 <tr>
                                     <td>DELF A1</td>
                                     <td>- 90/100 h</td>
-                                    <td>$ 685</td>
+                                    <td>$ 720</td>
                                 </tr>
                                 <tr>
                                     <td>DELF A2</td>
                                     <td>- 190/200 h</td>
-                                    <td>$ 750</td>
+                                    <td>$ 790</td>
                                 </tr>
                                 <tr>
                                     <td>DELF B1</td>
                                     <td>- 350/380 h</td>
-                                    <td>$ 820</td>
+                                    <td>$ 860</td>
                                 </tr>
                                 <tr>
                                     <td>DELF B2</td>
                                     <td>- 600/670 h</td>
-                                    <td>$ 1,380</td>
+                                    <td>$ 1,450</td>
                                 </tr>
                                 <tr>
                                     <td>DALF C1</td>
                                     <td>- 750/780 h</td>
-                                    <td>$ 2,000</td>
+                                    <td>$ 2,100</td>
                                 </tr>
                                 <tr>
                                     <td>DALF C2</td>
                                     <td>- + de 900h</td>
-                                    <td>$ 2,270</td>
+                                    <td>$ 2,385</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -189,7 +199,7 @@
                             <article>
                                 <p>Juan Carlos Olán Sánchez</p>
                                 <p>Secretario del Centro Certificador DELF - DALF</p>
-                                <p>Conmutador: +52 (993) 3.58.22.22 Ext. 1006|7002</p>
+                                <p>Conmutador: +52 (993) 3.58.22.22 Ext. 1008|7002</p>
                                 <p>Correo institucional: <a href="mailto:cdelfdalf@uttab.edu.mx">cdelfdalf@uttab.edu.mx</a></p>
                                 <div class="corte"></div>
                             </article>
@@ -200,6 +210,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=servicios" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

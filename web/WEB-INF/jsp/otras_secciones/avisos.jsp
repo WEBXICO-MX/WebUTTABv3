@@ -52,6 +52,6 @@
             </div>
         </div>
             <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=otras_secciones" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=otras_secciones" flush="true" />
     </body>
 </html>

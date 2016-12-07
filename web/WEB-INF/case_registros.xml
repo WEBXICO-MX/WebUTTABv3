@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <registros>
+  <registro id="65" calendario_capacitacion="70" tipo_inscripcion="1" sector_productivo="11" status="1">
+    <nombre_empresa>pemex</nombre_empresa>
+    <nombre>neftali</nombre>
+    <apellido_pat>lopez</apellido_pat>
+    <apellido_mat>silvan</apellido_mat>
+    <fecha_nacimiento>21/12/1978</fecha_nacimiento>
+    <sexo>M</sexo>
+    <email>nefta.nls@gmail.com</email>
+    <tel>3 573394</tel>
+    <cel>9931492051</cel>
+    <fecha_registro>10/04/2016 19:49:16</fecha_registro>
+    <fecha_modificacion>NULL</fecha_modificacion>
+    <activo>true</activo>
+  </registro>
   <registro id="64" calendario_capacitacion="70" tipo_inscripcion="3" sector_productivo="11" status="1">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Oscar Eduardo</nombre>
@@ -546,7 +560,7 @@
     <fecha_modificacion>12/02/2016 12:04:10</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="25" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="25" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Jesús Fernando</nombre>
     <apellido_pat>Payró</apellido_pat>
@@ -557,7 +571,7 @@
     <tel />
     <cel>9932766948</cel>
     <fecha_registro>12/02/2016 11:23:45</fecha_registro>
-    <fecha_modificacion>19/02/2016 09:38:39</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:38:38</fecha_modificacion>
     <activo>true</activo>
   </registro>
   <registro id="24" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
@@ -574,7 +588,7 @@
     <fecha_modificacion>12/02/2016 12:04:17</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="23" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="23" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Diana Guadalupe</nombre>
     <apellido_pat>Torres</apellido_pat>
@@ -585,10 +599,10 @@
     <tel />
     <cel>9931253427</cel>
     <fecha_registro>11/02/2016 10:45:41</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:50:29</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:38:49</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="22" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="22" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Julián</nombre>
     <apellido_pat>Suárez</apellido_pat>
@@ -599,10 +613,10 @@
     <tel />
     <cel>7861056084</cel>
     <fecha_registro>11/02/2016 10:40:19</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:50:51</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:38:58</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="21" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="21" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Sergio Raúl</nombre>
     <apellido_pat>Brindis</apellido_pat>
@@ -613,10 +627,10 @@
     <tel />
     <cel>9171179695</cel>
     <fecha_registro>11/02/2016 10:38:44</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:50:57</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:39:11</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="20" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="20" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Héctor</nombre>
     <apellido_pat>de la Cruz</apellido_pat>
@@ -627,10 +641,10 @@
     <tel />
     <cel>9931290518</cel>
     <fecha_registro>11/02/2016 10:36:35</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:07</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:39:20</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="19" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="19" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Fabián</nombre>
     <apellido_pat>Cruz</apellido_pat>
@@ -641,10 +655,10 @@
     <tel />
     <cel>9321171976</cel>
     <fecha_registro>11/02/2016 10:33:58</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:12</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:39:29</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="18" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="18" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Fernando</nombre>
     <apellido_pat>Cambrano</apellido_pat>
@@ -655,10 +669,10 @@
     <tel />
     <cel>9931546470</cel>
     <fecha_registro>11/02/2016 10:31:23</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:17</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:39:36</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="17" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="17" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Carlos Mario</nombre>
     <apellido_pat>López</apellido_pat>
@@ -669,10 +683,10 @@
     <tel />
     <cel>9361207867</cel>
     <fecha_registro>11/02/2016 10:29:57</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:22</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:39:54</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="16" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="16" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Carlos Enrique</nombre>
     <apellido_pat>Osorio</apellido_pat>
@@ -683,10 +697,10 @@
     <tel />
     <cel>9931007292</cel>
     <fecha_registro>11/02/2016 10:27:16</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:28</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:40:11</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="15" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="15" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Yajaira del Carmen</nombre>
     <apellido_pat>Bernal</apellido_pat>
@@ -697,10 +711,10 @@
     <tel />
     <cel>9932790784</cel>
     <fecha_registro>11/02/2016 10:21:19</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:32</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:40:18</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="14" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="14" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Esther Angélica</nombre>
     <apellido_pat>Hernández</apellido_pat>
@@ -711,10 +725,10 @@
     <tel />
     <cel>9932055543</cel>
     <fecha_registro>11/02/2016 09:40:29</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:37</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:40:25</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="13" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="3">
+  <registro id="13" calendario_capacitacion="52" tipo_inscripcion="3" sector_productivo="8" status="5">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Omar</nombre>
     <apellido_pat>Castellanos</apellido_pat>
@@ -725,10 +739,10 @@
     <tel />
     <cel>9933228445</cel>
     <fecha_registro>11/02/2016 09:38:39</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:44</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:40:31</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="12" calendario_capacitacion="52" tipo_inscripcion="1" sector_productivo="15" status="3">
+  <registro id="12" calendario_capacitacion="52" tipo_inscripcion="1" sector_productivo="15" status="5">
     <nombre_empresa>--</nombre_empresa>
     <nombre>Perla Sofía</nombre>
     <apellido_pat>Ávalos</apellido_pat>
@@ -739,10 +753,10 @@
     <tel />
     <cel>9361052083</cel>
     <fecha_registro>11/02/2016 09:36:45</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:49</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:40:37</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="11" calendario_capacitacion="52" tipo_inscripcion="2" sector_productivo="15" status="3">
+  <registro id="11" calendario_capacitacion="52" tipo_inscripcion="2" sector_productivo="15" status="5">
     <nombre_empresa>--</nombre_empresa>
     <nombre>Jesús Manuel</nombre>
     <apellido_pat>Hernández</apellido_pat>
@@ -753,7 +767,7 @@
     <tel />
     <cel>9361052083</cel>
     <fecha_registro>11/02/2016 09:33:18</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:51:54</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:40:44</fecha_modificacion>
     <activo>true</activo>
   </registro>
   <registro id="10" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
@@ -770,7 +784,7 @@
     <fecha_modificacion>08/02/2016 14:03:11</fecha_modificacion>
     <activo>true</activo>
   </registro>
-  <registro id="9" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="2">
+  <registro id="9" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="3">
     <nombre_empresa>UTTAB</nombre_empresa>
     <nombre>Ana Karen</nombre>
     <apellido_pat>Cosme</apellido_pat>
@@ -781,7 +795,7 @@
     <tel />
     <cel>9171250694</cel>
     <fecha_registro>08/02/2016 12:26:07</fecha_registro>
-    <fecha_modificacion>11/02/2016 10:50:23</fecha_modificacion>
+    <fecha_modificacion>06/04/2016 16:41:33</fecha_modificacion>
     <activo>true</activo>
   </registro>
   <registro id="8" calendario_capacitacion="53" tipo_inscripcion="3" sector_productivo="8" status="4">

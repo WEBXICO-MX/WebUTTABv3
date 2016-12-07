@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=vinculacion" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=vinculacion" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -64,8 +64,8 @@
                         <div class="ficha_contacto">
                             <header><h3>Contacto</h3></header>
                             <article>
-                                <p>Friné Lara Beltrán</p>
-                                <p>Jefa del departamento de Editorial</p>
+                                <p>Anakaren Hernández González</p>
+                                <p>Encargada de Diseño e Imagen</p>
                                 <p>Conmutador: +52 (993) 3.58.22.22 Ext. 8006</p>
                                 <p>Correo institucional: <a href="mailto:editorial@uttab.edu.mx">editorial@uttab.edu.mx</a></p>
                             </article>
@@ -76,6 +76,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=vinculacion" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
     </body>
 </html>

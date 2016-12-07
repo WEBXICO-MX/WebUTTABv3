@@ -35,7 +35,7 @@
         </style>
     </head>
     <body>
-        <jsp:include page="../../includeHeader.jsp?origen=division&Correo=1" flush="true"/>
+        <jsp:include page="../../includeHeader.min.jsp?origen=division&Correo=1" flush="true"/>
         <!-- Cuerpo -->
         <main>
             <section class="divisiones_section">
@@ -56,9 +56,9 @@
                             <header><h3>Directorio</h3></header><br/>
                             <article>
                                 <div style=" width: 33%;float: left; font-size: 13px;">
-                                    <p class="negritas">Directora</p>
+                                    <p class="negritas">Encargado</p>
                                     <ul>
-                                        <li>Mtra. Ana Edith Palomino Vergara</li>
+                                        <li>Ing. José Alfredo Irineo Mijangos</li>
                                     </ul>
                                 </div>
                                 <div style=" width: 33%;float: right;font-size: 13px;">
@@ -87,7 +87,7 @@
                                         <li>Ing. Elsa Emilia Uicab Córdova</li> 
                                         <li>Ing. Gabriel Ramón Hernández</li>
                                         <li>Ing. Jorge Luis Soberano Montuy</li>
-                                        <li>Ing. José A. Irineo Mijangos</li> 
+                                        <!--<li>Ing. José A. Irineo Mijangos</li> -->
                                         <li>Ing. José del Carmen Hernández de la Cruz</li>
                                         <li>Ing. José Fernando Córdova Gómez</li> 
                                         <li>Fís. Marcos Andrés Jiménez Moreno</li> 
@@ -150,6 +150,6 @@
                 </section>
             </main>
             <!-- Cuerpo -->
-        <jsp:include page="../../includePie.jsp?origen=division" flush="true" />
+        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
     </body>
 </html>

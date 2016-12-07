@@ -174,7 +174,7 @@
         </div>
 
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=conocenos" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
         <script>
             $(function () {
                 $('#emailLink').on('click', function (event) {

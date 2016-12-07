@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="servicios_section">
@@ -37,7 +37,7 @@
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
                         <figure style="float:right">
-                            <s:url id="url_cursos" action="viewFile" namespace="">
+                            <s:url var="url_cursos" action="viewFile" namespace="">
                                 <s:param name="i" value="1"></s:param>
                                 <s:param name="d" value="%{'egresados'}"></s:param>
                             </s:url>
@@ -76,6 +76,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=servicios" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

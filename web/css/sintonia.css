@@ -1,5 +1,4 @@
 @import "normalize.min.css";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
 @import url('includeMenu.min.css');
 @import url('includePie.min.css');
 @import "inclusion.min.css";
@@ -73,3 +72,6 @@ p.primera_linea {
 .center { margin: 0 auto;}
 .text_align_right { text-align: right;}
 .text_align_center { text-align: center;}
+
+.tabla_programacion {width:100%; margin: 0 auto;border-spacing:0; font-weight: normal; font-size: 0.9em;color:black;border-collapse: collapse;}
+.tabla_programacion td,th { border: 1px solid black;}

@@ -39,13 +39,13 @@
                         <div class="form-group">
                             <label for="txtLogin" class="col-lg-2 control-label">Usuario:</label>
                             <div class="col-lg-10">
-                            <s:textfield name="login" value="%{usuario.login}" id="txtLogin" size="20" maxLength="20" tabindex="1" cssClass="form-control" placeholder="Usuario" />
+                            <s:textfield name="login" value="%{usuario.login}" id="txtLogin" size="20" maxlength="20" tabindex="1" cssClass="form-control" placeholder="Usuario" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="txtPassword" class="col-lg-2 control-label">Contraseña:</label>
                             <div class="col-lg-10">
-                                <s:password name="password" value="%{usuario.password}" id="txtPassword" size="20" maxLength="20" tabindex="2" cssClass="form-control" placeholder="Contraseña"/>
+                                <s:password name="password" value="%{usuario.password}" id="txtPassword" size="20" maxlength="20" tabindex="2" cssClass="form-control" placeholder="Contraseña"/>
                             </div>
                         </div>
                         <div class="form-group">

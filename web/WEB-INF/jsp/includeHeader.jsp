@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" session="false"%>
-<%@taglib  uri="/struts-tags"  prefix="s" %>
+<%@ taglib  uri="/struts-tags"  prefix="s" %>
 <!-- Requerimiento plugin social Facebook -->
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
@@ -53,15 +53,15 @@
                             <li><s:a action="modelo_educativo" namespace="/conocenos">Modelo Educativo</s:a></li>
                             <li><s:a action="sistemas_institucionales" namespace="/conocenos">Sistemas Institucionales de Gesti&oacute;n</s:a></li>
                             <li><s:a action="directorio" namespace="/conocenos">Directorio</s:a></li>
-                                <s:url id="url_1_informe_actividades" action="viewFile" namespace="">
+                                <s:url var="url_1_informe_actividades" action="viewFile" namespace="">
                                     <s:param name="i" value="1"></s:param>
                                     <s:param name="d" value="%{'informe_actividades'}"></s:param>
                                 </s:url>
-                                <s:url id="url_2_informe_actividades" action="viewFile" namespace="">
+                                <s:url var="url_2_informe_actividades" action="viewFile" namespace="">
                                     <s:param name="i" value="2"></s:param>
                                     <s:param name="d" value="%{'informe_actividades'}"></s:param>
                                 </s:url>
-                                <s:url id="url_3_informe_actividades" action="viewEventoPDF" namespace="">
+                                <s:url var="url_3_informe_actividades" action="viewEventoPDF" namespace="">
                                     <s:param name="id" value="123"></s:param>
                                 </s:url>
                             <li><s:a href="%{url_1_informe_actividades}" target="_blank">1er. Informe de actividades</s:a></li>
@@ -80,7 +80,12 @@
                                                 <li><s:a action="tsu_administracion_area_administracion_evaluacion_proyectos" namespace="/oferta_educativa/agep" target="_self">TSU en Administraci&oacute;n &aacute;rea Administraci&oacute;n y Evaluaci&oacute;n de Proyectos</s:a></li>
                                             </ul>
                                         </li>
-                                        <li><s:a action="tsu_desarrollo_negocios_area_mercadotecnia" namespace="/oferta_educativa/agep" target="_self">TSU en Desarrollo de negocios &aacute;rea mercadotecnia</s:a></li>
+                                        <li><s:a action="ingenieria_desarrollo_innovacion_empresarial" namespace="/oferta_educativa/agep" target="_self">Ingeniería en Desarrollo e Innovaci&oacute;n Empresarial </s:a>
+                                            <ul class="cuarto_nivel">
+                                                <li><s:a action="tsu_desarrollo_negocios_area_mercadotecnia" namespace="/oferta_educativa/agep" target="_self">TSU en Desarrollo de Negocios &aacute;rea Mercadotecnia</s:a></li>
+                                            </ul>
+                                        </li>
+                                        <li><s:a action="tsu_contaduria" namespace="/oferta_educativa/agep" target="_self">TSU en Contadur&iacute;a</s:a></li>
                                     </ul>
                                 </li>
                                 <li><s:a action="inicio" namespace="/oferta_educativa/procesos" target="_self">Divisi&oacute;n de Procesos Industriales</s:a>
@@ -92,9 +97,13 @@
                                             </ul>
                                         </li>
                                         <li><s:a action="ingenieria_mantenimiento_industrial" namespace="/oferta_educativa/procesos">Ingenier&iacute;a en Mantenimiento Industrial</s:a>
+                                            <ul class="cuarto_nivel">                                                
+                                                <li><s:a action="tsu_mantenimiento_area_industrial" namespace="/oferta_educativa/procesos">TSU en Mantenimiento &aacute;rea Industrial</s:a></li>
+                                            </ul>
+                                        </li>
+                                        <li><s:a action="ingenieria_mantenimiento_petrolero" namespace="/oferta_educativa/procesos">Ingenier&iacute;a en Mantenimiento Petrolero</s:a>
                                             <ul class="cuarto_nivel">
                                                 <li><s:a action="tsu_mantenimiento_area_petroleo" namespace="/oferta_educativa/procesos">TSU en Mantenimiento &aacute;rea Petr&oacute;leo</s:a></li>
-                                            <li><s:a action="tsu_mantenimiento_area_industrial" namespace="/oferta_educativa/procesos">TSU en Mantenimiento &aacute;rea Industrial</s:a></li>
                                             </ul>
                                         </li>
                                         <li><s:a action="tsu_energias_renovables_area_calidad_ahorro_energia" namespace="/oferta_educativa/procesos">TSU en Energías Renovables área Calidad y Ahorro de Energía</s:a></li>
@@ -148,9 +157,9 @@
                                 <li><s:a action="admision" namespace="/servicios">Admisi&oacute;n a la UTTAB</s:a></li>
                                 <li><a href="#">Alumnos</a>
                                     <ul class="tercer_nivel">
-                                    <li><s:a action="educacion_continua" namespace="/vinculacion">Educación Continua</s:a></li>
+                                        <li><s:a action="educacion_continua" namespace="/vinculacion">Educación Continua</s:a></li>
                                     <li><s:a action="control_escolar" namespace="/servicios">Control Escolar</s:a></li>
-                                    <li><s:a action="tramites_titulacion" namespace="/servicios">Trámites de Titulación</s:a></li>
+                                    <li><s:a action="tramites_titulacion" namespace="/servicios">Titulación</s:a></li>
                                     <li><s:a action="practicas_empresariales" namespace="/servicios">Estadías Profesionales</s:a></li>
                                     <li><s:a action="becas" namespace="/servicios">Becas</s:a></li>
                                     <li><s:a action="actividades_culturales_deportivas" namespace="/servicios">Actividades Culturales y Deportivas</s:a></li>
@@ -164,8 +173,8 @@
                                 </li>
                                 <li><s:a action="egresados" namespace="/servicios">Egresados</s:a>
                                     <ul class="tercer_nivel">
-                                      <li><s:a action="educacion_continua" namespace="/vinculacion">Educación Continua</s:a></li>
-                                     </ul>
+                                        <li><s:a action="educacion_continua" namespace="/vinculacion">Educación Continua</s:a></li>
+                                    </ul>
                                 </li>
                                 <li><s:a action="bolsa_trabajo" namespace="/servicios">Bolsa de trabajo</s:a></li>
                             <li><s:a action="tutorias" namespace="/servicios">Tutorías</s:a></li>
@@ -204,25 +213,27 @@
                             <li><s:a action="avisos" namespace="/otras_secciones">Avisos</s:a></li>
                             <li><s:a action="calendario_eventos" namespace="/otras_secciones">Calendario de eventos</s:a></li>
                             <li><s:a action="gacetas" namespace="/otras_secciones">Gacetas</s:a></li>
+                            <li><s:a action="conocer" namespace="/otras_secciones">CONOCER</s:a></li>
                             </ul>
                         </li>
                         <li><s:a action="Transparencia" namespace="" target="_blank">Transparencia</s:a>
                             <ul class="sub-menu">
                                 <li><s:a action="AvisoPrivacidad" namespace="" target="_blank">Aviso de privacidad</s:a></li>
-                                <li><s:a action="contraloria_social" namespace="/transparencia">Contraloría Social</s:a></li>
-                                <li><s:a action="normatividad" namespace="/transparencia">Normatividad</s:a></li>
-                                <li><s:a action="programa_institucional_desarrollo" namespace="/transparencia">Programa Institucional de Desarrollo (PIDE)</s:a>
-                                        <ul class="tercer_nivel">
-                                        <s:url id="url_PIDE_digital" action="viewFile" namespace="">
-                                            <s:param name="i" value="%{1}"></s:param>
-                                            <s:param name="d" value="%{'PIDE'}"></s:param>
-                                        </s:url>
+                            <li><s:a action="contraloria_social" namespace="/transparencia">Contraloría Social</s:a></li>
+                            <li><s:a action="normatividad" namespace="/transparencia">Normatividad</s:a></li>
+                            <li><s:a action="programa_institucional_desarrollo" namespace="/transparencia">Programa Institucional de Desarrollo (PIDE)</s:a>
+                                    <ul class="tercer_nivel">
+                                    <s:url var="url_PIDE_digital" action="viewFile" namespace="">
+                                        <s:param name="i" value="%{1}"></s:param>
+                                        <s:param name="d" value="%{'PIDE'}"></s:param>
+                                    </s:url>
                                         <li><s:a href="%{url_PIDE_digital}" target="_blank">PIDE libro digital</s:a></li>
                                     </ul>
                                 </li>
                                 <li><s:a action="bienes" namespace="/transparencia">Bienes</s:a></li>
-                            </ul>
-                        </li>
+                            <li><a href="http://calidad.uttab.edu.mx/transparencia/" target="_blank">Respuestas a solicitudes de información y cumplimiento de recursos de revisión</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav><span class="customSelect" style="display: inline-block;"><span class="customSelectInner" style="width: 220px; display: inline-block;">&ndash;&nbsp;Home</span></span>
         </div>

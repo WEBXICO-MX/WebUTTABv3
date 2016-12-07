@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <materias>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Matemáticas"></materia>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Informática I"></materia>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Derecho civil"></materia>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Contabilidad básica"></materia>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Fundamentos de administración"></materia>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Inglés I"></materia>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Expresión oral y escrita I"></materia>
+    <materia cve_carrera="9" cuatrimestre="1" nombre="Formación sociocultural I"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Estadística"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Informática II"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Derecho mercantil"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Contabilidad intermedia"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Derecho laboral"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Economía"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Inglés II"></materia>
+    <materia cve_carrera="9" cuatrimestre="2" nombre="Formación sociocultural II"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Matemáticas financieras"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Contabilidad de sociedades"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Contabilidad superior"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Introducción al derecho fiscal"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Análisis e interpretación de estados financieros"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Calidad"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Integradora I"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Inglés I"></materia>
+    <materia cve_carrera="9" cuatrimestre="3" nombre="Formación sociocultural III"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Fundamentos de auditoría"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Contabilidad de costos I"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Administración financiera"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Presupuestos"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Contribuciones de personas físicas"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Comercio exterior"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Inglés IV"></materia>
+    <materia cve_carrera="9" cuatrimestre="4" nombre="Formación sociocultural IV"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Auditoría financiera"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Contabilidad de costos II"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Contribuciones de personas morales"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Evaluación financiera de proyectos"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Sueldos y salarios"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Integradora II"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Inglés V"></materia>
+    <materia cve_carrera="9" cuatrimestre="5" nombre="Expresión oral y escrita II"></materia>
+    <materia cve_carrera="9" cuatrimestre="6" nombre="Estadía"></materia>
     <materia cve_carrera="58" cuatrimestre="1" nombre="Matemáticas"></materia>
     <materia cve_carrera="58" cuatrimestre="1" nombre="Entorno de la empresa"></materia>
     <materia cve_carrera="58" cuatrimestre="1" nombre="Administración"></materia>

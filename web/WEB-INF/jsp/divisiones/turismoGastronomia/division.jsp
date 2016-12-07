@@ -26,7 +26,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../../includeHeader.jsp?origen=division&Correo=1" flush="true"/>
+        <jsp:include page="../../includeHeader.min.jsp?origen=division&Correo=1" flush="true"/>
         <!-- Cuerpo -->
         <main>
             <section class="divisiones_section">
@@ -118,7 +118,7 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../../includePie.jsp?origen=division" flush="true" />
+        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/divisiones.min.js"></script>

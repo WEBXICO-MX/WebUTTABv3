@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <avisos>
+  <aviso id="79">
+    <nombre>Calendario de entrega de documentos oficiales generación IX de licenciaturas</nombre>
+    <fecha_realizacion>30 noviembre 2016</fecha_realizacion>
+    <fecha_publicacion>30 November 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_79.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_79.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="78">
+    <nombre>Convocatoria BECA DE MANUTENCIÓN ciclo escolar 2016-2'17</nombre>
+    <fecha_realizacion>10 noviembre 2016</fecha_realizacion>
+    <fecha_publicacion>10 November 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_78.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_78.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="77">
+    <nombre>Resultados de la Beca EXCELENCIA ciclo escolar 2016-2017</nombre>
+    <fecha_realizacion>26 octubre 2016</fecha_realizacion>
+    <fecha_publicacion>26 October 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_77.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_77.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="76">
+    <nombre>Resultados de la Beca INICIA TU CARRERA SEP-PROSPERA ciclo escolar 2016-2017</nombre>
+    <fecha_realizacion>26 octubre 2016</fecha_realizacion>
+    <fecha_publicacion>26 October 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_76.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_76.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="75">
+    <nombre>Convocatoria beca o apoyo para la titulación en universidades tecnológicas o politécnicas</nombre>
+    <fecha_realizacion>4 octubre 2016</fecha_realizacion>
+    <fecha_publicacion>4 October 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_75.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_75.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="74">
+    <nombre>Programa nacional de becas 2016 BECA DE EXCELENCIA PARA LA EDUCACIÓN SUPERIOR</nombre>
+    <fecha_realizacion>28 septiembre 2016</fecha_realizacion>
+    <fecha_publicacion>28 September 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_74.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_74.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="73">
+    <nombre>Asesorías Académicas septiembre -diciembre 2016</nombre>
+    <fecha_realizacion>21 septiembre 2016</fecha_realizacion>
+    <fecha_publicacion>21 September 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_73.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_73.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="72">
+    <nombre>Calendario de entrega de los documentos oficiales de los egresados de la generaciòn XXXV de TSU</nombre>
+    <fecha_realizacion>5 agosto 2016</fecha_realizacion>
+    <fecha_publicacion>5 August 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_72.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_72.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="71">
+    <nombre>Programa de aplicación del exmane psicométrico</nombre>
+    <fecha_realizacion>1 agosto 2016</fecha_realizacion>
+    <fecha_publicacion>1 August 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_71.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_71.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
+  <aviso id="70">
+    <nombre>Afíliate al IMSS</nombre>
+    <fecha_realizacion>24 mayo 2016</fecha_realizacion>
+    <fecha_publicacion>24 May 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_70.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_70.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
+  <aviso id="69">
+    <nombre>Asesorías Académicas mayo-agosto 2016</nombre>
+    <fecha_realizacion>17 mayo 2016</fecha_realizacion>
+    <fecha_publicacion>17 May 2016</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_69.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_69.pdf</pdf>
+    <link>NULL</link>
+    <activo>false</activo>
+  </aviso>
   <aviso id="68">
     <nombre>Asesorías Académicas enero-abril 2016</nombre>
     <fecha_realizacion>22 enero 2016</fecha_realizacion>
@@ -7,7 +106,7 @@
     <img>img/otras_secciones/avisos/Avisos_68.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_68.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="67">
     <nombre>Resultados de los alumnos beneficiados con la beca Apoya Tu Transporte 2015-2016</nombre>
@@ -16,7 +115,7 @@
     <img>img/otras_secciones/avisos/Avisos_67.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_67.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="66">
     <nombre>Resultados de los alumnos beneficiados con la beca de manutención 2015-2016</nombre>
@@ -25,7 +124,7 @@
     <img>img/otras_secciones/avisos/Avisos_66.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_66.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="65">
     <nombre>Proceso de trámite de titulación de los egresados de la generación IX de Licencuaturas</nombre>
@@ -34,7 +133,7 @@
     <img>img/otras_secciones/avisos/Avisos_65.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_65.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="64">
     <nombre>Asesorías académicas septiembre-diciembre 2015</nombre>
@@ -115,7 +214,7 @@
     <img>img/otras_secciones/avisos/Avisos_56.jpg</img>
     <pdf>NULL</pdf>
     <link>http://boletines.universia.net.mx/boletines/boletin_20150623/index.html</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="55">
     <nombre>Medalla al Mérito por la Defensa del Medio Ambiente 2015</nombre>

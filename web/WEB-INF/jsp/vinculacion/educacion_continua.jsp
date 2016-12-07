@@ -79,7 +79,7 @@
             </div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=vinculacion" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
         <script src="${pageContext.request.contextPath}/js/comun.min.js"></script>
         <script>
             $(function () {

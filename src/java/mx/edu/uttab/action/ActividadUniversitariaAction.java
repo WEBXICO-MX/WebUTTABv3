@@ -222,7 +222,7 @@ public class ActividadUniversitariaAction extends ActionSupport implements Model
 
     @Override
     public String input() {
-        actividadList = actividadDAO.findTop(1, 21);
+        actividadList = actividadDAO.findTop(1, 51);
         return SUCCESS;
     }
 

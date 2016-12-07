@@ -53,6 +53,6 @@
             </div>
            
 <!-- Cuerpo -->
-<jsp:include page="../../includePie.jsp?origen=servicios" flush="true" />
+<jsp:include page="../../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

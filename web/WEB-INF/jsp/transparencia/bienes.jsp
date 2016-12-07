@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="transparencia_section">
@@ -37,22 +37,27 @@
                 <article class="transparencia_contenido">
                     <section class="transparencia_texto">
                         <br/><br/>
-                        <s:url id="url_bienes_1" action="viewFile" namespace="">
+                        <s:url var="url_bienes_1" action="viewFile" namespace="">
                            <s:param name="i" value="%{1}"></s:param>
                            <s:param name="d" value="%{'bienes'}"></s:param>
                          </s:url>
-                         <s:url id="url_bienes_2" action="viewFile" namespace="">
+                         <s:url var="url_bienes_2" action="viewFile" namespace="">
                            <s:param name="i" value="%{2}"></s:param>
                            <s:param name="d" value="%{'bienes'}"></s:param>
                          </s:url>
-                        <s:url id="url_bienes_3" action="viewFile" namespace="">
+                        <s:url var="url_bienes_3" action="viewFile" namespace="">
                            <s:param name="i" value="%{3}"></s:param>
                            <s:param name="d" value="%{'bienes'}"></s:param>
                          </s:url>
+                        <s:url var="url_bienes_4" action="viewFile" namespace="">
+                           <s:param name="i" value="%{4}"></s:param>
+                           <s:param name="d" value="%{'bienes'}"></s:param>
+                         </s:url>
                         <ul>
-                            <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt=""/>&nbsp;<s:a href="%{url_bienes_1}" target="_blank">RELACION DE BIENES MUEBLES E INMUEBLES</s:a></li>
-                            <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt=""/>&nbsp;<s:a href="%{url_bienes_2}" target="_blank">RELACION DE BIENES MUEBLES E INMUEBLES AL 31 DE DICIEMBRE DE 2015</s:a></li>
+                            <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt=""/>&nbsp;<s:a href="%{url_bienes_4}" target="_blank">BIENES MUEBLES JUNIO 2016</s:a></li>
                             <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt=""/>&nbsp;<s:a href="%{url_bienes_3}" target="_blank">RELACION DE BIENES MUEBLES; INMUEBLES E INTANGIBLES QUE COMPONEN EL PATRIMONIO</s:a></li>
+                            <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt=""/>&nbsp;<s:a href="%{url_bienes_2}" target="_blank">RELACION DE BIENES MUEBLES E INMUEBLES AL 31 DE DICIEMBRE DE 2015</s:a></li>
+                            <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt=""/>&nbsp;<s:a href="%{url_bienes_1}" target="_blank">RELACION DE BIENES MUEBLES E INMUEBLES</s:a></li>
                         </ul>
                     </section>
                 </article>
@@ -60,6 +65,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=transparencia" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=transparencia" flush="true" />
     </body>
 </html>

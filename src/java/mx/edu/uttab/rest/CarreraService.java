@@ -6,6 +6,7 @@
 package mx.edu.uttab.rest;
 
 import com.sun.jersey.api.json.JSONWithPadding;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.ServletContext;
@@ -27,6 +28,7 @@ public class CarreraService {
     List<Carrera> carreraList = new ArrayList<>();
     Carrera carrera = new Carrera();
     CarreraDAO carreraDAO = DAOFactory.getDAOFactory(DAOFactory.XML).getCarreraDAO();
+    String separator = File.separator;
 
     @Context
     ServletContext context;
@@ -37,7 +39,7 @@ public class CarreraService {
     public JSONWithPadding getCarreraByIDInJSON(@QueryParam("callback") @DefaultValue("CBParamIsMissing") String jsoncallback, @PathParam("cve_carrera") int cve_carrera) {
         String appRealPath = context.getRealPath("/");
         if (carreraDAO instanceof XMLCarreraDAO) {
-            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF\\carreras.xml");
+            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF"+separator+"carreras.xml");
         }
         carrera = carreraDAO.findBy(cve_carrera);
         return new JSONWithPadding(carrera, jsoncallback);
@@ -49,7 +51,7 @@ public class CarreraService {
     public JSONWithPadding getCarrerasByDivisionContinuidadInJSON(@QueryParam("callback") @DefaultValue("CBParamIsMissing") String jsoncallback, @PathParam("cve_division") int cve_division, @PathParam("continuidad") boolean continuidad) {
         String appRealPath = context.getRealPath("/");
         if (carreraDAO instanceof XMLCarreraDAO) {
-            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF\\carreras.xml");
+            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF"+separator+"carreras.xml");
         }
         carreraList = carreraDAO.findAllByDivisionContinuidad(cve_division, continuidad);
         return new JSONWithPadding(carreraList, jsoncallback);
@@ -61,7 +63,7 @@ public class CarreraService {
     public JSONWithPadding getCarrerasByCarreraContinuidadInJSON(@QueryParam("callback") @DefaultValue("CBParamIsMissing") String jsoncallback, @PathParam("carrera_continuidad") int cve_carrera) {
         String appRealPath = context.getRealPath("/");
         if (carreraDAO instanceof XMLCarreraDAO) {
-            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF\\carreras.xml");
+            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF"+separator+"carreras.xml");
         }
         carreraList = carreraDAO.findAllByCarreraContinuidad(cve_carrera);
         return new JSONWithPadding(carreraList, jsoncallback);
@@ -73,7 +75,7 @@ public class CarreraService {
     public JSONWithPadding getCarrerasSinContinuidadInJSON(@QueryParam("callback") @DefaultValue("CBParamIsMissing") String jsoncallback) {
         String appRealPath = context.getRealPath("/");
         if (carreraDAO instanceof XMLCarreraDAO) {
-            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF\\carreras.xml");
+            ((XMLCarreraDAO) carreraDAO).setXMLpath(appRealPath + "WEB-INF"+separator+"carreras.xml");
         }
         carreraList = carreraDAO.findAllByCarrerasSinContinuidad();
         return new JSONWithPadding(carreraList, jsoncallback);

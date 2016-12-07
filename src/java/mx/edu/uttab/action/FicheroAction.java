@@ -1,6 +1,7 @@
 /**
  *
- * @author Eder Weiss
+ * @author Roberto Eder Weiss Juárez
+ * @see {@link http://webxico.blogspot.mx/}
  */
 package mx.edu.uttab.action;
 
@@ -92,7 +93,8 @@ public class FicheroAction extends ActionSupport implements ModelDriven<Fichero>
     }
 
     @Action(value = "/listFicheros", results = {
-        @Result(name = "success", location = "/WEB-INF/jsp/otras_secciones/fichero.jsp"),
+        @Result(name = "success", location = "/WEB-INF/jsp/otras_secciones/fichero.jsp")
+        ,
         @Result(name = "error", location = "/WEB-INF/jsp/error.jsp")})
     public String list() {
         ficheroList = ficheroDAO.findAll();
@@ -102,38 +104,52 @@ public class FicheroAction extends ActionSupport implements ModelDriven<Fichero>
     @Action(value = "/viewFile", results = {
         @Result(name = "success", type = "stream",
                 params = {"contentType", "${contentType}", "inputName", "fileInputStream",
-                    "contentDisposition", "${contentDisposition}", "bufferSize", "1024"}),
-        @Result(name = "error", location = "/WEB-INF/jsp/error.jsp"),
+                    "contentDisposition", "${contentDisposition}", "bufferSize", "1024"})
+        ,
+        @Result(name = "error", location = "/WEB-INF/jsp/error.jsp")
+        ,
         @Result(name = "input", location = "/WEB-INF/jsp/error.jsp")
     })
     public String viewFile() throws Exception {
         HttpServletRequest request = (HttpServletRequest) ActionContext.getContext().get(ServletActionContext.HTTP_REQUEST);
         int id = Integer.parseInt(request.getParameter("i"));
         String destino = request.getParameter("d");
-        fichero = ficheroDAO.findById(id,destino);
+        fichero = ficheroDAO.findById(id, destino);
         setContentType(fichero.getMime());
-        if(fichero.getNombre().equals(""))
-        { setContentDisposition("inline; filename=\"Fichero_"+destino +"_"+ id + "\""); }
-        else
-        { setContentDisposition("inline; filename=\""+fichero.getNombre()+"\""); }
+        if (fichero.getNombre().equals("")) {
+            setContentDisposition("inline; filename=\"Fichero_" + destino + "_" + id + "\"");
+        } else {
+            setContentDisposition("inline; filename=\"" + fichero.getNombre() + "\"");
+        }
+        System.out.println(fichero.getMime());
+        System.out.println(fichero.getNombre());
         fileInputStream = new FileInputStream(new File(ServletActionContext.getServletContext().getRealPath("/") + fichero.getRuta()));
         return SUCCESS;
     }
-    
-        @Action(value = "/downloadFile", results = {
+
+    @Action(value = "/downloadFile", results = {
         @Result(name = "success", type = "stream",
                 params = {"contentType", "${contentType}", "inputName", "fileInputStream",
-                    "contentDisposition", "${contentDisposition}", "bufferSize", "1024"}),
-        @Result(name = "error", location = "/WEB-INF/jsp/error.jsp"),
+                    "contentDisposition", "${contentDisposition}", "bufferSize", "1024"})
+        ,
+        @Result(name = "error", location = "/WEB-INF/jsp/error.jsp")
+        ,
         @Result(name = "input", location = "/WEB-INF/jsp/error.jsp")
     })
     public String downloadFile() throws Exception {
         HttpServletRequest request = (HttpServletRequest) ActionContext.getContext().get(ServletActionContext.HTTP_REQUEST);
         int id = Integer.parseInt(request.getParameter("i"));
         String destino = request.getParameter("d");
-        fichero = ficheroDAO.findById(id,destino);
+        fichero = ficheroDAO.findById(id, destino);
         setContentType(fichero.getMime());
-        setContentDisposition("attachment; filename=\"Fichero_"+destino +"_"+ id + "\"");
+        System.out.println(fichero.getMime());
+        System.out.println(fichero.getNombre());
+        System.out.println(ServletActionContext.getServletContext().getRealPath("/") + fichero.getRuta());
+        if (fichero.getNombre().equals("")) {
+            setContentDisposition("attachment; filename=\"Fichero_" + destino + "_" + id + "\"");
+        } else {
+            setContentDisposition("attachment; filename=\"" + fichero.getNombre() + "\"");
+        }
         fileInputStream = new FileInputStream(new File(ServletActionContext.getServletContext().getRealPath("/") + fichero.getRuta()));
         return SUCCESS;
     }

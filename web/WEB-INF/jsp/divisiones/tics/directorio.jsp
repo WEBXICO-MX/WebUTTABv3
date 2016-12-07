@@ -139,7 +139,7 @@
             <div class="corte"></div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../../includePie.jsp?origen=division" flush="true" />
+        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
         <script>
             $(function () {
                 $('#emailLink').on('click', function (event) {

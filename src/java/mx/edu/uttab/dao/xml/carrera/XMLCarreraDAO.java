@@ -42,10 +42,6 @@ public class XMLCarreraDAO implements CarreraDAO {
             hijo.setAttribute("cve_division", String.valueOf(carrera.getCve_division().getCve_division()));
             hijo.setAttribute("nombre", String.valueOf(carrera.getNombre()));
             hijo.setAttribute("tipo", String.valueOf(carrera.getTipo()));
-            hijo.addContent(new Element("perfil_ingreso").addContent(String.valueOf(carrera.getPerfil_ingreso())));
-            hijo.addContent(new Element("perfil_egreso").addContent(String.valueOf(carrera.getPerfil_egreso())));
-            hijo.addContent(new Element("competencias_especificas").addContent(String.valueOf(carrera.getCompetencias_especificas())));
-            hijo.addContent(new Element("ocupaciones_profesionales").addContent(String.valueOf(carrera.getOcupaciones_profesionales())));
             hijo.setAttribute("icono", String.valueOf(carrera.getIcono()));
             hijo.setAttribute("img", String.valueOf(carrera.getImg()));
             hijo.setAttribute("url", String.valueOf(carrera.getUrl()));
@@ -93,10 +89,6 @@ public class XMLCarreraDAO implements CarreraDAO {
                      tipo="2" = Mostrar solo plan materias TSU
                      tipo="3" = Mostrar plan materias Ingenieria-TSU
                      */
-                    carrera.setPerfil_ingreso(elem.getChild("perfil_ingreso") != null ? elem.getChild("perfil_ingreso").getTextTrim() : "");
-                    carrera.setPerfil_egreso(elem.getChild("perfil_egreso") != null ? elem.getChild("perfil_egreso").getTextTrim() : "");
-                    carrera.setCompetencias_especificas(elem.getChild("competencias_especificas") != null ? elem.getChild("competencias_especificas").getTextTrim() : "");
-                    carrera.setOcupaciones_profesionales(elem.getChild("ocupaciones_profesionales") != null ? elem.getChild("ocupaciones_profesionales").getTextTrim() : "");
                     carrera.setIcono(elem.getAttribute("icono") != null ? elem.getAttributeValue("icono") : "");
                     carrera.setImg(elem.getAttribute("img") != null ? elem.getAttributeValue("img") : "");
                     carrera.setUrl(elem.getAttribute("url") != null ? elem.getAttributeValue("url") : "");
@@ -142,10 +134,6 @@ public class XMLCarreraDAO implements CarreraDAO {
                      tipo="2" = Mostrar solo plan materias TSU
                      tipo="3" = Mostrar plan materias Ingenieria-TSU
                      */
-                    carrera.setPerfil_ingreso(elem.getChild("perfil_ingreso") != null ? elem.getChild("perfil_ingreso").getTextTrim() : "");
-                    carrera.setPerfil_egreso(elem.getChild("perfil_egreso") != null ? elem.getChild("perfil_egreso").getTextTrim() : "");
-                    carrera.setCompetencias_especificas(elem.getChild("competencias_especificas") != null ? elem.getChild("competencias_especificas").getTextTrim() : "");
-                    carrera.setOcupaciones_profesionales(elem.getChild("ocupaciones_profesionales") != null ? elem.getChild("ocupaciones_profesionales").getTextTrim() : "");
                     carrera.setIcono(elem.getAttribute("icono") != null ? elem.getAttributeValue("icono") : "");
                     carrera.setImg(elem.getAttribute("img") != null ? elem.getAttributeValue("img") : "");
                     carrera.setUrl(elem.getAttribute("url") != null ? elem.getAttributeValue("url") : "");
@@ -186,10 +174,6 @@ public class XMLCarreraDAO implements CarreraDAO {
                      tipo="2" = Mostrar solo plan materias TSU
                      tipo="3" = Mostrar plan materias Ingenieria-TSU
                      */
-                    carrera.setPerfil_ingreso(elem.getChild("perfil_ingreso") != null ? elem.getChild("perfil_ingreso").getTextTrim() : "");
-                    carrera.setPerfil_egreso(elem.getChild("perfil_egreso") != null ? elem.getChild("perfil_egreso").getTextTrim() : "");
-                    carrera.setCompetencias_especificas(elem.getChild("competencias_especificas") != null ? elem.getChild("competencias_especificas").getTextTrim() : "");
-                    carrera.setOcupaciones_profesionales(elem.getChild("ocupaciones_profesionales") != null ? elem.getChild("ocupaciones_profesionales").getTextTrim() : "");
                     carrera.setIcono(elem.getAttribute("icono") != null ? elem.getAttributeValue("icono") : "");
                     carrera.setImg(elem.getAttribute("img") != null ? elem.getAttributeValue("img") : "");
                     carrera.setUrl(elem.getAttribute("url") != null ? elem.getAttributeValue("url") : "");
@@ -230,10 +214,6 @@ public class XMLCarreraDAO implements CarreraDAO {
                      tipo="2" = Mostrar solo plan materias TSU
                      tipo="3" = Mostrar plan materias Ingenieria-TSU
                      */
-                    carrera.setPerfil_ingreso(elem.getChild("perfil_ingreso") != null ? elem.getChild("perfil_ingreso").getTextTrim() : "");
-                    carrera.setPerfil_egreso(elem.getChild("perfil_egreso") != null ? elem.getChild("perfil_egreso").getTextTrim() : "");
-                    carrera.setCompetencias_especificas(elem.getChild("competencias_especificas") != null ? elem.getChild("competencias_especificas").getTextTrim() : "");
-                    carrera.setOcupaciones_profesionales(elem.getChild("ocupaciones_profesionales") != null ? elem.getChild("ocupaciones_profesionales").getTextTrim() : "");
                     carrera.setIcono(elem.getAttribute("icono") != null ? elem.getAttributeValue("icono") : "");
                     carrera.setImg(elem.getAttribute("img") != null ? elem.getAttributeValue("img") : "");
                     carrera.setUrl(elem.getAttribute("url") != null ? elem.getAttributeValue("url") : "");
@@ -273,10 +253,6 @@ public class XMLCarreraDAO implements CarreraDAO {
                      tipo="2" = Mostrar solo plan materias TSU
                      tipo="3" = Mostrar plan materias Ingenieria-TSU
                      */
-                    carrera.setPerfil_ingreso(elem.getChild("perfil_ingreso") != null ? elem.getChild("perfil_ingreso").getTextTrim() : "");
-                    carrera.setPerfil_egreso(elem.getChild("perfil_egreso") != null ? elem.getChild("perfil_egreso").getTextTrim() : "");
-                    carrera.setCompetencias_especificas(elem.getChild("competencias_especificas") != null ? elem.getChild("competencias_especificas").getTextTrim() : "");
-                    carrera.setOcupaciones_profesionales(elem.getChild("ocupaciones_profesionales") != null ? elem.getChild("ocupaciones_profesionales").getTextTrim() : "");
                     carrera.setIcono(elem.getAttribute("icono") != null ? elem.getAttributeValue("icono") : "");
                     carrera.setImg(elem.getAttribute("img") != null ? elem.getAttributeValue("img") : "");
                     carrera.setUrl(elem.getAttribute("url") != null ? elem.getAttributeValue("url") : "");

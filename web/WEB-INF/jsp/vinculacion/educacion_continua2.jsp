@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -37,15 +37,15 @@
                 <article class="vinculacion_contenido">
                     <section class="vinculacion_texto">
                         <figure style="float:right">
-                            <s:url id="url_cursos" action="viewFile" namespace="">
+                            <s:url var="url_cursos" action="viewFile" namespace="">
                                 <s:param name="i" value="1"></s:param>
                                 <s:param name="d" value="%{'egresados'}"></s:param>
                             </s:url>
-                            <s:a href="%{url_cursos}" target="_blank"><img src="${pageContext.request.contextPath}/img/servicios/egresados/btn_cursos-min.png" alt="Cursos"/></s:a>
-                            </figure>
-                            <div class="corte"></div>
-                        </section>
-                        <section class="vinculacion_texto">                       
+                            <!--<s:a href="%{url_cursos}" target="_blank"><img src="${pageContext.request.contextPath}/img/servicios/egresados/btn_cursos-min.png" alt="Cursos"/></s:a>-->
+                        </figure>
+                        <div class="corte"></div>
+                    </section>
+                    <section class="vinculacion_texto">                       
                             <figure><img src="${pageContext.request.contextPath}/img/vinculacion/educacion_continua/educacion-continua.png" alt="Educación continua"/></figure>
                         <div class="corte"></div>
                     </section>
@@ -74,6 +74,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=servicios" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

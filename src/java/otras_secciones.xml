@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="otras_secciones" namespace="/otras_secciones" extends="struts-default">
         <action name="">
@@ -24,6 +24,12 @@
         </action>
         <action name="proteccion_civil">
             <result>/WEB-INF/jsp/otras_secciones/proteccion_civil2.jsp</result>
+        </action>
+        <action name="conocer">
+            <result>/WEB-INF/jsp/otras_secciones/conocer.jsp</result>
+        </action>
+        <action name="dia_de_muertos">
+            <result>/WEB-INF/jsp/otras_secciones/dia_de_muertos.jsp</result>
         </action>
     </package>
 </struts>

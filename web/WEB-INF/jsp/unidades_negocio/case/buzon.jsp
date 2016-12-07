@@ -35,7 +35,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1><span class="glyphicon glyphicon-user"></span>&nbsp;<s:property value="#session['nombre']" /></h1>
-                    <s:url id="logoutURL" action="logout" var="logoutURL"></s:url>
+                    <s:url var="logoutURL" action="logout" var="logoutURL"></s:url>
                     <a href="<s:property value="#logoutURL"/>"><i class="glyphicon glyphicon-log-out"></i> CERRAR SESIÓN</a>
                 </div>
             </div>

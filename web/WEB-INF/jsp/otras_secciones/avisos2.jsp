@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="otras_secciones_section">
@@ -59,6 +59,6 @@
                 </section>
             </main>
             <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=boletines_anteriores" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=boletines_anteriores" flush="true" />
     </body>
 </html>

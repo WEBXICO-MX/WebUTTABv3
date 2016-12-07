@@ -12,7 +12,7 @@
         <title>UTTAB &#124; Directorio</title>
         <meta charset="UTF-8">
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
-        <meta name="description" content="Universidad Tecnológica de Tabasco,Licenciatura en Gestión y Desarrollo Turístico">
+        <meta name="description" content="Universidad Tecnológica de Tabasco,Directorio">
         <meta name="keywords" content="conócenos,directorio,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
         <!--[if IE]>
         <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=conocenos" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=conocenos" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="conocenos_section">
@@ -63,18 +63,18 @@
                                             <p>3582222 Ext. 9002</p>
                                             <p><a href="mailto:secretariatecnica@uttab.edu.mx">secretariatecnica@uttab.edu.mx</a></p>
                                         </td>
-                                        <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/23_raul_alamilla.jpg" alt="Raúl Alejandro Alamilla Reyes"/></td>
+                                        <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/23_Rigoberto_Ochoa_Murillo.png" alt="Rigoberto Ochoa Murillo"/></td>
                                         <td>
-                                            <p>Ra&uacute;l Alejandro Alamilla Reyes</p>
-                                            <p>Titular de la Unidad de Acceso a la Informaci&oacute;n</p>
+                                            <p>Rigoberto Ochoa Murillo</p>
+                                            <p>Encargado de la Unidad de Acceso a la Información</p>
                                             <p>3582222 Ext. 9009</p>
                                             <p><a href="mailto:transparencia@uttab.edu.mx">transparencia@uttab.edu.mx</a></p>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/04_ma_patricia_02.png" alt="Mar&iacute;a Patricia Alor López"/></td>
-                                        <td><p>Mar&iacute;a Patricia Alor López</p>
-                                            <p>Contralora Interna</p>
+                                        <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/04_roberto_ordonez_herrera.png" alt="Roberto Ordóñez Herrera"/></td>
+                                        <td><p>Roberto Ordóñez Herrera</p>
+                                            <p>Contralor Interno</p>
                                             <p>3582222 Ext. 9010</p>
                                             <p><a href="mailto:contraloria@uttab.edu.mx">contraloria@uttab.edu.mx</a></p>
                                         </td>
@@ -97,9 +97,9 @@
                                             <p>3582222 Ext. 1002</p>
                                             <p><a href="mailto:academica@uttab.edu.mx">academica@uttab.edu.mx</a></p>
                                         </td>
-                                        <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/18_ana_edith_palomino_02.png" alt="Ana Edith Palomino Vergara"/></td>
-                                        <td><p>Ana Edith Palomino Vergara</p>
-                                            <p>Directora de la división de Química</p>
+                                        <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/18_Jose_Alfredo_Irineo_Mijangos.png" alt="José Alfredo Irineo Mijangos"/></td>
+                                        <td><p>José Alfredo Irineo Mijangos</p>
+                                            <p>Encargado de la división de Química</p>
                                             <p>3582222 Ext. 3003</p>
                                             <p><a href="mailto:d.quimica@uttab.edu.mx">d.quimica@uttab.edu.mx</a></p>
                                         </td>
@@ -177,13 +177,13 @@
                                     <tr>
                                         <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/11_australia_vallejo_02.png" alt="Australia Vallejo Hidalgo"/></td>
                                         <td><p>Australia Vallejo Hidalgo</p>
-                                            <p>Directora de Desarrollo Empresarial</p>
+                                            <p>Directora de Enlace Empresarial</p>
                                             <p>3582222 Ext. 2011</p>
                                             <p><a href="mailto:d.desarrollo@uttab.edu.mx">d.desarrollo@uttab.edu.mx</a></p>
                                         </td>
                                         <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/10_lenin_gonzalez_02.png" alt="Lenin González Baños"/></td>
                                         <td><p>Lenin González Baños</p>
-                                            <p>Director de Extensión Universitaria</p>
+                                            <p>Director de Difusión Universitaria</p>
                                             <p>3582222 Ext. 8002</p>
                                             <p><a href="mailto:d.euniversitaria@uttab.edu.mx">d.euniversitaria@uttab.edu.mx</a></p>
                                         </td>
@@ -201,7 +201,7 @@
                                     <tr>
                                         <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/06_Sergio_Hermilo_Jimenez_Torres.jpeg" alt="Sergio Hermilo Jiménez Torres"/></td>
                                         <td><p>Sergio Hermilo Jiménez Torres</p>
-                                            <p>Encargado de la Dirección de Administración y Finanzas</p>
+                                            <p>Director de Administración y Finanzas</p>
                                             <p>3582222 Ext. 9018</p>
                                             <p><a href="mailto:administracion@uttab.edu.mx">administracion@uttab.edu.mx</a></p>
                                         </td>
@@ -266,14 +266,14 @@
                     </section>
                     <section class="conocenos_texto">
                         <br/>
-                        <header><h3>Coordinación del Centro de Atención a PEMEX</h3></header>
+                        <header><h3>Coordinación del Centro de Atención <br>al Sector Energético</h3></header>
                         <article>
                             <table>
                                 <tbody>
                                     <tr>
                                         <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/14_guillermo oliver_02.jpg" alt="Juan Alberto Camacho Ochoa"/></td>
                                         <td><p>Guillermo Oliver González Rodríguez</p>
-                                            <p>Coordinador del Centro de Atención a PEMEX</p>
+                                            <p>Coordinador del Centro de Atención <br>al Sector Energético</p>
                                             <p>3582222 Ext. 2017</p>
                                             <p><a href="mailto:case@uttab.edu.mx">case@uttab.edu.mx</a></p>
                                         </td>
@@ -290,6 +290,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=conocenos" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
     </body>
 </html>

@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="servicios_section">
@@ -40,15 +40,15 @@
                     </section>
                     <section class="servicios_texto">
                         <div class="boton_biblioteca libro_del_mes left">
-                            <s:url id="url_libro_del_mes" action="viewFile" namespace="">
-                               <s:param name="i" value="14"></s:param>
+                            <s:url var="url_libro_del_mes" action="viewFile" namespace="">
+                               <s:param name="i" value="18"></s:param>
                                <s:param name="d" value="%{'biblioteca'}"></s:param>
                             </s:url>
                             <span><s:a href="%{url_libro_del_mes}" target="_blank">Libro del mes</s:a></span>
                         </div>
                         <div class="boton_biblioteca nuevas_adquisiones right">
-                            <s:url id="url_nuevas_adquisiones" action="viewFile" namespace="">
-                               <s:param name="i" value="13"></s:param>
+                            <s:url var="url_nuevas_adquisiones" action="viewFile" namespace="">
+                               <s:param name="i" value="15"></s:param>
                                <s:param name="d" value="%{'biblioteca'}"></s:param>
                             </s:url>
                             <span><s:a href="%{url_nuevas_adquisiones}" target="_blank">Nuevas adquisiciones</s:a></span>
@@ -187,6 +187,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=servicios" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

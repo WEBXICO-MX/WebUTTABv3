@@ -26,7 +26,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=vinculacion" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=vinculacion" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -44,6 +44,11 @@
                             <s:a action="produccion_audiovisual" namespace="/vinculacion"><img src="${pageContext.request.contextPath}/img/vinculacion/servicios_especializados/Servicios-especializados_09-min.png" alt="servicios especializados"/></s:a>
                             <s:a action="servicios_tecnologicos" namespace="/vinculacion"><img src="${pageContext.request.contextPath}/img/vinculacion/servicios_especializados/Servicios-especializados_11-min.png" alt="servicios especializados"/></s:a>
                             <!--<s:a action="centro_gastronomico" namespace="/vinculacion"><img src="${pageContext.request.contextPath}/img/vinculacion/servicios_especializados/Servicios-especializados_13-min.png" alt="servicios especializados"/></s:a>-->
+                            <s:url var="url_catalogo" action="viewFile" namespace="">
+                                <s:param name="i" value="1"></s:param>
+                                <s:param name="d" value="%{'servicios_especializados'}"></s:param>
+                            </s:url>
+                            <s:a href="%{url_catalogo}" target="_blank"><img src="${pageContext.request.contextPath}/img/vinculacion/servicios_especializados/btn_catalogo.png" alt="Catálogo de servicios especializados"/></s:a>
                         </figure>
                         <div class="corte"></div>
                     </section>
@@ -107,7 +112,7 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=vinculacion" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/vinculacion.min.js"></script>

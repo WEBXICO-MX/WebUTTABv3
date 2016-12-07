@@ -22,13 +22,13 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
                 <li>
-                    <s:url id="HomeURL" action="Home" namespace="" var="HomeURL"></s:url>
+                    <s:url action="Home" namespace="" var="HomeURL"></s:url>
                     <a href="<s:property value="#HomeURL"/>" target="_blank"><i class="fa fa-home"></i> Ir al sitio web</a>
                     <a href="${pageContext.request.contextPath}/SistemasAdmin/actividades/input.action" <%= request.getParameter("q") != null ? (request.getParameter("q").equals("actividades") ? "class=\"active\"":""):"" %> ><i class="fa fa-bullhorn"></i> Actividades Universitarias</a>
                     <a href="${pageContext.request.contextPath}/SistemasAdmin/eventos/input.action" <%= request.getParameter("q") != null ? (request.getParameter("q").equals("eventos") ? "class=\"active\"":""):"" %>><i class="fa fa-thumb-tack"></i> Eventos (Banners Principales)</a>
                     <a href="${pageContext.request.contextPath}/SistemasAdmin/gaceta/input.action" <%= request.getParameter("q") != null ? (request.getParameter("q").equals("gacetas") ? "class=\"active\"":""):"" %>><i class="fa fa-newspaper-o"></i> Gacetas</a>
                     <a href="${pageContext.request.contextPath}/SistemasAdmin/avisos/input.action" <%= request.getParameter("q") != null ? (request.getParameter("q").equals("avisos") ? "class=\"active\"":""):"" %>><span class="fa fa-star"></span> Avisos</a>
-                <s:url id="logoutURL" action="logout" namespace="/SistemasAdmin/usuarios" var="logoutURL"></s:url>
+                <s:url action="logout" namespace="/SistemasAdmin/usuarios" var="logoutURL"></s:url>
                 <a href="<s:property value="#logoutURL"/>"><i class="fa fa-sign-out"></i> CERRAR SESIÓN</a>
                 </li>
             </ul>

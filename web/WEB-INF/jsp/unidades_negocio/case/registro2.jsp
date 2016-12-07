@@ -22,13 +22,14 @@
         <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion2.min.css"/>
+        <link href="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet"/>
         <!--[if lt IE 9]>
         <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.jsp?origen=unidades_negocio" flush="true"  />
+        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -75,7 +76,7 @@
                                     <div class="control-group">
                                         <label class="control-label" for="fecha_nacimiento">Fecha de nacimiento:</label>
                                         <div class="controls">
-                                            <input type="text" name="fecha_nacimiento" id="fecha_nacimiento" size="10" maxlength="10" class="input-medium" value="1987-04-13"/>
+                                            <input type="text" name="fecha_nacimiento" id="fecha_nacimiento" size="10" maxlength="10" class="input-medium date-picker"/>
                                             <input type="checkbox"  name="activo" id="activo" checked="checked" value="true" style="visibility: hidden;"/>
                                         </div>
                                     </div>
@@ -200,20 +201,21 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.jsp?origen=unidades_negocio" flush="true" />
+        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio" flush="true" />
+        <script src="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js"></script>
         <script>
             var c = <%= c%>;
             var cc = <%= cc%>;
-            var rest0 = "http://localhost:8080/WebCASE/rest/capacitaciones/" + c;
-            var rest1 = "http://localhost:8080/WebCASE/rest/persona";
-            var rest2 = "http://localhost:8080/WebCASE/rest/tiposmedioscomunicacion";
-            var rest3 = "http://localhost:8080/WebCASE/rest/mediocomunicacion";
-            var rest4 = "http://localhost:8080/WebCASE/rest/tiposinscripciones";
-            var rest5 = "http://localhost:8080/WebCASE/rest/empresas";
-            var rest6 = "http://localhost:8080/WebCASE/rest/sectoresproductivos";
-            var rest7 = "http://localhost:8080/WebCASE/rest/registroCapacitacion";
-            var rest8 = "http://localhost:8080/WebCASE/rest/empresa";
+            var rest0 = "http://www.uttab.edu.mx/WebCASE/rest/capacitaciones/" + c;
+            var rest1 = "http://www.uttab.edu.mx/WebCASE/rest/persona";
+            var rest2 = "http://www.uttab.edu.mx/WebCASE/rest/tiposmedioscomunicacion";
+            var rest3 = "http://www.uttab.edu.mx/WebCASE/rest/mediocomunicacion";
+            var rest4 = "http://www.uttab.edu.mx/WebCASE/rest/tiposinscripciones";
+            var rest5 = "http://www.uttab.edu.mx/WebCASE/rest/empresas";
+            var rest6 = "http://www.uttab.edu.mx/WebCASE/rest/sectoresproductivos";
+            var rest7 = "http://www.uttab.edu.mx/WebCASE/rest/registroCapacitacion";
+            var rest8 = "http://www.uttab.edu.mx/WebCASE/rest/empresa";
 
             $.fn.serializeObject = function ()
             {
@@ -294,6 +296,13 @@
 
             $(document).ready(function () {
                 $.ajaxSetup({cache: false});
+                
+                $(".date-picker").datepicker({
+				yearRange : "-70:+0",
+				changeMonth : true,
+				changeYear : true,
+				dateFormat : 'yy-mm-dd'
+			});
 
                 $('#myModal').on('shown', function () {
                       $.getJSON(rest6, function (data) {

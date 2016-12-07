@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="servicios" namespace="/servicios" extends="struts-default">
         <action name="">
             <result name="success" type="redirectAction">calendario_escolar</result>
         </action>
         <action name="calendario_escolar">
-            <result>/WEB-INF/jsp/servicios/calendario_escolar_2015_2016.jsp</result>
+            <result>/WEB-INF/jsp/servicios/calendario_escolar_2016_2017.jsp</result>
         </action>
         <action name="actividades_culturales_deportivas">
             <result>/WEB-INF/jsp/servicios/actividades_culturales_deportivas.jsp</result>
@@ -53,7 +53,7 @@
             <result>/WEB-INF/jsp/servicios/centro_certificador_delf_dalf.jsp</result>
         </action>
         <action name="admision">
-            <result>/WEB-INF/jsp/servicios/admision3.jsp</result>
+            <result>/WEB-INF/jsp/servicios/admision3.min.jsp</result>
         </action>
         <action name="egresados">
             <result>/WEB-INF/jsp/servicios/egresados2.jsp</result>

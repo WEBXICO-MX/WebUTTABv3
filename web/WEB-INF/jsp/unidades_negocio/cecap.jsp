@@ -79,7 +79,7 @@
             </div>
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=unidades_negocio" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=unidades_negocio" flush="true" />
         <script src="${pageContext.request.contextPath}/js/comun.min.js"></script>
         <script>
                     $(function () {

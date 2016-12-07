@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=vinculacion" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=vinculacion" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -57,10 +57,10 @@
                         <div class="ficha_contacto">
                             <header><h3>Contacto</h3></header>
                             <article>
-                                <p>Diana Denissen Lugo Saldivar</p>
-                                <p>Jefa del departamento de Servicios Tecnológicos</p>
-                                <p>Conmutador: +52 (993) 3.58.22.22 Ext. 2013</p>
-                                <p>Correo institucional: <a href="mailto:sertec@uttab.edu.mx">sertec@uttab.edu.mx</a></p>
+                                <p>Laura Beatriz Guzmán Priego</p>
+                                <p>Directora de Servicios Especializados</p>
+                                <p>Conmutador: +52 (993) 3.58.22.22 Ext. 2005</p>
+                                <p>Correo institucional: <a href="mailto:d.especializados@uttab.edu.mx">d.especializados@uttab.edu.mx</a></p>
                             </article>
                         </div>
                     </section>
@@ -69,6 +69,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=vinculacion" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
     </body>
 </html>

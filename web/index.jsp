@@ -13,6 +13,11 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco, también conocida como UTTAB, es una universidad publica localizada en Villa Parrilla, Tabasco, México.">
         <meta name="keywords" content="tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
+        <!-- METAS FACEBOOK -->
+        <meta content='UTTAB &#124; Universidad Tecnológica de Tabasco' property='og:title'/>
+        <meta content='http://www.uttab.edu.mx/img/logo_ut_shared_facebook.png' property='og:image'/>
+        <meta content='El subsistema al que pertenece la Universidad Tecnológica de Tabasco (UTTAB) surge a partir de un estudio realizado en 1990 sobre nuevos esquemas de educación superior, en el cual se analizaron las experiencias de países como Alemania, Estados Unidos, Francia, Gran Bretaña y Japón. Con base en dicho estudio, se decidió llevar a cabo un proyecto específico para definir un modelo pedagógico que permitiera crear una opción alternativa a la oferta existente bajo un modelo innovador; concibiéndose así el sistema de educación tecnológica superior.' property='og:description'/>
+        <meta content='http://www.uttab.edu.mx/Home.action' property='og:url'/>
         <!--[if IE]>
         <link rel="shortcut icon"  href="img/favicon.ico"/> 
         <![endif]-->
@@ -24,7 +29,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="WEB-INF/jsp/includeHeader.jsp" flush="true"  />
+        <jsp:include page="WEB-INF/jsp/includeHeader.min.jsp" flush="true"  />
         <main>
             <!-- Eventos -->        
             <section class="eventos">
@@ -32,7 +37,7 @@
                 <article id="layerslider">
                     <s:if test="eventoList.size() > 0">
                         <s:iterator value="eventoList" status="eventoStatus">
-                            <figure class="ls-layer" <s:if test="!(pdf.equalsIgnoreCase('NULL') && link.equalsIgnoreCase('NULL'))">onmouseover="this.style.cursor = 'pointer';" onclick="window.open('<s:if test="pdf.equalsIgnoreCase('NULL')"><s:property value="link" /></s:if><s:else><s:url id="pdfURL" action="viewEventoPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url><s:property value="#pdfURL"/></s:else>', '_blank');"</s:if>>
+                            <figure class="ls-layer" <s:if test="!(pdf.equalsIgnoreCase('NULL') && link.equalsIgnoreCase('NULL'))">onmouseover="this.style.cursor = 'pointer';" onclick="window.open('<s:if test="pdf.equalsIgnoreCase('NULL')"><s:property value="link" /></s:if><s:else><s:url action="viewEventoPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url><s:property value="#pdfURL"/></s:else>', '_blank');"</s:if>>
                                 <s:if test="!img1.equalsIgnoreCase('NULL')">
                                     <img src="<s:property value="img1" />" alt="layer" width="1002" height="401" class="ls-bg" style="margin: 0 auto;" >  
                                 </s:if>
@@ -51,7 +56,8 @@
                                 <s:if test="!img6.equalsIgnoreCase('') && !img6.equalsIgnoreCase('')">
                                     <img class="ls-s6" src="<s:property value="img6" />" alt="sublayer" rel="<s:property value="efectos6"/>" > 
                                 </s:if>
-                            </figure>
+                            </figure>                 
+
                         </s:iterator>
                     </s:if>
                 </article>
@@ -72,7 +78,7 @@
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro1" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                                <strong data-to="4196" data-append="" id="logros_numero_de_alumnos">0</strong>
+                                                <strong data-to="3511" data-append="" id="logros_numero_de_alumnos">0</strong>
                                                 <label>Alumnos</label>
                                             </div>
                                         </div>
@@ -82,7 +88,7 @@
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro2" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                                <strong data-to="70" data-append=" Mbps">0</strong>
+                                                <strong data-to="100" data-append=" Mbps">0</strong>
                                                 <label>de ancho de banda de internet</label>
                                             </div>
                                         </div>
@@ -92,7 +98,7 @@
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro3" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                                <strong data-to="12329" data-append="">0</strong>
+                                                <strong data-to="13829" data-append="">0</strong>
                                                 <label>egresados en la historia de la UTTAB</label>
                                             </div>
                                         </div>
@@ -102,29 +108,29 @@
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro4" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                                <strong data-to="52" data-append="%">0</strong>
+                                                <strong data-to="55" data-append="%">0</strong>
                                                 <label>docentes con posgrado</label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>  
-                                <div class="ps-album">
+                                <!--<div class="ps-album">
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro5" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
                                                 <strong data-to="10" data-append=" de 11">0</strong>
-                                                <label>de programas TSU evaluados y/o acreditados</label>
+                                                <label>programas TSU evaluados y/o acreditados</label>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="ps-album">
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro6" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                                <strong data-to="46" data-append="">0</strong>
+                                                <strong data-to="36" data-append="">0</strong>
                                                 <label>alumnos en movilidad internacional</label>
-                                                <small>(sep 14 -ago 15)</small>
+                                                <small>(sep 15 -ago 16)</small>
                                             </div>
                                         </div>
                                     </div>
@@ -133,24 +139,24 @@
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro7" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                                <strong data-to="16" data-append="">0</strong>
+                                                <strong data-to="17" data-append="">0</strong>
                                                 <label>programas de TSU</label>
-                                                <strong data-to="9" data-append="">0</strong>
+                                                <strong data-to="8" data-append="">0</strong>
                                                 <label>de licenciatura</label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="ps-album">
+                                <!--<div class="ps-album">
                                     <div class="ps-album-inner">
                                         <div class="counters counters-text-dark">
                                             <div class="counter appear-animation logro8" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                                <strong data-to="1" data-append=" de cada 2">0</strong>
+                                                <strong data-to="40" data-append=".4%">0</strong>
                                                 <label>alumnos con beca</label>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="corte"></div>
                             </div>
                             <div class="corte"></div>
@@ -175,20 +181,20 @@
                                     <div class="row-fluid">
                                         <s:if test="actividadList.size() > 0">
                                             <div class="span5">
-                                                <s:url id="imgWebURL" action="viewActividadUniversitariaIMG" var="imgWebURL"><s:param name="id" value="actividad.id"></s:param></s:url>
-                                                <img src="<s:property value="#imgWebURL"/>" alt="<s:property value="actividad.nombre" />" style="cursor: pointer;" onclick="window.open('<s:if test="actividad.pdf.equalsIgnoreCase('NULL')"><s:property value="actividad.link" /></s:if><s:else><s:url id="pdfURL" action="viewActividadUniversitariaPDF" var="pdfURL"><s:param name="id" value="actividad.id"></s:param></s:url><s:property value="#pdfURL"/></s:else>', '_blank');">
+                                                <s:url action="viewActividadUniversitariaIMG" var="imgWebURL"><s:param name="id" value="actividad.id"></s:param></s:url>
+                                                <img src="<s:property value="#imgWebURL"/>" alt="<s:property value="actividad.nombre" />" style="cursor: pointer;" onclick="window.open('<s:if test="actividad.pdf.equalsIgnoreCase('NULL')"><s:property value="actividad.link" /></s:if><s:else><s:url action="viewActividadUniversitariaPDF" var="pdfURL"><s:param name="id" value="actividad.id"></s:param></s:url><s:property value="#pdfURL"/></s:else>', '_blank');">
                                                 <h6 class="helvetica"><s:property value="actividad.nombre" /></h6>
                                                 <p class="c"><s:property value="actividad.text_preview_web" /></p>
                                             </div>
                                             <div class="span7">
                                                 <div class="row">
-                                                    <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: auto; width: 714px; height: 297px; margin: 0px 0px 20px; overflow: hidden;">
+                                                    <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index: auto; width: 714px; height: 320px; margin: 0px 0px 20px; /*overflow: hidden;*/">
                                                         <div class="carousel carousel_staff" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 2618px; height: 324px;">
                                                             <s:iterator value="actividadList" status="status">
                                                                 <s:if test="!primario">
                                                                     <div class="one-staff">
-                                                                        <s:url id="imgWebURL" action="viewActividadUniversitariaIMG" var="imgWebURL"><s:param name="id" value="%{id}"></s:param></s:url>
-                                                                        <img src="<s:property value="#imgWebURL"/>" style="width: 180px; height: 169px; cursor: pointer;" alt="<s:property value="nombre" />" onclick="window.open('<s:if test="pdf.equalsIgnoreCase('NULL')"><s:property value="link" /></s:if><s:else><s:url id="pdfURL" action="viewActividadUniversitariaPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url><s:property value="#pdfURL"/></s:else>', '_blank');"><h6 class="helvetica"><s:property value="nombre" /></h6>
+                                                                        <s:url action="viewActividadUniversitariaIMG" var="imgWebURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                                        <img src="<s:property value="#imgWebURL"/>" style="width: 180px; height: 169px; cursor: pointer;" alt="<s:property value="nombre" />" onclick="window.open('<s:if test="pdf.equalsIgnoreCase('NULL')"><s:property value="link" /></s:if><s:else><s:url action="viewActividadUniversitariaPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url><s:property value="#pdfURL"/></s:else>', '_blank');"><h6 class="helvetica"><s:property value="nombre" /></h6>
                                                                         <p class="c"><s:property value="text_preview_web" /></p>
                                                                     </div>
                                                                 </s:if>
@@ -213,6 +219,18 @@
                         <figure class="ls-layer">
                             <img src="img/banners/reconocimientos/btn_reconocimientos_otorgados_uttab.png" alt="Reconocimientos otorgados a la UTTAB" class="ls-bg"/>
                         </figure>
+                        <figure class="ls-layer">
+                            <img src="img/banners/reconocimientos/btn_IAP.png" alt="El Instituto de Administración Pública de Tabasco otorga Mención Honorífica a la Universidad Tecnológica de Tabasco como mérito de implementación de La Cultura de la Certificación-Acreditación como Garantía de Mejora Continúa. "/>
+                        </figure>
+                        <figure class="ls-layer">
+                            <img src="img/banners/reconocimientos/btn_INADEM.png" alt="El instituto Nacional del Emprendedor reconoce al Centro de Incubación y Desarrollo de Negocios de la UTTAB como Incubadora Básica"/>
+                        </figure>
+                        <figure class="ls-layer">
+                            <img src="img/banners/reconocimientos/btn_cisco_15_aniversario_participacion_activa.png" alt="Reconocimiento a la UTTAB por 15 años de participación activa con Cisco Networking Academy program"/>
+                        </figure>
+                        <figure class="ls-layer" onmouseover="this.style.cursor = 'pointer';">
+                            <img src="img/banners/reconocimientos/btn_CONOCER.png" alt="Consejo Nacional de Normalización y Certifiación de Competencias Laborales (CONOCER)" class="ls-bg"/>
+                        </figure> 
                         <figure class="ls-layer" onmouseover="this.style.cursor = 'pointer';">
                             <img src="img/banners/reconocimientos/btn_ARSEE.png" alt="Proceso integral de acreditación en el área escolar" class="ls-bg"/>
                         </figure> 
@@ -280,10 +298,9 @@
                             <img src="img/banners/reconocimientos/btn_copaes.png" alt="Consejo para la Acreditación de la Educación Superior" class="ls-bg"/>
                         </figure>
                     </article>
-                    <!--<s:url id="url_evento_admision" action="viewEventoPDF"><s:param name="id" value="121"></s:param></s:url>
-                    <s:a href="%{url_evento_admision}" target="_blank"><img src="img/banners/btn_convocatoria_proceso_admision_mayo_agosto_2016.png" alt="CONVOCATORIA PROCESO DE ADMISIÓN MAYO-AGOSTO 2016" style="float:left;margin-left: 33px;"/></s:a>                    <s:a action="proteccion_civil" namespace="/otras_secciones"><img src="img/banners/btn_proteccion_civil.png" alt="Protección civil" style="float:right;margin-bottom:22px;"/></s:a>-->
-                    <s:url id="url_delf_dalf" action="viewEventoPDF"><s:param name="id" value="124"></s:param></s:url>
-                    <s:a href="%{url_delf_dalf}" target="_blank"><img src="img/banners/btn_DELF_DALF.png" alt="CENTRO CERTIFICADOR INTERNACIONAL DELF-DALF" style="float:left;margin-left: 33px;"/></s:a>                    <s:a action="proteccion_civil" namespace="/otras_secciones"><img src="img/banners/btn_proteccion_civil.png" alt="Protección civil" style="float:right;margin-bottom:22px;"/></s:a>
+                    <s:a action="conocer" namespace="/otras_secciones"><img src="img/banners/btn_conocer.png" alt="CONOCER-UTTAB" style="float:left; margin-bottom:19px;margin-left: 30px;"/></s:a>          
+                    <s:a action="delf_dalf" namespace="/servicios"><img src="img/banners/btn_DELF_DALF_small.png" alt="CENTRO CERTIFICADOR INTERNACIONAL DELF-DALF" style="float:left; margin-bottom:19px;margin-left: 18px;"/></s:a>
+                    <s:a action="proteccion_civil" namespace="/otras_secciones"><img src="img/banners/btn_proteccion_civil.png" alt="Protección civil" style="float:right;margin-left: 18px;"/></s:a>
                     <s:a action="herramientas_tecnologicas" namespace="/otras_secciones"><img src="img/banners/btn_herramientas_tecnologicas.png" alt="Herramientas tecnológicas" style="float:right;"/></s:a>
                         <div style="clear: both;"></div>
                     </section>
@@ -291,15 +308,15 @@
                     <s:a action="radio" namespace="/sintonia" ><img src="img/banners/btn_sintonia.png" alt="Sintonía UTTAB" style="float:left;"/></s:a>
                     <s:a action="centro_incubacion" namespace="/vinculacion"><img src="img/banners/boton%20emprendedores.jpg" alt="Centro de Incubación y Desarrollo de Negocios" style="float:left; margin-left: 18px;"/></s:a>
                         <a href="http://utvirtual.uttab.edu.mx/" target="_blank"><img src="img/banners/UT%20VIRTUAL2.png" alt="UT Virtual" style="float:right;"/></a>
-                        <a href="http://saiiut.uttab.edu.mx/" target="_blank"><img src="img/banners/btn_SAIIUT.png" alt="SAIIUT" style="float:right;margin-right: 18px;"/></a>
+                        <a href="http://saiiut.uttab.edu.mx/" target="_blank"><img src="img/banners/btn_SAIIUT.png" alt="SAIIUT" style="float:right;margin-right: 18px;"/></a>                           
                         <div style="clear: both;"></div>
                     </section>
                     <section style="width: 100%; height: auto; margin-top: 10px;">
-                    <s:url id="url_gaceta" action="viewGacetaPDF"><s:param name="id" value="gaceta.id"></s:param></s:url>
+                    <s:url var="url_gaceta" action="viewGacetaPDF"><s:param name="id" value="gaceta.id"></s:param></s:url>
                     <s:a href="%{url_gaceta}" target="_blank"><img src="img/banners/banner_gaceta.png" alt="Gaceta UTTAB Ejemplar Nº <s:property value="gaceta.id"/>" style="float:left;"/></s:a>
-                        <a href="javascript:void(0);" onclick="window.open('http://siie.uttab.edu.mx', '_blank');" title="Sistema Institucional de Información Estadística UTTAB"><img src="img/banners/banner_SIIE.jpg" alt="Sistema Institucional de Información y Estadística" style="float:left; margin-left: 18px;"/></a>
+                        <a href="javascript:void(0);" onclick="window.open('http://siie.uttab.edu.mx', '_blank');" title="Sistema Institucional de Información Estadística UTTAB"><img src="img/banners/banner_SIIE-min.png" alt="Sistema Institucional de Información y Estadística" style="float:left; margin-left: 18px;"/></a>
                     <s:a action="centro_idiomas" namespace="/servicios"><img src="img/banners/banner_ciut.png" alt="CIUT | Centro de idiomas UT" style="float:right;"/></s:a>
-                    <s:url id="url_evento_CISCO" action="viewEventoPDF"><s:param name="id" value="51"></s:param></s:url>
+                    <s:url var="url_evento_CISCO" action="viewEventoPDF"><s:param name="id" value="51"></s:param></s:url>
                     <s:a href="%{url_evento_CISCO}" target="_blank"><img src="img/banners/banner_cisco.png" alt="CISCO" style="float:right;margin-right: 18px;"/></s:a>
                         <div style="clear: both;"></div>
                     </section>
@@ -307,7 +324,7 @@
                 </aside>
                 <div class="corte"></div>
             </main>
-        <jsp:include page="WEB-INF/jsp/includePie.jsp" flush="true" />
+        <jsp:include page="WEB-INF/jsp/includePie.min.jsp" flush="true" />
         <script src="js/JQuery/plugins/layerslider/JQuery/jquery-1.6.2.min.js"></script>
         <script src="js/home.min.js"></script>
         <script src="Otros/PhotoStackGallery/photo-stack.min.js"></script>

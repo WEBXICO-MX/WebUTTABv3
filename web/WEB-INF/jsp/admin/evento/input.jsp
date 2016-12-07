@@ -88,11 +88,11 @@
                         <s:form action="save" namespace="/SistemasAdmin/eventos" id="frmEvento" method="post" role="form">
                             <div class="form-group">
                                 <label for="txtIDEvento">* ID Evento:</label>
-                                <s:textfield name="id" value="%{evento.id != 0 ? evento.id:''}" id="txtIDEvento" size="3" maxLength="3" readonly="true"  tabindex="1" />
+                                <s:textfield name="id" value="%{evento.id != 0 ? evento.id:''}" id="txtIDEvento" size="3" maxlength="3" readonly="true"  tabindex="1" />
                             </div>
                             <div class="form-group">
                                 <label for="txtNombre">Nombre:</label>
-                                <s:textfield name="nombre" value="%{evento.nombre}" id="txtNombre" size="100" maxLength="200"  tabindex="2"/>
+                                <s:textfield name="nombre" value="%{evento.nombre}" id="txtNombre" size="100" maxlength="200"  tabindex="2"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtFechaRealizacion">Fecha realización:</label>
@@ -104,39 +104,39 @@
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaIMG1">Ruta imagen 1:</label>
-                                <s:textfield name="img1" value="%{evento.id != 0 ? evento.img1:'NULL'}" id="txtRutaIMG1" size="42" maxLength="41" readonly="true"  tabindex="5"/>
+                                <s:textfield name="img1" value="%{evento.id != 0 ? evento.img1:'NULL'}" id="txtRutaIMG1" size="42" maxlength="41" readonly="true"  tabindex="5"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaIMG2">Ruta imagen 2:</label>
-                                <s:textfield name="img2" value="%{evento.id != 0 ? evento.img2:'NULL'}" id="txtRutaIMG2" size="42" maxLength="41" readonly="true"  tabindex="6"/>
+                                <s:textfield name="img2" value="%{evento.id != 0 ? evento.img2:'NULL'}" id="txtRutaIMG2" size="42" maxlength="41" readonly="true"  tabindex="6"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaIMG3">Ruta imagen 3:</label>
-                                <s:textfield name="img3" value="%{evento.id != 0 ? evento.img3:'NULL'}" id="txtRutaIMG3" size="42" maxLength="41" readonly="true"  tabindex="7"/>
+                                <s:textfield name="img3" value="%{evento.id != 0 ? evento.img3:'NULL'}" id="txtRutaIMG3" size="42" maxlength="41" readonly="true"  tabindex="7"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaIMG4">Ruta imagen 4:</label>
-                                <s:textfield name="img4" value="%{evento.id != 0 ? evento.img4:'NULL'}" id="txtRutaIMG4" size="42" maxLength="41" readonly="true"  tabindex="8"/>
+                                <s:textfield name="img4" value="%{evento.id != 0 ? evento.img4:'NULL'}" id="txtRutaIMG4" size="42" maxlength="41" readonly="true"  tabindex="8"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtEfectos2">Efecto imagen 2:</label>
-                                <s:textfield name="efectos2" value="%{evento.id != 0 ? evento.efectos2:'durationin: 2300; easingin: easeOutQuad; slidedirection: right; delayin: 1500'}" id="txtEfectos2" size="85" maxLength="85" tabindex="9"/>
+                                <s:textfield name="efectos2" value="%{evento.id != 0 ? evento.efectos2:'durationin: 2300; easingin: easeOutQuad; slidedirection: right; delayin: 1500'}" id="txtEfectos2" size="85" maxlength="85" tabindex="9"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtEfectos3">Efecto imagen 3:</label>
-                                <s:textfield name="efectos3" value="%{evento.id != 0 ? evento.efectos3:'durationin: 2500; easingin: easeOutQuad; slidedirection: left; delayin: 1800'}" id="txtEfectos3" size="85" maxLength="85" tabindex="10"/>
+                                <s:textfield name="efectos3" value="%{evento.id != 0 ? evento.efectos3:'durationin: 2500; easingin: easeOutQuad; slidedirection: left; delayin: 1800'}" id="txtEfectos3" size="85" maxlength="85" tabindex="10"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtEfectos4">Efecto imagen 4:</label>
-                                <s:textfield name="efectos4" value="%{evento.id != 0 ? evento.efectos4:'durationin: 2500; easingin: easeOutQuad; slidedirection: top; delayin: 1800'}" id="txtEfectos4" size="85" maxLength="85" tabindex="11"/>
+                                <s:textfield name="efectos4" value="%{evento.id != 0 ? evento.efectos4:'durationin: 2500; easingin: easeOutQuad; slidedirection: top; delayin: 1800'}" id="txtEfectos4" size="85" maxlength="85" tabindex="11"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtRutaPDF">Ruta pdf:</label>
-                                <s:textfield name="pdf" value="%{evento.id != 0 ? evento.pdf:'NULL'}" id="txtRutaPDF" size="55" maxLength="51" readonly="true"  tabindex="12"/>
+                                <s:textfield name="pdf" value="%{evento.id != 0 ? evento.pdf:'NULL'}" id="txtRutaPDF" size="55" maxlength="51" readonly="true"  tabindex="12"/>
                             </div>
                             <div class="form-group">
                                 <label for="txtLink">Link:</label>
-                                <s:textfield name="link" value="%{evento.id != 0 ? evento.link:'NULL'}" id="txtLink" size="100" maxLength="200"  tabindex="13"/>
+                                <s:textfield name="link" value="%{evento.id != 0 ? evento.link:'NULL'}" id="txtLink" size="100" maxlength="200"  tabindex="13"/>
                             </div>
                             <div class="checkbox">
                                 <label>
@@ -185,7 +185,7 @@
                                             <s:iterator value="eventoList" status="eventoStatus">
                                                 <tr>
                                                     <td> 
-                                                        <s:url id="editURL" action="edit" namespace="/SistemasAdmin/eventos"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                        <s:url var="editURL" action="edit" namespace="/SistemasAdmin/eventos"><s:param name="id" value="%{id}"></s:param></s:url>
                                                         <s:a href="%{editURL}"> <s:property value="id" /></s:a>
                                                         </td>
                                                         <td><s:property value="nombre" /></td>
@@ -193,69 +193,69 @@
                                                     <td><s:property value="fecha_publicacion" /></td>
                                                     <td>
                                                         <s:if test="img1.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadIMG1" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG1"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG1"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG1"/>&num=1" data-target="#mUploadFile">Subir imagen 1</a><br/>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="img1URL" namespace="" action="viewEventoIMG" var="img1URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="1"></s:param></s:url>
+                                                            <s:url namespace="" action="viewEventoIMG" var="img1URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="1"></s:param></s:url>
                                                             <span class="fa fa-file-image-o" data-toggle="popover" data-title="<s:property value="nombre"/>" data-content="<img src='<s:property value="#img1URL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="nombre"/>' class='img-responsive'/>"></span>
                                                             <!-- SE INTENTO MANDA EL PARAMETRO "num" DE LA SIGUIENTE FORMA <s:param name="num" value="1"></s:param> PERO NO LLEGABA DE MANERA CORRECTA EL PARAMETRO CUANDO ERA INYECTADO POR AJAX, LLEGABA COMO &amp;num=1-->
                                                                 <!-- ASI QUE LA PROPIEDAD "data-remote" SE LE TUVO QUE CONCATENAR &num=1-->
-                                                            <s:url id="uploadIMG1" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG1"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG1"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG1"/>&num=1" data-target="#mUploadFile">Cambiar imagen 1</a><br/>
                                                         </s:else>
 
                                                         <s:if test="img2.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadIMG2" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG2"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG2"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG2"/>&num=2" data-target="#mUploadFile">Subir imagen 2</a><br/>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="img2URL" namespace="" action="viewEventoIMG" var="img2URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="2"></s:param></s:url>
+                                                            <s:url namespace="" action="viewEventoIMG" var="img2URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="2"></s:param></s:url>
                                                             <span class="fa fa-file-image-o" data-toggle="popover" data-title="<s:property value="nombre"/>" data-content="<img src='<s:property value="#img2URL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="nombre"/>' class='img-responsive'/>"></span>
                                                             <!-- SE INTENTO MANDA EL PARAMETRO "num" DE LA SIGUIENTE FORMA <s:param name="num" value="2"></s:param> PERO NO LLEGABA DE MANERA CORRECTA EL PARAMETRO CUANDO ERA INYECTADO POR AJAX, LLEGABA COMO &amp;num=1-->
                                                                 <!-- ASI QUE LA PROPIEDAD "data-remote" SE LE TUVO QUE CONCATENAR &num=2-->
-                                                            <s:url id="uploadIMG2" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG2"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG2"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG2"/>&num=2" data-target="#mUploadFile">Cambiar imagen 2</a><br/>
                                                         </s:else>
 
                                                         <s:if test="img3.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadIMG3" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG3"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG3"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG3"/>&num=3" data-target="#mUploadFile">Subir imagen 3</a><br/>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="img3URL" namespace="" action="viewEventoIMG" var="img3URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="3"></s:param></s:url>
+                                                            <s:url namespace="" action="viewEventoIMG" var="img3URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="3"></s:param></s:url>
                                                             <span class="fa fa-file-image-o" data-toggle="popover" data-title="<s:property value="nombre"/>" data-content="<img src='<s:property value="#img3URL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="nombre"/>' class='img-responsive'/>"></span>
                                                             <!-- SE INTENTO MANDA EL PARAMETRO "num" DE LA SIGUIENTE FORMA <s:param name="num" value="3"></s:param> PERO NO LLEGABA DE MANERA CORRECTA EL PARAMETRO CUANDO ERA INYECTADO POR AJAX, LLEGABA COMO &amp;num=1-->
                                                                 <!-- ASI QUE LA PROPIEDAD "data-remote" SE LE TUVO QUE CONCATENAR &num=3-->
-                                                            <s:url id="uploadIMG3" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG3"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG3"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG3"/>&num=3" data-target="#mUploadFile">Cambiar imagen 3</a><br/>
                                                         </s:else>
 
                                                         <s:if test="img4.equalsIgnoreCase('NULL') || img4.equalsIgnoreCase('')">
-                                                            <s:url id="uploadIMG4" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG4"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG4"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG4"/>&num=4" data-target="#mUploadFile">Subir imagen 4</a><br/>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="img4URL" namespace="" action="viewEventoIMG" var="img4URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="4"></s:param></s:url>
+                                                            <s:url namespace="" action="viewEventoIMG" var="img4URL"><s:param name="id" value="%{id}"></s:param><s:param name="num" value="4"></s:param></s:url>
                                                             <span class="fa fa-file-image-o" data-toggle="popover" data-title="<s:property value="nombre"/>" data-content="<img src='<s:property value="#img4URL"/>&tpm=<%= System.currentTimeMillis() / 1000L%>' alt='<s:property value="nombre"/>' class='img-responsive'/>"></span>
                                                             <!-- SE INTENTO MANDA EL PARAMETRO "num" DE LA SIGUIENTE FORMA <s:param name="num" value="4"></s:param> PERO NO LLEGABA DE MANERA CORRECTA EL PARAMETRO CUANDO ERA INYECTADO POR AJAX, LLEGABA COMO &amp;num=1-->
                                                                 <!-- ASI QUE LA PROPIEDAD "data-remote" SE LE TUVO QUE CONCATENAR &num=3-->
-                                                            <s:url id="uploadIMG4" action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG4"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_img" namespace="/SistemasAdmin/eventos" var="uploadIMG4"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadIMG4"/>&num=4" data-target="#mUploadFile">Cambiar imagen 4</a><br/>
                                                         </s:else>
                                                     </td>
                                                     <td>
                                                         <s:if test="pdf.equalsIgnoreCase('NULL')">
-                                                            <s:url id="uploadPDFURL" action="form_upload_pdf" namespace="/SistemasAdmin/eventos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_pdf" namespace="/SistemasAdmin/eventos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadPDFURL"/>" data-target="#mUploadFile">Subir PDF</a>
                                                         </s:if>
                                                         <s:else>
-                                                            <s:url id="pdfURL" namespace="" action="viewEventoPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url namespace="" action="viewEventoPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <!--<a href="<s:property value="#pdfURL"/>" target="_blank"><img src="${pageContext.request.contextPath}/img/Files-Pdf-icon.png" alt="<s:property value="nombre"/>" title="<s:property value="nombre"/>"  class="img-responsive"/></a>-->
                                                             <a href="<s:property value="#pdfURL"/>" target="_blank"><span class="fa fa-file-pdf-o"></span></a>
                                                             <br/>
                                                             <br/>
-                                                            <s:url id="uploadPDFURL" action="form_upload_pdf" namespace="/SistemasAdmin/eventos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                                            <s:url action="form_upload_pdf" namespace="/SistemasAdmin/eventos" var="uploadPDFURL"><s:param name="id" value="%{id}"></s:param></s:url>
                                                             <a href="javascript:void(0);" data-toggle="modal" data-remote="<s:property value="#uploadPDFURL"/>" data-target="#mUploadFile">Cambiar PDF</a>
                                                         </s:else>
                                                     </td>

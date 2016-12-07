@@ -28,7 +28,7 @@
     </head>
     <body>
         <%if (!(request.getParameter("d") != null)) {%>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <%}%>
         <!-- Cuerpo -->
         <div id="contenedorCaleEscInte">
@@ -88,7 +88,7 @@
         </div>
         <!-- Cuerpo -->
         <%if (!(request.getParameter("d") != null)) {%>
-        <jsp:include page="../includePie.jsp?origen=servicios" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
         <%} else {%>
         <script src="${pageContext.request.contextPath}/js/JQuery/jquery-1.11.3.min.js"></script>
         <%}%>

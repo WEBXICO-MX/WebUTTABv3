@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=vinculacion" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=vinculacion" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -35,6 +35,16 @@
                     <div class="corte"></div>
                 </header>
                 <article class="vinculacion_contenido">
+                    <section class="vinculacion_texto">
+                        <figure class="vinculacion_btnsMenu">
+                            <s:url var="url_catalogo" action="viewFile" namespace="">
+                                <s:param name="i" value="1"></s:param>
+                                <s:param name="d" value="%{'servicios_especializados'}"></s:param>
+                            </s:url>
+                            <s:a href="%{url_catalogo}" target="_blank"><img src="${pageContext.request.contextPath}/img/vinculacion/servicios_especializados/btn_catalogo.png" alt="Catálogo de servicios especializados"/></s:a>
+                        </figure>
+                        <div class="corte"></div>
+                    </section>
                     <section class="vinculacion_texto">
                         <figure>
                             <img src="${pageContext.request.contextPath}/img/vinculacion/capacitacion_profesional/capacitación-profesional_03-min.png" alt="capacitación profesional"/>
@@ -69,6 +79,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=vinculacion" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
     </body>
 </html>

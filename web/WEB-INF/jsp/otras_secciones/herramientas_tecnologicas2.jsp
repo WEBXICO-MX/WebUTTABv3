@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="otras_secciones_section">
@@ -37,6 +37,31 @@
                 <article class="otras_secciones_contenido">
                     <section class="otras_secciones_texto_full">
                         <figure><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/herramientas_tecnologicas1-min.png" alt="Herramientas tecnológicas"/></figure>
+                    </section>
+                    <section class="otras_secciones_texto">
+                        <article class="otras_secciones_texto1">
+                            <h3>App UTTAB</h3>
+                            <p>Aplicación movil oficial de la Universidad Tecnológica de Tabasco, cuenta con las siguientes secciones:</p>
+                            <br/>
+                            <ul>
+                                <li>Actividades universitarias</li>
+                                <li>Oferta educativa</li> 
+                                <li>Mis servicios</li>
+                                <li>Bolsa de trabajo</li>
+                                <li>Cursos a egresados</li>
+                                <li>Sintonía UTTAB 102.5 FM</li>
+                                <li>Directorio</li>
+                                <li>Contacto</li>
+                            </ul>                            
+                            <br/>
+                            <a href="https://play.google.com/store/apps/details?id=mx.edu.uttab.apputtab&hl=es_419" target="_blank"><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/btn_app_uttab_android.png" alt="App UTTAB Android" ></a>
+                            <a href="https://itunes.apple.com/mx/app/uttab/id928155133?mt=8" target="_blank"><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/btn_app_uttab_ios.png" alt="App UTTAB iOS" ></a>
+                            <div class="corte"></div>
+                        </article>
+                        <article class="otras_secciones_texto2 text_align_right">
+                            <figure><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/app_uttab.png" alt="App UTTAB"/></figure>
+                        </article>
+                        <div class="corte"></div>
                     </section>
                     <section class="otras_secciones_texto">
                         <article class="otras_secciones_texto1">
@@ -53,7 +78,8 @@
                             </ul>
                             <p>Puedes trabajar de forma colaborativa tus documentos, almacenarlos en OneDrive y consultarlos desde cualquier lugar con acceso a internet.</p>
                             <br/>
-                            <a href="https://login.microsoftonline.com/" target="_blank"><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/btn_ingresar-min.png" alt="Microsoft Office365" ></a>
+                            <a href="https://login.microsoftonline.com/" target="_blank"><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/btn_ingresar-min.png" alt="Microsoft Office365" style="height: 35px"></a>
+                            <a href="https://products.office.com/es-MX/student/office-in-education" target="_blank"><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/btn_office365_download.png" alt="Microsoft Office365 Download"></a>
                             <div class="corte"></div>
                         </article>
                         <article class="otras_secciones_texto2 text_align_right">
@@ -61,7 +87,7 @@
                         </article>
                         <div class="corte"></div>
                     </section>
-                    <section class="otras_secciones_texto">
+                    <!--<section class="otras_secciones_texto">
                         <article class="otras_secciones_texto1">
                             <h4>Microsoft DreamSpark</h4>
                             <p>Es una tienda virtual de Microsoft que te permite descargar software de sistemas operativos, servidores, herramientas de desarrollo y aplicaciones, es decir una gama de 198 tipos de software sin costo para uso académico.</p> 
@@ -75,7 +101,7 @@
                             <figure><img src="${pageContext.request.contextPath}/img/otras_secciones/herramientas_tecnologicas/dream_spark.png" alt="Microsoft DreamSpark"/></figure>
                         </article>
                         <div class="corte"></div>
-                    </section>
+                    </section>-->
                     <section class="otras_secciones_texto">
                         <article class="otras_secciones_texto1">
                             <h4>Autodesk</h4>
@@ -213,7 +239,7 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=boletines_anteriores" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=boletines_anteriores" flush="true" />
         <script>
             $(document).ready(function () {
                 $("article.otras_secciones_contenido section.otras_secciones_texto:nth-child(n+9)").hide();

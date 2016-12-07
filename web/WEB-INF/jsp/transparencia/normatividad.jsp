@@ -25,7 +25,7 @@
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.jsp?origen=servicios" flush="true"  />
+        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="transparencia_section">
@@ -42,21 +42,21 @@
                         <p>La normatividad es el conjunto de reglas, leyes o preceptos de carácter obligatorio, emanados de una autoridad normativa, la cual tiene su fundamento de validez en una norma jurídica que la autoriza con el objeto de regular las relaciones sociales y cuyo cumplimiento está garantizado por el Estado.</p><br/>
                         <ul style="list-style-position: inside">
                             <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="Pdf" style="vertical-align: bottom;"/>
-                                <s:url id="url_normatividad1" action="viewFile" namespace="">
+                                <s:url var="url_normatividad1" action="viewFile" namespace="">
                                    <s:param name="i" value="%{1}"></s:param>
                                    <s:param name="d" value="%{'normatividad'}"></s:param>
                                  </s:url>
                                 <s:a href="%{url_normatividad1}" target="_blank">Acuerdo que Crea la Universidad Tecnológica de Tabasco</s:a>
                             </li>
                             <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="Pdf" style="vertical-align: bottom;"/>
-                                <s:url id="url_normatividad2" action="viewFile" namespace="">
+                                <s:url var="url_normatividad2" action="viewFile" namespace="">
                                    <s:param name="i" value="%{2}"></s:param>
                                    <s:param name="d" value="%{'normatividad'}"></s:param>
                                  </s:url>
                                 <s:a href="%{url_normatividad2}" target="_blank">Ley de educación del Estado de Tabasco</s:a>
                             </li>
                             <li><img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="Pdf" style="vertical-align: bottom;"/>
-                                <s:url id="url_normatividad3" action="viewFile" namespace="">
+                                <s:url var="url_normatividad3" action="viewFile" namespace="">
                                    <s:param name="i" value="%{3}"></s:param>
                                    <s:param name="d" value="%{'normatividad'}"></s:param>
                                  </s:url>
@@ -69,6 +69,6 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=transparencia" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=transparencia" flush="true" />
     </body>
 </html>

@@ -1,53 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="cotendcut" namespace="/cotendcut" extends="struts-default">
         <action name="">
-            <result name="success" type="redirectAction">inicio</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="inicio">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/inicio.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="sedes">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/sedes.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="sedesViewMap">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/sedes_view_map.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="programa">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/programa.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="resultados">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/resultados.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="hospedaje">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/hospedaje.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="directorio">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/directorio.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="futbolSoccer">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/futbol_soccer.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="futbolRapido">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/futbol_rapido.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="basquetbol">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/basquetbol.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="voleibol">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/voleibol.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="futbol7">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/futbol7.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="beisbol">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/beisbol.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
         <action name="canto">
-            <result>/WEB-INF/jsp/otras_secciones/COTENDCUT/canto.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">Home</param>
+                <param name="namespace">/</param>
+            </result>
         </action>
     </package>
 </struts>

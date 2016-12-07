@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" session="false"%>
 <%@taglib uri="/struts-tags" prefix="s"%>
 <s:if test="registrosList.size() > 0">
-    <s:url id="downloadFile" action="excel"> <s:param name="st" value="%{st}"></s:param></s:url>
+    <s:url var="downloadFile" action="excel"> <s:param name="st" value="%{st}"></s:param></s:url>
     <p style="margin-top:10px; margin-bottom: 10px"><s:a href="%{downloadFile}"> <span class="glyphicon glyphicon-cloud-download"></span> Descargar Excel</s:a></p>
         <table class="table table-hover table-condensed table-striped">
             <thead>

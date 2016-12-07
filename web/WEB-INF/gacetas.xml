@@ -1,22 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gacetas>
+  <gaceta id="78">
+    <fecha_ejemplar>28 NOV 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar78.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_78.pdf</pdf>
+    <activo>true</activo>
+  </gaceta>
+  <gaceta id="77">
+    <fecha_ejemplar>14 NOV 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar77.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_77.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="76">
+    <fecha_ejemplar>31 OCT 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar76.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_76.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="75">
+    <fecha_ejemplar>17 OCT 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar75.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_75.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="74">
+    <fecha_ejemplar>03 OCT 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar74.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_74.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="73">
+    <fecha_ejemplar>19 SEP 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar73.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_73.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="72">
+    <fecha_ejemplar>05 SEP 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar72.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_72.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="71">
+    <fecha_ejemplar>22 AGO 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar71.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_71.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="70">
+    <fecha_ejemplar>01 AGO 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar70.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_70.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="69">
+    <fecha_ejemplar>04 JUL 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar69.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_69.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="68">
+    <fecha_ejemplar>20 JUN 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar68.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_68.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="67">
+    <fecha_ejemplar>06 JUN 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar67.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_67.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="66">
+    <fecha_ejemplar>23 MAY 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar66.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_66.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="65">
+    <fecha_ejemplar>09 MAY 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar65.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_65.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="64">
+    <fecha_ejemplar>25 ABR 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar64.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_64.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="63">
+    <fecha_ejemplar>11 ABR 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar63.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_63.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
   <gaceta id="62">
     <fecha_ejemplar>14 MAR 2016</fecha_ejemplar>
     <img>img/otras_secciones/gaceta/ejemplar62.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_62.pdf</pdf>
-    <activo>true</activo>
+    <activo>false</activo>
   </gaceta>
   <gaceta id="61">
     <fecha_ejemplar>29 FEB 2016</fecha_ejemplar>
     <img>img/otras_secciones/gaceta/ejemplar61.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_61.pdf</pdf>
-    <activo>true</activo>
+    <activo>false</activo>
   </gaceta>
   <gaceta id="60">
     <fecha_ejemplar>15 FEB 2016</fecha_ejemplar>
     <img>img/otras_secciones/gaceta/ejemplar60.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_60.pdf</pdf>
-    <activo>true</activo>
+    <activo>false</activo>
   </gaceta>
   <gaceta id="59">
     <fecha_ejemplar>01 FEB 2016</fecha_ejemplar>

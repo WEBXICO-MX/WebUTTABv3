@@ -57,7 +57,7 @@
         </div>
 
         <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=conocenos" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
         <script src="${pageContext.request.contextPath}/js/comun.min.js"></script>
         <script>
                     function cargarPdf(valor)

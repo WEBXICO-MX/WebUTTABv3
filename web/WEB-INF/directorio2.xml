@@ -17,11 +17,11 @@
         <activo>true</activo>
     </persona>
     <persona id="3" area="1">
-        <nombre>María Patricia Alor López</nombre>
-        <puesto>Contralora Interna</puesto>
+        <nombre>Roberto Ordóñez Herrera</nombre>
+        <puesto>Contralor Interno</puesto>
         <tel>3582222 Ext. 9010</tel>
         <email>contraloria@uttab.edu.mx</email>
-        <img>img/conocenos/directorio/04_ma_patricia_02.png</img>
+        <img>img/conocenos/directorio/04_roberto_ordonez_herrera.png</img>
         <activo>true</activo>
     </persona>	
     <persona id="4" area="1">
@@ -33,11 +33,11 @@
         <activo>true</activo>
     </persona>
     <persona id="5" area="1">
-        <nombre>Raúl Alejandro Alamilla Reyes</nombre>
-        <puesto>Titular de la Unidad de Acceso a la Información</puesto>
+        <nombre>Rigoberto Ochoa Murillo</nombre>
+        <puesto>Encargado de la Unidad de Acceso a la Información</puesto>
         <tel>3582222 Ext. 9009</tel>
         <email>transparencia@uttab.edu.mx</email>
-        <img>img/conocenos/directorio/23_raul_alamilla.jpg</img>
+        <img>img/conocenos/directorio/23_Rigoberto_Ochoa_Murillo.png</img>
         <activo>true</activo>
     </persona>
     <persona id="6" area="2">
@@ -73,11 +73,11 @@
         <activo>true</activo>
     </persona>
     <persona id="10" area="2">
-        <nombre>Ana Edith Palomino Vergara</nombre>
-        <puesto>Directora de la división de Química</puesto>
+        <nombre>José Alfredo Irineo Mijangos</nombre>
+        <puesto>Encargado de la división de Química.</puesto>
         <tel>3582222 Ext. 3003</tel>
         <email>d.quimica@uttab.edu.mx</email>
-        <img>img/conocenos/directorio/18_ana_edith_palomino_02.png</img>
+        <img>img/conocenos/directorio/18_Jose_Alfredo_Irineo_Mijangos.png</img>
         <activo>true</activo>
     </persona>
     <persona id="11" area="2">
@@ -114,7 +114,7 @@
     </persona>
     <persona id="15" area="3">
         <nombre>Australia Vallejo Hidalgo</nombre>
-        <puesto>Directora de Desarrollo Empresarial</puesto>
+        <puesto>Directora de Enlace Empresarial</puesto>
         <tel>3582222 Ext. 2011</tel>
         <email>d.desarrollo@uttab.edu.mx</email>
         <img>img/conocenos/directorio/11_australia_vallejo_02.png</img>
@@ -138,7 +138,7 @@
     </persona>
     <persona id="18" area="3">
         <nombre>Lenin González Baños</nombre>
-        <puesto>Director de Extensión Universitaria</puesto>
+        <puesto>Director de Difusión Universitaria</puesto>
         <tel>3582222 Ext. 8002</tel>
         <email>d.euniversitaria@uttab.edu.mx</email>
         <img>img/conocenos/directorio/10_lenin_gonzalez_02.png</img>
@@ -146,7 +146,7 @@
     </persona>
     <persona id="20" area="4">
         <nombre>Sergio Hermilo Jiménez Torres</nombre>
-        <puesto>Encargado de la Dirección de Administración y Finanzas</puesto>
+        <puesto>Director de Administración y Finanzas</puesto>
         <tel>3582222 Ext. 9018</tel>
         <email>administracion@uttab.edu.mx</email>
         <img>img/conocenos/directorio/06_Sergio_Hermilo_Jimenez_Torres.jpeg</img>
@@ -178,7 +178,7 @@
     </persona>
         <persona id="24" area="8">
         <nombre>Guillermo Oliver González Rodríguez</nombre>
-        <puesto>Coordinador del Centro de Atención a PEMEX</puesto>
+        <puesto>Coordinador General del Centro de Atención al Sector Energético</puesto>
         <tel>3582222 Ext. 2017</tel>
         <email>case@uttab.edu.mx</email>
         <img>img/conocenos/directorio/14_guillermo oliver_02.jpg</img>

@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <calendario_eventos>
+    <calendario_evento id="314">
+        <nombre>4to. Informe de Actividades </nombre>
+        <descripcion>4to. Informe de Actividades </descripcion>
+        <lugar_realizacion>Sala audiovisual</lugar_realizacion>
+        <organizador>Dirección de Planeación y Evaluación</organizador>
+        <costo>S/C</costo>
+        <informes>Dirección de Planeación y Evaluación ext. 9014</informes>
+        <fecha_realizacion>2016-12-09</fecha_realizacion>
+        <hora_realizacion>17:00 - 19:00 hrs</hora_realizacion>
+        <fecha_publicacion>2016-10-26</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
     <calendario_evento id="313">
         <nombre>Cuarta Sesión Oridnaria de la UTTAB 2016</nombre>
         <descripcion>Presentación y seguimiento de acciones expuestas ante el consejo para su aprobación correspondiente.</descripcion>
-        <lugar_realizacion>Sala de juntas de Rectoría de la Universidad Tecnologíca de Tabasco</lugar_realizacion>
-        <organizador>Servicios Médicos</organizador>
+        <lugar_realizacion>Secretaría de Educación</lugar_realizacion>
+        <organizador>Dirección de Planeación y Evaluación</organizador>
         <costo>S/C</costo>
-        <informes>Dirección de Planeación y Evaluación, ext. 9014</informes>
+        <informes>Dirección de Planeación y Evaluación ext. 9014</informes>
         <fecha_realizacion>2016-12-05</fecha_realizacion>
-        <hora_realizacion>11:30 - 13:00 horas</hora_realizacion>
-        <fecha_publicacion>2016-03-14</fecha_publicacion>
+        <hora_realizacion>10:00 - 11:30 hrs</hora_realizacion>
+        <fecha_publicacion>2016-10-26</fecha_publicacion>
         <activo>true</activo>
     </calendario_evento>
     <calendario_evento id="312">
@@ -109,32 +121,27 @@
         <activo>true</activo>
     </calendario_evento>
     <calendario_evento id="304">
-        <nombre>Concurso de altares de ofrendas UTTAB 2015.</nombre>
-        <descripcion>Se escogen los tres mejores altares elaborados por alumnos de las 5 Divisiones Académicas de UTTAB. Existe previa inscripción para la participación en este concurso.</descripcion>
-        <lugar_realizacion>Edificio de Vinculación</lugar_realizacion>
-        <organizador>Departamento de Actividades Culturales y Deportivas</organizador>
+        <nombre>Concurso de Altares de Ofrendas y Catrinas UTTAB 2016</nombre>
+        <descripcion>Consiste en premiar a los estudiantes y profesores de las cinco divisiones académicas de la UTTAB.Se elige a través de un jurado experto.</descripcion>
+        <lugar_realizacion>Vestíbulo del edificio de la Secretaría de Vinculación</lugar_realizacion>
+        <organizador>Promoción Universitaria</organizador>
         <costo>S/C</costo>
-        <informes>Departamento de Actividades Culturales y Deportivas e-mail:daculturales@uttab.edu.mx Extensión:8100 Encargada del Departamento: Isabel Cristina Balcázar Peralta, Coordinador de Cultura:  Juan De Dios García Segura</informes>
-        <fecha_realizacion>2016-11-01</fecha_realizacion>
-        <hora_realizacion>12:00 horas</hora_realizacion>
-        <fecha_publicacion>2016-03-14</fecha_publicacion>
+        <informes>Dirección de Promoción Universitaria Ext. 8003</informes>
+        <fecha_realizacion>2016-10-28</fecha_realizacion>
+        <hora_realizacion>12:30 hrs</hora_realizacion>
+        <fecha_publicacion>2016-10-26</fecha_publicacion>
         <activo>true</activo>
     </calendario_evento>
     <calendario_evento id="303">
         <nombre>Festival del Tamal  </nombre>
-        <descripcion>En el marco de la celebración del día de muertos en nuestra localidad, se realiza el 6to. Festival del Tamal, Concurso de Altares de Ofrendas edición 2015, Concurso de Catrina Viviente y premiación del concurso de Panteones y Calaveras, en estos eventos participan tanto estudiantes y profesores de las cinco divisiones académicas de la UTTAB, como personal de la Dirección de Extensión Universitaria.
-
-            En donde tienen como propósito realizar:
-
-            Festival del Tamal
-            El festival consiste en un concurso del tamal innovador donde los alumnos de la División de Turismo y Gastronomía de la UTTAB, proponen y presentan recetas de tamales diferentes a los tradicionales, con innovaciones que los haga atractivos en lo visual y por supuesto, en el paladar.</descripcion>
+        <descripcion>En el marco de la celebración del día de muertos en nuestra localidad, se realiza el ""7mo. Festival del Tamal 2016, consiste en un concurso del tamal innovador donde los alumnos de la División de Turismo y Gastronomía de la UTTAB, proponen y presentan recetas de tamales diferentes a los tradicionales, con innovaciones que los haga atractivos en lo visual y por supuesto, en el paladar.</descripcion>
         <lugar_realizacion>Vestíbulo del edificio de la Secretaría de Vinculación</lugar_realizacion>
-        <organizador>Extensión Universitaria</organizador>
+        <organizador>Promoción Universitaria</organizador>
         <costo>S/C</costo>
-        <informes>3582222 ext 8005</informes>
-        <fecha_realizacion>2016-10-27</fecha_realizacion>
-        <hora_realizacion>12:00 horas</hora_realizacion>
-        <fecha_publicacion>2016-03-14</fecha_publicacion>
+        <informes>Dirección de Promoción Universitaria Ext. 8003</informes>
+        <fecha_realizacion>2016-10-28</fecha_realizacion>
+        <hora_realizacion>12:00 hrs</hora_realizacion>
+        <fecha_publicacion>2016-10-26</fecha_publicacion>
         <activo>true</activo>
     </calendario_evento>
     <calendario_evento id="302">
@@ -147,7 +154,7 @@
         <fecha_realizacion>2016-10-27</fecha_realizacion>
         <hora_realizacion>12:00 horas</hora_realizacion>
         <fecha_publicacion>2016-03-14</fecha_publicacion>
-        <activo>true</activo>
+        <activo>false</activo>
     </calendario_evento>
     <calendario_evento id="301">
         <nombre>Día Mundial del Cáncer de Mama</nombre>
@@ -171,7 +178,7 @@
         <fecha_realizacion>2016-10-18</fecha_realizacion>
         <hora_realizacion>10:00 hrs</hora_realizacion>
         <fecha_publicacion>2016-03-14</fecha_publicacion>
-        <activo>true</activo>
+        <activo>false</activo>
     </calendario_evento>
     <calendario_evento id="299">
         <nombre>5° Maratón de lectura</nombre>
@@ -510,10 +517,10 @@
         <activo>true</activo>
     </calendario_evento>
     <calendario_evento id="271">
-        <nombre>Ceremonia de graduación XXXVI TSU y XX Licenciatura</nombre>
+        <nombre>Ceremonia de graduación XXXVI TSU y X Licenciatura</nombre>
         <descripcion> Realizar una ceremonia institucional de terminación de estudios para los egresados.</descripcion>
         <lugar_realizacion>Teatro Esperanza Iris</lugar_realizacion>
-        <organizador>Friné Lara Beltrán Departamento Editorial</organizador>
+        <organizador>Departamento Editorial</organizador>
         <costo>S/C</costo>
         <informes>3582222 ext 8006</informes>
         <fecha_realizacion>2016-06-22</fecha_realizacion>

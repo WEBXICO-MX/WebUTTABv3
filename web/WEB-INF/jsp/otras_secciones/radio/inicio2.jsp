@@ -14,6 +14,11 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Sintonía UTTAB 102.5 FM">
         <meta name="keywords" content="servicios,Sintonía UTTAB 102.5 FM,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
+        <!-- METAS FACEBOOK -->
+        <meta content='UTTAB &#124; Sintonía UTTAB 102.5 FM' property='og:title'/>
+        <meta content='http://www.uttab.edu.mx/img/logo_ut_shared_facebook.png' property='og:image'/>
+        <meta content='La radio universitaria, Sintonía UTTAB "La perfecta armonía de tus sentidos", tiene como objetivo difundir y promover el quehacer científico, cultural y deportivo de la UTTAB, siendo una puerta de enlace entre la Universidad Tecnológica de Tabasco y la comunidad, con una oferta radiofónica innovadora, social y cultural.' property='og:description'/>
+        <meta content='http://www.uttab.edu.mx/sintonia/radio.action' property='og:url'/>
         <!--[if IE]>
         <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
         <![endif]-->

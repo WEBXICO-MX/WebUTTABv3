@@ -64,7 +64,7 @@
 
             <div id="contenedor3">&nbsp;</div>
             <!-- Cuerpo -->
-        <jsp:include page="../includePie.jsp?origen=otras_secciones" flush="true" />
+        <jsp:include page="../includePie.min.jsp?origen=otras_secciones" flush="true" />
         <script src="js/otras_secciones/gaceta.min.js"></script>
         <script>
             $(document).ready(function() {

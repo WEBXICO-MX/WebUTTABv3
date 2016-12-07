@@ -32,7 +32,7 @@
         </style>
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.jsp?origen=unidades_negocio" flush="true"  />
+        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
         <!-- Cuerpo -->
         <main>
             <section class="vinculacion_section">
@@ -87,7 +87,7 @@
                                                     <!-- Validación temporal 2016, ya que solo hay información del Curso nº 9 Rig Pass, nº 22 "Básico de soldadura"-->
                                                     <s:if test="id==9 || id == 22">
                                                         <!--<s:property value="#stat3.index" />-->
-                                                        <s:url id="capacitacion_nombre" action="calendario" namespace="/case">
+                                                        <s:url var="capacitacion_nombre" action="calendario" namespace="/case">
                                                             <s:param name="id" value="id"></s:param>
                                                         </s:url>
                                                         <s:a href="%{capacitacion_nombre}"><strong><s:property value="nombre"/></strong></s:a>
@@ -121,7 +121,7 @@
             </section>
         </main>
         <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.jsp?origen=unidades_negocio" flush="true" />
+        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio" flush="true" />
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/unidades_negocio/case/case.min.js"></script>

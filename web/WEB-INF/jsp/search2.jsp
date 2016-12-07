@@ -14,11 +14,11 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Resultados de la busqueda">
         <meta name="keywords" content="tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <link href="http://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400" rel="stylesheet" type="text/css">
-        <link href="css/search.min.css"  rel="stylesheet" type="text/css" media="all">
-        <link href="js/JQuery/plugins/GooglePoweredSiteSearchWithJQuery/styles.css" rel="stylesheet" type="text/css" media="all" >
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400" rel="stylesheet">
+        <link href="css/search.min.css"  rel="stylesheet">
+        <link href="js/JQuery/plugins/GooglePoweredSiteSearchWithJQuery/styles.min.css" rel="stylesheet" >
         <script src="js/JQuery/jquery-1.11.3.min.js"></script>
-        <script src="js/JQuery/plugins/GooglePoweredSiteSearchWithJQuery/script.js"></script>
+        <script src="js/JQuery/plugins/GooglePoweredSiteSearchWithJQuery/script.min.js"></script>
         <script>
             $(document).ready(function() {
             <%if (request.getParameter("q") != null) {%>
@@ -27,7 +27,6 @@
             <%}%>
             });
         </script>
-
         <!--[if lte IE 8]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <link type="text/css" href="../css/ie.min.css" rel="stylesheet">
@@ -48,6 +47,6 @@
 
         </div>
         <!-- Cuerpo -->
-        <jsp:include page="includePie.jsp?origen=search" flush="true" />
+        <jsp:include page="includePie.min.jsp?origen=search" flush="true" />
     </body>
 </html>
