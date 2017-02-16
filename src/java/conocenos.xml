@@ -5,9 +5,12 @@
 <struts>
     <package name="conocenos" namespace="/conocenos" extends="struts-default">
         <action name="">
-            <result name="success" type="redirectAction">mensaje_rector</result>
+            <result name="success" type="redirectAction">mensaje-rector</result>
         </action>
         <action name="mensaje_rector">
+            <result name="success" type="redirectAction">mensaje-rector</result>
+        </action>
+        <action name="mensaje-rector">
             <result>/WEB-INF/jsp/conocenos/mensaje_del_rector2.jsp</result>
         </action>
         <action name="historia">
@@ -17,10 +20,16 @@
             <result>/WEB-INF/jsp/conocenos/identidad2.jsp</result>
         </action>
         <action name="modelo_educativo">
+            <result name="success" type="redirectAction">modelo-educativo</result>
+        </action>
+        <action name="modelo-educativo">
             <result>/WEB-INF/jsp/conocenos/modelo_educativo2.jsp</result>
         </action>
         <action name="sistemas_institucionales">
-            <result>/WEB-INF/jsp/conocenos/sistemas_gestion3.jsp</result>
+            <result name="success" type="redirectAction">sistema-gestion-calidad</result>
+        </action>
+        <action name="sistema-gestion-calidad">
+            <result>/WEB-INF/jsp/conocenos/sistema_gestion_calidad.jsp</result>
         </action>
         <action name="directorio">
             <result>/WEB-INF/jsp/conocenos/directorio2.jsp</result>
@@ -30,6 +39,12 @@
         </action>
         <action name="organigrama">
             <result>/WEB-INF/jsp/conocenos/organigrama2.jsp</result>
+        </action>
+        <action name="4to-informe-de-actividades">
+            <result>/WEB-INF/jsp/conocenos/4to_informe_actividades.jsp</result>
+        </action>
+        <action name="4to-informe-de-actividades2">
+            <result>/WEB-INF/jsp/conocenos/4to_informe_actividades2.jsp</result>
         </action>
     </package>
 </struts>

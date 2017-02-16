@@ -1,5 +1,447 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ficheros>
+    <fichero id="79" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/07 Anexo de ejecución_PFCE 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="78" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/06 Convenio_PFCE 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="77" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/05 Asignación_PFCE 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="76" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/04 Resultados_PFCE_2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="75" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-75.pptx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Guia PFCE 2016-2017 última versión.pptx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.presentationml.presentation</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="74" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-74.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_13.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="73" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-73.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_12.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="72" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-72.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_08.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="71" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-71.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_07.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="70" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_06.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="69" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_05_A.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="68" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_04B.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="67" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_04A.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="66" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-66.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/03 GuiaPFCE2016-2017 actualizada/Anexo_03.docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="65" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/02 Reglas de operación_PFCE 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="64" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/05 PFCE 2016/01 Convocatoria_PFCE2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="63" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/09 Informe académico_segundo trimestre ProExES 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="62" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/08 Informe académico_primer trimestre ProExES 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="61" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/07 Convenio y anexo de ejecución_ProExES 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="60" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/06 Asignación_ProExES 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="59" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/05 Recepción de proyecto_ProExES 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="58" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-58.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/04 Padrón de beneficiarios_ ProExES 2016 Reajuste.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="57" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/03 Asignaciones_ProExES_2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="56" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-56.xls</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/02 Formato proyecto_ProExES_2016.xls</ruta>
+        <mime>application/vnd.ms-excel</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="55" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/04 ProExES 2016/01 ProExES_2016_lineamientos.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="54" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/03 PADES 2016/06 Cancelación PADES 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="53" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/03 PADES 2016/05 Correo notificación.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="52" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/03 PADES 2016/04 Ficha de recepción.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="51" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/03 PADES 2016/03 Oficio entrega proyectos.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="50" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/03 PADES 2016/02 Instructivo_PADES_2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="49" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/03 PADES 2016/01 Lineamientos_PADES_2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="48" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/22 Anexo 3_Transferencias.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="47" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/21 4to. informe financiero.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="46" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/20 4to. Seguimiento académico y autoevaluación.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="45" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/19 4to.  Informe académico.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="44" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/18 3er. Informe financiero.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="43" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/17 3er. Seguimiento académico.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="42" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/16 3er. Informe académico.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="41" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/15 2do. Informe financiero.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="40" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/14 2do. Seguimiento académico.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="39" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/13  2do. Informe académico.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="38" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/12 1er. Informe financiero.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="37" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/11 1er. Seguimiento académico.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="36" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/10 1er. Informe académico.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="35" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/09 Contrado de fideicomiso PROFOCIE.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="34" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/08 Oficio fideicomiso PROFOCIE.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="33" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/07 Convenio PROFOCIE 2015.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="32" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/06 Proyecto_presentado_PROFOCIE 2014-2015.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="31" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/05 Oficio entrega de anexo de ejecución PROFOCIE 2015.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="30" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/04 Oficio de asignación.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="29" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-29.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/03 Formatos 2015/Seguimiento Academico PROFOCIE 2014.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="28" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/03 Formatos 2015/Instructivo_Ftos_Comp_PROFOCIE15.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="27" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-27.xlsx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/03 Formatos 2015/Ftos_Comp_PROFOCIE15.xlsx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="26" destino="fondos-extraordinarios">
+        <nombre>fondos-extraordinarios-26.docx</nombre>
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/03 Formatos 2015/Formato Academico Programatico Nuevo PROFOCIE 05112014 (formato en blanc....docx</ruta>
+        <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="25" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/02 Guía operativa-Contraloría social 2016.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="24" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/02 PROFOCIE 2015 (ejercicio 2016)/01 Reglas de operacion PROFOCIE 2014-2015.PDF</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="23" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/23 Oficio de liberación PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="22" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/22 Solicitud de liberación PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="21" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/21 Autoevaluación PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="20" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/20 Cierre del proyecto PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="19" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/19 4to. informe financiero PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="18" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/18 4to. Informe académico PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="17" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/17 Oficio 4to. informe PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="16" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/16 3er. Informe financiero PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="15" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/15 3er. Informe académico PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="14" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/14 Oficio 3er. Informe PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="13" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/13 2do. Infome financiero PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="12" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/12 2do. reporte académico PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="11" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/11 Oficio 2do. Informe PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="10" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/10 1er. Informe financiero PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="9" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/09 1er. informe académico-programático PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="8" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/08 1er. Informe académico PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="7" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/07 Oficio 1er. informe PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="6" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/06 Oficio re-asignación PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="5" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/05 Convenio y anexo de ejecución PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="4" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/04 Oficio asignación PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="3" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/03 Oficio entrega_PROFOCIE 2014.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="2" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/02 Reglas de operación_PROFOCIE.doc</ruta>
+        <mime>application/msword</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="1" destino="fondos-extraordinarios">
+        <ruta>WEB-INF/doctos/transparencia/fondos_extraordinarios/01 PROFOCIE 2014 (ejercicio 2015)/01 Convocatoria.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="2" destino="convocatorias">
+        <nombre>convocatoria02.pdf</nombre>
+        <ruta>WEB-INF/doctos/otras_secciones/convocatorias/02.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="1" destino="convocatorias">
+        <nombre>convocatoria01.pdf</nombre>
+        <ruta>WEB-INF/doctos/otras_secciones/convocatorias/01.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="4" destino="4to_informe">
+        <nombre>4to_informe_seleccion_graficos.pdf</nombre>
+        <ruta>WEB-INF/doctos/conocenos/4to_informe_actividades/Presentacion 4to Informe2-min.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="3" destino="4to_informe">
+        <nombre>4to_informe_discurso_completo.pdf  </nombre>
+        <ruta>WEB-INF/doctos/conocenos/4to_informe_actividades/Discurso FCF Cuarto Informe vesión B.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="2" destino="4to_informe">
+        <nombre>4to_informe_numeralia.pdf</nombre>
+        <ruta>WEB-INF/doctos/conocenos/4to_informe_actividades/Numeralia 4to Informe de Actividades.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="1" destino="4to_informe">
+        <nombre>4to_informe_documento_completo.pdf</nombre>
+        <ruta>WEB-INF/doctos/conocenos/4to_informe_actividades/4to Informe Digital-min.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
     <fichero id="13" destino="profocie2015">
         <nombre>profocie2015_manual_de_usuario_del_SICS.pdf</nombre>
         <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/manuales/Manual de Usuario_ SICS_ Ejecutoras Versión  2.1.pdf</ruta>
@@ -25,7 +467,7 @@
         <activo>true</activo>
     </fichero>
     <fichero id="9" destino="profocie2015">
-         <nombre>profocie2015_solicitud_de_informacion.docx</nombre>
+        <nombre>profocie2015_solicitud_de_informacion.docx</nombre>
         <ruta>WEB-INF/doctos/transparencia/contraloria_social/PROFOCIE/2015/formatos/6 Solic de Inf.docx</ruta>
         <mime>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime>
         <activo>true</activo>
@@ -109,6 +551,11 @@
     </fichero>
     <fichero id="1" destino="egresados">
         <ruta>WEB-INF/doctos/servicios/egresados/cursos.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="5" destino="bienes">
+        <ruta>WEB-INF/doctos/transparencia/bienes/BIENES MUEBLES E INMUEBLES CON CORTE AL 31 DE DICIEMBRE DEL 2016.pdf</ruta>
         <mime>application/pdf</mime>
         <activo>true</activo>
     </fichero>
@@ -709,6 +1156,11 @@
     </fichero>
     <fichero id="1" destino="cecap">
         <ruta>WEB-INF/doctos/unidades_negocio/cecap/Servicios.pdf</ruta>
+        <mime>application/pdf</mime>
+        <activo>true</activo>
+    </fichero>
+    <fichero id="19" destino="biblioteca">
+        <ruta>WEB-INF/doctos/servicios/biblioteca/Nuevas_adquisiciones_sept_dic_2016.pdf</ruta>
         <mime>application/pdf</mime>
         <activo>true</activo>
     </fichero>

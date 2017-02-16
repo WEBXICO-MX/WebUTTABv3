@@ -5,31 +5,82 @@
 <struts>
     <package name="otras_secciones" namespace="/otras_secciones" extends="struts-default">
         <action name="">
-            <result name="success" type="redirectAction">actividades_universitarias</result>
+            <result type="redirectAction">
+                <param name="actionName">actividades-universitarias</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
         <action name="actividades_universitarias">
-            <result>/WEB-INF/jsp/otras_secciones/actividades_universitarias_anteriores2.jsp</result>
+            <result type="redirectAction">
+                <param name="actionName">actividades-universitarias</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
-        <action name="avisos" class="mx.edu.uttab.action.AvisoAction" method="listAvisosActivos">
-            <result>/WEB-INF/jsp/otras_secciones/avisos2.jsp</result>
+        <action name="avisos">
+            <result type="redirectAction">
+                <param name="actionName">avisos</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
         <action name="gacetas">
-            <result>/WEB-INF/jsp/otras_secciones/gaceta2.jsp</result>
+            <result type="redirectAction">
+                <param name="actionName">gacetas</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
         <action name="herramientas_tecnologicas">
-            <result>/WEB-INF/jsp/otras_secciones/herramientas_tecnologicas2.jsp</result>
+            <result type="redirectAction">
+                <param name="actionName">herramientas-tecnologicas</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
         <action name="calendario_eventos">
-            <result>/WEB-INF/jsp/otras_secciones/calendario_eventos2.jsp</result>
+            <result type="redirectAction">
+                <param name="actionName">calendario-eventos</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
         <action name="proteccion_civil">
-            <result>/WEB-INF/jsp/otras_secciones/proteccion_civil2.jsp</result>
+            <result type="redirectAction">
+                <param name="actionName">proteccion-civil</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
         <action name="conocer">
-            <result>/WEB-INF/jsp/otras_secciones/conocer.jsp</result>
+            <result type="redirectAction">
+                <param name="actionName">conocer</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
         <action name="dia_de_muertos">
-            <result>/WEB-INF/jsp/otras_secciones/dia_de_muertos.jsp</result>
+            <result type="redirectAction">
+                <param name="actionName">dia-de-muertos</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
+        </action>
+        <action name="rsu">
+            <result type="redirectAction">
+                <param name="actionName">rsu</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
+        </action>
+        <action name="reconocimientos">
+            <result type="redirectAction">
+                <param name="actionName">reconocimientos</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
+        </action>
+        <action name="reconocimientos_modal">
+            <result type="redirectAction">
+                <param name="actionName">reconocimientos-modal</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
+        </action>
+        <action name="convocatorias">
+            <result type="redirectAction">
+                <param name="actionName">convocatorias</param>
+                <param name="namespace">/otras-secciones</param>
+            </result>
         </action>
     </package>
 </struts>

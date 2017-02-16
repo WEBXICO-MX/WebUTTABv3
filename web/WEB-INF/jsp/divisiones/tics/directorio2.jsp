@@ -14,15 +14,8 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,División Académica de Tecnologías de la Información y Comunicación">
         <meta name="keywords" content="oferta educativa,División Académica de Tecnologías de la Información y Comunicación, directorio, tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/divisiones2.min.css"/>
-        <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/divisiones3.min.css"/>
         <style>
             /* Para listas ordenadas a 2 columnas*/
             * html ol li {position: relative; list-style: none;}
@@ -33,11 +26,13 @@
             .divisiones_texto .hora_semana_mes ol li.column3 { margin-left: 20em; }
             .divisiones_texto .hora_semana_mes li.reset{ margin-top: -21.6em;}
         </style>
+        <!--[if lt IE 9]>
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../../includeHeader.min.jsp?origen=division&Correo=1" flush="true"/>
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../../index3Header.min.jsp" flush="true"  />
             <section class="divisiones_section">
                 <header class="divisiones_titulo">
                     <h2><span class="texto_resaltado">Oferta educativa</span> /</h2>
@@ -46,14 +41,14 @@
                 </header>
                 <article class="divisiones_contenido">
                     <section class="divisiones_texto">
-                        <figure style="float:right;">
-                            <s:a action="inicio" namespace="/oferta_educativa/tic"><img src="${pageContext.request.contextPath}/img/divisiones/btn_division-min.png" alt="División Académica de Tecnologías de la Información y Comunicación"/></s:a>
-                            <s:a action="directorio" namespace="/oferta_educativa/tic"><img src="${pageContext.request.contextPath}/img/divisiones/btn_directorio-min.png" alt="Directorio de la División Académica de Tecnologías de la Información y Comunicación"/></s:a>
-                            </figure>
+                        <div style="float:right;">
+                            <s:a action="inicio" namespace="/oferta-educativa/tic"><img src="${pageContext.request.contextPath}/img/divisiones/btn_division-min.png" alt="División Académica de Tecnologías de la Información y Comunicación"/></s:a>
+                            <s:a action="directorio" namespace="/oferta-educativa/tic"><img src="${pageContext.request.contextPath}/img/divisiones/btn_directorio-min.png" alt="Directorio de la División Académica de Tecnologías de la Información y Comunicación"/></s:a>
+                            </div>
                             <div class="corte"></div>
                         </section>
                         <section class="divisiones_texto">
-                            <header><h3>Directorio</h3></header><br/>
+                            <header><h3>Directorio</h3></header>
                             <article>
                                 <div style=" width: 33%;float: left; font-size: 13px;">
                                     <p class="negritas">Director</p>
@@ -116,7 +111,7 @@
                             <div class="corte"></div>
                         </section>
                         <section class="divisiones_texto">
-                            <div class="ficha_contacto">
+                            <div class="ficha_contacto" style="height:160px;">
                                 <header><h3>Contacto</h3></header>
                                 <article>
                                    <p>N&uacute;mero directo: +52 (993) 3.58.22.03</p>
@@ -128,8 +123,7 @@
                     </article>
                     <div class="corte"></div>
                 </section>
-            </main>
-            <!-- Cuerpo -->
-        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
+            <jsp:include page="../../index3Footer.min.jsp" flush="true"  />                
+        </main>
     </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "WebUTTAB",
+  "authors": [
+    "WEBXICO-MX <weiss.uttab@gmail.com>"
+  ],
+  "description": "Sitio web oficial de la Universidad Tecnológica de Tabasco (UTTAB)",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "jquery": "^1",
+    "jquery-ui": "^1.12.1"
+  }
+}

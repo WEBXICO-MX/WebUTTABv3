@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Bolsa de trabajo">
         <meta name="keywords" content="servicios,Bolsa de trabajo,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]--> 
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="servicios_section">
                 <header class="servicios_titulo">
                     <h2><span class="texto_resaltado">Servicios</span> /</h2>
@@ -36,7 +31,7 @@
                 </header>
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
-                        <figure><img src="${pageContext.request.contextPath}/img/servicios/bolsa_trabajo/bolsa_trabajo1-min.png" alt="Bolsa de trabajo"/></figure><br/>
+                        <img src="${pageContext.request.contextPath}/img/servicios/bolsa_trabajo/bolsa_trabajo1-min.png" alt="Bolsa de trabajo"/>
                         <h3>¿Quiénes somos?</h3>
                         <p>La coordinación de Bolsa de Trabajo se encarga de mantener contacto con el sector empresarial para apoyar en su proceso de reclutamiento y selección de personal y, al mismo tiempo, apoyar a nuestros egresados a colocarse en el sector productivo.</p>
                     </section>
@@ -76,8 +71,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />              
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

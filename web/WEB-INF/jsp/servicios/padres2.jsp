@@ -14,24 +14,19 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Tutorías">
         <meta name="keywords" content="servicios,Tutorías,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios2.min.css"/>
-        <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios3.min.css"/>
         <style>
             ol { list-style-type: lower-alpha; list-style-position: inside;}
             ol > li { margin-bottom: 15px;}
         </style>
+        <!--[if lt IE 9]>
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]--> 
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="servicios_section">
                 <header class="servicios_titulo">
                     <h2><span class="texto_resaltado">Servicios / Alumnos</span> /</h2>
@@ -40,21 +35,21 @@
                 </header>
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
-                        <figure><img src="${pageContext.request.contextPath}/img/servicios/tutorias/tutorias1-min.png" alt="Tutorías"/></figure>
+                        <img src="${pageContext.request.contextPath}/img/servicios/tutorias/tutorias1-min.png" alt="Tutorías"/>
                     </section>
                     <section class="servicios_texto">
                         <h3>Tutorías</h3>
-                        <p>La Universidad Tecnológica de Tabasco ofrece a sus estudiantes un Programa Institucional de Tutorías (PITA) cuyo objetivo es contribuir a la formación integral de los alumnos a través del acompañamiento personal y académico para reducir los índices de reprobación y deserción, incrementar el nivel de aprovechamiento académico, así como propiciar una conducta apropiada por los alumnos en sus actividades universitarias.</p><br/>
-                        <p class="primera_linea">La acción tutorial en nuestra universidad está orientada a la formación integral del estudiante de acuerdo al modelo 70% práctica y 30% teoría, teniendo como base la utilización de modelos centrados en el alumno y la orientación hacia el aprendizaje que permita el desarrollo de la inteligencia, la conducta y la afectividad.</p><br/>
-                        <p class="primera_linea">Cada división académica asigna a un profesor de tiempo completo o de asignatura para atender a un grupo determinado de alumnos, cuya responsabilidad es:</p><br/>
+                        <p>La Universidad Tecnológica de Tabasco ofrece a sus estudiantes un Programa Institucional de Tutorías (PITA) cuyo objetivo es contribuir a la formación integral de los alumnos a través del acompañamiento personal y académico para reducir los índices de reprobación y deserción, incrementar el nivel de aprovechamiento académico, así como propiciar una conducta apropiada por los alumnos en sus actividades universitarias.</p>
+                        <p class="primera_linea">La acción tutorial en nuestra universidad está orientada a la formación integral del estudiante de acuerdo al modelo 70% práctica y 30% teoría, teniendo como base la utilización de modelos centrados en el alumno y la orientación hacia el aprendizaje que permita el desarrollo de la inteligencia, la conducta y la afectividad.</p>
+                        <p class="primera_linea">Cada división académica asigna a un profesor de tiempo completo o de asignatura para atender a un grupo determinado de alumnos, cuya responsabilidad es:</p>
                         <ul>
                             <li>Detectar problemas de conducta individual o grupal</li>
                             <li>Identificar la problemática de índole académica, socioeconómica y familiar del alumno que afecte su rendimiento</li>
                             <li>Ayudar al alumno a explorar sus capacidades y/o a compensar sus deficiencias, propugnando por la autoformación con base en el apoyo mutuo y en el trabajo en común</li>
                             <li>Mantenerse en comunicación con los padres de familia en casos específicos</li>
                             <li>Es importante destacar que el tutor canaliza al alumno con el área correspondiente cuando las diversas problemáticas rebasan su capacidad o formación</li>
-                        </ul><br/>
-                        <p>Los horarios de las tutorías se ocuparán en función a las necesidades de cada uno de los casos:</p><br/>
+                        </ul>
+                        <p>Los horarios de las tutorías se ocuparán en función a las necesidades de cada uno de los casos:</p>
                         <ol>
                             <li>Tutorías
                                 <ul>
@@ -104,14 +99,13 @@
                                     <li>Cursos del mapa curricular en plataforma</li>
                                 </ul>
                             </li>
-                        </ol><br/>
+                        </ol>
                         <p>Si el padre o responsable del alumno desea tener una entrevista con el tutor puede solicitarla al director de la carrera vía correo electrónico.</p>
                     </section>
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />        
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

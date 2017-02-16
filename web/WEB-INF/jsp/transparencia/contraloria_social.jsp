@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Contraloría Social">
         <meta name="keywords" content="transparencia,Contraloría Social,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/transparencia2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/transparencia3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="transparencia_section">
                 <header class="transparencia_titulo">
                     <h2><span class="texto_resaltado">Transparencia</span> /</h2>
@@ -36,7 +31,7 @@
                 </header>
                 <article class="transparencia_contenido">
                     <section class="transparencia_texto_full">
-                        <figure><img src="${pageContext.request.contextPath}/img/transparencia/contraloria_social/contraloria_social1-min.png" alt=""/></figure>
+                        <img src="${pageContext.request.contextPath}/img/transparencia/contraloria_social/contraloria_social1-min.png" alt=""/>
                     </section>
                     <section class="transparencia_texto">
                         <h3>Contraloría Social</h3><br/>
@@ -169,8 +164,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />         
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=transparencia" flush="true" />
     </body>
 </html>

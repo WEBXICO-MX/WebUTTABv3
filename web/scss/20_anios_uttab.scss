@@ -1,0 +1,65 @@
+/* 
+    Created on : 02-dic-2015, 10:31:05
+    Author     : Weiss
+*/
+@import "normalize.min.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+@import url('includeMenu.min.css');
+@import url('includePie.min.css');
+@import "inclusion.min.css";
+
+$color_resaltado: #FE4A3E;
+$font_family_main: 'Open Sans';
+$color_main: #696666;
+$section_titulo_h1: 1.506461473398098em;
+$section_titulo_h2: 1.188607303552858em;
+$section_texto_width:946px;
+$section_texto_p_size :1.1710416783772em;
+$section_texto_p_line_height :1.5056250150564em;
+$p_text_indent:40px;
+
+* { margin: 0;padding: 0;}
+img { border: 0;}
+main {width: 1002px; height: auto; margin: 10px auto 0 auto; font-family: $font_family_main !important;font-style: normal;font-weight: normal; color: $color_main;text-align: justify;}
+.corte {clear: both;}
+.negritas { font-weight: bold;}
+.texto_resaltado { color: $color_resaltado;}
+.texto_centrado { text-align: center;}
+.left { float: left;}
+.right { float: right;}
+.center { margin: 0 auto;}
+
+.section_main{ width: auto; height: auto;}
+.section_main_titulo { width: auto; height: 60px; margin-bottom: 10px; padding: 4px 0 4px 115px; box-sizing:border-box; -moz-box-sizing:border-box; /* Firefox */ -webkit-box-sizing:border-box; /* Safari */background-image: url(../img/divisiones/carreras/titulo.png); background-repeat: no-repeat;}
+.section_main_titulo h1 { font-size: $section_titulo_h1; margin:0; color: white; font-weight: normal; }
+.section_main_titulo h2 { font-size: $section_titulo_h2; margin:0; color: white; font-weight: normal;}
+.section_main_contenido { width: auto; height: auto;}
+.section_texto { width: $section_texto_width; height: auto; margin: 0 auto 15px auto; text-align: justify;}
+.section_texto p { font-size: $section_texto_p_size; line-height: $section_texto_p_line_height}
+.section_texto h3, .section_texto2 h3, .section_texto_full h3 {
+    color: #0E547F;margin-bottom: 15px;
+}
+.section_texto a:active, 
+.section_texto a:link, 
+.section_texto a:visited {
+    color: #5B5C5C;
+    text-decoration:none; 
+}
+.section_texto a:hover{
+    font-weight: bold; color:#0e547f;
+}
+p.primera_linea { text-indent: $p_text_indent;}
+.ficha_contacto {width: 456px; box-sizing: border-box; background-color: #F1F2F2; border-left: 27px solid  #2582BB; padding: 5px 20px 5px 0}
+.ficha_contacto p { font-size:  14px; margin-left: 30px;}
+.ficha_contacto h3 { font-size:  14px; font-weight: bold; color: #696666; margin-left: 20px;}
+
+/* Divisiones inicio */
+.divisiones_h3 {display: inline-block; color: #0E547F;}
+.divisiones_ul { list-style: none;}
+.cuerpo_academico,.logros_division { width: 456px; height: auto;box-sizing: border-box;}
+.cuerpo_academico_h3 { height: 75px;}
+.logros_division{ background-color: #F1F2F2;}
+.logros_division img{ margin-right: 5px;}
+.logros_division p{ font-size: 14px; box-sizing: border-box;margin: 5px 5px 0 5px;}
+.divisiones_infraestructura { width: 946px; height: 410px;}
+/* Divisiones fin */

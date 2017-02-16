@@ -1,5 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <calendario_eventos>
+    <!-- ******************************** 2017 ******************************** -->
+    <calendario_evento id="328">
+        <nombre>Examen CENEVAL</nombre>
+        <descripcion>Es la aplicación del examen a los aspirantes que ingresan a la Universidad. Periodo enero-abril 2017.</descripcion>
+        <lugar_realizacion>Edificio de la UTTAB</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares | Depto. de Control Escolar </organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-11-18</fecha_realizacion>
+        <hora_realizacion>9:00 a.m. </hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="327">
+        <nombre>Ceremonia de Graduación </nombre>
+        <descripcion>Evento oficial que sirve como recocimiento a los alumnos por  la conclusión de sus estudios profesionales.</descripcion>
+        <lugar_realizacion>Teatro Esperanza Iris</lugar_realizacion>
+        <organizador>Dirección de Extensión Universitaria | Dirección de Administración y Finanzas | Dirección de servicios escolares</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-10-26</fecha_realizacion>
+        <hora_realizacion>De acuerdo al lugar en  donde  se  lleva a cabo</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="326">
+        <nombre>Trámite de Titulación</nombre>
+        <descripcion>Recepción de los requisitos para expedir Título profesional y gestionar   expedición de la cédula profesional.</descripcion>
+        <lugar_realizacion>De acuerdo a la disponibilidad de los espacios</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares | Depto. de Becas y Titulación</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-10-27</fecha_realizacion>
+        <hora_realizacion> 10:00 a 18:00 hrs</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="325">
+        <nombre>Evento de bienvenida anual </nombre>
+        <descripcion>Es el acto oficial de inauguración del ciclo escolar septiembre 2017- agosto 2018.</descripcion>
+        <lugar_realizacion>Explanada de la UTTAB</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares | Depto. de Control Escolar.</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-09-11</fecha_realizacion>
+        <hora_realizacion>11:00 a.m. </hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="324">
+        <nombre>Ceremonia de Graduación </nombre>
+        <descripcion>Evento oficial que sirve como recocimiento a los alumnos por  la conclusión de sus estudios profesionales.</descripcion>
+        <lugar_realizacion>Teatro Esperanza Iris</lugar_realizacion>
+        <organizador>Dirección de Extensión Universitaria | Dirección de Administración y Finanzas | Dirección de servicios escolares</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-06-27</fecha_realizacion>
+        <hora_realizacion>De acuerdo al lugar en  donde  se  lleva a cabo</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="323">
+        <nombre>Trámite de Titulación</nombre>
+        <descripcion>Recepción de los requisitos para expedir Título profesional y gestionar   expedición de la cédula profesional.</descripcion>
+        <lugar_realizacion>De acuerdo a la disponibilidad de los espacios</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares | Depto. de Becas y Titulación</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-06-23</fecha_realizacion>
+        <hora_realizacion>10:00 a 18:00 hrs</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="322">
+        <nombre>Examen CENEVAL</nombre>
+        <descripcion>Es la aplicación del examen a los aspirantes que ingresan a la Universidad. Período septiembre-diciembre 2016.</descripcion>
+        <lugar_realizacion>Edificios de la UTTAB</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares | Depto. de Control Escolar </organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-06-17</fecha_realizacion>
+        <hora_realizacion>9:00 a.m. </hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>   
+    <calendario_evento id="321">
+        <nombre>Examen CENEVAL</nombre>
+        <descripcion>Es la aplicación del examen a los aspirantes que ingresan a la Universidad. Período mayo-agosto 2017.</descripcion>
+        <lugar_realizacion>Edificios de la UTTAB</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares | Depto. de Control Escolar</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-03-04</fecha_realizacion>
+        <hora_realizacion> 09:00 a.m. </hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="320">
+        <nombre>Ceremonia de Graduación </nombre>
+        <descripcion>Evento oficial que sirve como recocimiento a los alumnos por  la conclusión de sus estudios profesionales.</descripcion>
+        <lugar_realizacion>Teatro Esperanza Iris</lugar_realizacion>
+        <organizador>Dirección de Extensión Universitaria | Dirección de Administración y Finanzas | Dirección de servicios escolares</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9039</informes>
+        <fecha_realizacion>2017-02-21</fecha_realizacion>
+        <hora_realizacion> De acuerdo al lugar en  donde  se  lleva a cabo</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="319">
+        <nombre>Trámite de Titulación</nombre>
+        <descripcion>Recepción de los requisitos para expedir título profesional y gestionar   expedición de la cédula profesional.</descripcion>
+        <lugar_realizacion>De acuerdo a la disponibilidad de los espacios</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares /Depto. de Becas y Titulación</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-02-16</fecha_realizacion>
+        <hora_realizacion> 10:00 a 18:00hrs</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="318">
+        <nombre>Trámite de Titulación</nombre>
+        <descripcion>Recepción de los requisitos para expedir título profesional y gestionar   expedición de la cédula profesional.</descripcion>
+        <lugar_realizacion>De acuerdo a la disponibilidad de los espacios</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares /Depto. de Becas y Titulación</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-02-15</fecha_realizacion>
+        <hora_realizacion> 10:00 a 18:00hrs</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="317">
+        <nombre>Trámite de Titulación</nombre>
+        <descripcion>Recepción de los requisitos para expedir título profesional y gestionar   expedición de la cédula profesional.</descripcion>
+        <lugar_realizacion>De acuerdo a la disponibilidad de los espacios</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares /Depto. de Becas y Titulación</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-02-14</fecha_realizacion>
+        <hora_realizacion> 10:00 a 18:00hrs</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="316">
+        <nombre>Trámite de Titulación</nombre>
+        <descripcion>Recepción de los requisitos para expedir título profesional y gestionar   expedición de la cédula profesional.</descripcion>
+        <lugar_realizacion>De acuerdo a la disponibilidad de los espacios</lugar_realizacion>
+        <organizador>Dirección de Servicios Escolares /Depto. de Becas y Titulación</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx  /358-22-22 EXT. 9049</informes>
+        <fecha_realizacion>2017-02-13</fecha_realizacion>
+        <hora_realizacion> 10:00 a 18:00hrs</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <calendario_evento id="315">
+        <nombre>7mo. Festival del Tamal de la Candelaria 2017</nombre>
+        <descripcion>Se realizá una atenta  invitación a diferentes universidades que deseen participar en el Festival del Tamal, con el fin de seguir conservando las tradiciones culinarias del estado de Tabasco.</descripcion>
+        <lugar_realizacion>Vestíbulo del edificio de la Secretaría de Vinculación </lugar_realizacion>
+        <organizador>Dirección de Difusión Universitaria</organizador>
+        <costo>S/C</costo>
+        <informes>www.uttab.edu.mx / 358-22-22 ext. 8003</informes>
+        <fecha_realizacion>2017-02-02</fecha_realizacion>
+        <hora_realizacion>12:00 a 16:00 hrs.</hora_realizacion>
+        <fecha_publicacion>2017-01-12</fecha_publicacion>
+        <activo>true</activo>
+    </calendario_evento>
+    <!-- ******************************** 2016 ******************************** -->    
     <calendario_evento id="314">
         <nombre>4to. Informe de Actividades </nombre>
         <descripcion>4to. Informe de Actividades </descripcion>

@@ -13,27 +13,22 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Centro de Atención al Sector Energético">
         <meta name="keywords" content="vinculación,Centro de Atención al Sector Energético,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/css/layerslider.css" />
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion2.min.css"/>
-        <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion3.min.css"/>
         <style>
             .case_slider {
                 width: 942px;
                 height: 299px;
             }
         </style>
+        <!--[if lt IE 9]>
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../../index3Header.min.jsp" flush="true"  />
             <section class="vinculacion_section">
                 <header class="vinculacion_titulo">
                     <h2><span class="texto_resaltado">Vinculación</span> /</h2>
@@ -41,40 +36,40 @@
                     <div class="corte"></div>
                 </header>
                 <article class="vinculacion_contenido">
-                    <section class="vinculacion_texto"><br/>
-                        <header><h3>¿Quiénes somos?</h3></header><br/>
+                    <section class="vinculacion_texto">
+                        <header><h3>¿Quiénes somos?</h3></header>
                         <article class="case_slider">
-                            <figure class="ls-layer">
+                            <div class="ls-layer">
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/1.png" alt="CASE 1" class="ls-bg"/>
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/7.png" alt="sublayer" rel="durationin: 2300; easingin: easeOutQuad; slidedirection: top; delayin: 1100" class="ls-s2" />
-                            </figure>
-                            <figure class="ls-layer">
+                            </div>
+                            <div class="ls-layer">
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/2.png" alt="CASE 2"/>
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/7.png" alt="sublayer" rel="durationin: 2300; easingin: easeOutQuad; slidedirection: top; delayin: 1100" class="ls-s2" />
-                            </figure>
-                            <figure class="ls-layer">
+                            </div>
+                            <div class="ls-layer">
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/3.png" alt="CASE 3"/>
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/7.png" alt="sublayer" rel="durationin: 2300; easingin: easeOutQuad; slidedirection: top; delayin: 1100" class="ls-s2" />
-                            </figure>
-                            <figure class="ls-layer">
+                            </div>
+                            <div class="ls-layer">
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/4.png" alt="CASE 4"/>
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/7.png" alt="sublayer" rel="durationin: 2300; easingin: easeOutQuad; slidedirection: top; delayin: 1100" class="ls-s2" />
-                            </figure>
-                            <figure class="ls-layer">
+                            </div>
+                            <div class="ls-layer">
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/5.png" alt="CASE 5"/>
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/7.png" alt="sublayer" rel="durationin: 2300; easingin: easeOutQuad; slidedirection: top; delayin: 1100" class="ls-s2" />
-                            </figure>
-                            <figure class="ls-layer">
+                            </div>
+                            <div class="ls-layer">
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/6.png" alt="CASE 6"/>
                                 <img src="${pageContext.request.contextPath}/img/unidades_negocio/case/7.png" alt="sublayer" rel="durationin: 2300; easingin: easeOutQuad; slidedirection: top; delayin: 1100" class="ls-s2" />
-                            </figure>
-                        </article><br/>
-                        <p class="primera_linea">El Centro de Atención al Sector Energético tiene como actividad sustantiva mantener una estrecha vinculación con Petróleos Mexicanos, a través de sus diversas subsidiarias, administrando proyectos de capacitación sobre la industria petrolera, capacitación sobre perforación y mantenimiento a pozos; administrando los pozos-escuelas en "El Castaño" Dos Bocas en Tabasco y "Burgos" en Reynosa, Tamaulipas.</p><br/>
+                            </div>
+                        </article>
+                        <p class="primera_linea">El Centro de Atención al Sector Energético tiene como actividad sustantiva mantener una estrecha vinculación con Petróleos Mexicanos, a través de sus diversas subsidiarias, administrando proyectos de capacitación sobre la industria petrolera, capacitación sobre perforación y mantenimiento a pozos; administrando los pozos-escuelas en "El Castaño" Dos Bocas en Tabasco y "Burgos" en Reynosa, Tamaulipas.</p>
                         <p class="primera_linea">Por otra parte, proporcionar servicios de ingeniería de proyectos y asistencia técnica en la construcción, operación, mantenimiento y administración; así como todo lo relacionado con tecnología de la información.</p>
                     </section>
                     <section class="vinculacion_texto">
-                        <header><h3>Capacitación</h3></header><br/>
-                        <p class="primera_linea">La Universidad Tecnológica de Tabasco, como organismo educativo y formativo, ofrece entrenamiento y capacitación en la rama industrial petrolera a través de planes de capacitación enfocados en 3 de las principales áreas de esta industria, tales como: servicio a pozos, mantenimiento a equipos y perforación y terminación de pozos.</p><br/>
+                        <header><h3>Capacitación</h3></header>
+                        <p class="primera_linea">La Universidad Tecnológica de Tabasco, como organismo educativo y formativo, ofrece entrenamiento y capacitación en la rama industrial petrolera a través de planes de capacitación enfocados en 3 de las principales áreas de esta industria, tales como: servicio a pozos, mantenimiento a equipos y perforación y terminación de pozos.</p>
                         <div id="ajax_resultado">
                             <img src="${pageContext.request.contextPath}/img/ajax-loading.gif" alt="Loading"/> Cargando ...
                         </div>
@@ -94,9 +89,9 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../../index3Footer.min.jsp" flush="true"  />             
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/unidades_negocio/case/case.min.js"></script>
@@ -144,7 +139,7 @@
                                     }
 
                                 });
-                                html += "</ul><br/>";
+                                html += "</ul>";
                             }
                         });
 

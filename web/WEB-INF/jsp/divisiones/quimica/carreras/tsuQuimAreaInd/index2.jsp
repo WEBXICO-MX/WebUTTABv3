@@ -18,16 +18,14 @@
         <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
         <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/carreras2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/carreras3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../../../../includeHeader.min.jsp?origen=carrera" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../../../../index3Header.min.jsp" flush="true"  />
             <section class="carrera_section">
                 <header class="carrera_titulo">
                     <h2><span class="texto_oferta_educativa">Oferta educativa</span> / División Académica de Química</h2>
@@ -98,9 +96,9 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../../../../index3Footer.min.jsp" flush="true"  />                 
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../../../../includePie.min.jsp?origen=carrera" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/Morphext-2.4.4/morphext.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/carreras.min.js"></script>
     </body>

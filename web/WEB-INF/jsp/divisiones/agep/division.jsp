@@ -14,21 +14,16 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,División Académica de Administración y Gestión de Proyectos">
         <meta name="keywords" content="oferta educativa,División Académica de Administración y Gestión de Proyectos,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/css/layerslider.css" />
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/divisiones2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/divisiones3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
-    <body>
-        <jsp:include page="../../includeHeader.min.jsp?origen=division&Correo=1" flush="true"/>
-        <!-- Cuerpo -->
+    <body>        
         <main>
+            <jsp:include page="../../index3Header.min.jsp" flush="true"  />
             <section class="divisiones_section">
                 <header class="divisiones_titulo">
                     <h2><span class="texto_resaltado">Oferta educativa</span> /</h2>
@@ -37,22 +32,22 @@
                 </header>
                 <article class="divisiones_contenido">
                     <section class="divisiones_texto">
-                        <figure style="float:right;">
-                            <s:a action="inicio" namespace="/oferta_educativa/agep"><img src="${pageContext.request.contextPath}/img/divisiones/btn_division-min.png" alt="División Académica de Administración y Gestión de Proyectos"/></s:a>
-                            <s:a action="directorio" namespace="/oferta_educativa/agep"><img src="${pageContext.request.contextPath}/img/divisiones/btn_directorio-min.png" alt="Directorio de la División Académica de Administración y Gestión de Proyectos"/></s:a>
-                        </figure>
+                        <div style="float:right;">
+                            <s:a action="inicio" namespace="/oferta-educativa/agep"><img src="${pageContext.request.contextPath}/img/divisiones/btn_division-min.png" alt="División Académica de Administración y Gestión de Proyectos"/></s:a>
+                            <s:a action="directorio" namespace="/oferta-educativa/agep"><img src="${pageContext.request.contextPath}/img/divisiones/btn_directorio-min.png" alt="Directorio de la División Académica de Administración y Gestión de Proyectos"/></s:a>
+                        </div>
                         <div class="corte"></div>
                     </section>
                     <section class="divisiones_texto">
-                        <header class="centrar_texto"><h3>Logros de la división</h3></header><br/>
+                        <header class="centrar_texto"><h3>Logros de la división</h3></header>
                         <article>
                             <section class="divisiones_texto logros_division left">
-                                <figure class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></figure>
+                                <div class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></div>
                                 <p>Programa educativo de TSU en Administración, área Administración y Evaluación de Proyectos, evaluado en nivel 1 por los Comités Interinstitucionales para la Evaluación de la Educación Superior (CIEES).</p>
                                 <div class="corte"></div>
                             </section>
                             <section class="divisiones_texto logros_division right">
-                                <figure class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></figure>
+                                <div class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></div>
                                 <p>Programa Educativo de TSU en Administración, área Administración y Evaluación de Proyectos, acreditado por el organismo del Consejo de Acreditación en la Enseñanza de la Contaduría y Administración, A.C. (CACECA).</p>
                                 <div class="corte"></div>
                             </section>
@@ -62,11 +57,11 @@
                     <section class="divisiones_texto">
                         <header class="centrar_texto"><h3>Infraestructura</h3></header><br/>
                         <article class="divisiones_infraestructura">
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura1-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura2-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura3-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura4-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura5-min.png" alt="Infraestructura"/></figure>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura1-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura2-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura3-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura4-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/agep/infraestructura5-min.png" alt="Infraestructura"/></div>
                         </article>
                         <div class="corte"></div>
                     </section>
@@ -74,8 +69,8 @@
                         <header class="centrar_texto"><h3>Cuerpos académicos</h3></header><br/>
                         <article>
                             <section class="divisiones_texto cuerpo_academico left">
-                                <figure><img src="${pageContext.request.contextPath}/img/divisiones/agep/cuerpo_academico1-min.png" alt="Cuerpo académico: Investigación y consultoría empresarial"/></figure><br/>
-                                <header><h3>Cuerpo académico: investigación y consultoría empresarial</h3></header><br/><br/>
+                                <img src="${pageContext.request.contextPath}/img/divisiones/agep/cuerpo_academico1-min.png" alt="Cuerpo académico: Investigación y consultoría empresarial"/>
+                                <header><h3>Cuerpo académico: investigación y consultoría empresarial</h3></header>
                                 <article>
                                     <h4>Líneas de investigación</h4>
                                     <ul>
@@ -92,8 +87,8 @@
                                 </article>
                             </section>
                             <section class="divisiones_texto cuerpo_academico right">
-                                <figure><img src="${pageContext.request.contextPath}/img/divisiones/agep/cuerpo_academico2-min.png" alt="Cuerpo académico: Sistemas de innovación tecnológica, desarrollo de competencias y gestión de sistemas de calidad"/></figure><br/>
-                                <header><h3>Cuerpo académico: sistemas de innovación tecnológica, desarrollo de competencias y gestión de sistemas de calidad</h3></header><br/>
+                                <img src="${pageContext.request.contextPath}/img/divisiones/agep/cuerpo_academico2-min.png" alt="Cuerpo académico: Sistemas de innovación tecnológica, desarrollo de competencias y gestión de sistemas de calidad"/>
+                                <header><h3>Cuerpo académico: sistemas de innovación tecnológica, desarrollo de competencias y gestión de sistemas de calidad</h3></header>
                                 <article>
                                     <h4>Líneas de investigación</h4>
                                     <ul>
@@ -113,8 +108,8 @@
                             </section>
                             <div class="corte"></div>    
                             <section class="divisiones_texto cuerpo_academico center">
-                                <figure><img src="${pageContext.request.contextPath}/img/divisiones/agep/cuerpo_academico3-min.png" alt="Cuerpo académico: Innovación educativa para el desarrollo empresarial"/></figure><br/>
-                                <header><h3>Cuerpo académico: innovación educativa para el desarrollo empresarial</h3></header><br/>
+                                <img src="${pageContext.request.contextPath}/img/divisiones/agep/cuerpo_academico3-min.png" alt="Cuerpo académico: Innovación educativa para el desarrollo empresarial"/>
+                                <header><h3>Cuerpo académico: innovación educativa para el desarrollo empresarial</h3></header>
                                 <article>
                                     <h4>Línea de investigación</h4>
                                     <ul>
@@ -135,9 +130,9 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../../index3Footer.min.jsp" flush="true"  />                   
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/divisiones.min.js"></script>

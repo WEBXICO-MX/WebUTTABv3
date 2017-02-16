@@ -34,7 +34,7 @@
     </persona>
     <persona id="5" area="1">
         <nombre>Rigoberto Ochoa Murillo</nombre>
-        <puesto>Encargado de la Unidad de Acceso a la Información</puesto>
+        <puesto>Titular de la Unidad de Acceso a la Información</puesto>
         <tel>3582222 Ext. 9009</tel>
         <email>transparencia@uttab.edu.mx</email>
         <img>img/conocenos/directorio/23_Rigoberto_Ochoa_Murillo.png</img>
@@ -74,7 +74,7 @@
     </persona>
     <persona id="10" area="2">
         <nombre>José Alfredo Irineo Mijangos</nombre>
-        <puesto>Encargado de la división de Química.</puesto>
+        <puesto>Director de la división de Química.</puesto>
         <tel>3582222 Ext. 3003</tel>
         <email>d.quimica@uttab.edu.mx</email>
         <img>img/conocenos/directorio/18_Jose_Alfredo_Irineo_Mijangos.png</img>

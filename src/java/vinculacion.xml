@@ -5,7 +5,7 @@
 <struts>
     <package name="vinculacion" namespace="/vinculacion" extends="struts-default">
         <action name="">
-            <result name="success" type="redirectAction">servicios_especializados</result>
+            <result name="success" type="redirectAction">servicios-especializados</result>
         </action>
         <action name="case">
             <result name="success" type="redirectAction">
@@ -14,6 +14,9 @@
             </result>
         </action>
         <action name="capacitacion_profesional">
+            <result name="success" type="redirectAction">capacitacion-profesional</result>
+        </action>
+        <action name="capacitacion-profesional">
             <result>/WEB-INF/jsp/vinculacion/capacitacion_profesional.jsp</result>
         </action>
         <action name="cecap">
@@ -23,28 +26,52 @@
             <result>/WEB-INF/jsp/vinculacion/cappi.jsp</result>
         </action>
         <action name="centro_incubacion">
+            <result name="success" type="redirectAction">centro-incubacion</result>
+        </action>
+        <action name="centro-incubacion">
             <result>/WEB-INF/jsp/vinculacion/centro_incubacion2.jsp</result>
         </action>
         <action name="proyectos_incubados">
+            <result name="success" type="redirectAction">proyectos-incubados</result>
+        </action>
+        <action name="proyectos-incubados">
             <result>/WEB-INF/jsp/vinculacion/proyectos_incubados2.jsp</result>
         </action>
         <action name="diseno_imagen">
+            <result name="success" type="redirectAction">diseno-imagen</result>
+        </action>
+        <action name="diseno-imagen">
             <result>/WEB-INF/jsp/vinculacion/diseno.jsp</result>
         </action>
         <action name="centro_gastronomico">
             <!--<result>/WEB-INF/jsp/vinculacion/kukuuche.jsp</result>-->
-            <result name="success" type="redirectAction">servicios_especializados</result>
+            <result name="success" type="redirectAction">centro-gastronomicos</result>
+        </action>
+        <action name="centro-gastronomico">
+            <result name="success" type="redirectAction">servicios-especializados</result>
         </action>
         <action name="produccion_audiovisual">
+            <result name="success" type="redirectAction">produccion-audiovisual</result>
+        </action>
+        <action name="produccion-audiovisual">
             <result>/WEB-INF/jsp/vinculacion/produccion_audiovisual2.jsp</result>
         </action>
         <action name="servicios_tecnologicos">
+            <result name="success" type="redirectAction">servicios-tecnologicos</result>
+        </action>
+        <action name="servicios-tecnologicos">
             <result>/WEB-INF/jsp/vinculacion/servicios_tecnologicos2.jsp</result>
         </action>
         <action name="servicios_especializados">
+            <result name="success" type="redirectAction">servicios-especializados</result>
+        </action>
+        <action name="servicios-especializados">
             <result>/WEB-INF/jsp/vinculacion/servicios_especializados.jsp</result>
         </action>
         <action name="educacion_continua">
+            <result name="success" type="redirectAction">educacion-continua</result>
+        </action>
+        <action name="educacion-continua">
             <result>/WEB-INF/jsp/vinculacion/educacion_continua2.jsp</result>
         </action>
     </package>

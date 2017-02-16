@@ -19,6 +19,6 @@
     <div>
         <iframe width="100%" height="422" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/123717827&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
     </div>
-    <div id="sintonia_ajax" style="margin-left: 15px; margin-right: 15px; float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
+    <div id="sintonia_ajax" style="/*margin-left: 15px; margin-right: 15px;*/ float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
 </div>
 <div style="clear:  both"></div>

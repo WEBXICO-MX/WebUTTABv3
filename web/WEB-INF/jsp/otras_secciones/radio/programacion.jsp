@@ -17,11 +17,11 @@
 </div>
 <div id="sintonia_contenido">
     <div>
-        <img src="${pageContext.request.contextPath}/img/otras_secciones/radio/sintonia5-min.png" alt="Sintonía UTTAB 102.5 FM &#124; Programación"/><br/><br/>
+        <img src="${pageContext.request.contextPath}/img/otras_secciones/radio/sintonia5-min.png" alt="Sintonía UTTAB 102.5 FM &#124; Programación"/>
         <p>Nos sentimos orgullosos de ser una opción dentro de la radiodifusión tabasqueña, ofreciéndote diversos géneros, como rock, música mexicana, orquestas, música clásica, entre otros, abarcando un amplio repertorio musical, no sólo del estado sino del mundo, que te permitirá conocer y disfrutar los diferentes ritmos, así como informarte del acontecer educativo y cultural, entrevistas y mucho más.</p><br/>
-        <p><b>Escúchanos en el 102.5 de frecuencia modulada o en www.uttab.edu.mx</b></p><br/>
+        <p><b>Escúchanos en el 102.5 de frecuencia modulada o en www.uttab.edu.mx</b></p>
     </div>
-    <div id="sintonia_ajax" style="margin-left: 15px; margin-right: 15px; float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
+    <div id="sintonia_ajax" style="/*margin-left: 15px; margin-right: 15px;*/ float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
     <div style="clear: both"></div>
     <div id="programacion_sintonia" style="width: 100%; margin-left: 0;float: none">
         ﻿<table class="tabla_programacion">

@@ -10,7 +10,7 @@
   <loc>http://www.uttab.edu.mx/Home.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/conocenos/mensaje_rector.action</loc>
+  <loc>http://www.uttab.edu.mx/conocenos/mensaje-rector.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/conocenos/historia.action</loc>
@@ -19,13 +19,28 @@
   <loc>http://www.uttab.edu.mx/conocenos/identidad.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/conocenos/modelo_educativo.action</loc>
+  <loc>http://www.uttab.edu.mx/conocenos/modelo-educativo.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/conocenos/sistemas_institucionales.action</loc>
+  <loc>http://www.uttab.edu.mx/conocenos/sistema-gestion-calidad.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/conocenos/directorio.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/informes/1erInformeActividades.pdf</loc>
+  <lastmod>2017-01-10T17:43:51+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/informes/2doInformeActividades.pdf</loc>
+  <lastmod>2017-01-10T17:47:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/informes/3erInformeActividades.pdf</loc>
+  <lastmod>2017-01-10T17:51:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/conocenos/4to-informe-de-actividades.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/conocenos/campus.action</loc>
@@ -34,124 +49,130 @@
   <loc>http://www.uttab.edu.mx/conocenos/organigrama.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/inicio.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/agep/inicio.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/ingenieria_gestion_proyectos.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/agep/ingenieria-gestion-proyectos.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/tsu_administracion_area_administracion_evaluacion_proyectos.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/agep/tsu-administracion-area-administracion-evaluacion-proyectos.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/tsu_desarrollo_negocios_area_mercadotecnia.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/agep/ingenieria-desarrollo-innovacion-empresarial.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/tsu_contaduria.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/agep/tsu-desarrollo-negocios-area-mercadotecnia.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/inicio.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/agep/tsu-contaduria.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/ingenieria_procesos_bioalimentarios.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/inicio.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_procesos_alimentarios.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/ingenieria-procesos-bioalimentarios.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/ingenieria_mantenimiento_industrial.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/tsu-procesos-alimentarios.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_mantenimiento_area_petroleo.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/ingenieria-mantenimiento-industrial.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_mantenimiento_area_industrial.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/tsu-mantenimiento-area-industrial.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/tsu_energias_renovables_area_calidad_ahorro_energia.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/ingenieria-mantenimiento-petrolero.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/inicio.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/tsu-mantenimiento-area-petroleo.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/ingenieria_tecnologia_ambiental.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/tsu-energias-renovables-area-calidad-ahorro-energia.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_tecnologia_ambiental.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/inicio.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/ingenieria_quimica_procesos_industriales.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/ingenieria-tecnologia-ambiental.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_prevencion_corrosion.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/tsu-quimica-area-tecnologia-ambiental.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_industrial.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/ingenieria-quimica-procesos-industriales.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/tsu_quimica_area_fluidos_perforacion.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/tsu-quimica-area-prevencion-corrosion.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/inicio.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/tsu-quimica-area-industrial.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/ingenieria_tecnologias_informacion.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/tsu-quimica-area-fluidos-perforacion.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/tsu_tic_area_multimedia_comercio_electronico.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/tic/inicio.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/tsu_tic_area_redes_telecomunicaciones.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/tic/ingenieria-tecnologias-informacion.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/tsu_tic_area_sistemas_informaticos.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/tic/tsu-tic-area-multimedia-comercio-electronico.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/inicio.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/tic/tsu-tic-area-redes-telecomunicaciones.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/licenciatura_gastronomia.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/tic/tsu-tic-area-sistemas-informaticos.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/tsu_gastronomia.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/turismo/inicio.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/licenciatura_gestion_desarrollo_turistico.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/turismo/licenciatura-gastronomia.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/tsu_turismo_area_hoteleria.action</loc>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/turismo/tsu-gastronomia.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/turismo/licenciatura-gestion-desarrollo-turistico.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/turismo/tsu-turismo-area-hoteleria.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/servicios/admision.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/educacion_continua.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/educacion-continua.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/control_escolar.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/control-escolar.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/tramites_titulacion.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/tramites-titulacion.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/practicas_empresariales.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/practicas-empresariales.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/servicios/becas.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/actividades_culturales_deportivas.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/actividades-culturales-deportivas.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/centro_idiomas.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/centro-idiomas.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/servicios_medicos.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/servicios-medicos.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/servicios/tutorias.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/atencion_psicopedagogica.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/atencion-psicopedagogica.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/servicios/biblioteca.action</loc>
@@ -163,13 +184,13 @@
   <loc>http://www.uttab.edu.mx/servicios/egresados.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/bolsa_trabajo.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/bolsa-trabajo.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/calendario_escolar.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/calendario-escolar.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/delf_dalf.action</loc>
+  <loc>http://www.uttab.edu.mx/servicios/delf-dalf.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/case/inicio.action</loc>
@@ -178,58 +199,61 @@
   <loc>http://www.uttab.edu.mx/vinculacion/cecap.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/servicios_especializados.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/servicios-especializados.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/capacitacion_profesional.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/capacitacion-profesional.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/servicios_tecnologicos.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/servicios-tecnologicos.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/produccion_audiovisual.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/produccion-audiovisual.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/diseno_imagen.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/diseno-imagen.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/centro_incubacion.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/centro-incubacion.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/vinculacion/cappi.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/vinculacion/proyectos_incubados.action</loc>
+  <loc>http://www.uttab.edu.mx/vinculacion/proyectos-incubados.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/otras_secciones/actividades_universitarias.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/actividades-universitarias.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/otras_secciones/avisos.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/avisos.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/otras_secciones/calendario_eventos.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/calendario-eventos.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/otras_secciones/gacetas.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/gacetas.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/transparencia/contraloria_social.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/conocer.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/transparencia/contraloria-social.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/transparencia/normatividad.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/transparencia/programa_institucional_desarrollo.action</loc>
+  <loc>http://www.uttab.edu.mx/transparencia/programa-institucional-desarrollo.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/transparencia/bienes.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/otras_secciones/proteccion_civil.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/reconocimientos.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/otras_secciones/herramientas_tecnologicas.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/convocatorias.action</loc>
 </url>
 <url>
   <loc>http://www.uttab.edu.mx/sintonia/radio.action</loc>
@@ -239,21 +263,52 @@
   <lastmod>2014-08-12T16:09:36+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/agep/directorio.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/rsu.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/procesos/directorio.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/herramientas-tecnologicas.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/quimica/directorio.action</loc>
+  <loc>http://www.uttab.edu.mx/otras-secciones/proteccion-civil.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/tic/directorio.action</loc>
+  <loc>http://www.uttab.edu.mx/conocenos/4to-informe-de-actividades2.action</loc>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/oferta_educativa/turismo/directorio.action</loc>
+  <loc>http://www.uttab.edu.mx/informes/4toInformeActividades.pdf</loc>
+  <lastmod>2016-12-13T20:14:50+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.uttab.edu.mx/servicios/servicios_ventanilla.action</loc>
+  <loc>http://www.uttab.edu.mx/viewFile.action?i=2&amp;d=4to_informe</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/agep/directorio.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/procesos/directorio.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/quimica/directorio.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/tic/directorio.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/oferta-educativa/turismo/directorio.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/servicios/servicios-ventanilla.action</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/transparencia/viewFile.action?i=13&amp;d=profocie2015</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/viewFile.action?i=1&amp;d=convocatorias</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/viewFile.action?i=3&amp;d=4to_informe</loc>
+</url>
+<url>
+  <loc>http://www.uttab.edu.mx/viewFile.action?i=4&amp;d=4to_informe</loc>
 </url>
 </urlset>

@@ -14,24 +14,19 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco, Estadías Profesionales">
         <meta name="keywords" content="servicios,Estadías Profesionales,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios2.min.css"/>
-        <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios3.min.css"/>
         <style>
             .calendario_actividades
             { color:#0D74B4; font-weight: bold;}
         </style>
+        <!--[if lt IE 9]>
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]--> 
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="servicios_section">
                 <header class="servicios_titulo">
                     <h2><span class="texto_resaltado">Servicios / Alumnos</span> /</h2>
@@ -40,13 +35,13 @@
                 </header>
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
-                        <figure><img src="${pageContext.request.contextPath}/img/servicios/practicas_empresariales/practicas_empresariales-min.png" alt="Prácticas Empresariales y Estadías"/></figure>
+                        <img src="${pageContext.request.contextPath}/img/servicios/practicas_empresariales/practicas_empresariales-min.png" alt="Prácticas Empresariales y Estadías"/>
                     </section>
                     <section class="servicios_texto">
                         <h3>¿Quiénes somos?</h3>
-                        <p>Los responsables de el vínculo con los sectores público, privado y social, a través de los procesos de visitas y estadías para contribuir a la formación profesional del alumno, reforzando los conocimientos adquiridos en su desarrollo académico.</p><br/>
+                        <p>Los responsables de el vínculo con los sectores público, privado y social, a través de los procesos de visitas y estadías para contribuir a la formación profesional del alumno, reforzando los conocimientos adquiridos en su desarrollo académico.</p>
                         <h4>Visitas guiadas</h4>
-                        <p>Recorridos que se hacen en las empresas, organismos o instituciones, para que los alumnos conozcan las actividades y/o áreas que intervienen en sus procesos.</p><br/>
+                        <p>Recorridos que se hacen en las empresas, organismos o instituciones, para que los alumnos conozcan las actividades y/o áreas que intervienen en sus procesos.</p>
                         <h4>Estadías </h4>
                         <p>Estancia que realizan los alumnos durante el último cuatrimestre de su carrera en el sector empresarial, organismo o intitución acorde a su perfil académico. En este periodo deben formular o realizar un proyecto que solucione un problema o aproveche una oportunidad para la empresa, organismo o institución.</p>
                     </section>
@@ -56,16 +51,16 @@
                         <ul>
                             <li><a href="viewFile.action?i=5&d=practicas" target="_blank">Formato de vinculación y actualización de empresas</a></li>
                             <li><a href="viewFile.action?i=6&d=practicas" target="_blank">Solicitud de alumnos para estadías</a></li>
-                        </ul><br/>
+                        </ul>
                     </section>
                     <section class="servicios_texto">
                         <h3><a href="viewFile.action?i=4&d=practicas" target="_blank">Periodos de solicitud de alumnos para estadía</a></h3>
-                        <p>Opciones de envío:</p><br/>
+                        <p>Opciones de envío:</p>
                         <ul>
                             <li>Enviar el formato requisitado al correo: <a href="mailto:eempresarial@uttab.edu.mx">eempresarial@uttab.edu.mx</a></li>
                             <li>Imprimir el formato y presentarlo firmado en la oficina de la Coordinación de Enlace ubicada en el edificio de vinculación</li>
                             <li>Una vez recibido el formato nos contactaremos con usted para dar seguimiento a la solicitud</li>
-                        </ul><br/>
+                        </ul>
                     </section>
                     <section class="servicios_texto">
                         <h3>Solicitud para alumnos</h3>
@@ -75,7 +70,7 @@
                             <!--<li><a href="viewFile.action?i=10&d=practicas" target="_blank" class="calendario_actividades">Calendario de actividades de estadías Enero – Abril 2016</a> <img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="PDF"/></li>-->
                             <li><a href="viewFile.action?i=11&d=practicas" target="_blank" class="calendario_actividades">Calendario de actividades de estadías Mayo – Agosto 2016</a> <img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="PDF"/></li>
                             <li><a href="viewFile.action?i=12&d=practicas" target="_blank" class="calendario_actividades">Calendario de actividades de estadías Septiembre – Diciembre 2016</a> <img src="${pageContext.request.contextPath}/img/Adobe-PDF-Document-icon.png" alt="PDF"/></li>
-                        </ul><br/>
+                        </ul>
                     </section>
                     <section class="servicios_texto">
                         <div class="ficha_contacto">
@@ -92,8 +87,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />            
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <avisos>
+  <aviso id="80">
+    <nombre>Asesorías Académicas Enero-Abril 2017</nombre>
+    <fecha_realizacion>30 enero 2017</fecha_realizacion>
+    <fecha_publicacion>30 January 2017</fecha_publicacion>
+    <img>img/otras_secciones/avisos/Avisos_80.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_80.pdf</pdf>
+    <link>NULL</link>
+    <activo>true</activo>
+  </aviso>
   <aviso id="79">
     <nombre>Calendario de entrega de documentos oficiales generación IX de licenciaturas</nombre>
     <fecha_realizacion>30 noviembre 2016</fecha_realizacion>
@@ -7,7 +16,7 @@
     <img>img/otras_secciones/avisos/Avisos_79.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_79.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="78">
     <nombre>Convocatoria BECA DE MANUTENCIÓN ciclo escolar 2016-2'17</nombre>
@@ -25,7 +34,7 @@
     <img>img/otras_secciones/avisos/Avisos_77.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_77.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="76">
     <nombre>Resultados de la Beca INICIA TU CARRERA SEP-PROSPERA ciclo escolar 2016-2017</nombre>
@@ -34,7 +43,7 @@
     <img>img/otras_secciones/avisos/Avisos_76.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_76.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="75">
     <nombre>Convocatoria beca o apoyo para la titulación en universidades tecnológicas o politécnicas</nombre>
@@ -61,7 +70,7 @@
     <img>img/otras_secciones/avisos/Avisos_73.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/avisos/Avisos_73.pdf</pdf>
     <link>NULL</link>
-    <activo>true</activo>
+    <activo>false</activo>
   </aviso>
   <aviso id="72">
     <nombre>Calendario de entrega de los documentos oficiales de los egresados de la generaciòn XXXV de TSU</nombre>

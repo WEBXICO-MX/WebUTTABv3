@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Directorio">
         <meta name="keywords" content="conócenos,directorio,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/conocenos2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/conocenos3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
         <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=conocenos" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="conocenos_section">
                 <header class="conocenos_titulo">
                     <h2><span class="texto_resaltado">Conócenos</span> /</h2>
@@ -36,7 +31,6 @@
                 </header>
                 <article class="conocenos_contenido">
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Rectoría</h3></header>
                         <article>
                             <table>
@@ -66,7 +60,7 @@
                                         <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/23_Rigoberto_Ochoa_Murillo.png" alt="Rigoberto Ochoa Murillo"/></td>
                                         <td>
                                             <p>Rigoberto Ochoa Murillo</p>
-                                            <p>Encargado de la Unidad de Acceso a la Información</p>
+                                            <p>Titular de la Unidad de Acceso a la Información</p>
                                             <p>3582222 Ext. 9009</p>
                                             <p><a href="mailto:transparencia@uttab.edu.mx">transparencia@uttab.edu.mx</a></p>
                                         </td>
@@ -85,7 +79,6 @@
                         </article>
                     </section>
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Secretaría académica</h3></header>
                         <article>
                             <table>
@@ -99,7 +92,7 @@
                                         </td>
                                         <td><img src="${pageContext.request.contextPath}/img/conocenos/directorio/18_Jose_Alfredo_Irineo_Mijangos.png" alt="José Alfredo Irineo Mijangos"/></td>
                                         <td><p>José Alfredo Irineo Mijangos</p>
-                                            <p>Encargado de la división de Química</p>
+                                            <p>Director de la división de Química</p>
                                             <p>3582222 Ext. 3003</p>
                                             <p><a href="mailto:d.quimica@uttab.edu.mx">d.quimica@uttab.edu.mx</a></p>
                                         </td>
@@ -155,7 +148,6 @@
                         </article>
                     </section>
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Secretaría de vinculación</h3></header>
                         <article>
                             <table>
@@ -193,7 +185,6 @@
                         </article>
                     </section>
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Dirección de administración y finanzas</h3></header>
                         <article>
                             <table>
@@ -211,7 +202,6 @@
                         </article>
                     </section>
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Dirección de planeación y evaluación</h3></header>
                         <article>
                             <table>
@@ -229,7 +219,6 @@
                         </article>
                     </section>
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Dirección de servicios escolares</h3></header>
                         <article>
                             <table>
@@ -247,7 +236,6 @@
                         </article>
                     </section>
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Dirección de informática</h3></header>
                         <article>
                             <table>
@@ -265,7 +253,6 @@
                         </article>
                     </section>
                     <section class="conocenos_texto">
-                        <br/>
                         <header><h3>Coordinación del Centro de Atención <br>al Sector Energético</h3></header>
                         <article>
                             <table>
@@ -288,8 +275,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=conocenos" flush="true" />
     </body>
 </html>

@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Diseño e Imagen">
         <meta name="keywords" content="vinculación,Diseño e Imagen,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=vinculacion" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="vinculacion_section">
                 <header class="vinculacion_titulo">
                     <h2><span class="texto_resaltado">Vinculación</span> /</h2>
@@ -36,17 +31,15 @@
                 </header>
                 <article class="vinculacion_contenido">
                     <section class="vinculacion_texto">
-                        <figure>
                             <img src="${pageContext.request.contextPath}/img/vinculacion/diseno/diseno-e-imagen_03-min.png" alt="diseno"/>
-                        </figure>
                     </section>
                     <section class="vinculacion_texto">
                         <h4 class="tituloContenido">¿Quiénes somos?</h4>
-                        <br/>
+                        
                         <p>El departamento de Editorial es responsable de asesorar, diseñar, propagar, cuidar y consolidar la imagen institucional, así como divulgar los conocimientos científicos, tecnológicos y humanísticos del quehacer universitario a través de la Gaceta, la Pagina WEB y las redes sociales.</p>
-                        <br/>
+                        
                         <p>Dentro de sus funciones está:</p>
-                        <br/>
+                        
                         <ul>
                             <li>Diseño de carpetas promocionales</li>
                             <li>Diseño de carteles</li>
@@ -74,8 +67,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />             
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
     </body>
 </html>

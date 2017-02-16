@@ -14,21 +14,16 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,División Académica de Turismo y Gastronomía">
         <meta name="keywords" content="oferta educativa,División Académica de Turismo y Gastronomía,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/css/layerslider.css" />
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/divisiones2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/divisiones3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../../includeHeader.min.jsp?origen=division&Correo=1" flush="true"/>
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../../index3Header.min.jsp" flush="true"  />
             <section class="divisiones_section">
                 <header class="divisiones_titulo">
                     <h2><span class="texto_resaltado">Oferta educativa</span> /</h2>
@@ -37,22 +32,22 @@
                 </header>
                 <article class="divisiones_contenido">
                     <section class="divisiones_texto">
-                        <figure style="float:right;">
-                            <s:a action="inicio" namespace="/oferta_educativa/turismo"><img src="${pageContext.request.contextPath}/img/divisiones/btn_division-min.png" alt="División Académica de Turismo y Gastronomía"/></s:a>
-                            <s:a action="directorio" namespace="/oferta_educativa/turismo"><img src="${pageContext.request.contextPath}/img/divisiones/btn_directorio-min.png" alt="Directorio de la División Académica de Turismo y Gastronomía"/></s:a>
-                            </figure>
+                        <div style="float:right;">
+                            <s:a action="inicio" namespace="/oferta-educativa/turismo"><img src="${pageContext.request.contextPath}/img/divisiones/btn_division-min.png" alt="División Académica de Turismo y Gastronomía"/></s:a>
+                            <s:a action="directorio" namespace="/oferta-educativa/turismo"><img src="${pageContext.request.contextPath}/img/divisiones/btn_directorio-min.png" alt="Directorio de la División Académica de Turismo y Gastronomía"/></s:a>
+                            </div>
                             <div class="corte"></div>
                     </section>
                     <section class="divisiones_texto">
-                        <header class="centrar_texto"><h3>Logros de la división</h3></header><br/>
+                        <header class="centrar_texto"><h3>Logros de la división</h3></header>
                         <article>
                             <section class="divisiones_texto logros_division left">
-                                <figure class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></figure>
+                                <div class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></div>
                             <p>Programa educativo de TSU en Gastronomía evaluado en nivel 1 por los Comités Interinstitucionales para la Evaluación de la Educación Superior Programa (CIEES).</p>
                             <div class="corte"></div>
                         </section>
                         <section class="divisiones_texto logros_division right">
-                            <figure class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></figure>
+                            <div class="left"><img src="${pageContext.request.contextPath}/img/divisiones/icono_logros-min.png" alt="Logros"/></div>
                             <p>Programa educativo de TSU en Turismo evaluado en nivel 1 por los Comités Interinstitucionales para la Evaluación de la Educación Superior Programa (CIEES).</p>
                             <div class="corte"></div>
                         </section>
@@ -62,11 +57,11 @@
                     <section class="divisiones_texto">
                         <header class="centrar_texto"><h3>Infraestructura</h3></header><br/>
                         <article class="divisiones_infraestructura">
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura1-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura2-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura3-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura4-min.png" alt="Infraestructura"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura5-min.png" alt="Infraestructura"/></figure>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura1-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura2-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura3-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura4-min.png" alt="Infraestructura"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/divisiones/turismo/infraestructura5-min.png" alt="Infraestructura"/></div>
                         </article>
                         <div class="corte"></div>
                     </section>
@@ -74,8 +69,8 @@
                         <header class="centrar_texto"><h3>Cuerpos académicos</h3></header><br/>
                         <article>
                             <section class="divisiones_texto cuerpo_academico left">
-                                <figure><img src="${pageContext.request.contextPath}/img/divisiones/turismo/cuerpo_academico1-min.png" alt="Cuerpo académico : Investigación y desarrollo académico"/></figure><br/>
-                                <header><h3>Cuerpo académico : investigación y desarrollo académico</h3></header><br/>
+                                <img src="${pageContext.request.contextPath}/img/divisiones/turismo/cuerpo_academico1-min.png" alt="Cuerpo académico : Investigación y desarrollo académico"/>
+                                <header><h3>Cuerpo académico : investigación y desarrollo académico</h3></header>
                                 <article>
                                     <h4>Líneas de investigación</h4>
                                     <ul>
@@ -93,8 +88,8 @@
                                 </article>
                             </section>
                             <section class="divisiones_texto cuerpo_academico right">
-                                <figure><img src="${pageContext.request.contextPath}/img/divisiones/turismo/cuerpo_academico2-min.png" alt="Cuerpo académico: Innovación y territorialidad turística y gastronómica"/></figure><br/>
-                                <header><h3>Cuerpo académico: innovación, territorialidad turística y gastronómica</h3></header><br/>
+                                <img src="${pageContext.request.contextPath}/img/divisiones/turismo/cuerpo_academico2-min.png" alt="Cuerpo académico: Innovación y territorialidad turística y gastronómica"/>
+                                <header><h3>Cuerpo académico: innovación, territorialidad turística y gastronómica</h3></header>
                                 <article>
                                     <h4>Líneas de investigación</h4>
                                     <ul>
@@ -116,9 +111,9 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../../index3Footer.min.jsp" flush="true"  />
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../../includePie.min.jsp?origen=division" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/divisiones.min.js"></script>

@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Proyectos Incubados">
         <meta name="keywords" content="vinculación,Centro de Incubación y Desarrollo de Negocios,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=vinculacion" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="vinculacion_section">
                 <header class="vinculacion_titulo">
                     <h2><span class="texto_resaltado">Vinculación</span> / <span class="texto_resaltado">Centro de Incubación y Desarrollo de Negocios</span></h2>
@@ -36,9 +31,9 @@
                 </header>
                 <article class="vinculacion_contenido">
                     <section class="vinculacion_texto">
-                        <figure class="vinculacion_btnsMenu">
+                        <div class="vinculacion_btnsMenu">
                             <a href="https://www.youtube.com/watch?v=gpLr8aI-_xo" target="_blank"><img src="${pageContext.request.contextPath}/img/vinculacion/incubadora/btn_video.png" alt="Video"/></a>
-                        </figure>
+                        </div>
                         <div class="corte"></div>
                     </section>
                     <section class="vinculacion_texto">
@@ -49,8 +44,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />             
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
     </body>
 </html>

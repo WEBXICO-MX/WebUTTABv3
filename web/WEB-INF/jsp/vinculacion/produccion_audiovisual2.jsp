@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Producción Audiovisual">
         <meta name="keywords" content="vinculación,Producción audivisual,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=vinculacion" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="vinculacion_section">
                 <header class="vinculacion_titulo">
                     <h2><span class="texto_resaltado">Vinculación</span> /</h2>
@@ -36,17 +31,15 @@
                 </header>
                 <article class="vinculacion_contenido">
                     <section class="vinculacion_texto">
-                        <figure>
                             <img src="${pageContext.request.contextPath}/img/vinculacion/produccion_audiovisual2/produccion-audiovisual_03-min.png" alt="Producción Audiovisual"/>
-                        </figure>
                     </section>
                     <section class="vinculacion_texto">
                         <h4 class="tituloContenido">¿Quiénes somos?</h4>
-                        <br/>
+                        
                         <p>El departamento de producción audiovisual diseña, produce y realiza material en audio y video para radio y televisión. Nuestro objetivo principal es servir como vínculo de difusión educativa, científica, cultural e informativa, entre el cuerpo académico, la población estudiantil y la sociedad en general.</p>
-                        <br/>
+                        
                         <h4 class="tituloContenido">Catálogo de servicios</h4>
-                        <br/>
+                        
                         <ul>
                             <li>Copiado de material a formato digital</li>
                             <li>Realización de campañas</li>
@@ -60,9 +53,9 @@
                             <li>Creación y producción de videos corporativos</li>
                             <li>Guiones y voz en off</li>
                         </ul>
-                        <br/>
+                        
                         <h4 class="tituloContenido">Cursos</h4>
-                        <br/>
+                        
                         <ul>
                             <li>Guionismo</li>
                             <li>Locución</li>
@@ -82,8 +75,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />             
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=vinculacion" flush="true" />
     </body>
 </html>

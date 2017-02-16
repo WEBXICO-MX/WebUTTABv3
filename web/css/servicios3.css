@@ -1,0 +1,112 @@
+@import "normalize.min.css";
+@import url('index3_header.min.css');
+@import url('index3_footer.min.css');
+@import "inclusion.min.css";
+
+aside{ width: 100%; height: 355px; }
+body { font-family: 'Open Sans' !important;font-weight: 400;} 
+h1,h2,h5 { font-weight: normal;}  
+p { text-align: justify;text-justify: distribute;}         
+.corte { clear: both;}
+.oculto { display: none;}
+.row { width:1000px; height: auto; margin: 0 auto;}
+
+
+.texto_resaltado { color: #FE4A3E;}
+.servicios_section{ width: 1000px; height: auto; margin: 0 auto;}
+.servicios_titulo { width: auto; height: 60px; margin-top: 10px;margin-bottom: 10px;padding: 4px 0 4px 115px; box-sizing:border-box;background-color: #0D6FAF}
+.servicios_titulo h1 { font-size: 1.3em; margin:0; color: white; font-weight: normal; }
+.servicios_titulo h2 { font-size: 1em; margin:0; color: white; font-weight: normal;}
+.servicios_contenido { width: auto; height: auto;}
+.servicios_texto { width: 946px; height: auto; margin: 0 auto 15px auto; text-align: justify;}
+.servicios_texto_full { width: 1002px; height: auto; margin: 0 auto 15px auto; text-align: justify;}
+p.primera_linea {
+    text-indent: 40px;
+}
+.servicios_texto h3,.servicios_texto2 h3,.servicios_texto_full h3 { margin-bottom: 15px;}
+.servicios_texto h4,.servicios_texto2 h4,.servicios_texto_full h4 { margin-bottom: 10px;}
+.servicios_texto ul li,.servicios_texto2 ul li { list-style-image: url(../img/divisiones/carreras/point.png)}
+.servicios_texto ul li ul li,.servicios_texto2 ul li ul li{ list-style-image: url(../img/divisiones/carreras/guionVineta.png)}
+.servicios_texto ul li,.servicios_texto2 ul li {
+    list-style-position: outside;
+    margin-left: 1em;
+}
+
+.servicios_texto a:active, .servicios_texto2 a:active,
+.servicios_texto a:link, .servicios_texto2 a:link,
+.servicios_texto a:visited,.servicios_texto2 a:visited {
+    color: #5B5C5C;
+    text-decoration:none; 
+}
+
+.servicios_texto a:hover,.servicios_texto2 a:hover{
+    font-weight: bold; color:#0e547f;
+
+}
+
+.servicios_texto1,.servicios_texto2 { width: 456px; height: auto;}
+.servicios_texto1{ float:left;}
+.servicios_texto2{ float:right;}
+.servicios_texto1 ul { margin-left: 43px;}
+.servicios_texto2 ul { margin-left: 10px;}
+.servicios_texto1 h3,.servicios_texto2 h3 {display: inline-block; color: #0E547F;}
+.servicios_texto1 ul li { list-style-image: url(../img/divisiones/carreras/point.png)}
+.servicios_texto2 ul li { list-style-image: url(../img/divisiones/carreras/ok.png);}
+.servicios_texto1 ul li,.servicios_texto2 ul li {
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+     */
+    list-style-position: outside;
+
+    /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+    margin-left: 1em;
+}
+
+.ficha_contacto {width: 456px; height: auto; box-sizing: border-box; background-color: #F1F2F2; border-left: 27px solid  #2582BB; padding: 5px 0 5px 15px}
+.ficha_contacto p { font-size:  14px;}
+.ficha_contacto h3 { font-size:  14px; font-weight: bold; color: #696666;}
+.servicios_slider { width: auto; height: 410px;}
+.left { float: left;}
+.right { float: right;}
+.center { margin: 0 auto;}
+.boton_biblioteca {width: 463px; height: 55px; box-sizing: border-box; padding: 15px 0 0 78px; margin-bottom: 10px;}
+.libro_del_mes {
+    background: url(../img/servicios/biblioteca/icono_biblioteca-min.png), url(../img/servicios/biblioteca/btn_ligro_del_mes-min.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.nuevas_adquisiones {
+    background: url(../img/servicios/biblioteca/icono_biblioteca-min.png), url(../img/servicios/biblioteca/btn_nuevas_adquisiones-min.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.biblioteca_digital {
+    background: url(../img/servicios/biblioteca/icono_biblioteca-min.png), url(../img/servicios/biblioteca/btn_biblioteca_digital-min.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.janium {
+    background: url(../img/servicios/biblioteca/icono_biblioteca-min.png), url(../img/servicios/biblioteca/btn_janium-min.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.ebsco{
+    background: url(../img/servicios/biblioteca/icono_biblioteca-min.png), url(../img/servicios/biblioteca/btn_ebsco-min.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.cengage{
+    background: url(../img/servicios/biblioteca/icono_biblioteca-min.png), url(../img/servicios/biblioteca/btn_cengage_learning-min.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.icono_servicio_ventanilla { position: absolute; right: 165px; bottom: 20px; cursor: pointer;}
+.icono_calendario_escolar { position: absolute; right: 20px; bottom: 20px; cursor: pointer;}
+#egresados_resultados { width: auto; height: auto;}
+#egresados_paginacion { margin-top: 20px; text-align: center;}
+.egresados_paginacion_opcion { font-size: 25px; font-weight: bold;}

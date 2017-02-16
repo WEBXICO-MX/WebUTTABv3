@@ -5,19 +5,28 @@
 <struts>
     <package name="transparencia" namespace="/transparencia" extends="struts-default">
         <action name="">
-            <result name="success" type="redirectAction">programa_institucional_desarrollo</result>
+            <result name="success" type="redirectAction">programa-institucional-desarrollo</result>
         </action>
         <action name="normatividad">
             <result>/WEB-INF/jsp/transparencia/normatividad.jsp</result>
         </action>
         <action name="programa_institucional_desarrollo">
+            <result name="success" type="redirectAction">programa-institucional-desarrollo</result>
+        </action>
+        <action name="programa-institucional-desarrollo">
             <result>/WEB-INF/jsp/transparencia/programa_institucional_desarrollo2.jsp</result>
         </action>
         <action name="contraloria_social">
+            <result name="success" type="redirectAction">contraloria-social</result>
+        </action>
+        <action name="contraloria-social">
             <result>/WEB-INF/jsp/transparencia/contraloria_social.jsp</result>
         </action>
         <action name="bienes">
             <result>/WEB-INF/jsp/transparencia/bienes.jsp</result>
+        </action>
+        <action name="fondos-extraordinarios">
+            <result>/WEB-INF/jsp/transparencia/fondos_extraordinarios.jsp</result>
         </action>
     </package>
 </struts>

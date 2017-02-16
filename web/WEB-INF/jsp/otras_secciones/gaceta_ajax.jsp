@@ -18,7 +18,7 @@
                     <tbody>
                             <tr>
                                 <td>
-                                    <figure><img src="viewGacetaIMG.action?id=<s:property value="id" />" alt="Ejemplar No. <s:property value="id" />" onclick="window.open('viewGacetaPDF.action?id=<s:property value="id" />', '_blank');" onmouseover="this.style.cursor = 'pointer';"/></figure>
+                                    <img src="viewGacetaIMG.action?id=<s:property value="id" />" alt="Ejemplar No. <s:property value="id" />" onclick="window.open('viewGacetaPDF.action?id=<s:property value="id" />', '_blank');" onmouseover="this.style.cursor = 'pointer';"/>
                                 </td>
                                 <td>
                                     <h3>Ejemplar No. <s:property value="id" /></h3>
@@ -33,4 +33,4 @@
         </s:if>
     </s:iterator>
 </s:if>
-<s:else><h1>No hay datos para mostrar.</h1></s:else>
+<s:else><h1 style="text-align: center">No hay gacetas para mostrar por el momento.</h1></s:else>

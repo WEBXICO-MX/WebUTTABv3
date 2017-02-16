@@ -21,6 +21,9 @@
             <result name="success">/WEB-INF/jsp/otras_secciones/radio/sintonia_ajax2.jsp</result>
         </action>
         <action name="quienes_somos">
+            <result name="success" type="redirectAction">quienes-somos</result>
+        </action>
+        <action name="quienes-somos">
             <result>/WEB-INF/jsp/otras_secciones/radio/quienes_somos.jsp</result>
         </action>
         <!--<action name="programacion" class="mx.edu.uttab.action.ProgramacionRadioAction" method="list">

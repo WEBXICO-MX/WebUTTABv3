@@ -14,21 +14,16 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Actividades Culturales y Deportivas">
         <meta name="keywords" content="conócenos,Actividades Culturales y Deportivas,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/css/layerslider.css" />
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]--> 
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="servicios_section">
                 <header class="servicios_titulo">
                     <h2><span class="texto_resaltado">Alumnos</span> /</h2>
@@ -37,18 +32,18 @@
                 </header>
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
-                        <figure style="float:right;">
+                        <div style="float:right;">
                             <img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/btn_horarios-min.png" alt="Horario de Actividades Culturales y Deportivas"/>
-                        </figure>
+                        </div>
                         <div class="corte"></div>
                     </section>
                     <section class="servicios_texto_full">
                         <article class="servicios_slider">
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider1-min.png" alt="Actividades Culturales y Deportivas"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider2-min.png" alt="Actividades Culturales y Deportivas"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider3-min.png" alt="Actividades Culturales y Deportivas"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider4-min.png" alt="Actividades Culturales y Deportivas"/></figure>
-                            <figure class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider5-min.png" alt="Actividades Culturales y Deportivas"/></figure>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider1-min.png" alt="Actividades Culturales y Deportivas"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider2-min.png" alt="Actividades Culturales y Deportivas"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider3-min.png" alt="Actividades Culturales y Deportivas"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider4-min.png" alt="Actividades Culturales y Deportivas"/></div>
+                            <div class="ls-layer"><img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/actividades_culturales_deportivas_slider5-min.png" alt="Actividades Culturales y Deportivas"/></div>
                         </article>
                         <div class="corte"></div>
                     </section>
@@ -57,9 +52,9 @@
                     </section>
                     <section class="servicios_texto">
                         <article class="servicios_texto1 left">
-                            <figure style="display:inline-block;">
+                            <div style="display:inline-block;">
                                 <img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/icono_culturales-min.png" alt="Culturales"/>
-                            </figure>
+                            </div>
                             <h3>Culturales</h3>
                             <table style="width:100%;">
                                 <tbody>
@@ -84,10 +79,10 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <br/>
+                            
                             <figure style="display:inline-block;">
                                 <img src="${pageContext.request.contextPath}/img/servicios/actividades_culturales_deportivas/icono_deportivos-min.png" alt="Deportivas"/>
-                            </figure>
+                            </div>
                             <h3>Deportivos</h3>
                             <table style="width:100%;">
                                 <tr>
@@ -109,7 +104,7 @@
                                     </td>
                                 </tr>
                             </table>
-                            <br/>
+                            
                             <div class="ficha_contacto">
                                 <header><h3>Contacto</h3></header>
                                 <article>
@@ -132,9 +127,9 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />                 
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/js/layerslider.kreaturamedia.jquery.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/layerslider/JQuery/jquery-easing-1.3.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/servicios.min.js"></script>

@@ -13,16 +13,9 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Centro de Atención al Sector Energético, Calendario">
         <meta name="keywords" content="vinculación,Centro de Atención al Sector Energético,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/vinculacion3.min.css"/>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.min.css"/>
-        <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
         <style>
             .inicio_curso a {
                 background-image : url('${pageContext.request.contextPath}/img/unidades_negocio/case/inicioDeCurso.png') !important;
@@ -34,11 +27,13 @@
 
             div#datepicker > div { width:auto!important;}
         </style>
+        <!--[if lt IE 9]>
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.min.jsp?origen=unidades_negocio" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../../index3Header.min.jsp" flush="true"  />
             <section class="vinculacion_section">
                 <header class="vinculacion_titulo">
                     <h2><span class="texto_resaltado">Vinculación</span> /</h2>
@@ -47,18 +42,18 @@
                 </header>
                 <article class="vinculacion_contenido">
                     <section class="vinculacion_texto">
-                        <figure style="text-align: right;">
+                        <div style="text-align: right;">
                             <a href="inicio.action"><img src="${pageContext.request.contextPath}/img/unidades_negocio/case/btn_regresar.png" alt="Regresar"/></a>
-                        </figure>
+                        </div>
                     </section>
                     <section class="vinculacion_texto">
-                        <header><h3>Calendario <span id="capacitacion_nombre"></span></h3></header><br/>
+                        <header><h3>Calendario <span id="capacitacion_nombre"></span></h3></header>
                         <span id="capacitacion_descripcion"></span>
                         <p class="negritas">Iconografía:</p>
                         <ul>
                             <li><img src="${pageContext.request.contextPath}/img/unidades_negocio/case/inicioDeCurso.png" alt="Inicio de curso" style="width:46px; height: 33px;"/>Inicio de curso</li>
-                        </ul><br/>
-                        <div id="datepicker" style=" width: auto;"></div><br/><br/>
+                        </ul>
+                        <div id="datepicker" style=" width: auto;"></div>
                     </section>
                     <section class="vinculacion_texto">
                         <div class="ficha_contacto" style="width:500px;">
@@ -75,9 +70,9 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../../index3Footer.min.jsp" flush="true"  />             
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.min.jsp?origen=unidades_negocio" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script>
             var capacitacion_id = <%= request.getParameter("c") != null ? Integer.parseInt(request.getParameter("c")) : 0%>;

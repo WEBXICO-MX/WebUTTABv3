@@ -251,25 +251,36 @@ function cambiarColorAnio(a) {
             $("#2014").removeClass("anio_seleccionado");
             $("#2015").removeClass("anio_seleccionado");
             $("#2016").removeClass("anio_seleccionado");
+            $("#2017").removeClass("anio_seleccionado");
             break;
         case"2014":
             $("#2013").removeClass("anio_seleccionado");
             $("#2014").addClass("anio_seleccionado");
             $("#2015").removeClass("anio_seleccionado");
             $("#2016").removeClass("anio_seleccionado");
+            $("#2017").removeClass("anio_seleccionado");
             break;
         case"2015":
             $("#2013").removeClass("anio_seleccionado");
             $("#2014").removeClass("anio_seleccionado");
             $("#2015").addClass("anio_seleccionado");
             $("#2016").removeClass("anio_seleccionado");
+            $("#2017").removeClass("anio_seleccionado");
             break;
         case"2016":
             $("#2013").removeClass("anio_seleccionado");
             $("#2014").removeClass("anio_seleccionado");
             $("#2015").removeClass("anio_seleccionado");
             $("#2016").addClass("anio_seleccionado");
+            $("#2017").removeClass("anio_seleccionado");
             break;
+        case"2017":
+            $("#2013").removeClass("anio_seleccionado");
+            $("#2014").removeClass("anio_seleccionado");
+            $("#2015").removeClass("anio_seleccionado");
+            $("#2016").removeClass("anio_seleccionado");
+            $("#2017").addClass("anio_seleccionado");
+            break;    
     }
 }
 

@@ -1,0 +1,99 @@
+@import "inclusion.min.css";
+aside{ width: 100%; height: 355px; }
+body { font-family: 'Open Sans' !important;font-weight: 400;} 
+h1,h2,h5 { font-weight: normal;}  
+/*header {background-color: #f9f9f9;border-bottom: 10px solid #e6e6e6;}*/
+p { text-align: justify;text-justify: distribute;}         
+
+#layerslider { width: 1000px; height: 400px;}
+#banner_principal{width: 1000px; height: 400px; margin: 0 auto;}
+#actividades_universitarias {position: relative;}
+#btn_ver_mas {position: absolute; bottom: 10px; right: 13.6px}
+
+.corte { clear: both;}
+/*.oculto { display: none;}*/
+.row { width:1000px; height: auto; margin: 0 auto;}
+.titular,.titular2 { border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;box-sizing: border-box; margin-top: 10px; margin-bottom: 10px;padding-left: 10px; position: relative; }
+.titular2 { color: white;}
+.titular img:nth-child(2),.titular2 img:nth-child(2) {position:  absolute; top:5px; right:41.6px; cursor: pointer;}
+.titular img:nth-child(3),.titular2 img:nth-child(3) {position:  absolute; top:5px; right:13.6px;cursor: pointer;} 
+
+
+
+/* Sección Información destacada */
+main section#informacion_destacada div.row,main section#actividades_universitarias div.row { line-height: 0;}
+main section#informacion_destacada div.row p{ line-height: 1.2em; text-align: center;margin: 5px auto 0 auto}
+main section#informacion_destacada div.row p{ font-size: 1.5em}
+main section#informacion_destacada { width:1000px;height: 250px; background-color: white; margin: 10px auto 10px auto; padding-top: 1px;}
+main section#informacion_destacada div.row:nth-child(2) div:nth-child(1) {width:auto; height: auto;}
+main section#informacion_destacada div.row:nth-child(2) div:nth-child(1) div.informacion_destacada:nth-child(-n+6) {width: 250px; height: 184px;float: left;padding: 10px; box-sizing: border-box;text-align:center;}
+main section#informacion_destacada div.row:nth-child(2) div:nth-child(1) div.informacion_destacada:nth-child(n+5) { display: none;} 
+main section#informacion_destacada div.row p span{ font-weight: 600; display: block}
+main section#informacion_destacada div.row p span:nth-child(2){font-size: 0.6em}
+/* Sección Información destacada */
+
+/*Counter Información destacada */
+.counters.counters-text-dark .counter {
+    color: #5E5A5A !important;
+}
+.counters .counter {
+    box-sizing: border-box;  
+    text-align: center; 
+}
+
+.animated, .appear-animation {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.counters strong {
+    margin-top: 5px;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    box-sizing:border-box;
+}
+.counters label {
+    display: block;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+/* Counter Información destacada */
+
+/* Sección Reconocimientos & convocatorias */
+main section#reconocimientos_convocatorias div.row div:nth-child(1) { width:50%; float: left;}
+main section#reconocimientos_convocatorias div.row div:nth-child(2) { width:50%;float: right;}
+/* Sección Reconocimientos & convocatorias */
+
+/* Sección Actividades universitarias */
+main section#actividades_universitarias { width:1000px;height: 342px; background-color: #0d6faf; margin: 10px auto auto auto; padding-top: 1px;}
+main section#actividades_universitarias div.row:nth-child(2) div:nth-child(1) {width:auto; height: auto;}
+main section#actividades_universitarias div.row:nth-child(2) div:nth-child(1) div.actividad_universitaria{width:233px; height: 240px;background-color: #2b5f87; float: left; border:1px solid #e6e6e6;margin-left: 13.6px;padding:9.5px; box-sizing: border-box; overflow: hidden;}
+main section#actividades_universitarias div.row:nth-child(2) div:nth-child(1) div.actividad_universitaria:nth-child(n+5) { display: none;} 
+main section#actividades_universitarias div.row:nth-child(2) div:nth-child(1) div > img { display: block; margin: 0 auto; cursor: pointer;} 
+main section#actividades_universitarias div.row p{ font-size: 0.83em; line-height: 1.5em;margin: 5px auto 0 auto; color: white;}
+main section#actividades_universitarias div.row h5{ line-height: 1.5em; margin: 5px auto 0 auto;color: white; font-weight: bold;text-align: justify;}
+main section#actividades_universitarias a { text-decoration: none; color: white;}
+main section#actividades_universitarias a:hover { text-decoration:underline ; font-weight: bold;}
+/* Sección Actividades universitarias */            
+
+/* Sección Sitios de interes*/
+aside div.row { line-height: 0;}
+aside div.row div:nth-child(1),aside div.row div:nth-child(2) { float: left}
+aside div.row div:nth-child(3),aside div.row div:nth-child(4) { float: right}
+/* Sección Sitios de interes*/

@@ -1,12 +1,19 @@
-@import "../js/JQuery/plugins/colorpicker/css/colorpicker.css";
- 
+@import "../js/JQuery/plugins/colorpicker/css/colorpicker.min.css";
+#herramientas_accesibilidad {
+    width: auto;height: auto;
+} 
+
+#texto_color, #fondo_color { 
+    cursor:pointer;
+}
+
 #inclusion-main{
     position: fixed;
-    top: 350px;
+    top: 660px;
     right: -180px;
     width: 150px;
     height: 180px;
-    background: #D8E0E2;
+    background: #2f2f3b;
     z-index: 100;
     padding: 15px;
     color:white;
@@ -14,15 +21,17 @@
     font-style: normal;
     font-weight: 400;
     font-size: .875em;
-    border-radius: 1em;
+    border-bottom-left-radius: 1em;
 } 
 #inclusion-hover{
     position: fixed;
-    top: 350px;
+    top: 660px;
     right: 0px;
-    width: 65px;
-    height: 65px;
-    background: transparent;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: #2f2f3b;
     z-index: 100; 
     cursor:pointer;
 }

@@ -14,15 +14,8 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Centro Certificador de Exámenes de Francés DELF-DALF">
         <meta name="keywords" content="servicios,Centro Certificador de Exámenes de Francés DELF-DALF,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios2.min.css"/>
-        <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios3.min.css"/>
         <style>
             table {
                 border-collapse: collapse;
@@ -32,11 +25,13 @@
                 border: 1px solid black;
             }
         </style>
+        <!--[if lt IE 9]>
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="servicios_section">
                 <header class="servicios_titulo">
                     <h2><span class="texto_resaltado">Servicios</span> /</h2>
@@ -45,14 +40,14 @@
                 </header>
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
-                        <figure><img src="${pageContext.request.contextPath}/img/servicios/centro_certificador_delf_dalf/centro_certificador1-min.png" alt="Centro Certificador de Exámenes de Francés DELF-DALF"/></figure><br/>
+                        <img src="${pageContext.request.contextPath}/img/servicios/centro_certificador_delf_dalf/centro_certificador1-min.png" alt="Centro Certificador de Exámenes de Francés DELF-DALF"/>
                         <h3>¿Quiénes somos?</h3>
-                        <p>El Centro Certificador DELF-DALF de la Universidad Tecnológica de Tabasco es un proyecto que resulta de la cooperación entre la embajada de Francia, de México y la UTTAB e inició sus actividades en 2008.</p><br/>
+                        <p>El Centro Certificador DELF-DALF de la Universidad Tecnológica de Tabasco es un proyecto que resulta de la cooperación entre la embajada de Francia, de México y la UTTAB e inició sus actividades en 2008.</p>
                         <p>Tiene la responsabilidad de organizar y supervisar que todas las sesiones de exámenes durante el año se realicen conforme al calendario de la Coordinación Nacional DELF-DALF con sede en el Instituto Francés de America Latina (IFAL), de acuerdo a las indicaciones de calidad emitidas desde el Centro Internacional de Estudios Pedagógicos (CIEP) del Ministerio de Educación Francés.</p>
                     </section>
                     <section class="servicios_texto">
                         <h3>¿Qué son los exámenes DELF y DALF?</h3>
-                        <p>Son certificaciones oficiales de francés otorgados por el Ministerio Francés de Educación Nacional por medio del Centro Internacional de Estudios Pedagógicos (CIEP).</p><br/>
+                        <p>Son certificaciones oficiales de francés otorgados por el Ministerio Francés de Educación Nacional por medio del Centro Internacional de Estudios Pedagógicos (CIEP).</p>
                         <ul>
                             <li>DELF significa: Diploma de Estudios de Lengua Francesa</li>
                             <li>DALF significa: Diploma Avanzado de Lengua Francesa</li>
@@ -64,8 +59,8 @@
                     </section>
                     <section class="servicios_texto">
                         <h3>Servicios que ofrecemos</h3>
-                        <p>El centro DELF-DALF ofrece al público interno y externo la posibilidad de acreditar una certificación a nivel internacional en lengua francesa, es decir, certifica que el alumno o la persona (empleado, profesor) sea capaz de hablar, escribir, comprender y escuchar el idioma.</p><br/>
-                        <p>Además de la aplicación y organización de los exámenes, nuestro centro ofrece:</p><br/>
+                        <p>El centro DELF-DALF ofrece al público interno y externo la posibilidad de acreditar una certificación a nivel internacional en lengua francesa, es decir, certifica que el alumno o la persona (empleado, profesor) sea capaz de hablar, escribir, comprender y escuchar el idioma.</p>
+                        <p>Además de la aplicación y organización de los exámenes, nuestro centro ofrece:</p>
                         <ul>
                             <li>Asesorías y consultorías sobre las certificaciones DELF-DALF, TCF, etc</li>
                             <li>Evaluación de diagnóstico en el idioma francés</li>
@@ -76,7 +71,7 @@
                             <li>Traducción de documentos científicos y documentos jurídicos</li>
                             <li>Apoyo en firma de convenios DELF-DALF entre instituciones México-Francia</li>
                         </ul><br/>
-                        <p>Los diplomas DELF y DALF son entregados por el Ministerio de Educación Francés para certificar las competencias en lengua francesa. El DELF y DALF están compuestos por seis diplomas independientes que corresponden a los seis niveles del marco común europeo de referencia para las lenguas.</p><br/>
+                        <p>Los diplomas DELF y DALF son entregados por el Ministerio de Educación Francés para certificar las competencias en lengua francesa. El DELF y DALF están compuestos por seis diplomas independientes que corresponden a los seis niveles del marco común europeo de referencia para las lenguas.</p>
                         <table style="width: 50%">
                             <thead>
                                 <tr>
@@ -163,32 +158,32 @@
                                 <tr>
                                     <td>DELF A1</td>
                                     <td>- 90/100 h</td>
-                                    <td>$ 720</td>
+                                    <td>$ 750</td>
                                 </tr>
                                 <tr>
                                     <td>DELF A2</td>
                                     <td>- 190/200 h</td>
-                                    <td>$ 790</td>
+                                    <td>$ 850</td>
                                 </tr>
                                 <tr>
                                     <td>DELF B1</td>
                                     <td>- 350/380 h</td>
-                                    <td>$ 860</td>
+                                    <td>$ 900</td>
                                 </tr>
                                 <tr>
                                     <td>DELF B2</td>
                                     <td>- 600/670 h</td>
-                                    <td>$ 1,450</td>
+                                    <td>$ 1500</td>
                                 </tr>
                                 <tr>
                                     <td>DALF C1</td>
                                     <td>- 750/780 h</td>
-                                    <td>$ 2,100</td>
+                                    <td>$ 2,200</td>
                                 </tr>
                                 <tr>
                                     <td>DALF C2</td>
                                     <td>- + de 900h</td>
-                                    <td>$ 2,385</td>
+                                    <td>$ 2,500</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -208,8 +203,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />             
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

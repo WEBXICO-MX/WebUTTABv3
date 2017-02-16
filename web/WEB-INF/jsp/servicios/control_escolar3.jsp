@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Control Escolar">
         <meta name="keywords" content="servicios,Control Escolar,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="servicios_section">
                 <header class="servicios_titulo">
                     <h2><span class="texto_resaltado">Alumnos</span> /</h2>
@@ -36,11 +31,11 @@
                 </header>
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
-                        <figure style="position: relative">
+                        <div style="position: relative">
                         <img src="${pageContext.request.contextPath}/img/servicios/control_escolar/control_escolar1-min.png" alt="Control Escolar"/>
                         <s:a action="servicios_ventanilla" namespace="/servicios"><img src="${pageContext.request.contextPath}/img/servicios/control_escolar/btn_servicios_ventanilla-min.png" alt="Servicios en ventanilla" class="icono_servicio_ventanilla"></s:a>
                         <s:a action="calendario_escolar" namespace="/servicios"><img src="${pageContext.request.contextPath}/img/servicios/control_escolar/btn_calendario_escolar-min.png" alt="Calendario escolar" class="icono_calendario_escolar"></s:a>
-                        </figure><br/>
+                        </div>
                         <p>El departamento de Control Escolar está adscrito a la Dirección de Servicios Escolares para brindar atención a los aspirantes, alumnos, egresados y padres de familia que requieren algún trámite relacionado con la situación académica o financiera de los alumnos.</p>
                     </section>
                     <section class="servicios_texto">
@@ -49,7 +44,7 @@
                     </section>
                     <section class="servicios_texto">
                         <h3>Reinscripción en línea</h3>
-                        <p>Alumnos que concluyen satisfactoriamente el cuatrimestre deberán reinscribirse mediante la realización del pago de colegiatura en el banco correspondiente, a través de: </p><br/>
+                        <p>Alumnos que concluyen satisfactoriamente el cuatrimestre deberán reinscribirse mediante la realización del pago de colegiatura en el banco correspondiente, a través de: </p>
                         <ul>
                             <li>Ingresar a la página del SAIIUT  <span class="negritas">Academia/Alumnos/Pago referenciado</span> y descargar  la ficha </li>
                             <li>Realizar el pago en el banco</li>
@@ -76,8 +71,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />        
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

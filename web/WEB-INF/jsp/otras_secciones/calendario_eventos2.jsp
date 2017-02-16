@@ -14,21 +14,16 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Calendario de eventos">
         <meta name="keywords" content="servicios,Calendario de eventos,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/otras_secciones2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/otras_secciones3.min.css"/>
         <link rel="stylesheet" href="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/css/smoothness/jquery-ui-1.10.4.custom.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="otras_secciones_section">
                 <header class="otras_secciones_titulo">
                     <h2><span class="texto_resaltado">Otras secciones</span> /</h2>
@@ -37,8 +32,7 @@
                 </header>
                 <article class="otras_secciones_contenido">
                     <section class="otras_secciones_texto_full">
-                        <figure><img src="${pageContext.request.contextPath}/img/otras_secciones/calendario_eventos/calendario_eventos1-min.png" alt="Calendario de eventos"/></figure>
-                        <div class="corte"></div>
+                        <img src="${pageContext.request.contextPath}/img/otras_secciones/calendario_eventos/calendario_eventos1-min.png" alt="Calendario de eventos"/>
                     </section>
                     <section class="otras_secciones_texto_full">
                         <div id="contenedor_calendario">
@@ -66,9 +60,9 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  /> 
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=boletines_anteriores" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/JQuery/plugins/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js"></script>
         <script src="${pageContext.request.contextPath}/js/otras_secciones/calendario_eventos.min.js"></script>
         <script>

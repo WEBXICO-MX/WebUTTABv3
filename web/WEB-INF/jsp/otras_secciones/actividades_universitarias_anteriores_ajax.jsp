@@ -16,7 +16,16 @@
                             <img src="viewActividadUniversitariaIMG.action?id=<s:property value="id" />" alt="<s:property value="nombre" />" width="180" height="169"/>
                         </s:if>
                         <s:else>
-                            <img src="viewActividadUniversitariaIMG.action?id=<s:property value="id" />" alt="<s:property value="nombre" />"/>  
+                            <s:if test="pdf.equalsIgnoreCase('NULL') && link.equalsIgnoreCase('NULL')">
+                                <img src="viewActividadUniversitariaIMG.action?id=<s:property value="id" />" alt="<s:property value="nombre" />"/> 
+                            </s:if>
+                            <s:elseif test="pdf.equalsIgnoreCase('NULL')">
+                                <a href="<s:property value="link"/>" target="_blank"><img src="viewActividadUniversitariaIMG.action?id=<s:property value="id" />" alt="<s:property value="nombre" />"/> </a>
+                                </s:elseif>
+                                <s:else>
+                                    <s:url namespace="" action="viewActividadUniversitariaPDF" var="pdfURL"><s:param name="id" value="%{id}"></s:param></s:url>
+                                <a href="<s:property value="#pdfURL"/>" target="_blank"><img src="viewActividadUniversitariaIMG.action?id=<s:property value="id" />" alt="<s:property value="nombre" />"/> </a>  
+                                </s:else>                             
                         </s:else>
                     </td>
                     <td style="width:85%; padding: 10px;">
@@ -35,8 +44,7 @@
                     </td>
                 </tr>
             </s:iterator>
-
         </tbody>
     </table>
 </s:if>
-<s:else><h1>No hay datos para mostrar.</h1></s:else>
+<s:else><h1 style="text-align: center">No hay actividades universitarias para mostrar por el momento.</h1></s:else>

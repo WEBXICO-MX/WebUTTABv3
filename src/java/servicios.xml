@@ -5,15 +5,24 @@
 <struts>
     <package name="servicios" namespace="/servicios" extends="struts-default">
         <action name="">
-            <result name="success" type="redirectAction">calendario_escolar</result>
+            <result name="success" type="redirectAction">calendario-escolar</result>
         </action>
         <action name="calendario_escolar">
+            <result name="success" type="redirectAction">calendario-escolar</result>
+        </action>
+        <action name="calendario-escolar">
             <result>/WEB-INF/jsp/servicios/calendario_escolar_2016_2017.jsp</result>
         </action>
         <action name="actividades_culturales_deportivas">
+            <result name="success" type="redirectAction">actividades-culturales-deportivas</result>
+        </action>
+        <action name="actividades-culturales-deportivas">
             <result>/WEB-INF/jsp/servicios/actividades_culturales_deportivas.jsp</result>
         </action>
         <action name="atencion_psicopedagogica">
+            <result name="success" type="redirectAction">atencion-psicopedagogica</result>
+        </action>
+        <action name="atencion-psicopedagogica">
             <result>/WEB-INF/jsp/servicios/atencion_psicopedagogica.jsp</result>
         </action>
         <action name="becas">
@@ -23,33 +32,57 @@
             <result>/WEB-INF/jsp/servicios/biblioteca.jsp</result>
         </action>
         <action name="centro_idiomas">
+            <result name="success" type="redirectAction">centro-idiomas</result>
+        </action>
+        <action name="centro-idiomas">
             <result>/WEB-INF/jsp/servicios/centro_idiomas.jsp</result>
         </action>
         <action name="control_escolar">
+            <result name="success" type="redirectAction">control-escolar</result>
+        </action>
+        <action name="control-escolar">
             <result>/WEB-INF/jsp/servicios/control_escolar3.jsp</result>
         </action>
         <action name="servicios_ventanilla">
+            <result name="success" type="redirectAction">servicios-ventanilla</result>
+        </action>
+        <action name="servicios-ventanilla">
             <result>/WEB-INF/jsp/servicios/servicios_ventanilla2.jsp</result>
         </action>
         <action name="tutorias">
             <result>/WEB-INF/jsp/servicios/padres2.jsp</result>
         </action>
         <action name="practicas_empresariales">
+            <result name="success" type="redirectAction">practicas-empresariales</result>
+        </action>
+        <action name="practicas-empresariales">
             <result>/WEB-INF/jsp/servicios/practicas_empresariales.jsp</result>
         </action>
         <action name="servicios_medicos">
+            <result name="success" type="redirectAction">servicios-medicos</result>
+        </action>
+        <action name="servicios-medicos">
             <result>/WEB-INF/jsp/servicios/servicios_medicos2.jsp</result>
         </action>
         <action name="tramites_titulacion">
+            <result name="success" type="redirectAction">tramites-titulacion</result>
+        </action>
+        <action name="tramites-titulacion">
             <result>/WEB-INF/jsp/servicios/tramites_titulacion.jsp</result>
         </action>
         <action name="transporte">
             <result>/WEB-INF/jsp/servicios/transporte.jsp</result>
         </action>
         <action name="bolsa_trabajo">
+            <result name="success" type="redirectAction">bolsa-trabajo</result>
+        </action>
+        <action name="bolsa-trabajo">
             <result>/WEB-INF/jsp/servicios/bolsa_trabajo.jsp</result>
         </action>
         <action name="delf_dalf">
+            <result name="success" type="redirectAction">delf-dalf</result>
+        </action>
+        <action name="delf-dalf">
             <result>/WEB-INF/jsp/servicios/centro_certificador_delf_dalf.jsp</result>
         </action>
         <action name="admision">

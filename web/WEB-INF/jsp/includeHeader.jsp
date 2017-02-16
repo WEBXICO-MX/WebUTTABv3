@@ -67,6 +67,7 @@
                             <li><s:a href="%{url_1_informe_actividades}" target="_blank">1er. Informe de actividades</s:a></li>
                             <li><s:a href="%{url_2_informe_actividades}" target="_blank">2do. Informe de actividades</s:a></li>
                             <li><s:a href="%{url_3_informe_actividades}" target="_blank">3er. Informe de actividades</s:a></li>
+                            <li><s:a action="4to-informe-de-actividades" namespace="/conocenos">4to. Informe de actividades</s:a></li>
                             <li><s:a action="campus" namespace="/conocenos">Campus</s:a></li>
                             <li><s:a action="organigrama" namespace="/conocenos">Organigrama</s:a></li>
                             </ul>

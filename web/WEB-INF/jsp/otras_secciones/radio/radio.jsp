@@ -19,7 +19,7 @@
     <div>
         <img src="${pageContext.request.contextPath}/img/otras_secciones/radio/sintonia2-min.png" alt=""/>
     </div>
-    <div id="sintonia_ajax" style="margin-left: 15px; margin-right: 15px; float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
-    <div style="clear: both"></div>
+    <div id="sintonia_ajax" style="/*margin-left: 15px; margin-right: 15px;*/ float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
+    <div class="corte"></div>
 </div>
-<div style="clear: both"></div>
+<div class="corte"></div>

@@ -17,18 +17,12 @@
 </div>
 <div id="sintonia_contenido">
     <div>
-        <p>La radio universitaria, Sintonía UTTAB "La perfecta armonía de tus sentidos", tiene como objetivo difundir y promover el quehacer científico, cultural y deportivo de la UTTAB, siendo una puerta de enlace entre la Universidad Tecnológica de Tabasco y la comunidad, con una oferta radiofónica innovadora, social y cultural.</p> 
-        <br/>
-        <p class="negritas">Misión</p> 
-        <br/>
-        <p>Producir, programar y transmitir contenidos radiofónicos que estimulen la creatividad, espirítu emprendedor, liderazgo y trabajo en equipo para consolidarnos como una radio educativa, pública, incluyente, participativa y plural.</p> 
-        <br/>
-        <p class="negritas">Visión</p>
-        <br/>
-        <p>Ser una oferta radiofónica universitaria innovadora y de comunicación con presencia estatal, nacional e internacional que sea referente por la representatividad social y cultural de su programación, la calidad de sus emisiones y la credibilidad de sus contenidos.</p>
-        <br/>
-        <p class="negritas">Objetivos</p>
-        <br/>
+        <p>La radio universitaria, Sintonía UTTAB "La perfecta armonía de tus sentidos", tiene como objetivo difundir y promover el quehacer científico, cultural y deportivo de la UTTAB, siendo una puerta de enlace entre la Universidad Tecnológica de Tabasco y la comunidad, con una oferta radiofónica innovadora, social y cultural.</p>         
+        <p class="negritas">Misión</p>        
+        <p>Producir, programar y transmitir contenidos radiofónicos que estimulen la creatividad, espirítu emprendedor, liderazgo y trabajo en equipo para consolidarnos como una radio educativa, pública, incluyente, participativa y plural.</p>       
+        <p class="negritas">Visión</p>        
+        <p>Ser una oferta radiofónica universitaria innovadora y de comunicación con presencia estatal, nacional e internacional que sea referente por la representatividad social y cultural de su programación, la calidad de sus emisiones y la credibilidad de sus contenidos.</p>        
+        <p class="negritas">Objetivos</p>        
         <ul style=" list-style-position:  inside">
             <li>Producir y transmitir programas de corte académico y cultural</li>
             <li>Ser un vínculo de difusión educativo, cultural e informativo entre el cuerpo académico, la población estudiantil y la sociedad en general</li>
@@ -37,6 +31,6 @@
             <li>Podcast</li>
         </ul>
     </div>
-    <div id="sintonia_ajax" style="margin-left: 15px; margin-right: 15px; float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
+    <div id="sintonia_ajax" style="/*margin-left: 15px; margin-right: 15px;*/ float: right; width:383px; height:422px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
 </div>
-<div style="clear:  both"></div>        
+<div  class="corte"></div>      

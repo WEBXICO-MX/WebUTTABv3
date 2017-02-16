@@ -19,21 +19,14 @@
         <meta content='http://www.uttab.edu.mx/img/logo_ut_shared_facebook.png' property='og:image'/>
         <meta content='La radio universitaria, Sintonía UTTAB "La perfecta armonía de tus sentidos", tiene como objetivo difundir y promover el quehacer científico, cultural y deportivo de la UTTAB, siendo una puerta de enlace entre la Universidad Tecnológica de Tabasco y la comunidad, con una oferta radiofónica innovadora, social y cultural.' property='og:description'/>
         <meta content='http://www.uttab.edu.mx/sintonia/radio.action' property='og:url'/>
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sintonia.min.css"/>
-        <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/sintonia2.min.css"/>
         <style>
             #radio { width:385px}
             #sintonia_botones { margin-bottom: 15px; text-align: right;}
             #sintonia_banner {margin-bottom: 15px;}
             #sintonia_botones a img:hover {opacity:0.8;filter:alpha(opacity=80); /* For IE8 and earlier */}
-            #sintonia_contenido > div {width:574px;height: auto; margin-left: 15px; float:left;}
+            #sintonia_contenido > div {width:574px;height: auto; /*margin-left: 15px;*/ float:left;}
             #sintonia_contenido table tbody tr td::first-letter { text-transform: capitalize}
             #sintonia_contenido table thead th {background-color: #D78C39;color:#FDF9F7; height: 40px;font-size: 1em}
             #programacion_sintonia table tbody tr td{ text-align: center;}
@@ -42,11 +35,13 @@
             #sintonia_contenido ul li { margin-bottom: 10px;}
             #programacion_sintonia { margin-top: 20px;}
         </style>
+        <!--[if lt IE 9]>
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]-->
     </head>
     <body>
-        <jsp:include page="/WEB-INF/jsp/includeHeader.jsp" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../../index3Header.min.jsp" flush="true"  />
             <section class="sintonia_section">
                 <header class="sintonia_titulo">
                     <h2><span class="texto_resaltado">Otras secciones</span> /</h2>
@@ -60,17 +55,17 @@
                         <div id="sintonia_contenido">
                             <div>&nbsp;</div>
                             <div id="sintonia_ajax" style="margin-left: 15px; margin-right: 15px; float: right; width:383px; height:401.609px; background-image: url( ${pageContext.request.contextPath}/img/otras_secciones/radio/background.png)">&nbsp;</div>
-                            <div style="clear: both"></div>
+                            <div class="corte"></div>
                         </div>
-                        <div style="clear: both"></div>
+                        <div class="corte"></div>
                     </section>
-                    <div style="clear: both"></div>
+                    <div class="corte"></div>
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../../index3Footer.min.jsp" flush="true"  />                  
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="/WEB-INF/jsp/includePie.jsp" flush="true" />
+        
         <script src="${pageContext.request.contextPath}/js/otras_secciones/sintonia.min.js"></script>
     </body>
 </html>

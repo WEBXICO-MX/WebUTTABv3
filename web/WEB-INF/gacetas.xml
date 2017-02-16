@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gacetas>
+  <gaceta id="81">
+    <fecha_ejemplar>07 FEB 2017</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar81.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_81.pdf</pdf>
+    <activo>true</activo>
+  </gaceta>
+  <gaceta id="80">
+    <fecha_ejemplar>23 ENE 2017</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar80.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_80.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
+  <gaceta id="79">
+    <fecha_ejemplar>12 DIC 2016</fecha_ejemplar>
+    <img>img/otras_secciones/gaceta/ejemplar79.png</img>
+    <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_79.pdf</pdf>
+    <activo>false</activo>
+  </gaceta>
   <gaceta id="78">
     <fecha_ejemplar>28 NOV 2016</fecha_ejemplar>
     <img>img/otras_secciones/gaceta/ejemplar78.png</img>
     <pdf>WEB-INF/doctos/otras_secciones/gaceta/GACETA_78.pdf</pdf>
-    <activo>true</activo>
+    <activo>false</activo>
   </gaceta>
   <gaceta id="77">
     <fecha_ejemplar>14 NOV 2016</fecha_ejemplar>

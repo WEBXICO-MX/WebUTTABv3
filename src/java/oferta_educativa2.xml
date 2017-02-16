@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="division-agep" namespace="/oferta-educativa/agep" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">inicio</result>
+        </action>
+        <action name="inicio">
+            <result>/WEB-INF/jsp/divisiones/agep/division.min.jsp</result>
+        </action>
+        <action name="directorio">
+            <result>/WEB-INF/jsp/divisiones/agep/directorio2.min.jsp</result>
+        </action>
+        <action name="ingenieria-gestion-proyectos">
+            <result>/WEB-INF/jsp/divisiones/agep/carreras/ingGestProy/index2.min.jsp</result>
+        </action>
+        <action name="ingenieria-desarrollo-innovacion-empresarial">
+            <result>/WEB-INF/jsp/divisiones/agep/carreras/ingDesInnoEmpr/index.min.jsp</result>
+        </action>
+        <action name="tsu-administracion-area-administracion-evaluacion-proyectos">
+            <result>/WEB-INF/jsp/divisiones/agep/carreras/tsuAdmEvaProy/index2.min.jsp</result>
+        </action>
+        <action name="tsu-desarrollo-negocios-area-mercadotecnia">
+            <result>/WEB-INF/jsp/divisiones/agep/carreras/tsuDesNeg/index2.min.jsp</result>
+        </action>
+        <action name="tsu-contaduria">
+            <result>/WEB-INF/jsp/divisiones/agep/carreras/tsuContaduria/index.min.jsp</result>
+        </action>
+    </package>
+    <package name="division-procesos" namespace="/oferta-educativa/procesos" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">inicio</result>
+        </action>
+        <action name="inicio">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/division.min.jsp</result>
+        </action>
+        <action name="directorio">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/directorio2.min.jsp</result>
+        </action>
+        <action name="ingenieria-procesos-bioalimentarios">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/ingProcBioalimentario/index2.min.jsp</result>
+        </action>
+        <action name="ingenieria-mantenimiento-industrial">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/ingMantoIndustrial/index2.min.jsp</result>
+        </action>
+        <action name="ingenieria-mantenimiento-petrolero">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/ingMantoPetrolero/index.min.jsp</result>
+        </action>
+        <action name="tsu-procesos-alimentarios">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/tsuProcAlimentarios/index2.min.jsp</result>
+        </action>
+        <action name="tsu-mantenimiento-area-petroleo">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/tsuMantoAreaPetroleo/index2.min.jsp</result>
+        </action>
+        <action name="tsu-mantenimiento-area-industrial">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/tsuMantoAreaIndustrial/index2.min.jsp</result>
+        </action>
+        <action name="tsu-energias-renovables-area-calidad-ahorro-energia">
+            <result>/WEB-INF/jsp/divisiones/procesosIndustriales/carreras/tsuEneRenAreaCalAhoEne/index2.min.jsp</result>
+        </action>
+    </package>
+    <package name="division-quimica" namespace="/oferta-educativa/quimica" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">inicio</result>
+        </action>
+        <action name="inicio">
+            <result>/WEB-INF/jsp/divisiones/quimica/division.min.jsp</result>
+        </action>
+        <action name="directorio">
+            <result>/WEB-INF/jsp/divisiones/quimica/directorio2.min.jsp</result>
+        </action>
+        <action name="ingenieria-tecnologia-ambiental">
+            <result>/WEB-INF/jsp/divisiones/quimica/carreras/ingTecAmb/index2.min.jsp</result>
+        </action>
+        <action name="ingenieria-quimica-procesos-industriales">
+            <result>/WEB-INF/jsp/divisiones/quimica/carreras/ingQuimProcInd/index2.min.jsp</result>
+        </action>
+        <action name="tsu-quimica-area-tecnologia-ambiental">
+            <result>/WEB-INF/jsp/divisiones/quimica/carreras/tsuQuimAreaTecAmb/index2.min.jsp</result>
+        </action>
+        <action name="tsu-quimica-area-prevencion-corrosion">
+            <result>/WEB-INF/jsp/divisiones/quimica/carreras/tsuQuimAreaPrevCorr/index2.min.jsp</result>
+        </action>
+        <action name="tsu-quimica-area-industrial">
+            <result>/WEB-INF/jsp/divisiones/quimica/carreras/tsuQuimAreaInd/index2.min.jsp</result>
+        </action>
+        <action name="tsu-quimica-area-fluidos-perforacion">
+            <result>/WEB-INF/jsp/divisiones/quimica/carreras/tsuQuimFluPerf/index2.min.jsp</result>
+        </action>
+    </package>
+    <package name="division-tic" namespace="/oferta-educativa/tic" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">inicio</result>
+        </action>
+        <action name="inicio">
+            <result>/WEB-INF/jsp/divisiones/tics/division.min.jsp</result>
+        </action>
+        <action name="directorio">
+            <result>/WEB-INF/jsp/divisiones/tics/directorio2.min.jsp</result>
+        </action>
+        <action name="ingenieria-tecnologias-informacion">
+            <result>/WEB-INF/jsp/divisiones/tics/carreras/ingTic/index2.min.jsp</result>
+        </action>
+        <action name="tsu-tic-area-multimedia-comercio-electronico">
+            <result>/WEB-INF/jsp/divisiones/tics/carreras/tsuTicMultimedia/index2.min.jsp</result>
+        </action>
+        <action name="tsu-tic-area-redes-telecomunicaciones">
+            <result>/WEB-INF/jsp/divisiones/tics/carreras/tsuTicRedes/index2.min.jsp</result>
+        </action>
+        <action name="tsu-tic-area-sistemas-informaticos">
+            <result>/WEB-INF/jsp/divisiones/tics/carreras/tsuTicSistemas/index2.min.jsp</result>
+        </action>
+    </package>
+    <package name="division-turismo" namespace="/oferta-educativa/turismo" extends="struts-default">
+        <action name="">
+            <result name="success" type="redirectAction">inicio</result>
+        </action>
+        <action name="inicio">
+            <result>/WEB-INF/jsp/divisiones/turismoGastronomia/division.min.jsp</result>
+        </action>
+        <action name="directorio">
+            <result>/WEB-INF/jsp/divisiones/turismoGastronomia/directorio2.min.jsp</result>
+        </action>
+        <action name="licenciatura-gastronomia">
+            <result>/WEB-INF/jsp/divisiones/turismoGastronomia/carreras/licGastr/index2.min.jsp</result>
+        </action>
+        <action name="licenciatura-gestion-desarrollo-turistico">
+            <result>/WEB-INF/jsp/divisiones/turismoGastronomia/carreras/licGestDesTur/index2.min.jsp</result>
+        </action>
+        <action name="tsu-gastronomia">
+            <result>/WEB-INF/jsp/divisiones/turismoGastronomia/carreras/tsuGastr/index2.min.jsp</result>
+        </action>
+        <action name="tsu-turismo-area-hoteleria">
+            <result>/WEB-INF/jsp/divisiones/turismoGastronomia/carreras/tsuTurHot/index2.min.jsp</result>
+        </action>
+    </package>
+</struts>

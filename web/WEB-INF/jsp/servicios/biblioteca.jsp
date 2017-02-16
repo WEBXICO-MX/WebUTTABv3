@@ -14,20 +14,15 @@
         <meta name="author" content="Depto. Desarrollo de sistemas UTTAB">
         <meta name="description" content="Universidad Tecnológica de Tabasco,Biblioteca">
         <meta name="keywords" content="servicios,Biblioteca,tsu,educación,tecnologías,ingeniería,industrial,tecnológica,uttab,desarrollo,química,procesos,tabasco,universidad,servicios,gastronomía,page,comunicación,negocios,administración,aviso,proyectos,alumnos,escolar,mantenimiento,institucional,programa,competencias">
-        <!--[if IE]>
-        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/img/favicon.ico"/> 
-        <![endif]-->
         <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.ico"/>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios2.min.css"/>
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/css/servicios3.min.css"/>
         <!--[if lt IE 9]>
-        <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/ie.min.css"/>
-         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+           <script src="${pageContext.request.contextPath}/bower_components/html5shiv/dist/html5shiv.min.js" type="text/javascript"></script>
+       <![endif]--> 
     </head>
     <body>
-        <jsp:include page="../includeHeader.min.jsp?origen=servicios" flush="true"  />
-        <!-- Cuerpo -->
         <main>
+            <jsp:include page="../index3Header.min.jsp" flush="true"  />
             <section class="servicios_section">
                 <header class="servicios_titulo">
                     <h2><span class="texto_resaltado">Servicios / Alumnos</span> /</h2>
@@ -36,7 +31,7 @@
                 </header>
                 <article class="servicios_contenido">
                     <section class="servicios_texto">
-                        <figure><img src="${pageContext.request.contextPath}/img/servicios/biblioteca/biblioteca1-min.png" alt="Biblioteca"/></figure>
+                        <img src="${pageContext.request.contextPath}/img/servicios/biblioteca/biblioteca1-min.png" alt="Biblioteca"/>
                     </section>
                     <section class="servicios_texto">
                         <div class="boton_biblioteca libro_del_mes left">
@@ -48,7 +43,7 @@
                         </div>
                         <div class="boton_biblioteca nuevas_adquisiones right">
                             <s:url var="url_nuevas_adquisiones" action="viewFile" namespace="">
-                               <s:param name="i" value="15"></s:param>
+                               <s:param name="i" value="19"></s:param>
                                <s:param name="d" value="%{'biblioteca'}"></s:param>
                             </s:url>
                             <span><s:a href="%{url_nuevas_adquisiones}" target="_blank">Nuevas adquisiciones</s:a></span>
@@ -69,22 +64,22 @@
                     <section class="servicios_texto">
                         <header><h3>Antecedentes</h3></header>
                         <article>
-                            <p>Desde sus inicios la Universidad Tecnológica de Tabasco, consciente de las necesidades informativas de la comunidad estudiantil, brinda apoyo al proceso enseñanza-aprendizaje mediante la prestación de los servicios bibliotecarios. Es por ello que durante su primera etapa de crecimiento se adquirió un total de 1,359 libros.</p><br/>
-                            <p class="primera_linea">Posteriormente, y como consecuencia de la creación de nuevas carreras, se da un incremento en la población educativa aunado a la demanda de los servicios; lo cual da pie a la construcción de un edificio para la biblioteca.</p><br/>
-                            <p class="primera_linea">Es así como en agosto de 2004 fue inaugurado por el Ingeniero José Francisco Fuentes Esperón (†), rector en turno de la UTTAB (período 2002-2008), el inmueble que alberga la biblioteca, mismo que fue equipado gracias al apoyo de las autoridades federales y estatales como plataforma para las actividades académicas; surgiendo con ello la instauración de nuevos servicios puestos a disposición de la comunidad universitaria.</p><br/>
+                            <p>Desde sus inicios la Universidad Tecnológica de Tabasco, consciente de las necesidades informativas de la comunidad estudiantil, brinda apoyo al proceso enseñanza-aprendizaje mediante la prestación de los servicios bibliotecarios. Es por ello que durante su primera etapa de crecimiento se adquirió un total de 1,359 libros.</p>
+                            <p class="primera_linea">Posteriormente, y como consecuencia de la creación de nuevas carreras, se da un incremento en la población educativa aunado a la demanda de los servicios; lo cual da pie a la construcción de un edificio para la biblioteca.</p>
+                            <p class="primera_linea">Es así como en agosto de 2004 fue inaugurado por el Ingeniero José Francisco Fuentes Esperón (†), rector en turno de la UTTAB (período 2002-2008), el inmueble que alberga la biblioteca, mismo que fue equipado gracias al apoyo de las autoridades federales y estatales como plataforma para las actividades académicas; surgiendo con ello la instauración de nuevos servicios puestos a disposición de la comunidad universitaria.</p>
                             <p class="primera_linea">En octubre de 2009, tras haber cumplido un mes de deceso el Ingeniero Fuentes Esperón (†), se llevó a cabo el homenaje luctuoso. Así como la develación del busto y fotografía del mismo en la entrada de la biblioteca que a partir de ese día lleva su nombre.</p>
                         </article>
                     </section>
                     <section class="servicios_texto">
                         <header><h3>¿Quiénes somos?</h3></header>
                         <article>
-                            <p class="primera_linea">La biblioteca "Ing. José Francisco Fuentes Esperón" tiene como objetivo brindar acceso a la información y al conocimiento de forma innovadora a través de diversos medios, recursos y servicios, de tal manera que esté al alcance de la comunidad universitaria; así como promover el hábito de la lectura como elemento fundamental de la superación personal y profesional hacia el éxito seguro de toda persona.</p><br/>
+                            <p class="primera_linea">La biblioteca "Ing. José Francisco Fuentes Esperón" tiene como objetivo brindar acceso a la información y al conocimiento de forma innovadora a través de diversos medios, recursos y servicios, de tal manera que esté al alcance de la comunidad universitaria; así como promover el hábito de la lectura como elemento fundamental de la superación personal y profesional hacia el éxito seguro de toda persona.</p>
                         </article>
                     </section>
                     <section class="servicios_texto">
                         <header><h3>Horarios de atención</h3></header>
                         <article>
-                            <p>Lunes a viernes de 8:00 a 21:00 hrs.</p><br/>
+                            <p>Lunes a viernes de 8:00 a 21:00 hrs.</p>
                         </article>
                     </section>
                     <section class="servicios_texto">
@@ -134,13 +129,13 @@
                     <section class="servicios_texto">
                         <header><h3>Pago de servicios</h3></header>
                         <article>
-                            <p>El procedimiento para solicitar estos servicios es el siguiente:</p><br/>
+                            <p>El procedimiento para solicitar estos servicios es el siguiente:</p>
                             <ul>
                                 <li>Verificar el costo y tipo del servicio</li>
                                 <li>Realizar el pago en caja</li>
                                 <li>Presentar en biblioteca el recibo de pago, verificando que el concepto solicitado sea el correcto</li>
-                            </ul><br/>
-                            <p class="negritas">Nota: El recibo de pago por servicios bibliotecarios será canjeado por un bono y podrás utilizarlo para servicio de impresión, escáner o  fotocopiado.</p><br/>
+                            </ul>
+                            <p class="negritas">Nota: El recibo de pago por servicios bibliotecarios será canjeado por un bono y podrás utilizarlo para servicio de impresión, escáner o  fotocopiado.</p>
                             <table style="width:100%;">
                                 <thead>
                                     <tr>
@@ -159,7 +154,7 @@
                                         <td>Servicios bibliotecarios</td>
                                         <td>$20.00</td>
                                         <td>
-                                            <p>Puede ser utilizado para cualquiera de los servicios: </p><br/>
+                                            <p>Puede ser utilizado para cualquiera de los servicios: </p>
                                             <table style="width:100%;">
                                                 <tbody>
                                                     <tr>
@@ -185,8 +180,7 @@
                 </article>
                 <div class="corte"></div>
             </section>
+            <jsp:include page="../index3Footer.min.jsp" flush="true"  />            
         </main>
-        <!-- Cuerpo -->
-        <jsp:include page="../includePie.min.jsp?origen=servicios" flush="true" />
     </body>
 </html>

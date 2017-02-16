@@ -30,7 +30,7 @@
         </tbody>
     </table>
     <script>
-        fechas_dias_semana = '<s:property value="cadena_fechas_dias_semana" escape="false"/>'.split(",");
+        fechas_dias_semana = '<s:property value="c adena_fechas_dias_semana" escape="false" />'.split(",");
         $("#tabla_calendario_eventos tbody tr td.fecha_actual").html(fechas_dias_semana[count_day_week]);
         $("#tabla_calendario_eventos tr." + fechas_dias_semana[count_day_week].replace(/\ /g, '_')).removeClass("oculto");
     </script>
